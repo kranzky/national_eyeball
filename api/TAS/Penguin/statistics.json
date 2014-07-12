@@ -313,5 +313,16 @@
     "area": 0.10744987093353117,
     "poly": "lg~yFaazzZFKBOGQ?AAEGEMDMHI@QGGAA@CHAH?LLVZ@b@I"
   },
-  "postcode": 7316
+  "postcode": 7316,
+  "average_tax_return": {
+    "taxable_income": 43838.56363636364,
+    "gross_tax": 8632.211093990754,
+    "medicare_levy": 579.6206471494608,
+    "help_debt": 55.02003081664098,
+    "gross_interest": 914.9272727272727,
+    "work_expenses": 1276.5639445300462,
+    "donations": 94.87241910631741,
+    "child_support": 57.91525423728814,
+    "gross_rent": 1343.9229583975346
+  }
 }

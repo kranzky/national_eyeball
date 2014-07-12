@@ -313,5 +313,16 @@
     "area": 4.608855664308917,
     "poly": "jht{Fitdh[E?GNCR@t@AJOTANADED@HBNBHLVp@~@VR^LHJDXRnALRJLVJXD`ATj@F^DP@R[FEH@DFFXFJJ@JEFGFe@XMFIFWFe@?OAEUe@AOFu@AQGe@EESMOAM@]NM?IEk@oAMe@KeAIUAAECE@CLEBEACAIOG@GFE?AE?i@EKCCKGKABHBRCHMNO@OEAUGIGCG@CF?@CJBT?NADGBG?MQMw@ICI@ALHbABP?FEBKAW_@SI"
   },
-  "postcode": 7216
+  "postcode": 7216,
+  "average_tax_return": {
+    "taxable_income": 34978.85111821086,
+    "gross_tax": 6184.870926517572,
+    "medicare_levy": 408.82747603833866,
+    "help_debt": 33.66006389776358,
+    "gross_interest": 1505.2102236421724,
+    "work_expenses": 904.6651757188498,
+    "donations": 69.85623003194888,
+    "child_support": 19.93099041533546,
+    "gross_rent": 1370.214696485623
+  }
 }

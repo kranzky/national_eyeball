@@ -313,5 +313,16 @@
     "area": 7941.085140013707,
     "poly": "`dltE{qboYfNoBdFcDzAaDxK}Hf@n@hK~GfMnE|JpHdFjGpEnCw@dE\\rJI`GJXbA|DjB|Ob@VjCjBv@h@rFd@HH_M~EvAhG_@Nl@jCxC`MrHuCRGF}Nz@yApM_EpCcBX[~B{Fh@iBa@kBl@u@fKgK`HqKnC}AtLeAbCiBdEgSWgMuE_XNyGz@mOx@wAlDeGxA}D\\gEc@cMo@_G@{AdHwLnDsTQyEGwDSaFi@oDBeGIsDTaFeDuQ]oBPuDxAqDlAuFpK}BxCEhDpDdGtA`ElCjCpClDbFhCVdNbKzG|C`Ez@pCi@hCaFl@cHjIyJtBwElHeM`CYpCvBt@|BbLvHnOxE_BwM||@quCaKiFHQnf@e|APe@y@{Ay@CeAxB{ChDw@l@iCt@K@M?{FEMAuHkDuB{C[S{@@[^qApAeACqAqBQEoAQC@yANe@MeAqAy@Uw@Be@VaAn@eAP[CUGU@I{@A_B@uCCI}@S}Aj@g@A]C[a@Em@nB{EIwAGQUA]KCAqAJeApA_Br@qCNu@i@oAeDsAw@w@Sc@Go@QIAkE`BsCSG?K?sA\\{Bj@yDEiAz@sAzBw@\\a@MA{@JmBEe@W]g@BwBtCmA@g@Qi@s@EMEKw@{CMSqA]O?GBaAdA[p@_@~AETyAvAmAzCm@r@}ACaEgDmAa@u@ByE~Ae@TYv@q@`Ca@rAg@`@gCx@IDURGBgCQw@DgLdFeEfCcAb@wA\\_ASwAq@oAyDeDmD{CmHYYYYq@_@IGGH{@hAi@TuEv@uC~AgE_@cAc@Qm@r@aAZUTGvBDRCPyAO}@{AwC[UK?e@FcBRoAXuHHKCELa@xAUpAmFhAc@AaCiBqDHSS_AwBw@e@sGjAyEsCu@OWCqAAWAmAJK@mC@i@a@_B{A[YgDc@gBw@}BkAYa@QOoA_B{@gA??KIuByA}BuA_CeAcDu@}D?IGCNaBz@eEfFu@d@eAX}EGyA^QZN`B|BpD`@bBNr@@XKJm@z@_FbAeChAi@ZYXUJqBzAy@@Y_@IiAEmDEkFSkAMUo@AKLs@nHg@|Aq@Pa@HKACJ_@~@iAdD}ExLmAdJWfArC`BVd@Ht@k@lAkAl@w@QaAVQVe@XgA\\i@B}CgAe@?oCvAHtBSLiCg@_FsEQ?QBw@My@OkBxBgB^s@IcBmAGKGBcAJm@~@k@x@IBEHuASsBwBaAJ_@t@b@lFCf@c@zAqB@uC}AGGCDcATuAlCu@pIaCxJaAj@iCGs@l@@b@BnAf@bI?V?RDJGRUPuViEiYeRo^_V[SebAio@kLbWYf@e@fA]h@y^fw@Sf@uFhLILNTNJGNeM|WqQt_@wAzCSb@c@U{f@feAsXll@ms@`|AOPlBdE`ClF|@K|Fq@fGq@`GkIvHjEjJhFfG\\^FtBdCdD`JpEtHp\\hG`FvDxGbBPK~HcELc@t@wA~@_CfViD~GmJFGvEw@vB`MvChMxD|DtHQpACzCbA~BjB~Ah@pJhMh@vHnBl@xD@lC`BvNuCfF{CnDyBnD{A`CgAvK~E|GlEpHkBhOpAHyAdYsI[hAPDtEjAvV~F~DxGxC~BfOpMtKbHnMzC"
   },
-  "postcode": 5244
+  "postcode": 5244,
+  "average_tax_return": {
+    "taxable_income": 46187.66291666667,
+    "gross_tax": 9155.927916666667,
+    "medicare_levy": 599.655,
+    "help_debt": 81.58166666666666,
+    "gross_interest": 1295.7858333333334,
+    "work_expenses": 1447.92375,
+    "donations": 116.03791666666666,
+    "child_support": 54.170833333333334,
+    "gross_rent": 1709.2579166666667
+  }
 }

@@ -313,5 +313,16 @@
     "area": 2503.067269167687,
     "poly": "zcojDepv~[vDcEVgDkX}yAyVmtAESaXyxAKe@lT{Kwb@ajAjL_G}@o`Ai@mi@AwAQ?cTi[pC{_@}k@aGaKpvA_AnMhDZyEhq@{Exq@q`AaJsEjHcBxUIt@jKrW|BvFpMdj@OjBiBrWlNhs@Ld@S`@qN`Y}`@nc@sM|PUb@`AnMxB~M`Llr@Jj@tLvt@BRf@Fpo@zG@S@GRQfi@jFpBaXBY`LdS~[~CRLPLnm@yr@f`@iKpAX"
   },
-  "postcode": 4362
+  "postcode": 4362,
+  "average_tax_return": {
+    "taxable_income": 35908.47230769231,
+    "gross_tax": 6599.78,
+    "medicare_levy": 448.8646153846154,
+    "help_debt": 45.47076923076923,
+    "gross_interest": 1094.4530769230769,
+    "work_expenses": 1217.8153846153846,
+    "donations": 66.76230769230769,
+    "child_support": 35.870769230769234,
+    "gross_rent": 1542.45
+  }
 }

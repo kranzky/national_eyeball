@@ -313,5 +313,16 @@
     "area": 0.3345465920635782,
     "poly": "vtwnEuo{|TJ`@JRFDR@H?DG@[@KIYQ_@[g@WWQMQGQ@C^LP?JEH?JDFPLTBJP"
   },
-  "postcode": 6286
+  "postcode": 6286,
+  "average_tax_return": {
+    "taxable_income": 42351.89565217392,
+    "gross_tax": 8511.266666666666,
+    "medicare_levy": 561.7565217391304,
+    "help_debt": 12.715942028985507,
+    "gross_interest": 1887.6608695652174,
+    "work_expenses": 816.8985507246376,
+    "donations": 103.95652173913044,
+    "child_support": 16.35072463768116,
+    "gross_rent": 3725.6405797101447
+  }
 }

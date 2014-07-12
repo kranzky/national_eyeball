@@ -313,5 +313,16 @@
     "area": 1814.116428926132,
     "poly": "jgkbDepbe\\\\aDYgAJgAYM_@_@EMDUBYUYCyAJu@HiAQ[I}AbAk@D{@Y_@_BAe@_@Lm@`@_@p@s@_@y@i@Mo@B]O@a@JoBi@kD}AgAWu@b@a@Ne@Gq@QMM@c@Rc@I@i@ZI`@Cn@STs@GmAw@aEBoAQyA_@g@g@d@[f@k@F?}@mAiBSi@f@Mf@WU}@gBi@_BCoBu@a@uGUaEa@Y_@Bm@Vs@g@MkAq@eBc@@A\\Lb@Dp@c@EeAaAcA_Bi@a@Og@eAwBFqAI_@We@e@_@_ACOgAU}@S[y@QqAwBkB@k@}@gB]Sa@_@cB]SoAnAsAq@gASSeAc@e@_@Zg@GQg@F{@AaAw@_@u@k@kAsAY_AYcAs@s@u@c@HgAk@qD_AuBhAN`Af@fAf@j@m@Wy@g@{AQ[Og@E[Es@C_ADgBMoAnAD\\YUo@o@SmB?_AYQk@Po@`@w@Am@_@s@Mw@oCCKtAQr@g@D[q@?iAJu@^]h@KCo@GaA[Mu@`@WWMu@b@qA|@MTUZ}BMi@c@c@aBAiAn@c@OJkBOq@j@En@P\\?La@Ki@SYm@WEg@Vc@Qa@c@]MJIVa@LUWE_@Di@XoAL]@g@CUK@MYYJWd@qAp@iAv@aAb@e@O@s@Gu@Mk@WAQ`@M`@WfCe@NO]OaAWyAo@]k@m@oAn@{@OgA_@OYe@uCeAqAoDf@aApAk@m@{@u@qAi@Yc@iA}B?oF}EyAiCgD{BuCDqCGgCUaBeAmAw@WaBQWYHs@lAwA`AwC`Ay@d@eADuA@mBNm@rByAGa@_@s@n@]l@e@YyAcAcBiAeAqAe@MYFkA@aBDe@d@cA\\[\\FLrAf@r@z@\\lAE~@OPc@Gk@[eA[e@Qm@N[d@O`@B`@XZAN_@?o@_@eAKi@Dw@Te@F_@EW[Gg@@WAs@c@Oi@Bo@HUVYbA[\\?^Tj@`BJPXFb@MpA{AN{@K]]w@u@cAiCeCyC}Ba@w@MmAW]{@@yAd@]YY_@WPSv@_@\\o@Ta@b@c@d@]a@G{Ci@Q{ANu@_AS}B_@s@m@Cq@p@m@C_De@qDbFyAt@{ANqBUwF_A{Bu@IJDTgFvq@aBrTiAe@wAzQmA`Qjc@pE|UrBNOp@Dj@b@MZSh@e@`@YTYJSV]D_@B]FYASE]?U@]DMVGZCXT\\HVCRMPWP]RWD_@JUNc@B]Ci@O[?[I[K[BSG]Kc@K[E_@FORKJKJUJa@TSLS^QFY^SJWb@SLG`@?NGVM`@SLa@D[FQRKTKb@KXO`@K`@EVQXIVGZM^CRO^CXQZKHKNQXSDQPIZCd@HRPZPTPTNZJTLl@@NP\\HTBVLN?ZA`@K\\MPQLQRYPWd@MXGDIFELCFKRMLCFCTEVBN@XDPHVFXJRD\\Bb@DVCPENERAVAZIPFRIL@LA^M^UTSJYNODYTSNGJQROP_@P_@HITDT@TP\\G\\ETK\\MX]LYHWCQG[EUNKVBV?^NPNXTN@NAPOPY`@Bd@JVNBP?RB^?\\LJTETABEPITE`@C\\GP?Z@N@\\?TFXAVKZOr@[X@ZB\\BTMLSVQP_@HSNWCMDKRKTI`@MNMTQPWPMJYNQFQRU\\QPYLGVO^MTQh@?@IZAPEN?BUbACXEZMXC^EVC\\I\\Ct@I`@IX@`@Mh@?b@ETIb@GJGVM^G`@Gb@Fh@@h@Hf@Bd@AVF\\HZ?ZF\\Lh@KGH`@HPJPLRJLJPHRNZP\\NXNVLX`@f@PTTV\\V\\T\\Zb@l@PZLVP^JXNTJLBVx`@tD{Evp@KjBiBpUUBoB`VRbA|@dFzA|A`@vCe@lK|CrIJ@vVvBdJ|@dQdBgCl]lYrC|Ix@JyAtBqZ|U~BtI|@UxCt@FjKhAXBp@FxHv@tBTRB`Ff@R?yAmGiCgEMuB]yGc@oJN{D@WLmDYuDEa@AMv@aGTwMb@eENo@BeHcHeM_@oAk@_AtIRxAHlDTrDZPi@jFh@pBV`D`@xAPpDf@pG|@vAXnAr@"
   },
-  "postcode": 4553
+  "postcode": 4553,
+  "average_tax_return": {
+    "taxable_income": 44400.26325878594,
+    "gross_tax": 8940.049520766774,
+    "medicare_levy": 583.6862619808306,
+    "help_debt": 52.379872204472846,
+    "gross_interest": 847.1376996805112,
+    "work_expenses": 1599.3878594249202,
+    "donations": 102.96389776357827,
+    "child_support": 40.561341853035145,
+    "gross_rent": 2334.165495207668
+  }
 }

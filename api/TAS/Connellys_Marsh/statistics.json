@@ -313,5 +313,16 @@
     "area": 10.15842561850958,
     "poly": "~l|dGwy~d[RSV[x@a@LOb@aC?iACYI[k@}Aa@k@[o@[]e@Y]g@WKgAI[Im@k@]O}@m@_@I]CWUMCOCc@DqCF]GUFEF?J@j@Bd@BJA\\E`@AV@\\DHZv@Ll@`@h@Xv@x@fAPdAFLTThBr@f@`@b@VbARn@?ZDz@VVRVHL@PE"
   },
-  "postcode": 7173
+  "postcode": 7173,
+  "average_tax_return": {
+    "taxable_income": 40288.435312024354,
+    "gross_tax": 7128.670319634703,
+    "medicare_levy": 528.7050228310502,
+    "help_debt": 62.79665144596652,
+    "gross_interest": 578.1403348554034,
+    "work_expenses": 1245.0283105022831,
+    "donations": 76.10350076103501,
+    "child_support": 62.91750380517504,
+    "gross_rent": 1165.5108066971081
+  }
 }

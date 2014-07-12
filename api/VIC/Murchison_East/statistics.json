@@ -313,5 +313,16 @@
     "area": 65.98053206922033,
     "poly": "tnn~EarluZkG\\z@zm@zFF@t@HpTZ~@vCfDSn@M^KVOl@Ob@Yl@Wj@KZSj@IPg@|@_@l@]b@w@|@tBhANp@~JzFbGiRdFyOrDyLmNhAkA_@kALiAqALe@Ju@Ho@Do@Bg@Fg@Fo@B_@Dk@@e@AMCIAWC]Eg@A]CUOi@Ei@EY?a@@g@C[C[AYAQ@]@QIgAA_@@c@Ce@EYGe@C_@Ei@Ii@Ia@E[@O@KFc@H[FSTi@Na@L]L[JUDUDQHUD[@[BSDMFSBOBS@ONo@Jc@Jc@Fe@Di@Fk@Pc@R[L[TUPITELC\\@V@@{KiU?_AId@`X"
   },
-  "postcode": 3610
+  "postcode": 3610,
+  "average_tax_return": {
+    "taxable_income": 34796.364197530864,
+    "gross_tax": 5904.412345679012,
+    "medicare_levy": 441.162962962963,
+    "help_debt": 46.45925925925926,
+    "gross_interest": 1043.6802469135803,
+    "work_expenses": 1306.058024691358,
+    "donations": 72.71358024691358,
+    "child_support": 27.516049382716048,
+    "gross_rent": 1654.9456790123456
+  }
 }

@@ -313,5 +313,16 @@
     "area": 1352.203544055517,
     "poly": "~illA}rsiXTo@pAkDrGePdIgS~HaSnD}IJaj@sG{GcMsMmK{K{EaFwEy[eTEaQkHcIiDsDuGsJ_QsIsOaM{CiNiD{KoCgFE}DA_E@{PEi_@W@h`@Anw@V@dAhCwA`wBrAgGl@aCn@aCdBiFx@sBt@qBfAf@pn@j[tn@h[hLfEfS`Dpt@nJtAN"
   },
-  "postcode": 886
+  "postcode": 886,
+  "average_tax_return": {
+    "taxable_income": 60766.44071856287,
+    "gross_tax": 13587.409580838323,
+    "medicare_levy": 842.4227544910179,
+    "help_debt": 134.98323353293412,
+    "gross_interest": 450.3137724550898,
+    "work_expenses": 1198.7425149700598,
+    "donations": 80.19281437125748,
+    "child_support": 117.36407185628742,
+    "gross_rent": 3460.0778443113772
+  }
 }

@@ -313,5 +313,16 @@
     "area": 0.5505819253921566,
     "poly": "fz|jFephhZXGRKRQJYBk@Ae@GUESMGYEUDSJSRMb@M^?D?@BVBVHRDHPFT@"
   },
-  "postcode": 3269
+  "postcode": 3269,
+  "average_tax_return": {
+    "taxable_income": 42633.785542168676,
+    "gross_tax": 8755.619277108433,
+    "medicare_levy": 562.9301204819277,
+    "help_debt": 51.6578313253012,
+    "gross_interest": 1106.1518072289157,
+    "work_expenses": 1127.7156626506023,
+    "donations": 71.23373493975903,
+    "child_support": 0.0,
+    "gross_rent": 1309.2
+  }
 }

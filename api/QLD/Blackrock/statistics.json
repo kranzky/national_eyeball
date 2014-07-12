@@ -305,5 +305,16 @@
   "license": "Creative Commons Attribution 2.5 Australia",
   "attribution": "Based on Australian Bureau of Statistics Data",
   "year": "2011",
-  "postcode": 4850
+  "postcode": 4850,
+  "average_tax_return": {
+    "taxable_income": 44102.57798449612,
+    "gross_tax": 8542.680465116278,
+    "medicare_levy": 592.8747286821706,
+    "help_debt": 54.80108527131783,
+    "gross_interest": 2115.0634108527133,
+    "work_expenses": 919.664031007752,
+    "donations": 62.094883720930234,
+    "child_support": 34.446046511627905,
+    "gross_rent": 2044.7241860465117
+  }
 }

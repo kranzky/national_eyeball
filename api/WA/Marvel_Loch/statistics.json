@@ -313,5 +313,16 @@
     "area": 45.961227911309265,
     "poly": "bv`_EgxhxUmEAsM?C`@?pI@ZnM@CvK`OCbF?xJuL@AzLiOX_@uImK@g@eAqA{DxEWx@?sBmC??sDuE?C@?dH?ZuJ@FrDWR?jDC^"
   },
-  "postcode": 6426
+  "postcode": 6426,
+  "average_tax_return": {
+    "taxable_income": 62754.700934579436,
+    "gross_tax": 14977.259813084112,
+    "medicare_levy": 877.8,
+    "help_debt": 81.38691588785046,
+    "gross_interest": 2349.547663551402,
+    "work_expenses": 1160.5532710280374,
+    "donations": 84.396261682243,
+    "child_support": 73.67289719626169,
+    "gross_rent": 4036.685981308411
+  }
 }

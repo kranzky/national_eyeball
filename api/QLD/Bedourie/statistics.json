@@ -313,5 +313,16 @@
     "area": 9508330.173541563,
     "poly": "t`ttCsroaZav@nq@}aT|hRga@al@kxGiqJsy@jp@siEkiGaiEjoEciOjqOqApAqwF|zFwlCedDcrMy~OfpTolSauEosDymFoiHojSuhAi{Nax@aqH{a@ohIid@oBMerB{KwzL{o@ajBmLij@beZmHtfBbvAnGyyAha^sDp~[jzA|Dwp@lwMsq@`fMudO~jMgJ|HcqAxlAcrAvmAgxGfiGmTwZgUzs@lFlk@c|BbsBs}I|fIwXnb@ac@fU}gFp|E}tBn{Bg_Apy@_nOv_NbmOpaTbx@rrAiAvM_`EfwDyDhL_K|BwvAbtAybAn`AosEj`EasVflUtdCrnDlM|Q|uDjpFi~BlsCowAdfBc|DpeIuI|ZtEz@jfAfqAnAlDtBl@|SfX~EhDZpArC~Et@\\dBdDdlAd|AtArInKvJvEpC~c@fn@lmAzbBbLrNxK~NpGbGjE~HdxAdkBnE~G~rNruTdr@`eAvf@dw@`wBneDtvDpsDtiGdhG|~SktA{|Btgf@_Db_@oK|vC_Gx`B_EfiAKpCuB|j@eLl}C_Nf{C}z@~cSjjKti@tDe|@dhDjQleFpcHfPx\\pnAthCl@NhJSzJmGrCgFdDS|BtAbG`B|BhBnDgBtHLxDgFtIyBfI~BxLsPtMwMbEyH`MwIzQwEzTyBfR}CjNrAjN_AjNc@pP{EnEuLv@}JbByFhEwKxDgLfFgItSG~RcEjOoKnLnBtL\\xP_HrBg@{[nwOq{@h}_@[zJCp@uf@v}YqHntEuk\\ejAobAbfb@u`FkoGk__@x`_@dfG`eI{yGt`HlsZrpa@~nDifCf_FvzHxnEjxGjoIzfMp@dAxgAvaB{eDx|CouGhhGamDfdDsuHfyHhaQz|W}OjjFqcE~trAhdKa@xgOCrp_@IjqF?luGCblHAhlf@IxgOEr|pB]xgOEx_OCvdqB[xgOElyo@KvuNCAygOCygOCygOCygOAygOCyfM?{mAA}xLAygOAwhGEmyo@?qvFAouAAiqLCygOCygOAygO?y@@gNAgK?wwH?aEC_iECygOd@ix@?Cg@inMCygOAygOEygOA}eH?_h}AC{gOCefKaA{`C|@ogOE{gOCwgOAeuOOkeIiiBgIqCMoIa@gcZkvAiyVgkAwG|gBmLQoyDiIkIz`DykUmpAmrE_Wg_@uBsvI~|Dh@fA{A~@mC]e`@jQtA`KlKfWlCzKvLEpKnOdHcCxP`SlQlUfVjaAnKfn@bFvXfSfOxOvNlJsKtYrJjNnJrIG~MjIrj@xLbTtF`IxJ`YtCfRlNaeIj{Hgu@t`RmnPap@{oKea@{sRyv@bKoiD`z@{`Y_uMse@soJo_@ooQes@_g@v}MwjF_PcoTsp@vU{}Jwu[{w@qRn`HunCiI~[g_W`C{~VxhAoz]tsFnUa{K}nOe{DujFop[gyAh@szBfAmxEfkQodPfIc`@fZl@|fHydc@xb@amC}IuM{GuEuDaQk@gNoB{OyA_JmAkJVkJjCwHKyH_@qKxDiJb@sGgC}V|AyFhC}IiDeMmPm\\yKqMoFs@{FiCyFmS|AgNw@cMuDcM{BiNEa@iB_NU_J`DcKpAqKkEsGmE{FyAaOi@eRw@uNw@qM_@iLcAcK}CyJcFcMqG}MwEsGmJ{HkDyH_I{FcFiEeGmH_D{D}GYyEiEwEuEsCeKcAkHoFoFqGaFyEaH{BmI?qFyFwEwEuCwI{HaEwJwEuNkIeMcFkJyFmQyFqKkI_JmEeBwNwCyOwEiMkJmFsI{FqKyF_JeKwCoFcD_I}K}LkE{K}BuHaHyFwLyFwJa@iLwA_\\iDcMeBqKVwS{B{MaEyJcB{M?qIiI{OsLiGkEqKmJoDoFwJqGiNuImQkEuP{FmOaFyQsHiNeKaHgCaOz@sP~BkQoAwLgCuNmAuLmAuNk@yOcFcOyAgN}BaOyFeIuDiNaJcOgLiL}LiG_RiEwJ_JgEkI"
   },
-  "postcode": 4829
+  "postcode": 4829,
+  "average_tax_return": {
+    "taxable_income": 55873.2862745098,
+    "gross_tax": 11991.113725490197,
+    "medicare_levy": 796.321568627451,
+    "help_debt": 69.2392156862745,
+    "gross_interest": 1039.1411764705883,
+    "work_expenses": 1620.2274509803922,
+    "donations": 71.32549019607843,
+    "child_support": 135.2627450980392,
+    "gross_rent": 5570.274509803921
+  }
 }

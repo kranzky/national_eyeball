@@ -313,5 +313,16 @@
     "area": 4300.002434463257,
     "poly": "`h}aEa_ncU{Aa@m@D[Co@`@MZSH{@lAEVMDUB]Vg@~@k@d@mAl@iA|Ao@tBgA~BEtAKZEpE]tAId@Jd@CVS^c@RQpCSTQ`AkAxBJp@tAnAxGn\\xIxF~HrD`Oz@zG`FxNHVQfA_EbV?t@?lF?~H??aU~OC?xHxVBjJ??_C?sC?qF?{C@Y?{PbQ??kKvU@`Z@fI?l@i@~QHdDMr@i@j@w@d@{@p@cCRcB?gAy@gJ{@iIWcBg@mBo@_DAkDAmBDmAFu@Ju@^qBVoAl@eBNi@Fm@?q@Ie@mBoEQo@Io@?g@RyAVw@^}@T_@h@e@~EqCrAc@XE~@AdABv@NXJr@d@\\TVRXHZ?`@INONm@Fq@BuAGy@Ku@A{@Dk@Rq@rAeCdAsCd@k@nAw@tBv@r@P?YAsL`A?Aka@bY?A}V`XA?qWtU?A{nA|EA?}iAvL??iT{J`AcEbLsMo@iLcDiPfI}Ld@wAkGeA{EiFiQaHeLaTmMlNkW_D}LsRsVcKhB_BQc@GGsMuBwF_OwHgIgA{JfByMvA{FwAqDeF_BiTsCyMVaJiIoMcGYaG{E{Cb@gDbDwGrBUnF`GhEWfCcJnQgClB{APOb@CBAPW|@UTm@Za@DMNMv@O~Ag@xBaApB{@~Dm@`Bs@r@{A~@o@Rc@EgBcAi@@[Ng@^EN?j@Rd@Uh@Gl@Bt@HRb@VZBVMPH`ArC~@hA?d@_@v@iEnCeAv@aC`CSj@g@v@k@dB_@xB^~@N|@Dl@Ej@Qf@Q@SEi@PcAv@QZ?^Nz@InDFrBUtA]tAm@~AaBxBs@hAgBbGKpA@j@P^~BlCJ^AhAU~COZe@`@e@x@m@hBA|@i@bC]|@mBnAe@RQAa@o@y@aAgA[a@]UB_@L_@EKOYGm@Ls@OOWiAWwAwB?EE]Ga@uAyCUQeAKe@@]T]\\a@v@A\\\\bAZrBIfBYfAYn@kCzE_EdLqAzDOtAE\\UdAOlAWjC]bAqAzBcAlAsD|Du@vA_@p@g@xAKt@?dBDb@@NDN@f@PjC@p@b@fBlA|Bf@f@d@`A\\Np@bA|@l@Zf@Nv@JzADt@LZ?Ne@p@s@n@{@d@aBVyAFqBVqAFu@T_Af@W`@Wp@Ft@OjCUr@G`@BdBQlBA^Nf@^b@?XWpBHjBEv@d@fCP\\v@^JPp@d@\\Hz@ELNALM\\D\\^~@En@Mp@_@h@IdAJd@AfAJb@VhAPRRf@p@l@tBMpCu@vCKz@Th@TRDb@`@bC@|@Xb@ZnArAZl@VHLhAEh@Bx@f@pAZ^t@zAv@@fBnAB\\n@h@BLb@h@B@n@Fb@Nh@XlCrBbAvAh@vBN~@J`DW`A]n@Av@FTZxBHr@Y`AIf@_@fAWtBR|FJ^FfCLh@Xd@~AbARh@nAdAZf@b@zA^tBJ~@CbADb@PpALdFA~C@^?bBUdAQ~ASnACZCh@@nADb@PdAD|@?PBhALfB|@bHPn@Zd@Lb@M|@DZDNzAhEj@|@Zz@B`@EZB\\Qr@Yn@Er@WvAWz@IbAi@bAIZQZ]p@{@v@sATkBOaCQsBPmBXoAj@oBzBsAt@mAd@iA@}AJmB`@}@h@e@LYXaAT}@l@c@DY?i@?QBWDUAMB"
   },
-  "postcode": 6076
+  "postcode": 6076,
+  "average_tax_return": {
+    "taxable_income": 62078.27792114695,
+    "gross_tax": 14943.68265232975,
+    "medicare_levy": 867.0153405017921,
+    "help_debt": 100.0994265232975,
+    "gross_interest": 1700.1068100358423,
+    "work_expenses": 1100.887670250896,
+    "donations": 139.73039426523297,
+    "child_support": 41.64272401433692,
+    "gross_rent": 3268.2224372759856
+  }
 }

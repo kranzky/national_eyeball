@@ -313,5 +313,16 @@
     "area": 0.052508690685858395,
     "poly": "rcyfG{~xa[^CPO?MCCk@AQFIPBDTF"
   },
-  "postcode": 7163
+  "postcode": 7163,
+  "average_tax_return": {
+    "taxable_income": 37824.673684210524,
+    "gross_tax": 6630.778947368421,
+    "medicare_levy": 502.3157894736842,
+    "help_debt": 98.0578947368421,
+    "gross_interest": 1120.3894736842105,
+    "work_expenses": 834.8684210526316,
+    "donations": 67.48947368421052,
+    "child_support": 0.0,
+    "gross_rent": 2007.1631578947367
+  }
 }

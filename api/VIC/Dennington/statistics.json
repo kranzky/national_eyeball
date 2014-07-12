@@ -313,5 +313,16 @@
     "area": 177.9078350409829,
     "poly": "`hbiFssjdZNSTDtEyED[k@oBvFsCLFMrBrAP~@F`ABl@Bb@El@?N?P{CB}@NqC\\cHXsFDY?CDUXuFVkFC?fB}\\kD]`BmC`@o@~@kAr@}@j@m@|AyA~EuElDkDAAwLgAc@EeU{BiBQgGm@aZkCcBb]eBz\\aB~\\eAfTMpAjDhBxD~BvBpAd@F\\DjBfAnAx@rE]xBm@r@T"
   },
-  "postcode": 3280
+  "postcode": 3280,
+  "average_tax_return": {
+    "taxable_income": 42517.07599888237,
+    "gross_tax": 8088.7465213746855,
+    "medicare_levy": 560.7986588432523,
+    "help_debt": 83.88063704945516,
+    "gross_interest": 1213.198938250908,
+    "work_expenses": 1356.1760268231349,
+    "donations": 99.01223805532271,
+    "child_support": 39.52802458787371,
+    "gross_rent": 1636.5421626152556
+  }
 }

@@ -313,5 +313,16 @@
     "area": 23.160355050014086,
     "poly": "tnqdFgknsZoFb@yCXaAJqCZuDp@G|@YlE`BNy@bOs@tMLBJDLFJDJFLFJFBBJHJHJHHJJHHJHLJLHLfIaGHCf@c@|BcBTsDhB}[FkA"
   },
-  "postcode": 3059
+  "postcode": 3059,
+  "average_tax_return": {
+    "taxable_income": 50290.47692307692,
+    "gross_tax": 10621.997859531773,
+    "medicare_levy": 694.28,
+    "help_debt": 106.54073578595317,
+    "gross_interest": 1365.4278260869564,
+    "work_expenses": 1883.0148494983277,
+    "donations": 110.17123745819399,
+    "child_support": 6.051772575250836,
+    "gross_rent": 3421.3907692307694
+  }
 }

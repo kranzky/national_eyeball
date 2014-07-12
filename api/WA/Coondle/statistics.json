@@ -313,5 +313,16 @@
     "area": 6805.301841919638,
     "poly": "d`l_E{zteU`Fp@hBVNBjAmI`D}PGwEzHmUvC{K}m@glB_Wyv@}b@urAwJa[iH{SyDN}HBsF?gEg@gDcBeK_EeBqBsCoEmBiCmCcBmDq@}JiA{JiCod@gWkB_OwB{NaDmNkSzJeS`J|IvXrItX|IjXxIdXdI`WbIzVbIxVsCtAGZ}~@rd@eYdNu_@jRyHzDwCpE}B~K?tA\\~Cs@jPeGvIkH`DcJvKeAvDeBpVw@|Kq@fOeElImD`JAxB`AhIcF``@HrNF|ItNhd@|EfOAf@f[faAjUts@mZnNvb@prAiUwHkDr@m@?tAdEk~@fc@m@kBw@^xTbr@`Lb^{GjXmB`HFX`Pth@jElNnTnt@zPqIxPwHnOiHjOcHfe@aUy@oDpV_LbLf_@ba@{Q`Ndd@`PkHCUfWuL_Ku\\iQal@yEcPbIsLDYhEO`F[pES@YaKwNvO}Hhe@uURi@xBkAH_@k`@}lACBiYm|@dFiC_B{EiFwOcI`EcKyZYOeBuFEk@_IyUhSaKVRxHwDnUgL|BiAvUkLxc@}TnVqL?[nFmCKYoCkIt]{Pn@aH[kC"
   },
-  "postcode": 6566
+  "postcode": 6566,
+  "average_tax_return": {
+    "taxable_income": 51588.32295514512,
+    "gross_tax": 11219.939313984169,
+    "medicare_levy": 695.3788918205805,
+    "help_debt": 65.6221635883905,
+    "gross_interest": 1312.801055408971,
+    "work_expenses": 1038.0548812664908,
+    "donations": 94.45910290237467,
+    "child_support": 76.70870712401056,
+    "gross_rent": 1806.7445910290237
+  }
 }

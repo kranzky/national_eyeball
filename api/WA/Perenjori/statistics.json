@@ -313,5 +313,16 @@
     "area": 384.0873967496876,
     "poly": "foqrDgstdUb}@??gLjIAbr@?xJ?PAjI@|@ZoH_w@k@aGdGc@[{Gy@i@@gQiH?[n@oJ?gG?_M@iWCuKA}|@?AR?xSAfrA"
   },
-  "postcode": 6620
+  "postcode": 6620,
+  "average_tax_return": {
+    "taxable_income": 51646.26222222222,
+    "gross_tax": 11382.502222222221,
+    "medicare_levy": 698.2533333333333,
+    "help_debt": 88.73333333333333,
+    "gross_interest": 1357.3422222222223,
+    "work_expenses": 1153.4133333333334,
+    "donations": 43.653333333333336,
+    "child_support": 0.0,
+    "gross_rent": 872.2311111111111
+  }
 }

@@ -313,5 +313,16 @@
     "area": 0.05883438846539438,
     "poly": "z_edGazpc[B?JEBCBE@I?KAIEIEGECEAC@GBCBA??@A@?B?F?J@JDLBBB@B@"
   },
-  "postcode": 7172
+  "postcode": 7172,
+  "average_tax_return": {
+    "taxable_income": 40460.55875706215,
+    "gross_tax": 7229.225423728813,
+    "medicare_levy": 526.3344632768361,
+    "help_debt": 40.588135593220336,
+    "gross_interest": 805.0175141242938,
+    "work_expenses": 1275.0033898305085,
+    "donations": 69.82429378531073,
+    "child_support": 50.208474576271186,
+    "gross_rent": 993.8384180790961
+  }
 }

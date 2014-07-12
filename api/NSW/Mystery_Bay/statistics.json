@@ -313,5 +313,16 @@
     "area": 0.16081857026146934,
     "poly": "`bs|Ewjjs[IMW?e@TULBPLPJBNCPEV@\\WJQMOUB"
   },
-  "postcode": 2546
+  "postcode": 2546,
+  "average_tax_return": {
+    "taxable_income": 34966.944753747324,
+    "gross_tax": 6306.925267665953,
+    "medicare_levy": 416.1779443254818,
+    "help_debt": 28.483297644539615,
+    "gross_interest": 2072.454389721627,
+    "work_expenses": 884.4483940042827,
+    "donations": 124.11306209850108,
+    "child_support": 33.864882226980725,
+    "gross_rent": 1948.2385438972162
+  }
 }

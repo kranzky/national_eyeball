@@ -313,5 +313,16 @@
     "area": 1.2969122309429413,
     "poly": "ba|wDexue\\`@IZKJGFKHCLQVEFk@Vc@Co@{@m@iAEGPUIe@POEWd@G@CXGLFHCNFHNTOp@l@RJJ`@H"
   },
-  "postcode": 2450
+  "postcode": 2450,
+  "average_tax_return": {
+    "taxable_income": 42085.987022383,
+    "gross_tax": 8335.593217273345,
+    "medicare_levy": 543.5861180194438,
+    "help_debt": 70.66461677594393,
+    "gross_interest": 1362.1995026000452,
+    "work_expenses": 1307.555324440425,
+    "donations": 95.48356319240335,
+    "child_support": 48.98412841962469,
+    "gross_rent": 2315.631743160751
+  }
 }

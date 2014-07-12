@@ -313,5 +313,16 @@
     "area": 1.2267628859605983,
     "poly": "`iqeG}h{a[r@Sh@]j@Wz@[d@[Dg@C{@E]S]QIYOa@Lg@d@g@f@g@l@]^Q^Qr@ET@NJNRFV?"
   },
-  "postcode": 7054
+  "postcode": 7054,
+  "average_tax_return": {
+    "taxable_income": 47042.46086956522,
+    "gross_tax": 9378.235610766045,
+    "medicare_levy": 641.9103519668737,
+    "help_debt": 99.65734989648033,
+    "gross_interest": 1087.3701863354038,
+    "work_expenses": 1098.5302277432713,
+    "donations": 138.42774327122154,
+    "child_support": 55.64223602484472,
+    "gross_rent": 1451.5788819875777
+  }
 }

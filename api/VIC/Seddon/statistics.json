@@ -313,5 +313,16 @@
     "area": 95.68158967916438,
     "poly": "hjveFesisZOf@}@hCc@dIEr@LV`@`Ab@`A~BVtAPxD`@vFn@lBT`Fh@zAPlFl@J@dAL`@mH^eHHiAJkBRqDJmBFgAuAO\\oG^{G\\gGJcBTkELyB@Gd@sILcC{@[{GaC{Bw@_@OeFgB[MiBtJc@Ma@F_@FMAUxDK`AiBSiFi@i@fIQhCO`CO`CQ`CO~BSTOPGz@IrAEJGlAo@hL"
   },
-  "postcode": 3011
+  "postcode": 3011,
+  "average_tax_return": {
+    "taxable_income": 46546.28803263826,
+    "gross_tax": 9203.733000906619,
+    "medicare_levy": 612.042248413418,
+    "help_debt": 234.08912058023571,
+    "gross_interest": 838.2101541251134,
+    "work_expenses": 1560.8691749773345,
+    "donations": 121.6002719854941,
+    "child_support": 28.334723481414326,
+    "gross_rent": 1943.9951949229373
+  }
 }

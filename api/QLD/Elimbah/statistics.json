@@ -313,5 +313,16 @@
     "area": 7.227086664895326,
     "poly": "divcD{|`e\\Pg@?y@PoAH{@Ni@Vq@Vs@\\cAPgAGs@Y_@k@c@o@w@a@y@e@_Aa@gAc@_@i@Ya@FQTIXCj@I`@K`@Gn@Gp@Dv@@~@Dj@Kl@Sh@Ot@Al@Hp@Rd@V`@Rd@`@b@d@h@XR^Zf@d@ZTRM"
   },
-  "postcode": 4516
+  "postcode": 4516,
+  "average_tax_return": {
+    "taxable_income": 42578.60498960499,
+    "gross_tax": 8154.306860706861,
+    "medicare_levy": 568.0619542619543,
+    "help_debt": 56.17671517671518,
+    "gross_interest": 790.5047817047817,
+    "work_expenses": 1590.7176715176715,
+    "donations": 67.35634095634096,
+    "child_support": 36.797505197505195,
+    "gross_rent": 1833.7259875259874
+  }
 }

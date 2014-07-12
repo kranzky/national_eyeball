@@ -313,5 +313,16 @@
     "area": 2375.872779059323,
     "poly": "bfahFsviwZhLoYnVmY|@kDXcBpYmeAnMoe@`T_w@oQ}k@uhAek@yBWn@_KdA_Pi\\aEfI}oAk{@gKtJq{Aw{@}JMAaDfg@eJjaB_BjTyB~YgBjXKxAa@hGaBlV}@zMrHdHgg@zaAu\\vI`ZxxBp\\qI~Izp@KX@JBNTLXpBvAnKxBhPfDpVrEcNxdAnp@f@wAt@ovBh]JdUvbA"
   },
-  "postcode": 3981
+  "postcode": 3981,
+  "average_tax_return": {
+    "taxable_income": 42017.960425531914,
+    "gross_tax": 8044.78255319149,
+    "medicare_levy": 551.9876595744681,
+    "help_debt": 43.198297872340426,
+    "gross_interest": 1244.5544680851065,
+    "work_expenses": 1620.4148936170213,
+    "donations": 55.84510638297872,
+    "child_support": 49.825106382978724,
+    "gross_rent": 1290.8506382978724
+  }
 }

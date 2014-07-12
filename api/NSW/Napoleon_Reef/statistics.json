@@ -313,5 +313,16 @@
     "area": 9365.513992870185,
     "poly": "fpekE_pyp[{@@]sItA@\\}E|F{S`AmRhCmK`CuJxH_Lt@HbEyi@nfA~L~AR`@DFg@p@{HdHwFlGoC`D{d@PiCa@GvDai@OY[i@a@q@QWYSeBi@_AM{AMi@M]Og@e@Wa@Og@Ee@Ew@Cg@Gg@Qg@Yg@SKYE_@Eg@Ca@Ei@Kk@[SUQ[_@_A[s@Uc@WUOIg@WUA_BD}@Bw@C[O_@Y_@a@m@}@Wc@]s@e@qA[eAo@qB}@iDOq@Qa@U[e@g@iAgAa@k@o@_AYi@yA{BaB_BmBaBgBeAqAk@eCcAoBy@{B{@mA_@{@Wq@K{AS{AUs@Os@Ko@Si@QSIc@[i@e@m@a@kAcAaCiBk@c@kGmEmBiAo@WqBi@aHyBu@a@iAgAu@kAm@uA[mAaAaD]gAa@gAa@o@i@s@{@u@]]kA[s@Ok@Gu@Ku@?@tC?r@AvAC~BEjAG~BEp@IvAMjBQhBI|@Ip@MhASbBYlBUtAe@bCUfAWfA]xAc@`B_@nAe@zASl@]`AUl@e@jAUj@k@tAwA~C]t@k@fAm@dAkAjBi@x@wAnBkAxAkD~DmBzBgN~OsObQeCwCy\\oDhBmZt@wLc@EKAoEi@oo@oHb@cGPkC~Dgl@yX_DoInnAqe@_FmAlQs`De]@`A]f@{@yBsBUiBSc@E}kAkMzBg\\yDl@wM|CeCl@_EGkHm@eFHeGp@uGdB_As@kJoCaE{CgDGwItE{EhA{CkG_EoCoFaM_FyDcV`^QzJeBpEiDdTuBzEaAzQuBnFrDrI|Drd@sDre@sF`SfBbDkPhNa@pGcEdo@r`BpQfaArK`KdAbn@jG?b@A\\@V@LARO^EPANBTANY^ILa@Ri@N[F]Di@P_@Hw@AYH]@C?OH[Fo@VYN[LCJCFo@h@c@r@GLQ\\e@fAUVQTYf@QXQRCLGJg@r@W`@W\\U\\SRKVQTWL_@FODG?w@H[Am@BWDm@TMFUVKPGJKd@Kl@Eb@Mn@Ar@Bp@FT?t@GVHf@Ll@@V@^Fb@Hb@Lh@J\\JVFVHZHTH\\ZB?B@@J\\XvAP^Nd@H`@PZHRBPP`@F^HTDVNV\\z@r@lAJRHZDf@Hd@DXRj@z@jARXL`@Zh@N`@Pf@Jf@?l@Kz@CZOr@Q\\IhAW\\_@ZSb@Mf@CfA@fA@b@JnADn@D\\DfACd@G\\Iv@Cd@Ef@C\\KTO\\Kb@K^Kt@El@?V?t@FVDl@Df@BX@NFt@A`@At@@j@HPA\\D^HZDj@Hh@Fr@Hr@DTNj@Jj@Rr@HVJ`@L\\Lf@DPBV@b@D^Al@?`@Bf@JVBHLZNTLNLLLLji@rFpDb\\y]bIwGyEkC`NGnDgOzl@rfAhLDATCZClALpi@dGzk@tGjEd@tI|@r\\lDxqAfNi@pFxE\\t@eFb@DdBRlBTr@L~C\\rg@pFnSvBvXxCdAyDhEcPlA}DZcBvBqHdDaJXy@pAoCf@qAVo@l@}Ar@yAv@sAv@uAz@qA~@mA~@kAbAgAfAcAdAaAjA}@nAy@jAu@hRmIP_@dSqIfLyFvEsDvAuAlKmKtMmRnAgBn@eAbBgCbBeChBcCt@}@RY`@e@r@_Av@{@v@}@t@y@sGq@siB_RnEoq@vN~@lI|@xNmw@Lg@rD^O_J"
   },
-  "postcode": 2795
+  "postcode": 2795,
+  "average_tax_return": {
+    "taxable_income": 48367.50582010582,
+    "gross_tax": 9825.221486082355,
+    "medicare_levy": 656.4549344375431,
+    "help_debt": 93.07255578559926,
+    "gross_interest": 1205.095376121463,
+    "work_expenses": 1521.3049919484702,
+    "donations": 123.51538992408558,
+    "child_support": 83.53199907982517,
+    "gross_rent": 2044.7902921555096
+  }
 }

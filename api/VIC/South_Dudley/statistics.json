@@ -313,5 +313,16 @@
     "area": 154.15906533475757,
     "poly": "jkqjFapnwZvHp@f@XvIcOrLoUzH}OjAaCcUeB}CWcMcAoR{AwNkAqR{AYf@uKdOqAfBoBlCMNQHmGtBlA`DpMp]|t@xE@WhEZ@W"
   },
-  "postcode": 3995
+  "postcode": 3995,
+  "average_tax_return": {
+    "taxable_income": 40772.937025641026,
+    "gross_tax": 7883.665641025641,
+    "medicare_levy": 519.1458461538462,
+    "help_debt": 46.22358974358974,
+    "gross_interest": 1253.668512820513,
+    "work_expenses": 1493.305435897436,
+    "donations": 98.33723076923077,
+    "child_support": 37.35651282051282,
+    "gross_rent": 1547.2
+  }
 }

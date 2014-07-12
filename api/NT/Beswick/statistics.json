@@ -313,5 +313,16 @@
     "area": 276.0804689340067,
     "poly": "zp{wA}klkX\\kBN{AJkB?ybBuh@sNmWxl@gG~Pi@SwB}@}A{@}AiA}AsA}@}@B~FE~XCxl@vDqAvK{BxNmGjJOnU|HvJ~EdDx@lBsI"
   },
-  "postcode": 852
+  "postcode": 852,
+  "average_tax_return": {
+    "taxable_income": 34636.487283236995,
+    "gross_tax": 5991.836994219653,
+    "medicare_levy": 410.2878612716763,
+    "help_debt": 87.7757225433526,
+    "gross_interest": 296.5595375722543,
+    "work_expenses": 809.4046242774566,
+    "donations": 35.414450867052025,
+    "child_support": 43.60057803468208,
+    "gross_rent": 976.0589595375723
+  }
 }

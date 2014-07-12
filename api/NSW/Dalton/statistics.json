@@ -313,5 +313,16 @@
     "area": 74.09932412002372,
     "poly": "l||rE_eom[VBdJbA`@Dx@aKZoHuKeAcBQDa@X{EgASzAaW@SjQlB|@_MRQv@oLcI}@OLoN}AyM_By@jJmDri@S~Ee@|Gu@rKhZvDBc@"
   },
-  "postcode": 2581
+  "postcode": 2581,
+  "average_tax_return": {
+    "taxable_income": 47898.79489361702,
+    "gross_tax": 9749.536170212767,
+    "medicare_levy": 638.8459574468085,
+    "help_debt": 93.0263829787234,
+    "gross_interest": 1612.6246808510639,
+    "work_expenses": 1110.9948936170213,
+    "donations": 89.81446808510638,
+    "child_support": 43.26042553191489,
+    "gross_rent": 2050.4910638297874
+  }
 }

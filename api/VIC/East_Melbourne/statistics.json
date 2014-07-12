@@ -313,5 +313,16 @@
     "area": 4.049003900609027,
     "poly": "~eyeFec}sZIzAG|ApJz@F{AFyALeD@WBs@GAu@IaCUgBOg@G]?C^w@vCSv@N@XDNK"
   },
-  "postcode": 3002
+  "postcode": 3002,
+  "average_tax_return": {
+    "taxable_income": 99351.01158620689,
+    "gross_tax": 30110.374896551722,
+    "medicare_levy": 1371.7453793103448,
+    "help_debt": 408.6667586206897,
+    "gross_interest": 3753.0863448275863,
+    "work_expenses": 1913.087448275862,
+    "donations": 733.3398620689655,
+    "child_support": 26.464275862068966,
+    "gross_rent": 5504.517517241379
+  }
 }

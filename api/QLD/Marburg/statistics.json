@@ -313,5 +313,16 @@
     "area": 372.4083668351023,
     "poly": "bxggDgfjb\\\\FdNzAnIz@Z_@A}@zBfBvLpA~KnA@g@tBwVzAuRuD_@}CuIyX}t@_LmZgd@nUc@Eq@zJ_@zDe@tDe@rCq@nDcCzJiClLkAzGq@lFMxAuAi@aF_BaLu@a@|Fw@tJ_Drb@JBnGp@~SzBAxUBlWTEjFmYfZbD|BsYf@eHPyBV_DTwBL{ADgA"
   },
-  "postcode": 4346
+  "postcode": 4346,
+  "average_tax_return": {
+    "taxable_income": 44898.270833333336,
+    "gross_tax": 8645.05,
+    "medicare_levy": 589.14375,
+    "help_debt": 118.53958333333334,
+    "gross_interest": 987.2645833333333,
+    "work_expenses": 1527.3604166666667,
+    "donations": 70.27291666666666,
+    "child_support": 50.275,
+    "gross_rent": 2149.4104166666666
+  }
 }

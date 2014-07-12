@@ -313,5 +313,16 @@
     "area": 1427.238487883706,
     "poly": "tphcCmro}TjAaGhj@xNjD_B|EeVuZmH?i~BqnC@?w`@CuCsL@iEp@{Hn@aF}AmLUgOrCkLU}ChD@jMgEjPuC|SgA`IuAnDsBjFyHzKmOtFuCdA_DtDcE~EcFbGwFxGUfD~ChMxW`WlQ`ZfIxFpMke@xa@dDxf@hVxDiJbMbKzm@dl@l_@{q@`EgIhUhB"
   },
-  "postcode": 6710
+  "postcode": 6710,
+  "average_tax_return": {
+    "taxable_income": 73700.90652173913,
+    "gross_tax": 18284.81086956522,
+    "medicare_levy": 969.9282608695652,
+    "help_debt": 80.34347826086956,
+    "gross_interest": 573.8239130434782,
+    "work_expenses": 1027.232608695652,
+    "donations": 35.01304347826087,
+    "child_support": 148.78478260869565,
+    "gross_rent": 3864.8434782608697
+  }
 }

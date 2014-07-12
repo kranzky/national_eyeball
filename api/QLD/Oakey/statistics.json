@@ -313,5 +313,16 @@
     "area": 21475.095645143767,
     "poly": "~zxfDch}|[lBRjdBbQF{@dN{tByZnPKO}\\c_AuVyq@rB_ANIKu@EsA`@}BjAuCpAqB|@yBPy@ZeBNmADwA]iAc@k@]U}@Ws@?}An@uAx@uApAw@|@o@z@s@j@MSccAymBbEyICU{QcBwFeBb@mAHQOIuQoBaA]lYylAkAAusAsL{y@gHqBMi@|@sA_@yvAkLc@E}Bx^ywA{L|AqVHcAQDei@|OF{@zD}m@ayAqL_A?udBkOkFg@]Tqe@gMxBs]YEem@_FcVqBel@{E_@I@^iEbk@gDvb@oNdhBOzBiHfgA_IplAR`@lBR`Cv@wI|iAb@DEh@c@GwI~iAC\\jb@fE~X|CEhAG|@iBvUMLsJboA{_AwJC\\oI~kAizAoOARcMraBeK_AC\\qAxSa@?}AjVtFf@mHriA}VyBG`AGz@kHhjAV`@faCxSRMFc@PBbaA|Ij@PrhAzK\\OleArKPCPH|]pD@?gLryAdBP`@Br@I`Ucb@p@sAj@iAl@qAf@yAd@oAj\\{cAp@XjFfBzoBbRhj@hFx@AvnACriAxLb}AlPPB@SdLi`BjHp@@ShC}^~LofBRcBfAcXPcEpAc\\FeDEsAS_Cz{BowA~Ekq@"
   },
-  "postcode": 4401
+  "postcode": 4401,
+  "average_tax_return": {
+    "taxable_income": 40522.13672131147,
+    "gross_tax": 7394.248196721312,
+    "medicare_levy": 508.21934426229507,
+    "help_debt": 27.527540983606556,
+    "gross_interest": 1116.0229508196721,
+    "work_expenses": 1397.3711475409837,
+    "donations": 82.33934426229509,
+    "child_support": 88.88885245901639,
+    "gross_rent": 1247.5245901639344
+  }
 }

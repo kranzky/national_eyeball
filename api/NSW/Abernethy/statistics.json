@@ -313,5 +313,16 @@
     "area": 27.067274261481543,
     "poly": "|pugEqd`{[V@vFx@jAaMKq@UCu@AgAGqFq@mJkAgNcBiGq@sEcDsCBCTy@vMdJhAC^`ObBpFt@m@tHdNtAl@cG"
   },
-  "postcode": 2325
+  "postcode": 2325,
+  "average_tax_return": {
+    "taxable_income": 50163.223025009924,
+    "gross_tax": 10653.859706232632,
+    "medicare_levy": 680.0947995236205,
+    "help_debt": 48.373322747121875,
+    "gross_interest": 824.2247717348154,
+    "work_expenses": 1589.8973402143708,
+    "donations": 88.83017070265979,
+    "child_support": 105.06645494243747,
+    "gross_rent": 1679.4260420801907
+  }
 }

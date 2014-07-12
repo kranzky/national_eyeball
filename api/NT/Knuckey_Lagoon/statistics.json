@@ -313,5 +313,16 @@
     "area": 1832.6788722228043,
     "poly": "dt|jA}oe~WfH}WnKs`@nHgJdAqALQLQ|D{F@g@AaM?mH?e@CyMG}j@wiCTQ?k@?oj@FiE@cf@D?hAB|UDne@|IADv[q[B}Z?Dp|All@CBfp@Bdi@@^t@tCTQTMVMVMVKVIXIVIXEZEXEXCZAhTCdKAbUEF?H?bDBjx@KH?bEArHArFmS|HoY~GmW~FmTvFwS"
   },
-  "postcode": 828
+  "postcode": 828,
+  "average_tax_return": {
+    "taxable_income": 62536.9593495935,
+    "gross_tax": 14598.588617886178,
+    "medicare_levy": 840.6878048780488,
+    "help_debt": 86.60162601626017,
+    "gross_interest": 834.2081300813009,
+    "work_expenses": 1312.7024390243903,
+    "donations": 71.06016260162602,
+    "child_support": 23.27479674796748,
+    "gross_rent": 4999.9447154471545
+  }
 }

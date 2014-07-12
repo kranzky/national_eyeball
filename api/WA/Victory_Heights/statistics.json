@@ -313,5 +313,16 @@
     "area": 86.51662159394743,
     "poly": "bwzzDiqjdVjH@ZKJS@gFCuA?sA?cB?wH?{D?wE?oA?eD?{CA}ADwDC}B?oKBeCAkD[A}D?u@h@cBB?d@yBB?qEuFDoF@sF?mF??tA@bHAZIXOXaAl@Ph@f@zAh@|Ah@|A`CbHpAxDbArCzBvG~AxEx@`CJ`@Hh@?l@?fG?lG@tAFXLb@`AhCb@Yh@[t@[x@W|@ShAMjAE"
   },
-  "postcode": 6432
+  "postcode": 6432,
+  "average_tax_return": {
+    "taxable_income": 62940.22420382166,
+    "gross_tax": 14159.546709129512,
+    "medicare_levy": 887.2142250530785,
+    "help_debt": 43.92271762208068,
+    "gross_interest": 419.7787685774947,
+    "work_expenses": 1602.0830148619957,
+    "donations": 90.31167728237791,
+    "child_support": 95.49299363057325,
+    "gross_rent": 1671.4188959660298
+  }
 }

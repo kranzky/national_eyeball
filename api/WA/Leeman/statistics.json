@@ -313,5 +313,16 @@
     "area": 0.5365138020765907,
     "poly": "towuDsxv|TRCNIXa@JQb@CTMJQ@SMm@OMi@D{@r@OH[`@QJKPHRJNPHRB"
   },
-  "postcode": 6514
+  "postcode": 6514,
+  "average_tax_return": {
+    "taxable_income": 50011.65277777778,
+    "gross_tax": 10704.727777777778,
+    "medicare_levy": 678.7527777777777,
+    "help_debt": 10.530555555555555,
+    "gross_interest": 1890.838888888889,
+    "work_expenses": 775.5888888888888,
+    "donations": 36.236111111111114,
+    "child_support": 140.83333333333334,
+    "gross_rent": 2187.3055555555557
+  }
 }

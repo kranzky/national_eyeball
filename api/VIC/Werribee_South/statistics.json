@@ -313,5 +313,16 @@
     "area": 3852.564715896285,
     "poly": "datfFqs~qZtALdPnA|EBpBN~Bh@dCzAhBn@z@DtC_@bKmBzAIzFP|BLnAKfB{@\\l@FGx@i@z@u@|AaBLKJIfAu@`@SlDeA|Ay@JEz@SxB_@x@s@Vm@Fk@b@cDH[BIJm@`@aBlAaFv@gDfAoFd@sDBs@GyDg@eGAKUkDEYA]c@}CC?C]AICWO}AC?@CCGQsB?UGkCG}C?KNgCFa@LmAH]\\wA\\{@^sADSF]JwALIJ@H@kCyA@]\\eBNs@Xy@BGLYt@}ABGPo@b@}BFk@FoA?W@MC??m@ImBOaCOgCCc@C?YcBMu@a@_BC?wBiHEUGi@AuBIYGGWk@CMDwBSaA[o@s@aAYSOGA?kABa@Y]gAe@kFY{@i@_AS]_@c@@CgAmASYy@cA?EQY]i@wBqCw@q@OMgAgAu@y@aAw@@CKMiCsA@CYMoCeAiAeA@CcBoBGA?AkAUa@YcB}C]s@[w@GGq@yAeAoBCIQUwC{D]m@QOGMQa@c@uAOq@U{@C?k@mBsAcC}@gAkAw@[SKK{ByCwA_AACAEIGIQ?ECAMc@IIkAW_Aw@yCuE]}@C?AIa@s@}C}A{@g@MUSOs@s@]u@Wi@Km@y@yAcAqBOc@KA[DGFo@f@}@\\O@cAWkC}AMYGYaBkD_@SsAUe@e@KKy@{AAGU[Um@W]ESq@kAUe@_@}@GGaAaCC?gByFIWmA_HC?Qk@I]k@q@gBaACGSI?EC@[g@i@oAs@wAwAiEa@w@U]g@o@gAeAiAs@@Ek@[eAw@w@SeAHYKQWa@o@_@q@@Co@eA?E{@}Ae@}@uCqHw@}A[gBMgAeBmHIc@KaAmD_@mgAeLC^SCATYfF_AzPcEvt@CZ_@`HkAJgGxFDV{FzFgAfAcZlm@sNtL}FTu@n@iAfA_@|FATaNqAmKeAyk@_Gu@Iej@uF??af@eEsEa@qAM{MsAaP_BaBQ}Fk@qQz@gBHhB|KzAnJHj@b@vBXdAV|@Zz@Vr@Xn@\\r@JRP\\b@r@b@p@b@l@t@z@v@x@lAbAn@d@~@j@x@b@v@\\f@Rv@Vt@Px@Pj@H`@F`AHv@Dn@@|ACp@Cr@Gr@Id@IxAYzHyAtDc@tFK`BNt@Nla@`LhA\\vAp@fAv@d@b@v@z@|I`Onh@d{@~BbFjAjDlC~KjDxNxCfMpHf[vEvRFXnD`OzDfPpFjUl@bCtDzOhKdc@`DzMz@e@rAiAh@_@hBw@|@c@v@a@nBqA|BsBrAgBjCuErCkHj@{DGgD]_E?{BV}Bl@eBb@s@xAeAfC]xEZbDx@vAn@fDzC`D|E|BzDzBvBv@v@bAvBx@t@HTM\\_@nADjA`@n@r@p@l@\\~@Z^FXERILMVk@Pe@\\e@j@o@R{@Pa@f@a@T_@^i@`Am@z@QfOg@fBg@dO}E`Ck@nAi@pAkAn@kAReAEw@WcAwAoA_By@gCSaDFoAQqAgA{A_CiAiDwAaEi@y@MeABcAL]`@e@v@KjBL|Av@xApBxA|AlAv@xBj@fAPz@LxCD|ALl@VbA`Ax@`BlGhKnDzHfBzCrA|@`Cj@pB^lADvAM`A]j@}@dCyDxF_H|DgGjBcBnAc@|AA"
   },
-  "postcode": 3030
+  "postcode": 3030,
+  "average_tax_return": {
+    "taxable_income": 50534.01077248677,
+    "gross_tax": 10373.966412698413,
+    "medicare_levy": 691.8196613756613,
+    "help_debt": 101.79724867724867,
+    "gross_interest": 695.0475978835979,
+    "work_expenses": 2043.8235978835978,
+    "donations": 97.70476190476191,
+    "child_support": 49.99733333333333,
+    "gross_rent": 1980.397693121693
+  }
 }

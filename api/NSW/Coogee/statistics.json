@@ -313,5 +313,16 @@
     "area": 0.6828552343838984,
     "poly": "taanE{cgz[W@D\\MNId@D\\ZZF\\XJf@Hh@OXa@PWD[AYTUY[u@OM\\N`@UXYUUe@OGMW"
   },
-  "postcode": 2034
+  "postcode": 2034,
+  "average_tax_return": {
+    "taxable_income": 74359.78260547742,
+    "gross_tax": 19446.03493708364,
+    "medicare_levy": 1017.7350851221317,
+    "help_debt": 198.40111028867506,
+    "gross_interest": 2358.9474463360475,
+    "work_expenses": 2222.082457438934,
+    "donations": 365.34285714285716,
+    "child_support": 25.29022945965951,
+    "gross_rent": 5603.670762398224
+  }
 }

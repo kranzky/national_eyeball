@@ -313,5 +313,16 @@
     "area": 655.0179579765139,
     "poly": "nhwcFmassZpD{n@~EuaA`E{w@dDmx@bEgx@ao@yFih@wE}ElbAsDdv@_JzhBaBzZiAjTs@dFfl@fGvk@nF"
   },
-  "postcode": 3753
+  "postcode": 3753,
+  "average_tax_return": {
+    "taxable_income": 51181.77480314961,
+    "gross_tax": 10577.557480314961,
+    "medicare_levy": 708.088188976378,
+    "help_debt": 73.6236220472441,
+    "gross_interest": 972.4944881889763,
+    "work_expenses": 2190.6503937007874,
+    "donations": 67.76062992125985,
+    "child_support": 114.38740157480315,
+    "gross_rent": 2193.807874015748
+  }
 }

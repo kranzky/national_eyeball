@@ -313,5 +313,16 @@
     "area": 52934.11901257769,
     "poly": "nngfEqi}hUlA`@rAnB~AxEP|BMfBHnBa@lG{@xH}AhLwBtEgA|CaClMyDfEaAhBWx@CbBb@hBrA|B|@fCdBhB~BlA|EWpBFz@XzAzAn@lAfBtGxAjCpCpDrAvDFdCg@xC}AvD_AfBsGdJc@pB@~D{@lEEzADvBv@fCxAhBtJfFrE`D|FhH~BdEfAlE^nDrAjFzAvD|BnD`EzE|E|GjFdIbCvElCnH`@rAPbFL|GvBzFn@lHEzAkAhFsAbBaDjByAfA{@dAu@xBWhD]fA[dE?fC`AhDKzA|@dIC~F@L|@@~@Ghc@b@z@_AVOT{XN@`\\XXL~mAfBVyY`q@Bxp@Cha@??sn@ze@e@b@?pt@PxA@AW?{s@wCg\\?go@?cW_BmF{I}r@?yZ?{vAwIdIMO?{g@uM?BuaBB}xBeXA@}i@xH@@ae@qF??o]hL?@_z@df@@@w_AcJA@un@re@@@ut@gs@A?Sg]A?S@aqAASQ?{WA?eo@_X?Aqi@qYC?S?_cBrcAg@@mjAPS?w|BAgBpE??oBAcoAnK?AoqAA_v@oGoQCkwAEkrCfH??abA~E@P??U?si@zdB?t@@A_KeA?AqzA{LgO@]CmzAtPebEhDiz@fA_R@qVmAuGuBiFiGeGKi@CceCrTBBox@|Kw`@X]?}i@_Y?BcfAwWAxAop@eH}LyC_GsAqBoHeIqSaUiGyGoE_F{BgCEEUU]b@SPSJwFfBe\\zK{P|Fge@~OsVjIGBmJdDoAb@{G|BiHbCaA`@aCv@oOlFaNrEkEzA_GpBiEzA_AZYFg@J{BReSfBkNpAqEb@kMnAaNfAwE`@qw@bH{P`BWDi`@nDq@@iNnAwTrBsMpAk@Lq@ZYTiEjEwHpHaKxJoNhNgLdLuKpKWV}QxQsPlPgAR_SCAvo@A`Coc@GKji@Wb@H`_AeCCu\\dbAvRxYi@dBHX{OBQ?a@F]T_FjEqGlFmFvEsJhIsPxN_Ax@[VaJ`IaG`FwRrPWLc@DqLAqPCCDq@rAqHvLFj@@p@AnR@|P?bM?VHTNJPBrI@VBNJHR@V?fL@|HAjMDpOA|MApL?pH@TL^PNVDhKAPBb@L\\VJJTZNb@Dd@?lZ?ps@Cfo@?hq@UvGqSFJ`l@da@HCzq@nP?Cr\\i\\D?xg@AbYb@@Cte@zO@VbkB_j@?Ary@ht@@h@CF?~J@Cl|@}G@{Z@aN?m@KMGq@vbAnP@Epa@?bl@@tmAiD?c@??h@B|SDjeArB`@rC|GhF~BfAAxDaClEnAxF_BpJpGz@Bb@CAjATrd@?h@_t@@@pwAfA??dJQbqA?|EiCbDy@v@y@p@{@n@_Aj@_Af@aC`AgCr@oBb@YtaAcXB@rTEh@peADrCL_DrKYjBg@`@m@P]h@OpBQx@D|B`@vBdAnEt@vBl@pA`@vAL|AAz@OnA{@pCc@lAQ|@MbAKjAHv@Xt@rAdA~Al@rDhAjBVxCVd@\\Xx@Lt@ElBMjDd@fBFt@i@b@oAQm@\\o@v@m@dBCbB\\jAhAz@RdAVv@dAnA~BdDhAdArAx@b@HtAp@jFrNhArArAf@xAT~AGn@IpAq@|AApAw@|Ae@hCZp@ItAu@`CcBlAiAt@_Bx@_DHqBRoBL}@Ts@f@_@`B?l@N\\f@b@jBjAdAXl@?jFRv@dAvAPdMi@~AWxBAt@n@fBpApAzAl@|A@~AOzAXvAn@NJ@t@hAlAlChDVl@TtBf@rDRrGhGhHzE`Eh@|KqBjGeBnBiB`DSzAMvFb@jCvAxCn@f@xA`@rCn@xANr@BzAj@hInCfBXnA|@d@b@Xn@RnBAlBoE|OOtBHpB^jBr@bBhL|G^v@bAbDRvBl@jBdAvA|AhC@t@dApAhBhCtAnCpA|C~@vCVjBhA|Hh@SDz@`@r@ZhBfAvEZn@j@Rr@Dn@IvAa@xCuALGdDqA~AEr@BvAr@`B`AvCpDt@dBZlBAt@Qt@cAjAMhEXjA?vBh@lCv@zAdCnJ\\pF|@pFhA`D`AzIRhBu@jD{@bFLrA]zCuC|Ig@pB?pBJv@`ArCpCdEfBfErArAn@b@jCJdBb@z@p@dBnBj@zAt@lEPzAIzA{@tCi@~@kBtAWj@Cx@ATJlBhAzCdBbDhDdGdC|BvBh@pF?fGkBrAArEk@t@C"
   },
-  "postcode": 6309
+  "postcode": 6309,
+  "average_tax_return": {
+    "taxable_income": 49075.81333333333,
+    "gross_tax": 10616.8,
+    "medicare_levy": 639.9133333333333,
+    "help_debt": 0.0,
+    "gross_interest": 1111.5333333333333,
+    "work_expenses": 550.1466666666666,
+    "donations": 45.88666666666666,
+    "child_support": 113.56,
+    "gross_rent": 1359.5
+  }
 }

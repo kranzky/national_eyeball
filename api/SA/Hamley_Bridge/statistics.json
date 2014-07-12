@@ -313,5 +313,16 @@
     "area": 84.45910494887636,
     "poly": "t~tpEmelmY`CLFkBfG^zF^jCPUcHi@kQH?]{MtEiEQ]zI{ALjBxFq@fA{KF}@yA_GoAZCKcAgFkm@bR[gBeA\\qAj@s@TQDI}@QDaFl@pBrSeHz@LtABLl@hIBTVBfALr@FpAAp@ANA^|@kAh@[NJXb@vAFRtAsBHNjEfKwDdAFPlF\\QdCtBJ@U"
   },
-  "postcode": 5401
+  "postcode": 5401,
+  "average_tax_return": {
+    "taxable_income": 40825.30989010989,
+    "gross_tax": 7353.36043956044,
+    "medicare_levy": 522.8615384615384,
+    "help_debt": 62.417582417582416,
+    "gross_interest": 1111.4131868131867,
+    "work_expenses": 1322.8043956043955,
+    "donations": 155.3824175824176,
+    "child_support": 43.85274725274725,
+    "gross_rent": 1449.5626373626374
+  }
 }

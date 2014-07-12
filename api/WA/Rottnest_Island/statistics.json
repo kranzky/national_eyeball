@@ -313,5 +313,16 @@
     "area": 2.014628175387734,
     "poly": "pzlbEiig`UhC{CoD}DiC`CY|Cj@nA|CU"
   },
-  "postcode": 6161
+  "postcode": 6161,
+  "average_tax_return": {
+    "taxable_income": 56015.21666666667,
+    "gross_tax": 12517.925,
+    "medicare_levy": 765.6583333333333,
+    "help_debt": 101.84166666666667,
+    "gross_interest": 632.8583333333333,
+    "work_expenses": 1323.2166666666667,
+    "donations": 111.61666666666666,
+    "child_support": 0.0,
+    "gross_rent": 1607.675
+  }
 }

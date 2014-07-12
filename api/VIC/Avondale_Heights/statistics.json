@@ -313,5 +313,16 @@
     "area": 541.7272598785435,
     "poly": "jgleFuvdsZM`C[~FEHEH[jGKvBe@pJIrA?J?@?DAD?B?@?D?H?L?@?T?@?B?D?D?F?B@F?@?B?@?J?@@@?@?@?@?H@D@L?@?D?@?@?D?@@J?F?B?F@D?F???RA@?B?D?D?H?BAD?@?@Ad@@@@?@?????@?B@??B???B@@?B@??H@????D@@@@???@@@?y@dOUfEI`BYfFy@zOEr@h@ShBw@LI\\Kf@Sj@Uf@Ir@IZIXE~@Ul@O\\I^Qh@U^Mt@Q`@Gb@GXGb@ETGTKVMNM\\GVCh@BhABt@Hv@Hz@DNBTJNDRB|@@f@HZNTLbA\\XPZNb@Fj@RRDTD`@Jf@Nf@Pn@FZB^@XA^Kb@SVO\\MVK`@Y\\Q`@[X_@N[DSB[BW?E@K?W?M?M?O?M@UDWHQL[LOJMLWVy@Xu@b@eAXo@He@Hc@Dc@Bk@AYEe@C}@?YDONYJIHCNCd@@\\BRCj@Mb@Ip@Qp@OrAOf@?b@Dt@B`@DD@\\HJB|B`AhAh@rAx@^TVTP\\T`@`@`Ad@|@\\l@^d@^f@\\Vf@Xf@N`@Fp@Dp@Ab@M\\Kl@SbAK^ClAYn@UbAW|@Kt@An@EZKp@]n@a@n@k@b@i@Ta@z@_BL]Rg@P[HUF[Do@D[ToATo@Tu@Vk@V_@TUV]DMH[LWLOLSPe@JQVc@L]DOZgAXm@BQHi@FWHQFU@W@]AYAg@@u@Bc@Fg@H_AD{@@s@?]AUGYQc@O_@U[MKKGICGESY]e@a@u@e@u@e@}@Ui@_@aA[gAQi@I[K]Q[_@g@MQOQWK]MYCW@c@Bi@FW@WEUMQSIOO_@G_@Iq@I}@E}@Cy@A{@A}@@c@Bm@H}@Ji@b@mBLs@F_AH{A?_@By@Dy@F_ALcAFs@?]A[E[Ka@AGSk@Sg@UaAUi@q@gAWg@s@wA_@e@_@[_@W_@Qc@G]Ea@C[C]Ac@AYAo@BU@c@Ds@FOHE@MTYv@[|@a@fA[x@[v@_@h@WV]Zi@n@a@d@S^c@n@[b@i@p@m@r@ILMHO@Y@U?OAe@S[Kk@We@Wg@e@g@_@k@UcAc@y@UkAYmAYs@QYKy@Ye@Sq@_@a@Y[[Y_@Ui@_@gAESQy@c@cBYcAk@yAe@gAi@oAa@}@_A_CyAyD_A}AmA}Ay@kAiCaEaAu@kAs@eAm@s@c@i@i@_@_AYgACYA@GAA?A?A@?@A@?@ABERAL?@AD?@?@?DAB?D@T?@@F?B?@?@?B@@?F?D@D?D@P@H@BDl@?@?@?B?@?B?@?@?@@B?@?B?FAJ?@?H?BAH?@?@?BAH?BAN?B?J?Z?D?T?@?F?D@D@@?@@FBF?@@B?@@@?@FRBD?@BD@B@DBB@@?@@@DBB@@??@BB@@DDFHDFBBBFBB@@BB@B??BF@@?@DJFN?@@@?B@@@B@D?B@@?@?@@F?@@F?@?@@D?@?@?B?B?d@?F?D?BAD?B@@@J@D?@BL?@@BBF?B?F?\\?D?B?HAB?@ELABA@CDCDABA@CD?@CDA@A@ABA@A@A@GFA?ABC@IHA?ABA@C@ABA?EDC@?@EBEDA?A@A@C@C@MBC?E@G@A?CAA?A?CAA?IAA?A?QECCA?EACACCCCAAAAAACCAACCAA?AEGCEAAACAACGCCCEACAACAA?ECA?ECEAC?C?C@C?I?G?E?C?C?GAA?GAAAAAEAAAA?AAAACCIGAAAACAAAECC?AAIAI?A?E?G?C?E?A?A?A?C@K@GAA?C??ACAEGCC?CAC?A?C?E?E?C?A@I?A?E@E?E@I@I?E@E@CBI@G@A@C?A@ABG?E@A?AESCEAAAC?ACCCCEGA?AA?AA?SQGGCCAACCEEAA?CAEAI?EAA?GAA?A?C?CACAAAAACAA?ACCCAEGCCEGCEAACCAAIEOKEEC?ECC?ECA?C@A?E@C@A?A?I@A?C?A?C?E?C?A@G???e@pIsAvVC^aAnQEl@c@nIGjAs@hMSzDc@dI"
   },
-  "postcode": 3034
+  "postcode": 3034,
+  "average_tax_return": {
+    "taxable_income": 48731.23457189015,
+    "gross_tax": 9982.697576736671,
+    "medicare_levy": 656.7694668820678,
+    "help_debt": 142.62197092084006,
+    "gross_interest": 1575.7657512116316,
+    "work_expenses": 1687.961873990307,
+    "donations": 99.99240710823909,
+    "child_support": 20.189660743134088,
+    "gross_rent": 3833.9063004846525
+  }
 }

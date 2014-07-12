@@ -313,5 +313,16 @@
     "area": 0.05770753991161947,
     "poly": "`zheGenrb[TE\\Sl@SCSKIUNe@`@[J?FDD"
   },
-  "postcode": 7023
+  "postcode": 7023,
+  "average_tax_return": {
+    "taxable_income": 44107.1,
+    "gross_tax": 8627.794444444444,
+    "medicare_levy": 575.4055555555556,
+    "help_debt": 81.55,
+    "gross_interest": 1031.8833333333334,
+    "work_expenses": 1164.8277777777778,
+    "donations": 159.97222222222223,
+    "child_support": 128.7888888888889,
+    "gross_rent": 3608.5055555555555
+  }
 }

@@ -313,5 +313,16 @@
     "area": 834.5488264887351,
     "poly": "bahbEkepbUmA}AxDoFpAkBd@h@xB{C~GuJTYfBeCvB}C~DwFnBqCvAqBbDqE]s@{AiBq@{@y@cAiDeEiFsGi@q@sDqEyGkIsCoDf@}FX{CJy@TwCDg@rAaQPyBnAiPTmC|@aLd@_GF{@f@wG?AFq@tAsQJg@@BN_ANo@xBuJ^kBjAgFj@eCd@uBxAwGvCuMB[`@_BHYPe@Ti@]SVe@NW`@cARk@Nc@`@uA\\_BTuAv@yEPwAZgBF]TiAx@uDh@uETy@TaADSm@Se@M{Do@iF[gE@iEPeFX{Db@gAJyFXmDXyCPyBAsAG_DYoJqBcEq@eImAhBzBS@mANkAXw@nPRTW\\aDzD~BtCy@jQATb@h@m@t@w@vPv@`A{AjBZ`@b@h@{@fAOVM|CqA`YaCjh@En@G`BUxB?BM~Bg@fLa@jIMbCSbBFnAFj@@FGnAa@bFKLKLr@z@s@z@r@z@iAtAp@z@q@z@V\\VZs@z@B|@|QlUX\\{AhBcGnH_AjAaDxDaCrC}@jAcEdFo@t@_BlBoCbD^`@dEhFxBnCxE~FpBfCLNMLbHvIVB~HrJzH~J|GvIf@p@t@h@hJnLdC|CVZ@wBtEyC`EkC~EeDPgPkEqFuDuE"
   },
-  "postcode": 6106
+  "postcode": 6106,
+  "average_tax_return": {
+    "taxable_income": 65590.50869565217,
+    "gross_tax": 16060.56956521739,
+    "medicare_levy": 911.9956521739131,
+    "help_debt": 71.14782608695653,
+    "gross_interest": 1136.1347826086956,
+    "work_expenses": 1461.6130434782608,
+    "donations": 50.030434782608694,
+    "child_support": 169.4608695652174,
+    "gross_rent": 2143.8391304347824
+  }
 }

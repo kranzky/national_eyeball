@@ -313,5 +313,16 @@
     "area": 150.27301319113934,
     "poly": "b{ugFa_zoZPAha@|DxIz@^iHtIz@L?ZmFBk@~Bl@ARh@DrEf@rAmQ@WhAcODa@tAsQBc@hA}NgCYwC]cBSqDa@WCSC_@Gu@Gw@Kw@IiAKmAOkC[s@I}BUiDa@c@E}C]{Ca@OA[C_Da@{BWo@Gu@KKfB]bFa@bGO`CQdCG`AMhBo@|Ji@vHUfDGbAs@nKWnEKlBI`BMzB"
   },
-  "postcode": 3218
+  "postcode": 3218,
+  "average_tax_return": {
+    "taxable_income": 48238.45938117182,
+    "gross_tax": 9745.366951942067,
+    "medicare_levy": 660.1579986833443,
+    "help_debt": 167.73890717577353,
+    "gross_interest": 990.3776168531929,
+    "work_expenses": 1796.8246214614878,
+    "donations": 153.7115207373272,
+    "child_support": 32.004608294930875,
+    "gross_rent": 1859.003159973667
+  }
 }

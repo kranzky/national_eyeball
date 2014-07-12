@@ -313,5 +313,16 @@
     "area": 2240.1573404834526,
     "poly": "|lr{B_~urUJL`Q?zQ?Gq\\c@mzBb@SdJ`FzJ?@{EkAsuBQs\\Oou@uWwEwCkBoGkAcBtKh@fOmsBf@_F@KcFu\\x@HhDeF?sJluAoIjmAa@`Gc@fGo@xCkD~JqIdSuI`SfIbXnAbEnAvBpBjDhF|P|FnL`JdI|k@j]ld@dX`b@_a@jLpNZY~QoQ"
   },
-  "postcode": 6722
+  "postcode": 6722,
+  "average_tax_return": {
+    "taxable_income": 78660.6296784831,
+    "gross_tax": 19550.278812860677,
+    "medicare_levy": 1111.722176422094,
+    "help_debt": 136.797526793075,
+    "gross_interest": 363.3025556471558,
+    "work_expenses": 1839.1304204451772,
+    "donations": 94.99736191261336,
+    "child_support": 110.52563891178896,
+    "gross_rent": 5139.851607584501
+  }
 }

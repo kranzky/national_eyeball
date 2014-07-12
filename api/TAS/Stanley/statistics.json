@@ -313,5 +313,16 @@
     "area": 0.04420711542816949,
     "poly": "ruxwFot{uZF?@A@?@C@C?A?SAIAOACAAAAE?C@C@ABABGP?B?J?@@BHHB@@@@?"
   },
-  "postcode": 7331
+  "postcode": 7331,
+  "average_tax_return": {
+    "taxable_income": 42263.66176470588,
+    "gross_tax": 7864.129411764706,
+    "medicare_levy": 562.2205882352941,
+    "help_debt": 63.28823529411765,
+    "gross_interest": 1620.3617647058823,
+    "work_expenses": 1003.3794117647059,
+    "donations": 67.29411764705883,
+    "child_support": 10.588235294117647,
+    "gross_rent": 1444.3970588235295
+  }
 }

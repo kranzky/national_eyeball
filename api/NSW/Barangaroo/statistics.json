@@ -313,5 +313,16 @@
     "area": 24.13541609603764,
     "poly": "fwsmEkwzy[M@K@G@GBGBkAh@E?E?GAECCCCCCGAI?GAI?G?G@G@G]GG@GLkEHXnNlIWNV?`@db@aCH[\\CjBKhEUnCOxBKCo@EeB{AiDGg@Mq@wEVuEVy@DeH\\c@BC?aADmFNwCJm@Ao@?_AGO^SDqAa@KAMA"
   },
-  "postcode": 2000
+  "postcode": 2000,
+  "average_tax_return": {
+    "taxable_income": 41516.72120679555,
+    "gross_tax": 10845.944405389573,
+    "medicare_levy": 453.5662272993556,
+    "help_debt": 58.130990041007614,
+    "gross_interest": 1125.0089923843,
+    "work_expenses": 723.8662858816638,
+    "donations": 289.84534270650266,
+    "child_support": 18.340978324545986,
+    "gross_rent": 3263.941681312244
+  }
 }

@@ -313,5 +313,16 @@
     "area": 406.60751682263947,
     "poly": "vjzwDo_~fU@yh@?w[?{M@eBAaC@}O?_SU?y]AyFiDs@`C_B?y@n@e@a@}I?uR?yA?_P?wI?eC?w@AAvA?vN?vM?tL?|OAhaAfp@?||@BzAF"
   },
-  "postcode": 6609
+  "postcode": 6609,
+  "average_tax_return": {
+    "taxable_income": 56723.18252427185,
+    "gross_tax": 12726.873786407767,
+    "medicare_levy": 770.1378640776699,
+    "help_debt": 59.91650485436893,
+    "gross_interest": 1887.7106796116504,
+    "work_expenses": 742.5922330097087,
+    "donations": 125.72233009708738,
+    "child_support": 35.033009708737865,
+    "gross_rent": 1758.566990291262
+  }
 }

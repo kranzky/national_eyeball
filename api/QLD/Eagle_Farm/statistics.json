@@ -313,5 +313,16 @@
     "area": 482.03682046573965,
     "poly": "relfD_cke\\rAlOZnCPbBRn@hD|Kb@`BTx@pAnEl@vCl@dEB~AHpA?BAhC\\uBXo@d@o@n@Sp@CnCTdF`@f@~B`C~I~AxE~AzEdBxFnBlHn@?j@Qf@l@tHt@lAHtHrAB?DSdKmi@tAeIpEsY_@I\\sC^}DtAuNDwO?iAY_Hi@}GiBsJ{H}[U}@CGoMaj@]w@o@mAuDgHuDlD{CjFvD`LcObMoJnHmIkAcG{@iN}Bm@IyAdLOdA@zC|@hU@j@^bMz@~Y@@"
   },
-  "postcode": 4009
+  "postcode": 4009,
+  "average_tax_return": {
+    "taxable_income": 62998.39230769231,
+    "gross_tax": 15960.953846153847,
+    "medicare_levy": 803.0692307692308,
+    "help_debt": 26.46923076923077,
+    "gross_interest": 1153.6384615384616,
+    "work_expenses": 730.7538461538461,
+    "donations": 91.15384615384616,
+    "child_support": 51.57692307692308,
+    "gross_rent": 2567.1384615384613
+  }
 }

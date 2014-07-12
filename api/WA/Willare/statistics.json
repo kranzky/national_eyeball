@@ -313,5 +313,16 @@
     "area": 122.60974849503084,
     "poly": "vlfkBuhvqVvDx@pOqDpIiCt^}L_Kwe@g]tB_\\vHiXrKjPrf@rM}C"
   },
-  "postcode": 6728
+  "postcode": 6728,
+  "average_tax_return": {
+    "taxable_income": 55422.677777777775,
+    "gross_tax": 11862.469191919192,
+    "medicare_levy": 768.7242424242424,
+    "help_debt": 126.46919191919191,
+    "gross_interest": 553.0090909090909,
+    "work_expenses": 1671.4772727272727,
+    "donations": 89.51060606060607,
+    "child_support": 53.39949494949495,
+    "gross_rent": 3699.1
+  }
 }

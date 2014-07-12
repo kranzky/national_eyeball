@@ -313,5 +313,16 @@
     "area": 0.049207059832615724,
     "poly": "~qpnE}~z|T?W?KEIGGQ@CHATR`@PM"
   },
-  "postcode": 6285
+  "postcode": 6285,
+  "average_tax_return": {
+    "taxable_income": 46609.15567190227,
+    "gross_tax": 9768.429668411867,
+    "medicare_levy": 626.483595113438,
+    "help_debt": 78.382722513089,
+    "gross_interest": 1013.7069808027924,
+    "work_expenses": 1081.891797556719,
+    "donations": 75.87225130890053,
+    "child_support": 77.74083769633508,
+    "gross_rent": 2772.930890052356
+  }
 }

@@ -313,5 +313,16 @@
     "area": 17.632032535691334,
     "poly": "`k}hFmahuZ`@@d@LPJr@pAd@Jp@k@LGDAXCvBEzAAp@MT]Hm@]k@qAYUSGURe@CMq@]?ACACCe@WcBIS?}Aw@AAQQ?AACA@QWAAKUMUGUi@cCw@qAQU?C_CyBa@Ug@CC?i@@sCtAeB`BA@eC`BQh@ABCx@IhAEPBtBh@bBhClBhAjBBH??B?BHPR@@@?f@N|BGh@c@z@m@h@W`@KLCn@Mb@A"
   },
-  "postcode": 3918
+  "postcode": 3918,
+  "average_tax_return": {
+    "taxable_income": 46778.460648148146,
+    "gross_tax": 9403.984722222222,
+    "medicare_levy": 609.2564814814815,
+    "help_debt": 52.516666666666666,
+    "gross_interest": 860.4208333333333,
+    "work_expenses": 1795.6592592592592,
+    "donations": 93.00092592592593,
+    "child_support": 40.760185185185186,
+    "gross_rent": 1375.1763888888888
+  }
 }

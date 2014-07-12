@@ -313,5 +313,16 @@
     "area": 0.23799923681598298,
     "poly": "|{qmE{~gz[LMBGAKGMIKKIOIOGSMOGOEK?K@EJ?LDPJHLJHBHJJHRJPDNBH?"
   },
-  "postcode": 2030
+  "postcode": 2030,
+  "average_tax_return": {
+    "taxable_income": 131334.91463157895,
+    "gross_tax": 44367.013263157896,
+    "medicare_levy": 1887.5203157894737,
+    "help_debt": 115.23315789473685,
+    "gross_interest": 7181.898526315789,
+    "work_expenses": 1511.4995789473685,
+    "donations": 2875.6443157894737,
+    "child_support": 17.181473684210527,
+    "gross_rent": 11392.57705263158
+  }
 }

@@ -313,5 +313,16 @@
     "area": 2.76074767264043,
     "poly": "nar{Fiwt`[P@LFV?TEZKROb@UVKNEJEb@YNQDKBQ?MAUMq@GOKIME[C_@IQAUAQ?c@?[AQ@SBKBUNQFQBUJ]NIHMPMJQNMJMLKNMRMTMPEHANBFJTNRNPLDXBNEh@GJEHCHAZ?NAFCPILC"
   },
-  "postcode": 7250
+  "postcode": 7250,
+  "average_tax_return": {
+    "taxable_income": 47031.9803301477,
+    "gross_tax": 9568.581650738488,
+    "medicare_levy": 630.6184187662902,
+    "help_debt": 99.68820156385752,
+    "gross_interest": 1096.708844483058,
+    "work_expenses": 1204.9355343179843,
+    "donations": 210.91225021720243,
+    "child_support": 49.19332754126846,
+    "gross_rent": 1573.2087576020851
+  }
 }

@@ -313,5 +313,16 @@
     "area": 34595.231121502344,
     "poly": "|fjmDo`|}[b@r@rVrBV[hPtAV`@`OnAr@aLNqCPoBxK|@n@QbAq@hCDpEhArBr@rE^B_@bByWzAkUOSqCU?{Bn@cL|Bab@vLbA\\Sb@eOdA{Kb@k@dDyk@B[a@?m@CcB_@iCUy@k@]{@KWUS}@OUM[[KWMcAISk@wA[iAi@wASaAgAsDIWmAaB[[{@F{AAe@C_Cg@w@e@SYc@kE_@_CKsDCi@]iAe@m@c@q@m@u@aC_Ba@o@e@[a@Qg@M_D}@o@{@k@}@m@}EEa@[wAEY@}@Fa@FeAt@_Az@{BHc@@]c@_@m@SuB[UKu@]cAq@_EcEeCmBiBaBKKO@aAJuVlCq@VqRjBk^{HcA{DsNgAiArPyQwAyDlAoAKRiD{INwHqCcAjPee@uDzBo[sd@sD@SvFmu@QCck@iE}BtZuAOIlA}SsAOS`Cm\\j@aQsHq@Kj@}WkCOxBiN`Kyb@_GOPkCz`@aEzCt@jKJr@dDpI?~Q?fLfBdVUdCc@fBOl@e@~AgLxXdClUbBfLVrB_@bIs@dIa@hMFdA\\~Fv@tLx@xAWrKw@nEaAlFuMdSUtFn@rD`BpBtAdIhChL^|EgDfJTtIQxCo@|LeCvF_A|GuBrB}G@oGaEaFlCuAlDoEbCbBrGlBjJOhE}@lFc@xEuBlAoUpBm\\rGsOdEoNtCgH|A_JbAiD]uHn@uDA_EBkCa@aCNQ@Ip@oD^YDaMnAeHfFwEbJmE~Eie@zq@vGln@fCVKpj@_LjHwQvHyF`CaUnDa[rSoNvHcFn[~A`HIdB~BzL@PV`DuKbe@cGxLd@Z@fIsAzCqAdBb@vAMl@gA~BaArB}@vA{A~A_AvByAtCgAvAcAvAcA`@{@p@eAd@aD`@qEJeCZyBd@eAXyAl@_Ch@uB`AsClC}BxA{C~CuBdCsBbBcBlAeCr@wCD}Ag@sCb@gBpDoLpRsMbVuFfHSbAoQfl@kC|Td@tXoEbWw[|ZmGbD_X~GyMfDmLtAuN~@_LjFoF|JcHrO}b@vR{DnRw@jEJjS|CvMpNf[vA|\\QhB}ChMuE|JyKxOkItHuKhKeRpPfOhCjRnEdQrGbRdJzSxNdBdBpc@`i@dS`j@hq@pFlAJnq@pFy@jAdNve@va@nSbn@di@Tjc@iIpd@vWnEvSbXvFvRhL~ObO}@tR}JdP]bSrA|LzAjLfFdIQrV`AhJQrPmDvBu@tReBp@i@l{@k]fCWhDEvCAvrA|Qnp@nTnr@RrR`UdSpTvThUhHnHfP`Rbj@zu@Aq@bMy|AxUynEZBtHeaAb@YnHt@x@uKgJ_An[g`Ec@E`QyuBvD_FjAgOiA_HpG}y@jPkeCfEaq@B_@aOzA{k@{LmEaAQ@?]nBiPxYyIxJ{JrF}AdIeGtJ{[rI_YtHgIpFuYG}@l@sCEu@a@m@uDqKAyZ}@qHTc@pA{COi@x@{Lm@[_CeCEe@eGmHe@aBgAkAaA}Ak@}AOoBNuGiAaKMm@D{A[_@g@dAwDxKgEfGo@RC_@W}CPyCnEkQk@E_SgBV}E\\iG}PyAgK{@xBca@Qy@tBy]xHsqAtAgUOc@~AkXdPpAdB{WOc@nC}a@PqCz@M"
   },
-  "postcode": 4352
+  "postcode": 4352,
+  "average_tax_return": {
+    "taxable_income": 46589.760756972115,
+    "gross_tax": 9470.937317397078,
+    "medicare_levy": 620.2654714475432,
+    "help_debt": 72.63904382470119,
+    "gross_interest": 1019.5038512616202,
+    "work_expenses": 1495.5908366533865,
+    "donations": 93.37622841965471,
+    "child_support": 94.95617529880478,
+    "gross_rent": 1846.9058432934928
+  }
 }

@@ -313,5 +313,16 @@
     "area": 27.935662735734386,
     "poly": "t~{fFgvsuZo@yDYoBq@}DoC[l@oJaDkD{CcD_Eu@^}F@WmBS}BGiFO_TwBK|BV@jANZhCfArCStBJ@f@LdDn@VPr@d@VFz@PbCf@`DvBXRt@h@XPZTr@d@PLhDxBp@b@^dBLj@Ll@Jj@Lj@_@dDpFl@vGx@"
   },
-  "postcode": 3803
+  "postcode": 3803,
+  "average_tax_return": {
+    "taxable_income": 42292.1297929793,
+    "gross_tax": 7815.189558955895,
+    "medicare_levy": 563.3576957695769,
+    "help_debt": 101.83780378037804,
+    "gross_interest": 549.3472547254726,
+    "work_expenses": 1582.8073807380738,
+    "donations": 129.7013501350135,
+    "child_support": 32.38901890189019,
+    "gross_rent": 1606.5499549954995
+  }
 }

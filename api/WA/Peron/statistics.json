@@ -313,5 +313,16 @@
     "area": 0.9207277741526193,
     "poly": "xh_dEerbaUHEDIDW@WAUOOc@Yi@s@EWAUA}@Ma@SQ[USIa@AGDCJ@VFTLTVV@TUf@ATBJPLf@TFFJXZv@NNXPHDT@"
   },
-  "postcode": 6168
+  "postcode": 6168,
+  "average_tax_return": {
+    "taxable_income": 54889.14659969088,
+    "gross_tax": 11912.70857805255,
+    "medicare_levy": 718.7198608964451,
+    "help_debt": 67.55618238021638,
+    "gross_interest": 721.0723338485317,
+    "work_expenses": 1382.7344667697064,
+    "donations": 82.03910355486862,
+    "child_support": 161.82789799072643,
+    "gross_rent": 1960.4740340030912
+  }
 }

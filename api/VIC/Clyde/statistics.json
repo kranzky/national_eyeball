@@ -313,5 +313,16 @@
     "area": 3896.5952372309043,
     "poly": "j}vgFus~uZGl@kJdxA|}@bLzTc_@Ve@zFaC~XqLpI}AvOwCbIyA|S{DhALtAo@dGwCrTa]z_Au~@j\\}[rPkPvAwAwn@cIzFmz@tMooBcaAwL~NuyBatDke@B_@yjBxbBUXBp@eNtpByCrg@oHxlAyHntA}Bd_@b@Ddt@lI`^bEzEh@"
   },
-  "postcode": 3978
+  "postcode": 3978,
+  "average_tax_return": {
+    "taxable_income": 48480.32627118644,
+    "gross_tax": 9801.514406779661,
+    "medicare_levy": 673.7313559322034,
+    "help_debt": 99.62542372881356,
+    "gross_interest": 1385.8694915254237,
+    "work_expenses": 1974.8076271186442,
+    "donations": 90.28983050847458,
+    "child_support": 36.41101694915254,
+    "gross_rent": 1692.4322033898304
+  }
 }

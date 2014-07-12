@@ -313,5 +313,16 @@
     "area": 1547.0441821180295,
     "poly": "vyfvCcaba\\F?D?FAF?J?F@F?TBD@D?F?F?F?D?F?D?F@F?D@F@F@LBD?D?N@F?D@F?HDB?FBD@D?F@F?LD`@NXBbAXJ?\\JF?LFLDF@D@D?NBB@fAHNDh@XZ?~@Ur@IX?VGJ@\\CF@|@GZA`@FDCNFpAFv@PXBj@HvA\\b@FzBf@HDhCj@n@RP@jBh@LH\\JDCjA\\f@NJ?b@TDC|@Rn@Dt@LNHh@JF?FG\\w@Jc@@QHONS|@o@t@SOTG?YLs@j@KLKl@_@z@ADFJJHd@PJ?b@LT?b@Hn@FFBR?DC@MHGrByX`For@z@uL}NiAYC@S`E{n@hFqt@X_Eg@EqW{Bc@CdAu@zY}TpFaEfK}Hmq@ckAyDyGOHmLlIQ[Yd@s@z@OJs@^I@GFg@LWNGJQHG?KDm@AkAUg@?c@HULi@d@UZg@v@iAfAc@l@q@f@YLs@t@OVq@r@i@d@q@x@IR?FIL?HUp@KRkCbDw@p@{@j@]`@MBSVs@dAk@|@a@t@M\\sArCc@~@a@bAm@hA_@~@ETOfBC`AEZcAtCq@tAc@~@St@Ib@g@~Ag@d@a@VYX[\\y@~@_@hAWh@_@n@QLa@N}@l@UJeAf@g@N_Ab@c@f@a@T{@`@c@LWPo@Vq@^w@f@]FWAODW\\_An@s@\\a@NiAN}AHIAk@DW@{A@OGEBWGk@?a@No@\\QB_@Ai@FWHs@FcAPiAZg@`@]PYR{AvAk@`@kAl@_AXg@Jk@DWAGCgA?yA`@M?mAVo@Rq@LWJ}@n@w@p@_C`Dw@n@[Ru@VeAT}B`Ay@b@EBe@P_@Dm@DSAk@D[Pe@f@[HIHGTEb@?NFRf@VT?l@Jd@Cn@Q`@?d@Rd@h@d@v@d@b@Tx@Dd@Dh@Cz@EJAv@BPJJHB\\?PDj@Rf@?\\Gf@A^LRVJ^Fb@Bn@Jj@@`@Hb@Al@FZ?`@DTN\\ABKPKbBAhAGjAWvCAz@I^Ul@?LFBNQXDJ`@MX]?w@Is@P_@b@Sf@Er@Fl@Xh@^VnBf@NFHD@P}@lCeAzCu@pAgAp@gBCcAWyBYoBQy@?e@?`AxCp@hAvBdCn@n@pA~@DDJ\\?PId@[|@]z@}@tAg@j@ALJHL?XSLELBJ?B?JAXO|@`BEFGR@f@BJLJN?NGN@@NG\\StBQbAc@rAKNCRWr@G^KTc@nBKbBArB?d@Or@AX_@fBAh@EHDn@FVABFZPf@VX^@PGN?TJ^^TXLb@Hl@APDj@Ab@Fj@b@|@FFJGCe@JO@ICEUBIGEMGg@Es@?c@FIF@fB|Ad@\\XL\\@XA~@Wb@GR?PBHDN`@LLn@FNF?PMNQHSRCJ?TJn@Lb@b@v@FP?VUr@APGPAn@BRNTPPXLf@Hr@Tp@Z`@^d@L@FEHQ?WVAJUl@ALWv@QRe@HOP`A~@fB|@jAh@bNvFhDv@|KJvDa@|A@tCi@pAs@hAAnCe@fAYr@k@lCeAnCeATGNIRUL]Bc@HSLMVGZSPSJYn@g@\\_@FKBYBKJKj@YXG^g@R?XJH?PEl@WJM?CSM@GNEFADCDAJC@AFANSFMT?\\H`@Bl@CLFNRFBFAFI@QNQRIRCZ?FAH@F?F?F?dA@N?F?"
   },
-  "postcode": 4670
+  "postcode": 4670,
+  "average_tax_return": {
+    "taxable_income": 42781.67245576609,
+    "gross_tax": 8424.463747019701,
+    "medicare_levy": 554.3636842765717,
+    "help_debt": 72.38308445225248,
+    "gross_interest": 1144.1325636842766,
+    "work_expenses": 1274.2810390262266,
+    "donations": 73.43202409336178,
+    "child_support": 83.2515497553018,
+    "gross_rent": 1673.4166143807254
+  }
 }

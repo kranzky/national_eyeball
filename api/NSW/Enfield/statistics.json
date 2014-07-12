@@ -313,5 +313,16 @@
     "area": 72.84001014547636,
     "poly": "diymE_wey[KTKb@Ib@Ed@?d@Dd@H`@JVR\\TZVX`@^|@|@LNd@d@NPt@|@\\b@LPl@z@HLb@A^CJ?`CTlAR\\BnAJXBvBTfALrCZbFj@lBT^{ELeBl@gILcBZiEPsBfAeOJoAd@gGaDa@yBWeC[WC]EyBYc@GuAQqC]w@KsDc@_BSuAQk@Iq@I@\\EdAEr@GvACb@CXElAGp@Ip@ET_@`CIj@Qn@o@pBENUr@]bAIVQj@M\\[`Ai@zAYx@M`@"
   },
-  "postcode": 2136
+  "postcode": 2136,
+  "average_tax_return": {
+    "taxable_income": 50293.71891279728,
+    "gross_tax": 10678.619479048697,
+    "medicare_levy": 684.9590033975085,
+    "help_debt": 135.27112117780294,
+    "gross_interest": 1788.5026047565118,
+    "work_expenses": 1551.6480181200452,
+    "donations": 165.8969422423556,
+    "child_support": 12.663873159682899,
+    "gross_rent": 4989.242582106455
+  }
 }

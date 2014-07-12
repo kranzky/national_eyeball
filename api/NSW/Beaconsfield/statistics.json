@@ -313,5 +313,16 @@
     "area": 17.651557905991965,
     "poly": "vw~mEk~yy[PHh@Xz@qCDIFQk@YQGDKJ[Vy@b@uAb@sAWIkBc@}Bi@kCo@yCs@UGqD{@qCo@_Ba@iCk@a@IQAMvAKzAK|AM|AItAGv@pC|BjB|Ad@wA`@uAtBdAxGdD[xAxGdDb@uAr@_C"
   },
-  "postcode": 2015
+  "postcode": 2015,
+  "average_tax_return": {
+    "taxable_income": 66274.59240898528,
+    "gross_tax": 15339.347327652982,
+    "medicare_levy": 933.6164213787762,
+    "help_debt": 305.81982958946554,
+    "gross_interest": 990.7549186676995,
+    "work_expenses": 2438.53601859024,
+    "donations": 190.54004647560032,
+    "child_support": 16.881797056545313,
+    "gross_rent": 3167.817041053447
+  }
 }

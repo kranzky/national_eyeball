@@ -313,5 +313,16 @@
     "area": 70.4380763646065,
     "poly": "rrsyFybmyZVcDF}@EOJuA`CZ`D`@`@FH@i@mAc@gASc@Qc@Sc@Qc@u@eBCEKCiAO{@KL{A@UBUd@uGHqA@OBSp@uK@S@MTsDRsCgC]Dm@Bc@HgANaCD{@BYeC]sASuAQ[C[@Q?]BOBWBgAHa@@_AK}@MkAOu@QmA[k@QSVKnAItAGx@MbBGfAm@fJMnBzAFJDLcBpBbBzAtB~@|BJRf@dAGFQTO^ADs@`Ca@xAGRMd@O\\CGEIM\\_@z@o@w@g@z@S\\S\\S^S\\Q\\S\\S\\S\\fApAEFMXCFEDEBGBE@G@EAOCcAQYd@[h@aI~MD?B?BBBBBHB@J?HAFIHCF?FCB@D@RLTJLHNHHHLFDBZDD@LJFHFFBD@B?BFDDRBD@BBHDL@FDFZFFNHb@BHFLDLBLDJ?JBVBFBBB@B?DADAJCHAJ?XBB@B@@@BDL^BHBJ@JBHHFd@P^PNLFDHDBBFFF@D@BADABABE@GDUDIDGHGJ?RCF?H?F?D@F@D@D?JAFCD?B?H?L?DAFAFAJGNCV?d@JT?F?FALCPKVON?J@NBD?FAL@D?LCFCRGRED@H@HBB?D@B?D@F?@@@@B@D?HDD@F?D?B?N@ZgEJuABc@Fq@JuADs@@Q`@Dj@H"
   },
-  "postcode": 7320
+  "postcode": 7320,
+  "average_tax_return": {
+    "taxable_income": 45185.73053221289,
+    "gross_tax": 8953.6,
+    "medicare_levy": 592.5687394957984,
+    "help_debt": 67.94442577030813,
+    "gross_interest": 910.2321568627451,
+    "work_expenses": 1211.3357983193278,
+    "donations": 203.91764705882352,
+    "child_support": 69.81927170868347,
+    "gross_rent": 1164.4023529411766
+  }
 }

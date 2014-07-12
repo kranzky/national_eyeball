@@ -313,5 +313,16 @@
     "area": 7.969141923752689,
     "poly": "`~bzFyek_[I?GCEEEKECAB?HBLBHFLFZVV?N@PJVLNd@NJ?NBTDN@V?LBX@NBb@J^Nn@^LPBNBd@EHE@I?I@AFBJHHJHLPTPj@^RJJDJDZFTFb@?l@BT@PENOZ]BK?]@c@B]BWJSNWBIDU@QBIFGBC@ICKAEIQSWGOEKEUOSY[MQIWCCCCMGGIGOGQOSOUSc@SWK[G]A]?WAIGCUEQ@OHSLKBGBW@OBUNQP[\\MNMTYRUPSJSHOBc@DS?OAM?GDIDILAN@XCLIH[J"
   },
-  "postcode": 7253
+  "postcode": 7253,
+  "average_tax_return": {
+    "taxable_income": 43140.17995110025,
+    "gross_tax": 8267.645476772615,
+    "medicare_levy": 558.9877750611247,
+    "help_debt": 41.454278728606354,
+    "gross_interest": 732.8684596577017,
+    "work_expenses": 1046.8738386308069,
+    "donations": 53.53691931540342,
+    "child_support": 126.20733496332518,
+    "gross_rent": 868.1408312958436
+  }
 }

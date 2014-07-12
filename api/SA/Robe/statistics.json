@@ -313,5 +313,16 @@
     "area": 0.1025377444291737,
     "poly": "zb|aFmg{sYRIFICk@QU]@KP@VFTNLHD"
   },
-  "postcode": 5276
+  "postcode": 5276,
+  "average_tax_return": {
+    "taxable_income": 39476.16976744186,
+    "gross_tax": 7764.787209302325,
+    "medicare_levy": 503.20116279069765,
+    "help_debt": 45.27906976744186,
+    "gross_interest": 2385.6232558139536,
+    "work_expenses": 1026.9872093023255,
+    "donations": 61.02325581395349,
+    "child_support": 0.4069767441860465,
+    "gross_rent": 2092.453488372093
+  }
 }

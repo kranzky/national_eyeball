@@ -313,5 +313,16 @@
     "area": 37.65403803407215,
     "poly": "vwpcBurbvZk@BX~AFhCIrBWnBe@vAc@hA{@~AiBzCcA~Bo@lCBnBTfCl@rBRr@r@z@WLvCpA`AF`@@d@DrR`AfBm_@iJc@g@CwC{U_@R{CM"
   },
-  "postcode": 4873
+  "postcode": 4873,
+  "average_tax_return": {
+    "taxable_income": 39563.95716312057,
+    "gross_tax": 7224.164822695036,
+    "medicare_levy": 512.8536170212766,
+    "help_debt": 39.94127659574468,
+    "gross_interest": 1223.609645390071,
+    "work_expenses": 1223.342695035461,
+    "donations": 70.73021276595745,
+    "child_support": 38.684822695035464,
+    "gross_rent": 1924.6609929078015
+  }
 }

@@ -313,5 +313,16 @@
     "area": 1006.287570282986,
     "poly": "r|`zBq_alW?{{CevEoA~Aj~CdsE?"
   },
-  "postcode": 6770
+  "postcode": 6770,
+  "average_tax_return": {
+    "taxable_income": 43840.13333333333,
+    "gross_tax": 8548.624836601308,
+    "medicare_levy": 548.2392156862745,
+    "help_debt": 146.2,
+    "gross_interest": 270.9529411764706,
+    "work_expenses": 986.1058823529412,
+    "donations": 55.68104575163399,
+    "child_support": 8.312418300653595,
+    "gross_rent": 1591.1006535947713
+  }
 }

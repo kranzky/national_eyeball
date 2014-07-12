@@ -313,5 +313,16 @@
     "area": 10096.783152077278,
     "poly": "plxbF_gtrZhBmD@CzBZvByBdC~@nCqBr@w@KkCvBErBdBpBYLkDmBuDgDuAm@cBYBAAC@cBNo@oCyAGm@yAmB_BIkAbAoC|@sBtAgB`AjB~B^n@tDjA@vAe@bBsBWqChBkBvAoDS}Bd@gAbAR`BDn@RhBh@dAhAdAj@t@S|@?|@RhC|A_@lDbBr@xAxBz@|Ai@nCuCvCmDrAmAbBFpApBbA`B[h@`@b@?xFh@i@~Br@nBc@pE~ApAFnDtBpDt@q@JgDu@wBk@_B`AExBz@rBpCvB[dBlCxF|AbIhBjCaAvAaDdBsElEiDhChB`C`DrBUvCk@n@c@~B~DlEmGbBYhAXL^~BxAfCnEp@fCrApBd@b@bA`AxAA`DaBjF{AnC_CxAoB`AgBf@?b@yGPgCfDgAhAsBFyE\\_EhCi@fBzCp@rD|BR`DsAr@yDv@{BtAC|BhArBlCi@~Ew@xD`BvBhCRrEPzCcEjDw@`DbAvCbBvDY|Bh@jBZvA}@~@mBhAc@fBa@nBlArA`CdAbEhAThB_@tAe@b@?nAw@tASh@g@j@]fAm@jAuAd@wBn@oB~@cB`@uB^oBG}Bo@cCmB}A}AeB_AaBQ_AD}@Nm@Vk@bBa@nAm@TsAHmB?kBm@aBaAGe@Z_@`@a@Zo@EUYs@q@{@q@s@O}@AmBf@_A_@[kB~@wB~@gB`A_CZaDsAwBwAgBgBAyBnAwAt@u@Wi@}@GsB`@yEJeEm@kCu@c@eEbAyDn@gEsAs@GeDeB}CqCwBwB_AcAoDsBq@?qCb@w@Ga@_AyAc@mAJc@e@Hm@`@Yt@Y~@i@hAaAtBuAZqASaAa@}B_@uAGk@B[xAgEx@gAjA^TpBvGea@pLcV@uAPMIan@[{sBiH}Fp@mO`F}KkCyDnIkFNsPuBoIzB}Eb@iOQBcIuCaGa@uQuCcDiCcEgAwKxCEUzG{hAP@lQ}cD}Q~B@UvI{bBerA{N}JrlB@l@sDbp@qA{AuBM}Aq@gCm@qAzBo@?Mv@CjBz@lAPbACt@[hBL|AYlBs@lBq@p@e@Lk@x@]fASVo@\\iAYkA}@u@EsAh@cAC[Lq@t@m@tAc@ZoA?k@_@G_@e@m@oA_@g@l@AbAMh@oAFe@p@EvB[nAs@`@y@EoAYaA?q@p@WbBLlADrCL~@x@j@f@C`AYdCwAl@?NPJb@@tAGd@R`B`AtBp@jE@N\\vFi@fFS|@S^i@TmBKsAtBc@LeA?}BVm@l@w@X_@XX|Af@zAFz@Gj@MPq@RiAFeBZq@?ABaDJeBKsB\\g@^gAjCc@h@Yt@KtAEvBc@pBs@fAaAv@]JgBGc@TWf@EdBJp@f@l@t@BbCm@l@Bt@^X~@Dv@c@|Eq@lCeAlBa@b@{Aj@oCVyAb@yAZ_D`BoAViAXcCBoAVc@n@Av@pAxDXhBNh@Tt@h@xDPPb@lAPrBP^T?XWh@yB\\[RCZP^bA@z@a@xBAl@RbA^v@?lA_@fAgAp@eAvB}@p@kAX}@?oBi@qBDq@Tg@^o@tAw@zFYxEo@pF[xE_@rBGpAFzDv@jB_gAcLi}C}ZGHzNxOfAdJpAhQrAfEj@xBnCpEsKlZxAhWoDnJmJfm@}IjQsTn@cGbDwl@rJyjCkXOCuuAuOsY~SsFfw@em@iLmU{FCTcJzu@wTiFqJzu@AVvObDATgC|i@aEz{@Ad@nJpLv@\\~wAeCJ~H`v@Apr@bDfdBxJP?r|@nJzWrOvR{Tzc@cHDmYbHcP~S_RXy@xRvAPlIxMlJx]|@z\\`ZjQuDjIrCvJlBrEpI\\O[hDn@dBiAnEcAnTf@?`Bt@pAjFbCxAQpBdA`FrC^XuDfDkBj@_Fm@_ECoEsCe@m@eEgAuE]s@h@iBtBnAjB_@tAx@~ADnBKD{Bz@i@fDgAlBiBWqEv@gCxBv@|BlAlBpC"
   },
-  "postcode": 3435
+  "postcode": 3435,
+  "average_tax_return": {
+    "taxable_income": 47253.77302631579,
+    "gross_tax": 9677.882894736842,
+    "medicare_levy": 639.7032894736842,
+    "help_debt": 41.646710526315786,
+    "gross_interest": 1169.8,
+    "work_expenses": 1815.3092105263158,
+    "donations": 105.5657894736842,
+    "child_support": 31.123684210526317,
+    "gross_rent": 1814.0697368421052
+  }
 }

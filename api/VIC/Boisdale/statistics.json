@@ -313,5 +313,16 @@
     "area": 51226.06011915068,
     "poly": "z|jfFqac`[bWbD`@FpGe`AQCp@gKvJ}}ASPUDOWOi@Ye@]Eg@Ha@Jq@j@QLURg@V{@Zm@ReBPaCPcB|AiBv@eBd@mCj@_B`AkAr@eCx@qBrA_CzB_CjDaBvCqBxBqB`CwBh@sBUwA_AgAsCcBoDeAcCw@_CcAyAqAe@wAiAcBiAgB{@{Bo@eE_AsBUgB@gAFiBj@_Ap@oB|AuApAmBvAmBzBcCvDaCdD_ClA{C~@oB`@{CTcDQeC_@_B[{AYcBc@iBIIA_BQwBMmCy@}Bg@gCo@i@_AKaAEw@o@YaAQ_BKsBA{AO_BMgD@qAG{CIsBEuCJeCBeBEiBF_AVm@XmCrD_AJw@Xo@T{@Z}ATaDC}CkCsA]cCQyBKsB]uBm@}BeAuBw@{Bw@oBMyBTqB`@gAn@e@xA]nACzAx@dBj@jBd@~BSjCcAxB}@lB{@jAW\\q@~@]lAo@~BaAlBeAjA{@p@cAj@kAfAqAhAeAHwBWiAe@kBcAuAqAk@kAmAq@yBa@gBSy@Wi@Vu@Pk@ZSx@?nBPtC@bB\\vBDlBInB[z@@xAUpBw@|Ck@fBo@xAy@zBw@dBiAtAwAt@oABqAc@wAaAsAUuAT{BpAkBfAcDxAiClBaCpBcCv@iB~@iA`@g@b@Yv@k@zAaAlAyB`A{FlBaBPeBTiCZiA?gAG{Ag@eBeAw@k@}@_@_A_@u@EKRNVHRSZaACaAKaAGaDK}Em@wAB_BEsAGuBCqBh@H_BdFyv@hAqLQAck@mHlKecBrEwt@isCi]mWaDoN_YcOaBub@nXgPg@uIwHmHkNqP|OcEuCoFlI}@rFwBzDqIhHgFk@cEzC}A|FsInPmAz@sEdAyCq@cGn@}EuA}@]uH|CsGvBuFyD}OtBiN{@uE`O}OvM{HzAgHYCUcc@cE|Acb@}e@aGkGt|@gvAyPq@d@{}@wLlH_dAP}A[{AoEfAKz@UtIx@dLyGtB}BrAh@vJrA~Hq@r@{@lFPvGjA`CoAnDgDr@cFzE{AxId@tKqBbC{Bn@gBrBe@rGyApBuB{AgCR}FpCg@xAWhLoBz@eC|^jFjAdFkAlDhAtBq@@TaRpfC_}Gur@qGq@gi@vcI{J|yAc\\~}EkjAz}PrzMniBre@rGzZdEn}LpbBfiDde@ddApNd`@lFJP`LaLtEcA~HeNXoFuAqKmA}Aq@_PIm@dBsSdRuGxGyFpR{GxDsCKoItF_@bDqCwAcKGwP`CcHfA_DByDxM_\\zCei@yGeBeGs^iFqK{Dm@Ud@gCzKQCkDfIwz@}JxFw~@?ADk@`]lCJk@jDaj@bI_pA`AiOh@yIjG{lAPCZoE_@yEx@mI]}FrB{Ab@wFd@I|@}LvMfBp@yKtC{B`Ci^cHaN_IvKHkA`@i@Wc@lHykAC?cMmClMelBCWqEbDkEyAcCm@aIxBgEeCi@eAcGxA{H`IDa@rCq\\Bs@gZ}BRqGvDopA@UzYvAnBm@CU|J_vA@U|i@jHbEam@`a@vEzNwBndA`Nx@oLPB`fArNdBc\\BWzFv@gA_BcHwy@xGi{@UmGgAkCdp@~IBUzDmo@cHeAjEun@@W`Hv@rf@ElJpABUpCkb@~RjCb@H|AwU@Ma@G_WoDnEkq@"
   },
-  "postcode": 3860
+  "postcode": 3860,
+  "average_tax_return": {
+    "taxable_income": 43388.80583016477,
+    "gross_tax": 8573.652217997465,
+    "medicare_levy": 571.1941698352344,
+    "help_debt": 73.58048162230672,
+    "gross_interest": 1224.3168567807352,
+    "work_expenses": 2068.6643852978455,
+    "donations": 84.92091254752852,
+    "child_support": 26.01723700887199,
+    "gross_rent": 1386.7295310519646
+  }
 }

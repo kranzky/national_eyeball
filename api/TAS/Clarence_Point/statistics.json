@@ -313,5 +313,16 @@
     "area": 0.07867363785564814,
     "poly": "d`bzFqhc_[Zq@BYAGGAOL_@DEL?DLj@D@J?"
   },
-  "postcode": 7270
+  "postcode": 7270,
+  "average_tax_return": {
+    "taxable_income": 40941.9556122449,
+    "gross_tax": 7844.207142857143,
+    "medicare_levy": 525.6974489795919,
+    "help_debt": 25.15969387755102,
+    "gross_interest": 1011.3683673469387,
+    "work_expenses": 1081.5668367346939,
+    "donations": 65.05459183673469,
+    "child_support": 27.720408163265308,
+    "gross_rent": 1243.4280612244897
+  }
 }

@@ -313,5 +313,16 @@
     "area": 0.1179701529678396,
     "poly": "xjbiFmslrZDPHLNEDk@?SASAQEUOGMHER?H@N@TBZ"
   },
-  "postcode": 3943
+  "postcode": 3943,
+  "average_tax_return": {
+    "taxable_income": 56760.0,
+    "gross_tax": 14421.957788944723,
+    "medicare_levy": 751.6964824120603,
+    "help_debt": 67.13668341708542,
+    "gross_interest": 4147.505527638191,
+    "work_expenses": 814.3075376884423,
+    "donations": 1189.5859296482413,
+    "child_support": 13.439195979899498,
+    "gross_rent": 5120.119597989949
+  }
 }

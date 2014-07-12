@@ -313,5 +313,16 @@
     "area": 2187.1209502096235,
     "poly": "lo}eDw}bd\\\\Gx@_@b@WJUNe@HQPApAp@j@p@\\x@VjBCbAiBfB|B~Aw@fMEb@C\\C\\w@`NaAfP]hFO`CARw@jLw@rK}AbVWnDqBzY{Bd\\aCt]lOdBBrW`Dr]jJeAaCb^AR|RpBh@[BNxCZtXrCTQbANVQbD^fUdCZBTDfSzBnEf@nEd@rJfAfEd@L_@kAiAm@gAm@{Bi@}B_A{Ai@e@oCyAq@o@]aAy@sFEw@BW^i@PS^[NUVDpAu@`B_A\\EHa@rAmR`@yFzDkl@rCg^`FwE|CgCZWhBiAnBsBjCyBnJqHpN{LpSv\\lMhS^d@|JbFlAl@dAdAV~@fACnPxIbUxLxEfC~EnCvGoAk@eA_@yC]cAmAyDKQj@mI@QKGa@SSQY[g@s@Yo@CYTs@VWNS^u@Ni@Cg@Ke@WSWC{@\\KCQQi@uCo@mAwB_Bk@Qm@Aw@OYPq@?y@gBk@oAaAq@i@Uk@aAQ[i@]y@[iAi@q@g@UU{@IkFqAc@Wm@k@Qg@]cBUUYCYZBfCGh@u@dAc@LcCiCq@s@u@_@uB{BoE_@kAeAYgAl@gAPo@Mi@cA[cAgAE]LWZm@Ak@k@s@QgAFe@t@g@FE?i@Yk@UcBB_CuAiDm@e@a@g@m@Ga@Qa@k@I[Hi@^i@Cs@QyAc@w@e@s@Ke@?g@Pk@BQUY]GW@q@Bw@SWDy@MKGSe@M{@Cy@Ni@@w@Ik@OUm@c@k@k@]q@C[B[Nk@I]UMYHi@VODi@SSBGPBTZr@AVUVa@FaAGc@Ic@[Mc@EuAU{ADeAJeAVg@f@[Xc@Du@Ey@Hy@PsA?]Ow@SSGSHUPKZATCNUBm@AQOu@Ya@c@O}@F{@BkANYGe@De@Te@XkBa@YYWM]R[pAFl@GRUJa@Q]o@QiAQsAWW[G]\\B\\IRUHy@Ii@g@Qo@PkA@o@?oANq@AeAe@k@i@s@s@OOCALy\\~Xi@}@{BmB{FeKwCsFgEa@gIw@qFc@}BS[N_C^YC_CwA}JmMv@_LD]@_@ZiEbA_O?S|D~B|@`@x@XLMBChBuBx@}@tByDjDBZVbAClA@l@Qj@C\\K^o@MgA@w@XSn@Zr@i@Zk@~@gC\\e@ZeAHqDt@k@fAGp@ClAOlBGx@O`@Bn@XbA??PYd@}@~@mAx@I^?d@t@fAl@En@x@p@VbAKl@a@ZGt@LDKb@y@~CgFvIwGfAoELeIrAiFhAmGjCeP|DcFnC{AyCYyBUmE_@bAwBwCq@_EsD_A[kDy@cJZ}ExAGF[hAyAzCS^OG_Ad@eKtAo@FyBImCTuDgAuCByCmBiCJ_@KwBk@g@QKJc_@qDeCWew@mHKDx@bAhAx@PRj@r@h@Z~@D`BKhBIlAJz@RpAd@Z^?b@y@l@q@dAaA`Ay@t@s@jAa@fAG^@r@nAnFdBtEiA`C{AzA{A`D{AzHiDrFaDfCmHrCy@TaChAkD|C]fAQxCTx@|@jANH`@Jn@ZbAC|E}B~AI`C^xA^lCb@b@h@Qb@mC`CoAlDYnBGjBZjAxAE`BuAl@NpB~A~DbHB`ByAlAyBLwCW_A^{@bBk@jAApBpApEt@x@`@B"
   },
-  "postcode": 4520
+  "postcode": 4520,
+  "average_tax_return": {
+    "taxable_income": 65741.83333333333,
+    "gross_tax": 16509.713740458013,
+    "medicare_levy": 924.1596692111959,
+    "help_debt": 91.08206106870229,
+    "gross_interest": 1409.7688295165394,
+    "work_expenses": 1412.4632315521628,
+    "donations": 183.22455470737913,
+    "child_support": 45.929770992366414,
+    "gross_rent": 4000.6236641221376
+  }
 }

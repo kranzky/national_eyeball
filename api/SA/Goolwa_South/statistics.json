@@ -313,5 +313,16 @@
     "area": 424.5667389296323,
     "poly": "lcvwEwv_nYl@FvGr@lKlAvANd@FvDh@zJdAlARtGp@\\DxATj@FvAPzCZpANrGt@`D^^Dl@H|APlEj@nE}UdD}SxDuSjBaNtCoNbDsQ|AeG`Mkl@~FgWij@uVgFbUwL~YwN|\\mR~PkMlJqFfEoIvEmIdB_FEmAnVTbA]jFARa@pFGXu@pLGdAs@~KdD`@"
   },
-  "postcode": 5214
+  "postcode": 5214,
+  "average_tax_return": {
+    "taxable_income": 35813.030366492145,
+    "gross_tax": 6406.671727748691,
+    "medicare_levy": 431.53455497382197,
+    "help_debt": 32.78298429319372,
+    "gross_interest": 1397.3421465968586,
+    "work_expenses": 1002.5439790575916,
+    "donations": 184.45287958115182,
+    "child_support": 37.1065445026178,
+    "gross_rent": 1418.9620418848167
+  }
 }

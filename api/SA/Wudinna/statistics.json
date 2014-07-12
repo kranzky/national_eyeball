@@ -313,5 +313,16 @@
     "area": 319.7241921308966,
     "poly": "xmwhEgpxyX@e@C{f@}O~Pe@l@}BmDk[qd@oDxD_O`PcKzKeIzI{UfWpEtGdMzQzFpIx@hAcNrQ^pBrDhWes@bk@fC`Fnq@{i@`Kfm@i@fBlBnMnHcBmBoMc@kAaGqa@KkQpPeNNMjErGzSgUdc@oe@?iXNN"
   },
-  "postcode": 5652
+  "postcode": 5652,
+  "average_tax_return": {
+    "taxable_income": 46834.989690721646,
+    "gross_tax": 9432.501030927835,
+    "medicare_levy": 631.9072164948453,
+    "help_debt": 69.80412371134021,
+    "gross_interest": 1777.5711340206185,
+    "work_expenses": 1303.99793814433,
+    "donations": 40.64536082474227,
+    "child_support": 42.43298969072165,
+    "gross_rent": 1136.2824742268042
+  }
 }

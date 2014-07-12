@@ -313,5 +313,16 @@
     "area": 585.1217717661066,
     "poly": "xgcdDkove\\BEPHh@{AQKTk@J[PJTm@xBiGnC{HZy@Na@z@aCBGw@cDmAoFU_Ab@}BJwAE?u@B_Ds@}@Oy@O}Ci@}EaA_Ea@eEd@sD~AoC|CgEvGQIoHyCqDhM|FdCPHwAzE_BnFCF}DbMWGyI{@wGo@eGm@{QiBcKcAkHs@mMoAgOc`@mGbCii@tM]n@}F|w@pZbVzKuBz\\kV[hEKlAEf@QdCEj@o@xIEf@QtBv@Tp@TXHrAb@z@Vt@TbDbAp@TXH`DbAFP`DnIFP`@NlAb@d@NNDg@~Cm@~AFj@bAd@`@Xj@XpAVhALnBThBBrCU`@c@v@L|@A~@GdAWbASzAMrA]pA[vBi@lASnBMf@E|@Sr@CnAWb@M`@KjAYfA{@j@]f@Ft@Lv@AjAQr@]xOgAxAITVf@Cz@Sn@e@t@w@R{@KYCSlAcArAkARTPPVh@^l@`@h@p@Lb@a@l@q@Vq@V_@d@_@b@KSe@[cBa@wBu@}D[cB?_@CgCAcD?g@AyAAqAAsACoDBIMCRy@DQN@fAsEdBeHRi@Tm@SI\\aA"
   },
-  "postcode": 4507
+  "postcode": 4507,
+  "average_tax_return": {
+    "taxable_income": 42623.77348261638,
+    "gross_tax": 8700.202474955804,
+    "medicare_levy": 534.5402474955804,
+    "help_debt": 39.0654095462581,
+    "gross_interest": 1625.982557454331,
+    "work_expenses": 1301.7652327637006,
+    "donations": 77.1224513847967,
+    "child_support": 56.88674130819093,
+    "gross_rent": 2438.042781378904
+  }
 }

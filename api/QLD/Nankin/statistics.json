@@ -313,5 +313,16 @@
     "area": 282.25403035050203,
     "poly": "hnsnCqrvw[iAys@OOuBaCmH{BmDeAaAmGgCo@qIXqGtFoIjNeSn{@wClx@?vYdAxB`F?t^ySz[}\\bCcEhGci@"
   },
-  "postcode": 4701
+  "postcode": 4701,
+  "average_tax_return": {
+    "taxable_income": 52232.13881241011,
+    "gross_tax": 10933.621779330182,
+    "medicare_levy": 706.2977193342922,
+    "help_debt": 111.02790219847955,
+    "gross_interest": 868.6848572015615,
+    "work_expenses": 1193.4341072529278,
+    "donations": 82.99884939387714,
+    "child_support": 89.35972878569962,
+    "gross_rent": 1620.5974111362236
+  }
 }

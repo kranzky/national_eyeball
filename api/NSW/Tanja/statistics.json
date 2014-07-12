@@ -313,5 +313,16 @@
     "area": 0.17099738332640332,
     "poly": "drh~E}vyr[RI@O?OP[REJWHMCWCKGKEMMAI@ILEb@GPBN?RCZGJKHGNND"
   },
-  "postcode": 2550
+  "postcode": 2550,
+  "average_tax_return": {
+    "taxable_income": 39893.8056561086,
+    "gross_tax": 7422.194457013575,
+    "medicare_levy": 513.3220588235295,
+    "help_debt": 43.59626696832579,
+    "gross_interest": 1527.275226244344,
+    "work_expenses": 911.5087104072398,
+    "donations": 98.97997737556561,
+    "child_support": 30.40022624434389,
+    "gross_rent": 1926.8252262443439
+  }
 }

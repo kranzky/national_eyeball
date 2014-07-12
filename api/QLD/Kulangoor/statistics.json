@@ -313,5 +313,16 @@
     "area": 627.866478840681,
     "poly": "xnjaDowmd\\`Fyt@sFi@qk@}FbH{w@LqAReBFi@LcBqEN_AQMA~@wKSCtGau@Dk@b@wD{ANcX~HaO|BmGjAoCtBqInH_E]yc@gE}BrW[vCKZxUdBkAvA}AxAqB`BgExCqIpG]TIbAShC_C`XQZSf@oEzg@NhAtKnAtPnBxGv@rEf@_Gnq@d`@hD|A{Rv\\tCh@Tb@a@tA]fDjB@UBUp@gIh\\`DfQlB"
   },
-  "postcode": 4560
+  "postcode": 4560,
+  "average_tax_return": {
+    "taxable_income": 41637.90489731437,
+    "gross_tax": 8008.228751974723,
+    "medicare_levy": 539.1332069510269,
+    "help_debt": 76.3757345971564,
+    "gross_interest": 1145.8833491311216,
+    "work_expenses": 1329.170047393365,
+    "donations": 105.39747235387046,
+    "child_support": 39.13162717219589,
+    "gross_rent": 1929.016682464455
+  }
 }

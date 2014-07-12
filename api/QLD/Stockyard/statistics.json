@@ -313,5 +313,16 @@
     "area": 7760.1384503244935,
     "poly": "||igCsxlu[rGeG`CyB|AqIhCaExTQfOoLpG@xAgAm@qFvDaHSiDoGdAwAaBk@{HnBwEwAyBoGtByHYuKlFgJmJmBcHtDwBk@cEjEmCTyBuAmPlJiMkE{BuK`KgCT}BeBaBwEyAgAyFAcCiAeCkD@aEpBiGeCqCiEAcAWcAiAUyBxAgDi@aBoBYoByBaAqFd@{B`BeArDXbHrCnFcBzBcDpIBnB_BwAsCgC?aAYcAgAeCcHv@wI_BmCuDAyA~A}CVuBsDe@qEj@_BeEmGwAcH@qFzA_Em@aByAYON??{ApAoE~DqBl@}DrEY|CuGhI}DhGqIReCaBk@aHaHeHVyE~CaE?iDiEyBeCcE@iGbFaHrBaKgCYaRjHWHqIdAsFnI_AmBmC}FwAkJzAqCvFeA`FgDdAgD@kJpBqC~JeDgEeK|H_H_FeKi@sIoPoJsDYiCvBqBzKeChE_Ib@eCiAcAaBSiDyAaBkEfAyA?}DaDHiBcC{B@iGm@iAaA?iCnCuDfA_D`HwAfAmVrBkB{BiLcEuFuFk@yBoDwDdTsSbMeDtDgDzAkJtDoCgCqCaYgEiGuIkLmDeCqCk@aEuDq@oBvBgAbKiJvKsBxHcHpFoGl@eCyBUyBoBq@}HvH}JcB{AzHwFAuDnCiEsF{AAaA~AlBbEW`E_DhGo@lSgF|WaIzQo@jPoBhDcR|GuTiK}HYgJ|AcKfJ`ApFo@bHbApCaA~AqGdAcHYyA~D`AjGqBnC{H|AuDxEwFmGiEfA{AaBcO[dFsRUaBkLl@gH~JoBWkGgNwRtEcFnIkA~TqBvBof@`PsITkNeEiQ]aF~A_DpFcMbA}CnCWhDsLzTeHhMmHdZgJ~GsDYmEtByAxB[bNwKlF_D`HAtObApCgAzKsI~JYrIgC|AoBo@wFl@aD`HG~]iCnY`CbEla@nTvRB|JtC~L~KbJ~NxAVfC_B~HaNlLmC|HgJlGXxHjDdHSfCqCzAqIwCwRBkPcH{BkAaAiDyCaCgTyHmJzAyBdCUdOlDvFp@xAo@xA_BtBgZzFwEnBUhE`BbMeG|AaErFAxAdBwF~GsIvEyFvHCzHdCbExK_HpUt@vAhAApC}JtBsBdAUxBfLhQpBVrIoIdO{ArNmF~EaHhHuQdCdGvHf@}GfEiAr@eA`H_PjYDRpAlDhEXnBxBoGnCaD~GnBrFbMtC`HrFfC@zAqC_FkG@aErIsRi@cKbF@nB_B@iDpBoCvAWdAhAtKuEtDyEbMuHSiDpB_BbA?nBbEnBo@bFsOqD{Ei@yEpBiDhJmCzCyHpBxBo@jGmLlIdCzBl@xEpDzEcKnLdC|Km@n@_FiAiC~D{HdAyF~DTpCfJzBcAvB_Kl@gCnCpDzEh@`EdJ|HVxB}CVyM_IqDA}BjBeB|FbA`BzHUrKtCqS|Mh@rFvAxB~Cp@`HnPvAfAlEwEl@yH`Fo@lEoFhFvDoArA^xDkF\\sBvBPvRtDXlXkFdC_BjCwEAaEhCwBhGrIpGeA~HqO@cHeCyEzAqCX}QaAaEpDeCRbP`AhD^jG^rIrDxE?`BtApC?jJvAbHdCpClG@nLoLrAQBzDdCbHYjJnBhDfQfE`OjTdERfH^nIxRnBwBViDpB_B`FUjJoI`AyEmIaGcOyDuMkTSiG|AsIvM}GaCsIxA_BbMr@zM_KfCoCvD{N?{A@eBpB_BjLBpIgDr@g@|QoMwHmJfC_EwA_RoByBuFs@oBWeJeEm@iGkG}HBkJyDqH|DNnBhAnDtL~EjGlBhAdA?`AwBdAiGQkGhCsCxEzO`AbKrK|EP`HdAhA`FeAxAn@q@jGnBhDaAvB~@hDvFr@|Hm@C`HyFnCUpCrDpCWxBqGnFpDvOzC_BjLjAxGrKFHzFmC|H{QdA{HgGwOWqFh@aCBMbNwHd@xEeA~AWhDxAxBzChArBwBnC~D_ClJ`HnPdO~HpK~KbAgAp@eQlGr@tApC{AzKYtEfCnG|HwBbHbB"
   },
-  "postcode": 4344
+  "postcode": 4344,
+  "average_tax_return": {
+    "taxable_income": 40750.328404669264,
+    "gross_tax": 7499.056031128404,
+    "medicare_levy": 534.269260700389,
+    "help_debt": 61.90428015564202,
+    "gross_interest": 709.820233463035,
+    "work_expenses": 1494.6832684824903,
+    "donations": 83.86303501945525,
+    "child_support": 81.84513618677043,
+    "gross_rent": 1326.1976653696497
+  }
 }

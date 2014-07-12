@@ -313,5 +313,16 @@
     "area": 67.0467659982491,
     "poly": "fhs{Fwc_a[PUPSdBcBp@o@tBoBs@{AkCyFy@cBa@y@i@iAaEsIs@p@GQaDeHMWyAeDsChCu@p@{CpCaFtE{GbGuAaD]VAL_@|Be@`BCF_@b@MPi@^aBd@oBd@a@T{@b@H\\HXDNJ`@Lh@Jh@XpAJf@Jf@Jd@Jd@Jh@Lf@Jd@XtADT`ANjDh@rAP\\FhDb@tAR~BZn@JPDbI~AjBb@bGxAd@LtFrAVoBH{@A[GM{@sBg@kAk@sAZYf@g@PUNUV]"
   },
-  "postcode": 7248
+  "postcode": 7248,
+  "average_tax_return": {
+    "taxable_income": 36443.324353120246,
+    "gross_tax": 6066.735159817352,
+    "medicare_levy": 457.4354642313546,
+    "help_debt": 69.38675799086758,
+    "gross_interest": 536.9199391171994,
+    "work_expenses": 1069.0339421613394,
+    "donations": 63.51978691019787,
+    "child_support": 77.14094368340943,
+    "gross_rent": 767.3129375951294
+  }
 }

@@ -313,5 +313,16 @@
     "area": 52.990866295434735,
     "poly": "`{vfE{_y~[f@v@|@xApBXdC\\F@zC^lJjAnBTzFv@dCVBwBDy@DgB@}@LwBZkCZgBJc@yFs@APOCeIaAkKqA@QuNgBkBeBUQG}@GOIOGGyBL_@BYBG?qG^iAHmAJqBj@eAuAe@pB]pCSdBO|A@zBxA`BxA|Ab@vBCdCAzAI`A?TDRDFDDHDd@KPQPY^Ut@MAG@IFULUFUFQDKFOFKBEFCTIFGHKHIFINGNENIFCJEFGHEDEDCF@H?F?D@HD@BFFJLJJ`@RFDJDLFPHNH\\VFDh@HRBp@s@EWf@g@PSnAsA"
   },
-  "postcode": 2319
+  "postcode": 2319,
+  "average_tax_return": {
+    "taxable_income": 43128.62458471761,
+    "gross_tax": 8321.839202657808,
+    "medicare_levy": 537.8149501661129,
+    "help_debt": 62.211627906976744,
+    "gross_interest": 980.4591362126246,
+    "work_expenses": 1588.8538205980067,
+    "donations": 133.5139534883721,
+    "child_support": 98.6029900332226,
+    "gross_rent": 1624.671096345515
+  }
 }

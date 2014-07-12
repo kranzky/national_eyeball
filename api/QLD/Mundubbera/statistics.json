@@ -313,5 +313,16 @@
     "area": 445.1156451482361,
     "poly": "z{e{Cqzlz[fAkGZ_ApBaHnCaHbDaHjGcLbAcC|@uBqDmBu@_@yA_As@e@mAbB{Cp@iJpBmAd@oCn@c@N}CuFg@uD?gBBe@B_@D]`BwHVsCOyC?iAq@KqY}BwGg@S?WDuUcAQIq_@sA[_@_HbTmE~HG~@MfCYr@`OfPcAtCgI~nAjp@tFbGd@ZLbDqKbIhSt@[|DgLfHmE`AyASM`EyGxBGlC_Rx@aCtDnAnExA"
   },
-  "postcode": 4626
+  "postcode": 4626,
+  "average_tax_return": {
+    "taxable_income": 28787.253642384105,
+    "gross_tax": 4792.764238410596,
+    "medicare_levy": 316.1384105960265,
+    "help_debt": 27.47086092715232,
+    "gross_interest": 1096.7774834437087,
+    "work_expenses": 781.4350993377484,
+    "donations": 53.38476821192053,
+    "child_support": 23.516556291390728,
+    "gross_rent": 977.1384105960265
+  }
 }

@@ -313,5 +313,16 @@
     "area": 366.4433160033637,
     "poly": "nz~jA}hi~WsLfPaMxPkApC}DzFMPMPfcAfj@xC|@lVgm@zC?vAaChAqBhAuBfAyBbAwB`AwB|@yBxBsF|@uBhAqBtAoBzA_BbBwAnBqAxBgAx@YA_@?yFeBNyEMcEcBkCgD_AsEg@uLE_G^cGdA{FfBeFvF}KhHgK?aCAkAQb@S`@MVMV[j@}E`EyO~CmPtOaDdEcHfJeDhEsEbGeAvA_OrRgPxT"
   },
-  "postcode": 829
+  "postcode": 829,
+  "average_tax_return": {
+    "taxable_income": 46489.88333333333,
+    "gross_tax": 9664.0,
+    "medicare_levy": 592.3333333333334,
+    "help_debt": 80.43333333333334,
+    "gross_interest": 672.3333333333334,
+    "work_expenses": 2291.3,
+    "donations": 27.883333333333333,
+    "child_support": 390.0,
+    "gross_rent": 1609.9666666666667
+  }
 }

@@ -313,5 +313,16 @@
     "area": 6957.844884902668,
     "poly": "tdkfEix{`UY@KRSH{@DuBMw@c@Yc@[Wg@UsA_AA?s@y@g@WgAKw@@q@WSWeAB[QYCsBiAa@Yc@KUPs@RQPe@Tq@~AyAhAa@J_@LHhABJARCHy@bAGNKXEX?`@D^DPENe@PULIJQf@BbR@vJAbTBxW{S@@bRuSHBbOaSDA~CKL}KA{H?qBmD_@[s@d@k@Z[PaA`@w@Vy@To@JaANgALkAF_ABiEAuD?C`Q?`N?v@?^@`F?pB?|P?`P@r@?zF?h@@tJB?h@XpA`@nAv@h@n@LF|Bz@jAJ~BDnBXpBBhBZ`AB|F^~@LlBA`CVbCb@~An@LBbHYxAJpD?rBPxABzALjBZ`Aj@t@R\\NB@lBx@~E|A`DfBtAb@pCjBf@TpA\\vB`AnAlAp@fAJb@LnAZ~@f@f@dAl@pAHz@Al@Th@^fABjAEXBjA\\rADj@Fp@L~BdAh@f@f@PX?~Dp@~AFx@Rr@HlFWfD`@rBAhEUx@JfBF|DO`@BnACf@H`Bb@^Pt@Ln@RxDr@ZLlAL??`CbAvBKt@LxBJ|C@vCVrHPx@?lMs@j@@v@PrBBjBIpAMbASlD[r@SnBOb@I~Au@zCo@|@[nAMfBe@vBUjAa@nAYvA[t@Ir@W~@Mz@U\\O^[pCcAjCm@lCcA~Ae@nASt@[|B]TMhDa@d@Q`AQbNgA~B}@~Cs@|CmAhAMRGb@Qh@Sr@_@r@O|BiAVKl@IrPoArB]hBMpSsAvOs@hIm@~AYfD{@l@IjNeAl@Ml@UfAQjOy@dPsAz@a@\\Ix`@wCjA@rBP`Ko@FBBA?BvUqB~D_@vB]dZyBxG]rHA~CApFYdJEzF[tEa@rJcCtDo@z@IlBIbEB`Ie@hPgApBA`AKdD{@`@G|Ag@vAc@lB_@lCc@rBWrDs@|DYdCa@dFg@zA_@nAShFi@jHcBrAU~Bo@|Du@hAQhBI`AMtGyAzDo@nIq@nAg@|@Un@IbOuAzGg@lBK\\GpHq@~HgAhAUhFc@P?CiFBm_Cxs@??sl@Bcd@?m@?aEAc@IIUQCK?MDYGKUMK]QWK_@WIu@g@[MS?OPSHU?GCO]QKSCqANmChAO@k@OqAH[HqAv@qA`@Hac@MROFiBn@k@HUNIT]d@IDm@Dw@Mg@OwAfAk@NIHQ\\i@Ta@?]Xo@DSN[@G?IS{@[mBF}Bf@{An@w@BgCh@s@f@[ByAhA[Na@JgD^e@NYDc@Rk@f@c@dAQFqAJq@]MUCMDUFAVNL?^a@BKEMGG[KCKEY@g@FS?IYUaBUU@WFu@^y@j@c@NYRkA^e@As@V}@l@mEzAo@A[KU?@iE_DhD{KbFsFImNvByIbEySF}\\nM}EjBgCZeLzA}JBa~Ax`@k}@dUsTrCkt@bW@uw@Au_AmAA?sR?u@?k@?yH?a@YCk@UgAW_A]k@_@u@u@oBI]GsAHe@XG\\JT^@^G`@TJCNQPKfAICP_@Tq@Pk@FkC`AgF`@_@EsCLq@Vs@f@u@HeAh@k@Ji@z@WJc@\\_@F[LKV@PKd@a@bA[f@{@n@Q\\QHWFgIl@gHLm@CwDAqBKaCYsBCmB_@YA{@QUAWG}@CKJ[DWCe@Qc@Ei@OqAe@A?[YSIm@Ke@OqBg@k@c@yEmBsAOgAYe@KcAe@uDVk@LuAPcBdA[d@c@b@]Du@VkAv@OXq@bEGj@GfCYjAKPy@x@w@d@cBv@oBr@aAj@s@RmANkA`@]Nk@d@GD_ALm@ZY`@IFq@Pk@Fs@RaAh@kCZyAk@q@O}DUKBMRuATMNm@BYE_ADSCk@Fo@P_@BWIe@LgAHsAf@e@Bk@v@e@b@eAZoCTmBzAu@\\o@FcAPq@l@IDyGd@]Pq@L{@l@]Zc@VUTc@r@k@p@cA`BsAlA[NiJ`Ea@VKLSDiAj@g@L_Aj@iArAy@vAqA~AUJa@d@SHg@P{A`@_Bz@g@NuAr@]Fi@TqA|@o@Rw@DOFW^_@Ri@D]Ba@LYBq@b@uBNg@XkBj@iF\\uA@eHd@e@@i@[OW"
   },
-  "postcode": 6210
+  "postcode": 6210,
+  "average_tax_return": {
+    "taxable_income": 57318.13199457259,
+    "gross_tax": 13239.301112618725,
+    "medicare_levy": 779.8591587516961,
+    "help_debt": 58.93202170963365,
+    "gross_interest": 1179.6157123473542,
+    "work_expenses": 1293.8432293080054,
+    "donations": 87.28985074626866,
+    "child_support": 110.55310719131614,
+    "gross_rent": 2340.9015196743553
+  }
 }

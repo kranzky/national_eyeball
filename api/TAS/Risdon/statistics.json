@@ -313,5 +313,16 @@
     "area": 31.537234216527413,
     "poly": "~pidGywgb[|D}D`KgKfAgAgDoGWc@_@s@eGxEeGxEuArAcBfB_Q`RHDFFFLDLBHDXDVDPFNFJ@@LNNJz@b@RNPRPVJXHVH`@@PHzA@x@BdD@hAF`AD\\Ld@FPNTNRd@InF{DrKsFtDkBiFiLmBeEBE"
   },
-  "postcode": 7017
+  "postcode": 7017,
+  "average_tax_return": {
+    "taxable_income": 46795.544013490726,
+    "gross_tax": 9099.62765598651,
+    "medicare_levy": 643.6249578414839,
+    "help_debt": 64.90725126475549,
+    "gross_interest": 727.9220910623947,
+    "work_expenses": 1252.8870151770657,
+    "donations": 85.3106239460371,
+    "child_support": 50.352107925801015,
+    "gross_rent": 1603.4202360876898
+  }
 }

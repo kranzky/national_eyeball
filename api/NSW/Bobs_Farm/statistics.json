@@ -313,5 +313,16 @@
     "area": 0.06109936301791762,
     "poly": "tacgEmre_\\ZEFUOIYIS@@n@VA"
   },
-  "postcode": 2316
+  "postcode": 2316,
+  "average_tax_return": {
+    "taxable_income": 45981.56204620462,
+    "gross_tax": 9525.088118811882,
+    "medicare_levy": 586.2488448844884,
+    "help_debt": 46.535973597359735,
+    "gross_interest": 886.0036303630363,
+    "work_expenses": 1545.2320132013201,
+    "donations": 86.9075907590759,
+    "child_support": 62.65148514851485,
+    "gross_rent": 2119.7597359735973
+  }
 }

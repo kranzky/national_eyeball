@@ -305,5 +305,16 @@
   "license": "Creative Commons Attribution 2.5 Australia",
   "attribution": "Based on Australian Bureau of Statistics Data",
   "year": "2011",
-  "postcode": 5250
+  "postcode": 5250,
+  "average_tax_return": {
+    "taxable_income": 49922.02396088019,
+    "gross_tax": 10377.768215158923,
+    "medicare_levy": 681.9007334963325,
+    "help_debt": 110.13496332518338,
+    "gross_interest": 865.9095354523228,
+    "work_expenses": 1532.9286063569682,
+    "donations": 157.76674816625916,
+    "child_support": 16.643031784841074,
+    "gross_rent": 2153.3452322738385
+  }
 }

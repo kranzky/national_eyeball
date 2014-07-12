@@ -313,5 +313,16 @@
     "area": 1.3201252690759717,
     "poly": "hguaFi|pr[TPTB\\CVETI@YKUIa@@]NCR_@RGFKE_@S@W?ULCYH_@GM]J[GU@[RRYGGSLUTUP[L[RVFNCSTWROVUKU@]R?JLBVGP@RJTGRALANPVJXNGPIPNBTA"
   },
-  "postcode": 2551
+  "postcode": 2551,
+  "average_tax_return": {
+    "taxable_income": 40520.824352331605,
+    "gross_tax": 7582.040932642487,
+    "medicare_levy": 514.1300518134715,
+    "help_debt": 22.420725388601035,
+    "gross_interest": 1386.5870466321244,
+    "work_expenses": 952.1761658031088,
+    "donations": 65.16632124352331,
+    "child_support": 45.13937823834197,
+    "gross_rent": 1277.7533678756477
+  }
 }

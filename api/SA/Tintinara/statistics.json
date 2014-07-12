@@ -313,5 +313,16 @@
     "area": 168.97979965386364,
     "poly": "zk_zE}byuYr@x@d@m@pHpIrCfD_CpEi@PgCpDdCtCaBdDxErFp@^pAoKdA_Eb@mCZiEDoBd@h@vKjM~MyRcImMv@sRoMn@[YPg@xBqC|N}ScEqEtEgG}CuD\\g@yCoDkNePaBmB}PzVuJtNeHfKwClEc@l@{G`KyArBfJvK^DfDzD?^aB`C`AjAeY`b@dAbA^t@lAeB~FBvV{^~DaG"
   },
-  "postcode": 5266
+  "postcode": 5266,
+  "average_tax_return": {
+    "taxable_income": 37148.09,
+    "gross_tax": 6679.95,
+    "medicare_levy": 485.61,
+    "help_debt": 74.915,
+    "gross_interest": 1491.995,
+    "work_expenses": 1098.8125,
+    "donations": 75.4575,
+    "child_support": 9.05,
+    "gross_rent": 1586.57
+  }
 }

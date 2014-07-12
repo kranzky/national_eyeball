@@ -313,5 +313,16 @@
     "area": 1263.4717011465423,
     "poly": "fsfaB{e|~XrEkg@qe@wEAsa@gs@}v@wyDB@`j@?bq@?pE}J?ok@??vm@lw@?@zArlEfUxDVnZzA?ij@|^rD"
   },
-  "postcode": 854
+  "postcode": 854,
+  "average_tax_return": {
+    "taxable_income": 40645.983529411766,
+    "gross_tax": 7555.830588235294,
+    "medicare_levy": 524.9223529411764,
+    "help_debt": 55.898823529411764,
+    "gross_interest": 399.75529411764705,
+    "work_expenses": 893.6682352941176,
+    "donations": 23.632941176470588,
+    "child_support": 53.68,
+    "gross_rent": 940.0070588235294
+  }
 }

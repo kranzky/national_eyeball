@@ -313,5 +313,16 @@
     "area": 188327.94352825233,
     "poly": "vfj|Cc}qs[|zAse@z`A_@FlKhe@~\\hMxVnGf`@tD`JpGpHpGzNxAfMo@bUbFb]dNbi@iCnCoWvjAim@fvAi_Bt_AbHha@oMtKQpA@j@`LlChIdD`A^|@ZzHnDpVvKxLnBfQzQtGdJtFtCBn@rExuDvvBxPp@F|F|DbEt@~Q@|EhDvDbEpBrGTnADfBGlAo@lBuAxCsBxBsMxC_FBeFOsC`@yCzAiB`By@zElA~C?lHfD`FfEvFhGtDvBtB@zEYvDElCJzD?jE@dCU~BwA`EaAvAkBjBgAt@}Dl@eFQoGQyD~@sB`CpdBbNpwB|Pyd@ra@oIhPs_@~tAg_@`{@nBjfBbChQdMfPB\\~n@wHjUz]h@e@|tBpQ~Y_UftAdf@jeA`J|FmLpjChTb@@?}@h@sXt@rAxrB`RrtB|QbgD`Xvo@hFrJdPT`@f@aAjLyAlD_d@bTaZfIeLaEi]nW__BJg@p_AxHvDn@hChArBhAd|@vu@Nc@lLub@{Ac]bNqb@v\\sdAdPsVmCgu@hLePnPcLjHqEdKqX`Ksm@xIcGtSgBhm@o_BvRcPzCoN~ZyY}\\gOYyL{@cCRIkBg_@sAmVlh@en@aIu[jIwd@o^m_@pPmtArCgUnCoTh[oq@jb@yNnd@gv@r@}KZKTiDxlA_b@rOdWhPoQdsCn~BTPpYuo@zqAgh@d\\sYf~Ao~Ef@sL_@kEvOuNpNod@Nc@[ImaAbTiDySjYavAhu@k|@rL_@dc@lG`AOl~B`\\ltAdQ~ATfKkSlhBeeBlk@mk@z@hAbqCfwDZv@nS]zFdD`YsChD_@njDdZngCys@h}Fhg@`@RAwDh@qDjEuGpJmFdEqC`FgEtCqAtJi@`C_ArGiDvG]XmAiEqDGuAjBcBlD?lCdBdBdBdB]nDqBfEaE|BgH|BgD|@{H_@kH~AoKfDyF~DuCpCsDZpB|`AcE|AIhAEbp@b\\du@f_@J]b@cBh@u@fGgAtCOl@q@Fy@e@mBuBuDw@yDy@sD_BcDaBuC_CcDiAqCiAeBGoAV]`@FjBl@hAWnA}ARaDAgFCiEMsCXgBjB_Dr@e@`A@~@XdEpAtCz@bBXx@K|@o@x@mBz@mBvCeGpA{CfBeBtAoAlAmAjAsBpAyBl@aGPuCP{EvBcH`AaEjAmDzAeC|AkBzBq@`BcAjCcA~@g@l@iAN}AEiBWiBu@kBo@uA}@qFCmBf@{@l@WSYg\\}e@rB{N`CuP`LcIwEuhCiEelCkNstIA]QoDKmGAi@mDaCaC{@sE{DwCoDs@gC[uG^}Ca@sBoA[}AcFuAwAmCWmDd@{B~AeAV_CAaHgAiABcAb@cAfAoAdDk@h@u@O_CiB_DoBkCeBkB{BgDeFyAQ_Dx@kAUqF{F{EcIQ_DbAiBdBe@|@qA@yCMuKW}A_AqCm@qD}AsBkAiArIcrA{eCcTuAtLgK`dA}JV}bB{Ou}AqNyQyAgKeEqHcCoa@l@_mGkk@a|BgTo_@mE}dF{e@stCwWyW`t@CxYgJjW}Mjq@cG~GqNpO{BzKyAzS_I~Z}BzHvD|_@]~Gec@`e@mCfQbKtOcSzn@}^`SyFdHso@tsAa[jTsg@gF}SiTeb@}Psa@r\\uAeYkBcm@qD_QyFmKcJkLe[T_D`BuPvf@yXzg@ok@{c@a|@bF}q@|Dqy@gQsCdUoClEkRbYsDzBoNAeYzW}E^aGhGaB`BkZhSmHiEg@B}A_AcRfAwGzTedB~eAsd@y^_~@qZ{G}BgJPe[fJqZiJiZ|KahDmBupAca@}Vqr@WgTq_@}Ogk@uPi]oGak@oZu[sQsn@iZ}KkB}_@aGkQeCs@Ic`@cFw@nLmpAoZcp@fB_BgImBf@sF{NxAmLs]isAiDqMhCoHcFu^oh@gh@wN{NxDmv@dF_R{Ksf@cq@i`@sQdUkvAs[u[gMwy@_GwzA|jAsQ_RqGaJajCxpBChEj@nn@fCnaA~H|YpGt^mCbaBeP|YgxCzZq~@xbGuGhqAxkBrP?~d@uc@bfAvAbAj@xAYZqDzIyC_BeD`Iq@pr@rh@fErAJj@F}Dl_@{b@`h@qJjoA{N~z@j@ri@gIhyAeI`p@uDbbA"
   },
-  "postcode": 0
+  "postcode": 0,
+  "average_tax_return": {
+    "taxable_income": 21555.05428844723,
+    "gross_tax": 4550.719417578914,
+    "medicare_levy": 156.6966733978106,
+    "help_debt": 21.05705175895419,
+    "gross_interest": 317.1310660006377,
+    "work_expenses": 673.0139653523222,
+    "donations": 28.236008077372727,
+    "child_support": 28.25435221596344,
+    "gross_rent": 5167.1291954511635
+  }
 }

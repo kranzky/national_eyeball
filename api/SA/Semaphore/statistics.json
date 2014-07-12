@@ -313,5 +313,16 @@
     "area": 106.23701041170852,
     "poly": "pwrsEo|elYfAbAn@d@rCtAvCbArBn@@?^Bd@OJ?xAd@p@Dr@JVHzAx@p@R`@RlD|@`Cv@~Dz@l@J`@JH{@b@aDL_AWEH_@pDoSd@aFH{@^oD`@{D^cD`@{D{DiAgDcAKC{C}@aDcAiC]oCe@UEiBYN}AcBPc@FK@qBTwDd@kEj@[FuC^{Dj@nAnOgBi@cCs@gCu@mClN{@lESfA\\NRHB?RH`ClAB@tDxB~AnA~AdAb@`@"
   },
-  "postcode": 5019
+  "postcode": 5019,
+  "average_tax_return": {
+    "taxable_income": 50285.90048971596,
+    "gross_tax": 10344.651909892262,
+    "medicare_levy": 681.6417238001959,
+    "help_debt": 109.60803134182174,
+    "gross_interest": 961.4685602350637,
+    "work_expenses": 1444.8483839373164,
+    "donations": 119.59059745347699,
+    "child_support": 211.85406464250735,
+    "gross_rent": 2336.9537708129287
+  }
 }

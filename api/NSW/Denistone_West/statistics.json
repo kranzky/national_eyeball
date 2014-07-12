@@ -313,5 +313,16 @@
     "area": 32.19390635619004,
     "poly": "xrhmEiray[x@SjA]|Ay@NQRUrBa@REdCi@RETExA[h@KCSOiAFAQwAHOWqBCq@E}AK}EIi@qA_KiB`@oAXWDWFgDt@QDa@He@JMDYFgDt@SDSDiAX_@F_E|@EVNfBfAYDAt@dDDRTbAJb@H`@PL_@JaAXs@NBRd@pCq@Pk@NE@b@pCDTSFRr@Ld@Kh@j@nDRNhAYhBg@j@MfAWNE`A["
   },
-  "postcode": 2114
+  "postcode": 2114,
+  "average_tax_return": {
+    "taxable_income": 53050.30582089552,
+    "gross_tax": 11456.219029850747,
+    "medicare_levy": 720.4253731343283,
+    "help_debt": 160.6776119402985,
+    "gross_interest": 1685.6590298507463,
+    "work_expenses": 1459.4223134328358,
+    "donations": 183.864776119403,
+    "child_support": 23.467537313432835,
+    "gross_rent": 3500.3414925373136
+  }
 }

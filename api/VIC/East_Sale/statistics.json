@@ -313,5 +313,16 @@
     "area": 1120.6428311439379,
     "poly": "plqgFom|`[Fw@n`@tErGucAsVyClB_\\~Gl@d@eHx_@rERQ`NyqBqd@sF|GcgAqiCuZuGzeAC^xWdD|MrYsMfoBwCjc@[tEeEvp@RBzc@tF|C`@}NfQi@tJMv@vCjJQjAoLkBMvFH@{AbVwA|FyR_CQCsBb\\zl@xGxARnGt@~OhBn@L|Ba]jDoi@nDgk@?g@rDb@"
   },
-  "postcode": 3852
+  "postcode": 3852,
+  "average_tax_return": {
+    "taxable_income": 53148.514285714286,
+    "gross_tax": 10551.271428571428,
+    "medicare_levy": 194.75714285714287,
+    "help_debt": 363.2142857142857,
+    "gross_interest": 905.0857142857143,
+    "work_expenses": 2032.0857142857142,
+    "donations": 120.64285714285714,
+    "child_support": 0.0,
+    "gross_rent": 2261.557142857143
+  }
 }

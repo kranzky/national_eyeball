@@ -313,5 +313,16 @@
     "area": 177.32488756118565,
     "poly": "hrndGmr|a[BPL`AFp@Dn@Jr@BXFp@?ZAPCRCJG^NG\\Vc@nAZVLJLHZVv@l@\\V|BdBHHyA|Dg@tAmCpGHAJ?HBVPHDLBD?FCHOZu@DELODCHCR?XDZBCr@BXBXDZJVBHJPNT^`@LH`@^JFLFF?JENI?SBOLYN_@HHTRv@b@`@cAMKt@iBN]N]N]`B`Bp@v@xEuKrGlAdEv@XyHlATN@@q@RTh@f@tBlB|GnGj@nBNb@~I}CbBi@dC{@UeAUYx@aJv@iJ]g@g@u@s@eAg@w@w@oAIM]o@mAwBYi@g@aAe@_AEe@i@iArDsEzSsUy@uDCKYuA]{AiDdCVZi@`@UWOJQH}@n@e@e@_GcGGHw@{@aB_BAA{@EQOyBx@]LMFKBOFoAh@yBx@iC`Ak@~A{@bCgBkCwB_D]e@OUOUSYU]CC[e@QY{@pA}BtDgAaAUs@w@qA[g@oBjAMHd@rAGFqBxEc@gAk@tA[v@Uh@Yr@CFWp@gBfEsB`FUh@EFSp@ITSZw@lBq@`BWn@Sd@[t@IRWn@KTGNSd@O\\Sh@IRo@zAO\\c@fAIRWn@Qb@EPjA~@\\Vd@gA`@gAJSFIFEFAD@"
   },
-  "postcode": 7009
+  "postcode": 7009,
+  "average_tax_return": {
+    "taxable_income": 41955.78039816233,
+    "gross_tax": 7703.934915773354,
+    "medicare_levy": 552.6372128637059,
+    "help_debt": 131.3395099540582,
+    "gross_interest": 744.8468606431853,
+    "work_expenses": 1028.0096477794793,
+    "donations": 88.87534456355283,
+    "child_support": 58.29969372128637,
+    "gross_rent": 1275.8807044410414
+  }
 }

@@ -313,5 +313,16 @@
     "area": 1034.1365320730895,
     "poly": "njrnA{ot~WJNdFuBtkAKtA_@d@MdBg@~V?bF?`{@BAi{@A_F?qAAwa@Eqq@aQ?ygAD@hy@mKBwG@}@@AuBuRm@c@Ga@qI_C_d@_uAAAbv@?j|@?|D?zAA~dArBzAvO{PbOgQjFoE"
   },
-  "postcode": 845
+  "postcode": 845,
+  "average_tax_return": {
+    "taxable_income": 45255.47042253521,
+    "gross_tax": 8685.154929577464,
+    "medicare_levy": 610.5211267605633,
+    "help_debt": 117.70422535211267,
+    "gross_interest": 416.6281690140845,
+    "work_expenses": 1131.2957746478874,
+    "donations": 116.21408450704226,
+    "child_support": 28.428169014084506,
+    "gross_rent": 3357.0816901408452
+  }
 }

@@ -313,5 +313,16 @@
     "area": 354.4553623214877,
     "poly": "jfpeFepbtZF@P@NBx@FlALxALH@@?RBL@XBRBv@Hh@D@?VBl@FKdBPArI|@P?P?lGt@dGr@Z_FnAJ?tBf@DvGl@P@PBhAJnCVbDZfBPCX@A?@xAJx@jHFl@Dp@@J@d@Br@@p@?p@?r@Ad@?JEdAAPA^E^MrAGr@Gl@Cl@En@Cr@At@At@?x@?v@@|@Bz@Dz@Dz@B^BZHz@Jx@PlAXrBPCFGDCDCFCDAFADEPMDCDCDEDEJIRKJIDENOJIDEJKHKBGBGBG@GJWDO@G@G@GBI@GHWDOJa@DO@I@GBGFMBGBGFW@GJa@L_@DQDOFMBGBGJUBGTc@BGBEDG@G?IBEJIDEDCJIDCDGBEBGBGBGDCDCF?LCLCDCDCFADCFADCFALCLCLEDADALEFCDCDEBEDCFCDAL?T?\\AL?T@R@F?LBF?D?F?F?D@L@LBLDF@DBJFDBLHDBDBRLJFXPJFDDDBDDHLBDDDDBJHJHJJDDHJBDDF@F@F@HC@?H?H@FBF@FJVL\\JTHNJTFLLRHLBFHJHNN\\JRBFDDDDDBF@D@F?D?F?DBFAD?DBDBLFDBF@DBLBDBDFDBDBDBPNBFBDFBDBJFLFFD@?@@@?@??AACAA?A@A@?@@??D?@?DBBBBDFPDJBFBDBFDDBF@??@@@@@HJBDBBDH@@?@@@?@@B?B?@@F?@@D@@BDHJ@B@@@@@?@?@@??@@@?BD@@B@BBBB@@DF?@@@DH@B@@BDLTNX@B@@@@?@@BBB?@@@DLBDBF?@@@@D?@@BBB@BBB@@@B@?DHDF@B@BBD@@?@DH@?@F@@BF@F@@?@@HBHBJ@N@B?@?@@H?J@F?D@D@H?@?@?@?BBD?@@B@@?@@@@B?@DH?@@??BBBBF?@BF?@?@BD?BDH?@@@BFDH?@@@@@?B@@@B@@?@BB@B?@@B@@BD?@@@@@@B?@BBDH@@?@DD?@@@@@@@@BBB@@@@@@@@BBFDB@@@@?@??@F@B@B@@?@?B@@@D@B@@?@?@@D@B?B?J?XAHABAD?@AB?@?@A@???@?DADAFADAB???DA@?B?BADA@?PC@?BA@?D?DAB?@?B?@?D@@?B?D?BA@?@A??@C@C@A?A?A@A@E@CBGFC@?JA?E??@AB?BAB?@?@?B?DA@?@?@A@?@AzAgAa@Qy@a@g@c@[m@Om@G_A@e@Lq@\\m@`@]l@Oz@ElAEt@Aj@Ch@KZSTWJ_@Dm@Em@Uw@i@aAs@kAu@wAs@iBk@eAs@eAS[Mi@Gg@Aq@?s@Bs@Hm@Po@VY`@G^F^Z^\\X^Zt@Xn@Zn@d@v@f@jAVz@Nl@Nb@X`@r@h@d@Tr@L|@Hr@Bz@@f@Ef@K`@YZ_@Pc@D[Es@Q}@W_Ag@cBi@cBk@aBe@qAc@u@_@e@e@_@a@c@Ui@Im@Ao@J}ALaBRkBTcBRw@\\cATi@d@w@h@y@TSj@[d@O`AOtAShAIhAKd@OXSV[\\m@n@mA^sA\\aBNeBBg@@a@Fm@NcAP}@L}@?[Ec@QaA]cAe@gAg@u@YWWEYFYLYXSV]^wA|AmAzAo@t@m@|@]l@U\\_@X]H[AMGKE_@c@Uk@[}@_@uAg@eB[w@[i@WY[KW?YJWROXOb@Ip@I~@KfAi@~BW~@Wv@Sj@UfAW\\g@Ry@Dg@Ms@g@c@a@[O]DYF]VOXMf@MjAOnAWzAYhA[fA[~@[t@c@tAQf@WX[T]Pm@Hq@?qAEoAAm@G[QKWEg@Ak@F{@j@wCXyARuAHqADw@FuB@e@Fq@NaAH_A@w@Cm@O]UO]Ek@Fa@Pk@^s@l@s@t@_AhAeAfA_@\\e@b@s@n@g@d@k@\\uAt@gAt@y@t@c@h@u@z@gArAiAxAu@`Aw@jA_@t@e@dA_@x@a@^a@Va@HWCOQM]Ac@@U?u@?EJkCPuCV}CVcCBYN}APyAZoBBSDe@Bs@Ho@N_AJo@Pq@Po@c@E{AOwBS{D_@uBSyEc@c@?l@dFX|BgOqAgFc@WCC??cF@oMAuJiCWiBSqCYcIy@}C]}C[sHw@yC[}Hy@}Da@aEa@eEc@cEc@SvDg@xJaAhRW`FU`FWbFWvErD\\tEb@VyEbE`@fBNDXGpAIF~BTlBPb@DzANdAJP@xANF?"
   },
-  "postcode": 3078
+  "postcode": 3078,
+  "average_tax_return": {
+    "taxable_income": 65693.04108527132,
+    "gross_tax": 16222.203100775194,
+    "medicare_levy": 932.1567441860465,
+    "help_debt": 201.73007751937985,
+    "gross_interest": 1594.7370542635658,
+    "work_expenses": 1656.1263565891472,
+    "donations": 262.0262015503876,
+    "child_support": 24.54093023255814,
+    "gross_rent": 3168.953023255814
+  }
 }

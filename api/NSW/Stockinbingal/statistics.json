@@ -313,5 +313,16 @@
     "area": 38739.76814733169,
     "poly": "~poqEy{~d[pEmDY[rKoJlK|KnMvLxUzTtBhBn@l@~lAzfA`BzA@AxDsl@|e@tFj}@jKXcLvCuHvQePpC\\vC{FbMiPzEYxCgCvA_HqL}QWa@sMwS}AeCbXeXtSuMzAwCvU}@\\gEkkCc[lFqu@jFp@zCkf@pb@bO~QBh]xDpDyg@cTcCbJgxAt@HZgE~@JtB}Zab@wElUgkDjj@pG|a@yCxANn@kJP@pEup@|PsfCgQsBkCx_@ou@eIrDyk@tEet@eeAwK`JatAbGyLxD}HT}@fUun@w@Mu|@_J~Bw]wVOmB`JsBTgCqAk_@tIkP~BwAyF}BsCeDcF_I}H}JwI_E{HgC}@YaD}AeAHeAd@i@vByQrLqGXe[yFmUfG}_AaAeFaE`@}FlAoA`@iFtBiAj@wA|@uEbCkBj@qHhFmAxA_EdD{DjDwDrDqBxB}@~@aHjIs@hAk@~@qBxCg@h@c@d@g@b@e@`@i@^g@\\k@\\i@Xk@Xk@Vm@TE@H{ARqC_m@oGrFk}@u@IsKmAqQnXq]|[}Uf}@uFzSs@KeHjX_T}Bmj@sGiMqAahAgLeA~CoEx[oBra@y_@_Du@IgC`d@u{AaNFaAvBm`@fAwRdEau@`LmqBlKmlB@UZDbCyb@dGgfA@Uol@kFtJeeBkg@qEg@XiCbF}h@_FoHxFaVqBiC|d@{C~i@OjCCh@VBMzCodA}Joh@{Fw@BKATyDssBgRseDmZ}GrnAkDrq@qBf`@yIj|AiG~fA_@jGwF|aAcCvb@G~@gEvt@yAdWw@hNcHrmA}KbnBfIv@x[zCqJxyA~j@bGiIf{Aye@dxId@C\\Dh@Bd@Cb@Q^YX_@Nc@J_@JMTHH`@RX\\Nb@EZEf@_@^On@Ij@Dj@Ld@Tf@F`@Sd@Y`@Ub@Ol@Kf@@f@Lr@Fd@Bn@Fb@C`@IVMd@Ij@Cf@AZCp@?v@Bj@Bt@Dp@Af@C\\Od@Eh@@f@G`@Mf@[TUXQZM`@Cf@Ab@E\\Qx@a@v@]r@]j@C`@L\\ZTf@Dn@Lr@\\p@\\d@f@J~@CbAOnAGlACtAIjAO`AOdAM~@An@Ij@s@V}@JkCE_AMiAAc@Lg@Xi@d@q@V_@XOZDPTJp@Hp@P`@`@Zh@Ad@m@PgA@y@Cu@@[HUf@c@`@i@Vo@Xw@No@P_AJc@Bm@UY_@I]Fg@TUP_@f@i@`@_@Hg@Eg@s@[u@QcAE{@Fi@R_@d@]l@Ud@]n@YdAW`AQ~@?bANx@R`@KZa@DUMi@m@s@_AcAo@o@E[HYTKLG@UGu@@g@RGf@h@d@lAp@lAr@v@l@\\f@@^KPw@CcAHg@\\]\\?^d@Nr@Xn@`@R\\Gf@a@f@c@x@GxADtAAtCIf@Uf@?^LX^f@Lf@G`@_@`@[f@Sb@]b@m@r@mAz@qAx@oAh@s@l@Sv@B~Bb@`@ULy@MoAe@aB[kAKmAUw@]_@[a@Oi@Ho@Xc@f@Il@Er@Al@K`@SPi@Mk@c@k@_@c@@e@J[\\_@\\Qh@k@n@w@b@_APw@@eAB{@Te@`@]~@[|@c@`Ae@r@YbAYr@Gf@Jf@ZXl@V`AZr@h@Xz@Vx@EpABbAHd@Rh@@ZQLY@_AAq@N]d@?ZDFd@@f@Jb@b@d@b@Fr@Ch@Hb@Vb@j@r@pA`@n@VLf@Ez@Mb@GfAQv@Mp@Fl@Hd@j@f@z@f@l@`@\\\\b@Hp@?z@?z@@fAP~@d@|@R~@JfAE~@A~@EdALz@Vb@h@f@t@b@d@@d@DRDRTL^NvARdB\\nAh@`@t@Nj@SNi@Ks@]eAQoA@k@Rc@f@Sh@Cf@Vt@h@l@h@v@h@t@TnApM`H|l@Np@UDkKh}AqJ|vAbj@nG?AfALbFgv@dxAlPNmBr@H|Z~CrU`CnFh@zJuxAF_AhU`Co@lJpcArKiLldBxr@jI?DrBTxw@dJ`c@bFa@`Gt@HdVfCe@bJji@fGp@uJFaAt@Hbj@~ElKnAI`AfVlChAL|@HhQdBt@Hu@dLjb@fFn@sJlSzQhDch@nH|K"
   },
-  "postcode": 2725
+  "postcode": 2725,
+  "average_tax_return": {
+    "taxable_income": 41373.90857142857,
+    "gross_tax": 8028.308571428572,
+    "medicare_levy": 513.0342857142857,
+    "help_debt": 8.17142857142857,
+    "gross_interest": 1888.2285714285715,
+    "work_expenses": 1579.1028571428571,
+    "donations": 62.371428571428574,
+    "child_support": 95.04571428571428,
+    "gross_rent": 543.52
+  }
 }

@@ -313,5 +313,16 @@
     "area": 420.90937343686113,
     "poly": "lrqgDylpe\\ZuDLeCm@aD[{@[m@]g@a@e@gAq@mAWsIe@sASmDcAgBcA_FsCnB{EdAiB\\y@pB_D?CxCaBYe@qCzAmDbAc@NoFfAeEbAcCx@wBz@qBfA{BnAwJvFeDjB_Aj@gDlBkKzF_CpAcFnCiAn@aDfBmEbCoCzAeE`C}GxDeDjBqN~He@zGi@`HOtBCXs@vIhHv@jD^lD`@~I`AdAJdALzI~@l@FzCZb@DlGp@lXpC`JdAlDb@bD^fBTjBR|LxAjLrAlJfA^JZB\\iFBSl@uIb@mGn@oITaDJoAnAgPD]@_@hAaONgCr@wEB["
   },
-  "postcode": 4119
+  "postcode": 4119,
+  "average_tax_return": {
+    "taxable_income": 49757.4,
+    "gross_tax": 10314.625147928995,
+    "medicare_levy": 682.6242603550296,
+    "help_debt": 133.4207100591716,
+    "gross_interest": 816.8665680473373,
+    "work_expenses": 1558.6612426035504,
+    "donations": 125.80857988165681,
+    "child_support": 58.751479289940825,
+    "gross_rent": 2596.617455621302
+  }
 }

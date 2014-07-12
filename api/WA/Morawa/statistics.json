@@ -313,5 +313,16 @@
     "area": 422.0380086763418,
     "poly": "pngqDgs`cUrAtG`EA|A?P@?R@zQ@dE`IAxG@bHGdKHXPjJ?AgOS]@C?A?C?M?aK?gC?G@E?CBEDCDCF?FApSAB?@?DCBE@C@E?E?_NkT@M@Au@M{A?uH?ECIAACCEEGAG?C?wU@?wG?uG?yG@}IGgs@O@yP`@UoI{j@r@}@yViGj@f@vUsORb@th@sYdOHpMa@V@ra@DhA`[Cre@A?fA@jBm@`A|DrG|Ap@JK"
   },
-  "postcode": 6623
+  "postcode": 6623,
+  "average_tax_return": {
+    "taxable_income": 53502.84166666667,
+    "gross_tax": 11832.764583333334,
+    "medicare_levy": 748.9958333333333,
+    "help_debt": 85.02708333333334,
+    "gross_interest": 1519.5854166666666,
+    "work_expenses": 996.1208333333333,
+    "donations": 67.84375,
+    "child_support": 86.65,
+    "gross_rent": 2518.91875
+  }
 }

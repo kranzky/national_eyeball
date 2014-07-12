@@ -313,5 +313,16 @@
     "area": 2923.615135946237,
     "poly": "tspaEaecdUAeHPCdVB|BADHHhAJpC@\\L?|XA`WA?eFAkFAkE@gBHoE?eBIsFAaQ?cQ@ULm@{A{@?c@?qd@Q@?uM?sCkAc@kHgDyGqCsG}BeBg@jAyGHBj@aDh@SnHgFdOgJLKFQ@S@gEGsAIqCA_FGoLDcN@eI@eLDq@tKFnJBpNDd@CXUiBoEo@qAmLaOyDoH[eA_@aDk@qGQcC?mAHkAt@{IU?oYAiH?F}\\iAmBaB?_A@_@AY??Ew@OcN?aR@_LAwI_@yQ{@y@EtLlm@^pBP|@TpATrADV`EpWrDzUJt@`EpWkA?gQBQ?eP?kD?M?CS_H?sFiEyPmNaB?e^B{@AGe]?[_VuRCCoX@aOBCnLARuFpBG@Bpf@Q^md@AUyRiJlAgKRiZKAoe@_W?@|]@x^C?B~@Tf_A?`Jk@EkAA{HA_JEwFEC~J?nM?zK@xMBtJ@pJA|L@H?RGRnSPzDCBAhN@|O?nRAfU?P?VLJTBX?N?bH?bT@pY@jKLAhJ?bZ?|E?`F?~E?jF?n@UxZBvK@tJ?zIiMvK??`OlJ??jEnN?b@Bv`@CPAXAbU@R?"
   },
-  "postcode": 6082
+  "postcode": 6082,
+  "average_tax_return": {
+    "taxable_income": 58027.94315245478,
+    "gross_tax": 13161.339018087856,
+    "medicare_levy": 814.0656330749354,
+    "help_debt": 79.7968992248062,
+    "gross_interest": 679.7715762273901,
+    "work_expenses": 1214.831007751938,
+    "donations": 137.41136950904394,
+    "child_support": 61.05012919896641,
+    "gross_rent": 2518.911111111111
+  }
 }

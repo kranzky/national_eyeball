@@ -313,5 +313,16 @@
     "area": 110.96332415588536,
     "poly": "hvmmE{ibnYjBQz@B|A\\p@b@v@|@ZB|E{GlGj@xDqFWe@aCqCTa@tCyDxAqBVc@`AqAf@q@c@QzAqBrHeKdAHfBiCpDqBbFaUaJcFqo@rE{DlND@eBdGWfCk@Aa@@a@JUPW@oBLkI~RMVxAbAtDfDjB|BrA`Ev@pCHb@Hf@b@xC"
   },
-  "postcode": 5416
+  "postcode": 5416,
+  "average_tax_return": {
+    "taxable_income": 41106.275,
+    "gross_tax": 7914.291666666667,
+    "medicare_levy": 566.0833333333334,
+    "help_debt": 0.0,
+    "gross_interest": 2223.733333333333,
+    "work_expenses": 1098.5083333333334,
+    "donations": 41.233333333333334,
+    "child_support": 21.666666666666668,
+    "gross_rent": 1204.2416666666666
+  }
 }

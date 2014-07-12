@@ -313,5 +313,16 @@
     "area": 46291.39981499705,
     "poly": "x`bmDybt~[Gl@d@K|C{@bAwAfBqBcCoEw@}BCgCHyCpGkGrC{I_AkJRyGrBiFtAcBvDrBa@cImA}TcD}NwDsG|@{MmDeK?sIkAkMoQkJ}F{GeFz@aLdDwDmFqCiHcCsFaE}BoC]eC}Bq@qE@wIaIeMe@_DyC{BgRo_@cJwGsQaOoCaAkLsPsBH}BsBgBeBcH}DeH{BaAkDi@eEqAyEgC}Dc@_D{@cEoA{CmAiBmCqGsAqCkBGkAuB~@}D?}BKkDhAkJwA{CqA]aCgDeBiDgAgAkBcHmCgEeCeCiByBo@eCwBa@_OSuC[qCN_@hFMxEyAlA_@rAwE`Gx@rJyO`[CR`D~Mi@~FvDtEdAnIcEhLewAoOeE|i@atAoNk@z@QGiBlCgG|AS^eAXwLlXy\\bO_Mk@}G{JqY{UaJ|CmJs@cMbJ{AbKm@fAeJjKmH_EuEQeBpCiCpA{HnBcO_FoJzB{SR{GkKQYuN}TqHy@J{Aw\\{Jy\\bIuS~CeVtDsFhRkO~RwI\\_GDuOlCiA?{GQcGcC}VNsIqEyNqAqWFiJy@cCj@}Bh@eHhPiHhPm`AiJ{Cbd@iP`EcGFEPoOwEaDO_EqPc@JcMwL_LWaCwAsCcDuBfIsE~MsEhEcIxCuTrEeLnMQASLyJnByFtJy@~DmMpF}B~@kQHyImHgJnAsDeAoANkMrAsPaKqOiPiRo@qJvDoEx@sFkDnBiKsDoNgAiC~DuKeNuPoHlDePJsLnI}NxEuGmAqG@iMDgHjGuInBy@z@Z`@aFhr@NXmCb_@M^B^Cd@G|@Wp@Ft@SpCAv@I`@yAtSP\\|Ka@bH`FxBzF\\`AhCtJZzChB~DfDhJhAlC`EtTvBjPdB|@fOrAeBzUoGo@~BzEpOf\\|\\|a@t@vXF~JFt@jF`p@oAdQyAbAOnDo@~CYlFEf@u@`KAnAKdMBvCiBnKHvOChBfAxKFVHpAhDjTt@|I~CzKrChJvG|KfExGzCzCxD~B|FnBhG`B|GrAhA_@xGtDvYtNhVpM~Fh@bV|I~FvBlZrM|UzBjTy@Df@eH~dAUTmF~u@QzB}Fny@UTsKz{AcWeCINDViAvOUNgEKQPkKbvACxCyDrg@Gz@PBllAtL~ObBn@y@tk@|FnBTvP~AN^hSpB^[rmAlL^ZjkA`LVOrh@bFpBRjjBjQLPRKbq@zGjvBdTbvAdOhc@vEliErd@b@DJqj@gCWwGmn@he@{q@lE_FvEcJdHgF`MoAXEnD_@Hq@PA`COjC`@~DCtD@tHo@hD\\~IcAfH}AnNuCrOeEl\\sGnUqBtBmAb@yE|@mFNiEmBkJcBsGnEcCtAmD`FmCnG`E|GAtBsB~@}GdCwFn@}LPyCUuIfDgJ_@}EiCiLuAeIaBqBo@sDTuFtMeS`AmFv@oEVsKy@yAw@uL]_GGeA`@iMr@eI^cIWsBcBgLeCmUfLyXd@_BNm@b@gBTeCgBeV?gL?_ReDqIKs@u@kKoGkFiMmOsC}@y_@uIMQOa@qBqEs@eAqSqHoAc@mCwJjCuMrBaKtRiPhBcG`GyClCgHS{R~`@m\\PKv@u@v]}XdBSl@}Al@Fx@aCHoDQ_AGgRcDoDCgDoCwGqC_BgEiBgCwDsCiGiHkDJaD[aBqHqEaCcJW?wFbBiEoEkB_Mq@sG_AyBmBw@o@KBq@e@Aj@wZdGqCdMMjBqFpDQzGmDxFY|E|AEh@`JrCxFx@hG]`AYgAMtFaBvF{DvDeDfFgB|Ei@hDTbD{@"
   },
-  "postcode": 4374
+  "postcode": 4374,
+  "average_tax_return": {
+    "taxable_income": 36099.36190476191,
+    "gross_tax": 6712.7095238095235,
+    "medicare_levy": 431.1333333333333,
+    "help_debt": 19.733333333333334,
+    "gross_interest": 1622.5047619047618,
+    "work_expenses": 1306.595238095238,
+    "donations": 77.33333333333333,
+    "child_support": 21.895238095238096,
+    "gross_rent": 1306.747619047619
+  }
 }

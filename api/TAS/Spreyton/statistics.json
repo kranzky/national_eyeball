@@ -313,5 +313,16 @@
     "area": 3.39423852782304,
     "poly": "rcozFqnh|ZT?h@a@v@ITMJGRWp@oAXeAJg@?_@EWOKM?uATiCJSLG@K?]U}Bu@K?ABOTWJS?c@QE?CD?XFXr@`ABT@tAH\\DFB@b@Vp@ZJJn@Ft@BZD"
   },
-  "postcode": 7310
+  "postcode": 7310,
+  "average_tax_return": {
+    "taxable_income": 41034.82389411355,
+    "gross_tax": 7598.660048763497,
+    "medicare_levy": 531.0848484848485,
+    "help_debt": 60.130059212817834,
+    "gross_interest": 887.2399860675723,
+    "work_expenses": 1251.3587600139324,
+    "donations": 80.13333333333334,
+    "child_support": 64.14670846394985,
+    "gross_rent": 1261.4585161964471
+  }
 }

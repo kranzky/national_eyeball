@@ -313,5 +313,16 @@
     "area": 191.1457609013047,
     "poly": "t~dqEyaku[JeBlFQnAwAnAuAMMEU[_@o@o@uEyEWUFKCCdEkHTa@QQoAeAqA}@aAk@SMwAo@iBu@_@Oy@]_@O_A_@_@OGCeAc@oDyA]OOEP]OG]O_@O{DcBYWmAkAYWSQwCsCoKcKYWkI}H_GwEmMgHeXcN^tBxJzj@zArHbBdGTz@fBjFxElKzFbK~FlJdEpFnCdD~BbEtB?pj@nFz@oNLaC"
   },
-  "postcode": 2575
+  "postcode": 2575,
+  "average_tax_return": {
+    "taxable_income": 49199.18706467662,
+    "gross_tax": 10702.242412935324,
+    "medicare_levy": 662.1449004975125,
+    "help_debt": 50.14664179104478,
+    "gross_interest": 1338.2453980099503,
+    "work_expenses": 1512.6782338308458,
+    "donations": 208.03059701492538,
+    "child_support": 48.07400497512438,
+    "gross_rent": 2578.711815920398
+  }
 }

@@ -313,5 +313,16 @@
     "area": 31.77297679544058,
     "poly": "nwsmEycly[DA`@MXEZAXCXEXGNGNINKLIPGZKZG\\Ez@Kt@KXCZCXAV?T@D@Ey@U{Bs@oHv@HC[N@IcAp@HOmBMaBG}@e@_Gg@CG?m@C_@C{@EQAASBcBs@EqBIIeCsC]}@MSCoC]IYHcAg@IwAQMAIAWESCOCq@IQCM|AI`AR~BLtAHr@XdDBZHv@JrARxBHv@@JVjC@HRrB?LJDVKhB]rAULCp@zGXnCT|B@?@TBH"
   },
-  "postcode": 2046
+  "postcode": 2046,
+  "average_tax_return": {
+    "taxable_income": 68493.220540201,
+    "gross_tax": 17098.191645728642,
+    "medicare_levy": 965.5618718592965,
+    "help_debt": 152.64798994974873,
+    "gross_interest": 2393.9172110552763,
+    "work_expenses": 2064.0449748743717,
+    "donations": 243.55175879396984,
+    "child_support": 26.595854271356785,
+    "gross_rent": 5953.629648241206
+  }
 }

@@ -313,5 +313,16 @@
     "area": 24310.3775093584,
     "poly": "neruBaay_[hFpGiCbDw@JkExHgQ{J{Ii@sMgNkT_AoC|C{ByBgDpDu[k@VoG@e@d@iLwaAqEMIv@uTOG{_@qHKyAU@iMgCiL~p@?^Gr@[zJwGhbBo~@}Gk@G_ApSERgAnXq@dHsBdIqCfG}GfKwLzQkFbIMPko@qCWFWDcPq@aS}@wBfo@K`AqDc@i]kAwQm@_Nm@bA}Uaq@yC{LxpCuAx]dkAhGz@FjBwDzFsHn@_Ap@oAj@kAb@}AV@zH`@tGZv@Bby@pE`ZzAmC|k@OlD}n@kDiF~dAdNv@bAFvNv@cB`^OlCOzCYdGCb@aAhR?D?Nh@ARAn@BN@NCf@_@L[BIHSV[n@i@Z_@n@g@f@i@^e@PKBG`@]^MVGVIPMpA}@HBj@JJFRHd@XXJf@Fp@TTLb@\\THZl@Dp@?^D`AHzB@B@p@?RERQZ?DEFCPAX?ZD\\FH?FT`AZr@DPZr@DPb@|@TXNBh@ZTRRJd@V\\FX@z@d@LLd@l@j@Z^VPHHHRXl@r@JZHLFPBBH\\TbA?x@F`@Gr@vc@rNQ|DGn@AJz@\\b@PrBRHUn@R`B\\jBHfABRIDEHJPCbC?|BFxBZtBj@lB|@nBhAhB|@dA^jAXrARbM`AvBCrBYjBo@xE}B~Bo@vDq@xBS`EYrKFnRNrEGdEm@PEzEwAtDo@jYy@nCQjCa@hCm@dC{@nGcD`C{@|NiDnAOD?|@C`U@`~ALv@?tOBMhDwDd~@]VkLo@YCC\\aDlp@w@E{Bjd@Z|Fau@cETReIftBAZiWeA[hNSdGkgAqE{Cpz@vb@fBo@z@wC`BeGjTDxFvAjGdCfEfEnChCbAfGzAvDWbC{@vJoI\\MZ_@vAe@rDQfBdDeAtHoJjJaKpKsFbV_BvDkA`Bk_@hYiD|DkBnH_AdP~Mp@|@Hj_@_Fq@xQrXjAvKd@pCJ}BzE_FhI_F|KoFjE_IzEeGjDeFzDaEzEqEzEiHzDaArDjHtAjHt@tAGtCPpJ{BnKiGfIyFtJuCnQkEfPyFpIoAzI~@`WlHjLnDlF`BxV~CdW|GvL`HnZvMtO`LvWtH~LnDzLtJdHtCbKf@pMi@pLrEjP|OjInI`J~A`Jl@HqCdIurBf@qPtLwzCh@{@l_@kq@vZuG^iAiNoh@}{@wQ~@kUd@qLh@B~qApGlAaZ`j@jCj@iO~M~IjACtUdATuMiIqVleAatAnPv@Rk@~Aa_@P?@EBCD?bZ`BbC_k@lPt@RO`B{_@OQx@qRP_EHkAjX?\\_EnKkmAtEci@xaAm@`BiC{JiH~BJ{g@c_@sA}@iAs@kAq@kAo@oAi@oAi@qAe@qAc@sAa@sA]uAYuAWuASwAQwAOwAKwAGyAEwAAyA?wAByADwAHwAJmALQBnE}gADoElDsy@o_@gBeApVu\\nKkKh^yMqEmp@rKA\\_MaBuHyP{QuMiVpEvBpM{LbCqUoDse@uR[GkC]_EiA{ACeLg@aCwA{I_HsIkJeCkGoHaG}AmAi@iH{@}B_DoAaG_BwQ^wG{@oEwDyDqI_SyNk[qZmSmAjCah@af@{RuEHqIqHsU_BoM}m@_[wSiTeo@eUcA"
   },
-  "postcode": 4816
+  "postcode": 4816,
+  "average_tax_return": {
+    "taxable_income": 47583.73744292237,
+    "gross_tax": 9777.78812785388,
+    "medicare_levy": 634.8744292237443,
+    "help_debt": 62.07876712328767,
+    "gross_interest": 1130.512785388128,
+    "work_expenses": 1150.8207762557079,
+    "donations": 61.11986301369863,
+    "child_support": 84.9931506849315,
+    "gross_rent": 2000.262100456621
+  }
 }

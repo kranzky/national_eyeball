@@ -313,5 +313,16 @@
     "area": 687.7445706661678,
     "poly": "jmbfFkuqd[jALf@J|@C\\KvA?XNPBZPv@`ANDdABHF|@fAPBV]P?VTd@BTXRd@n@l@l@PdBBXNjAjAdAj@b@Rt@Jv@GVPHNP~@fAbAh@z@Rd@HN@Nf@fCN|AEjAUv@[h@E?{@nAMl@IxAYfACt@Ht@^hBZdBCrCTz@Vd@d@l@^`@t@j@v@`@TN\\JXFn@Vf@jAPh@b@h@ZpAX`@n@l@Rh@j@rE`@xADzAEd@KBMP]t@W\\ETDl@Zh@?TG|@Jn@b@j@JJ?RJJLLD?V\\l@bDr@jBx@zAHHrAnAh@z@Z`E`@tM@vBCvCXfCl@~Cj@`DpAjCd@vAXv@\\d@Zv@Ft@@z@KVW?KSGuAGc@OYKIKOKC]CKMMy@SYQC@p@Rl@PpAv@zALr@T`@Xl@n@v@r@`@\\Fb@TJJr@pAh@d@\\Jh@XN?GpCvCZvAT?R@v@Jz@Hv@Nh@Rx@P^\\z@`AbBVj@n@|@f@l@`@d@j@f@f@f@r@j@r@b@p@^b@Tl@Zp@VlBv@v@Tj@Pd@HVLXP\\Vd@Zd@d@PDn@l@j@f@b@j@Vr@^`AX~@Pj@ZfA\\dAZ~AXpAdB`IPbAN`BBhBIfB[`BELb@hGl@bSv@dLEzLTvDtKhAd@HzKfAlIc@~GuD~AmDfASnDmFhAkBl@}BnBkXvGk~@d@NdAL@O\\aFt@Jd@aHs@I~AgTyAQQEHeAzHqfA`G}x@dAoNb@sG~@kMmK{A_@|E}LxAmKnAg@aHz@eF\\c@gG{@uIeAGAAdBELOjCm@vE?x@PbC^xBPv@F|@TrEr@lFp@hDDvCT~@L`@j@nCb@z@\\t@r@jCPv@Zh@RJV@\\VN`@h@~DBN?P\\fDb@tCBd@]`CM`@q@`Ea@xBYz@{@~ASXOXuAnB]h@i@xAQ|@Sr@c@vAuAdGOd@AJWfBETM`@I^GTKTK`@@RHj@e@t@SVAj@AHGRORONOr@APALGJILCFELKLKLADCHGFEFGBGDE@IBEBGJGFQHMBOHQDEDGFM@MDQBI@e@LOHI@KBK@GDIBMBIBGAEBGHE@u@r@c@`@k@d@c@Ri@VqAn@iC|@SFgAh@QBEFa@BYJaBBWFeENaA\\u@NmA?YMIAYEUKo@AQDUFQNSFa@PMJQBEFQBg@?gBCa@IMKi@KkAE_AQw@SOIMCQCIKQIc@_@KMKCIIICg@a@[a@GCWa@ICq@cAw@sASe@KIAAgAqC]sAKgBJm@RuBJi@d@gAHC@Kn@{@b@WJMB]Uq@?m@@e@GY]e@a@o@E?EOa@i@YMEK]QQCUKAGUEGKI?GMOCKOE?MSGEKCKME?EKSGWM[SQCSMeAa@OOE?MME?QQE?KOKCWYk@s@C?MO}@kAa@i@]mAy@{GOuDd@sANu@Ao@Qi@]_AaA}B}AkEy@kCu@yAUs@cBcD{@cCa@aBQa@a@sAQ_AIeDTqBZeEhAoGHK@Sb@aBZgAFiBFYPWPcA?iBKi@_A}CkAoC_BuBgAcA[YKCIIu@]YSI?e@Uy@EwA{@]Ce@OkAUgACe@Qc@m@q@i@o@SAEK?MKOCOMKGuAgAo@a@{@_AE?_AaAo@aBw@yA{@}D_@w@Ki@A_BK]y@{@G?aAu@QUWOQ]KIKGCOYa@KQKG_AcAmA{Ag@gAgAkEq@yB_BaDm@y@_@]YMAGWGSMI?a@SAGI?aBkA{@gAKQa@e@oAyBoBuDaAiBg@gA}@sCqAqCgC}Ge@iBsAiDa@}AS{AI{GKgAe@qBW}AEsAF_AHiB@qDEgAMy@g@uAu@}Bk@mD[m@Q?IF_@h@Up@MtAC`Bl@~EFnCAjFChBD`@n@jC\\t@j@lA|@dCx@vEfAtDVv@bBdEaBTQBBXXjAJ`@?|@MfAa@tAVjCTXd@b@ZLp@~@RF^h@`@~@j@x@J@BFF?\\\\b@t@h@d@\\xAn@fBZvBVbCh@rC`@rALR`AHf@VnApAn@t@NL\\Jx@\\f@t@`@z@`Az@HjA@fAJrAKr@M|BFlBJl@Ad@a@nCU~@w@|A]bA?NKLUf@c@d@{@z@GTFVJDr@?d@Ih@?"
   },
-  "postcode": 3878
+  "postcode": 3878,
+  "average_tax_return": {
+    "taxable_income": 44087.99215686275,
+    "gross_tax": 9317.641176470588,
+    "medicare_levy": 566.0137254901961,
+    "help_debt": 87.7078431372549,
+    "gross_interest": 1795.9,
+    "work_expenses": 1079.578431372549,
+    "donations": 92.05098039215686,
+    "child_support": 0.0,
+    "gross_rent": 1547.7274509803922
+  }
 }

@@ -313,5 +313,16 @@
     "area": 256.4201748808033,
     "poly": "hr_lCsw`w[IQi@kA]_BI?RsCLy@^o@Q[Qi@GUFQRc@Z_@|@iAK{@n@]AYEMMc@}Af@i@Ue@SKs@YUTqAqAn@}JrE{FF_FMiAAu@A_KEoB?kJlCoA^Dt@aCx_@mC`c@kBnZjOhAgD`k@xGwExGmAxQiDzAkCpAyBl@iGNcBvKgQFqK`LcMlB{Y}Fe@`A}Nf@DJyAB_@GHONQFQ?"
   },
-  "postcode": 4703
+  "postcode": 4703,
+  "average_tax_return": {
+    "taxable_income": 57624.90515889393,
+    "gross_tax": 13112.054808089146,
+    "medicare_levy": 796.9014444903013,
+    "help_debt": 96.43087082129591,
+    "gross_interest": 1249.1143210895584,
+    "work_expenses": 1416.0760214609988,
+    "donations": 82.22988031366076,
+    "child_support": 72.49153941394965,
+    "gross_rent": 2542.544118860916
+  }
 }

@@ -313,5 +313,16 @@
     "area": 4.877144314726224,
     "poly": "bcedD}jne\\DKFe@Rc@Rw@Js@Hs@H_AFgADoACqAOkASaA]}@a@m@o@_@k@Qi@FY`@Ol@C|@Dv@R~AFp@BzA@p@A|@At@DjALx@Nj@V\\\\Zn@BHE"
   },
-  "postcode": 4511
+  "postcode": 4511,
+  "average_tax_return": {
+    "taxable_income": 41799.36075,
+    "gross_tax": 7989.06175,
+    "medicare_levy": 532.955,
+    "help_debt": 64.054,
+    "gross_interest": 778.321,
+    "work_expenses": 1620.13275,
+    "donations": 70.97075,
+    "child_support": 78.7385,
+    "gross_rent": 1502.4225
+  }
 }

@@ -313,5 +313,16 @@
     "area": 34.286666136451466,
     "poly": "`uzjEa|im[lAkOd@aG@KTwCTyCDg@R{AFw@MaAwUdH_QnFLl@cJpCIjAN\\i@v@QfAI~@nMbBfEh@^Ff@FfFr@jKtAbD`@"
   },
-  "postcode": 2800
+  "postcode": 2800,
+  "average_tax_return": {
+    "taxable_income": 51509.13790186125,
+    "gross_tax": 10943.98100676819,
+    "medicare_levy": 706.9978849407784,
+    "help_debt": 99.26167512690355,
+    "gross_interest": 1128.2736463620981,
+    "work_expenses": 1557.4994500846024,
+    "donations": 122.40431472081218,
+    "child_support": 75.54653130287647,
+    "gross_rent": 2403.2225465313027
+  }
 }

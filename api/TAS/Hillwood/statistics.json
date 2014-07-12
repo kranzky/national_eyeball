@@ -313,5 +313,16 @@
     "area": 0.7178527431765341,
     "poly": "fpozFozt_[NAJ?JEHEFEDCFCBABE@G?GCIIUIOGIKIKMKIKGEAEECGUCMAI?W?O@GDGJIFEJAJAPAFGTAHAF@HDRDFDFFDD?H?HCJ?N?TBT?VB"
   },
-  "postcode": 7252
+  "postcode": 7252,
+  "average_tax_return": {
+    "taxable_income": 46405.957654723126,
+    "gross_tax": 9352.881433224755,
+    "medicare_levy": 630.829315960912,
+    "help_debt": 48.47687296416938,
+    "gross_interest": 1273.445602605863,
+    "work_expenses": 1200.614332247557,
+    "donations": 92.56091205211726,
+    "child_support": 60.55309446254072,
+    "gross_rent": 1597.2456026058633
+  }
 }

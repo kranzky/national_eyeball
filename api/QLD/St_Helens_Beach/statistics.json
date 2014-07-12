@@ -313,5 +313,16 @@
     "area": 34.899085435763254,
     "poly": "jac~B{llk[vLcClDs@xE_AKa@G[K]v@K~@wA`AgDvA{Az@k@~A]~F}DdCeBlHyEjH{EpBqAFY@Kk@aAA@y@mCwEbBgAd@aMjIeJdEsQhHeAb@mQfHk@?Rl@~@|AFPQFaA^zAdF`@\\RhA"
   },
-  "postcode": 4798
+  "postcode": 4798,
+  "average_tax_return": {
+    "taxable_income": 51880.24684684684,
+    "gross_tax": 11171.190990990992,
+    "medicare_levy": 716.8144144144144,
+    "help_debt": 30.463063063063064,
+    "gross_interest": 2035.0954954954955,
+    "work_expenses": 1014.8936936936936,
+    "donations": 61.47747747747748,
+    "child_support": 99.14414414414415,
+    "gross_rent": 2461.515315315315
+  }
 }

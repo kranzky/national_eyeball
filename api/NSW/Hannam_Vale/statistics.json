@@ -313,5 +313,16 @@
     "area": 5495.248354465017,
     "poly": "fqk`Euw|a\\nEyE|GcD~DO~Cy@vCeEpCw@xAu@rCwDn@mDdAaN`AJ`Ha`AtMpApCa_@rQjB`S|BM`B?h@Lh@`@l@lBlAjA^ZFjHsaAbBgV`C`EtYnJrC\\kDlBk@lFZLzI|DtUxI`IlBNBnB\\|HyExFk@f@S~EeCrGhDrFwFV[bEhEdASdIHhD[dFkCxDWfDyExDs@A@g@pDtGtLMtFgB`CbCzO_@rCtCpMlP_Rj@sLBOqBwFMuFjAyEDE~@iElDmIRSj@WzA}CoCuNe@kIy@kD}@kAqBgFfBuW~BsI`@aE{AcD{AcAcC{@q@_@\\sGH}AjAiDjAeAZoG@E^{AY_FjBiGi@eLPeC}@aKLwHSaHyiAgM}D}Eq[cDuAr@_FQwEwBUKmWkCtAqLdGGb@wHpAYa@wBPyCcG_K^[dAkBhpAhMbFyApIa@kAiHaCiG}C}NmDwEW{@mNuA^mFlKa_BjAmQbCu^dAkO`AeNrI~@lD{c@zBVEWT}ATq@`AkCD]LU?ODENaBCcBG_@BmAn@}AFo@`@w@^mAZiFa@c@[{@Oq@Gg@@a@Fe@f@_Ad@YTYL[Ci@oA{AQeA?i@Uw@GGWY_@ISO_BkB_BwAkA_Do@wAE]Yw@W_@Se@Ka@c@a@YKaACs@Ku@]c@c@UG_A?OD_@l@_@`@I@eAQiC_AK?oAm@SYMu@Iu@]]?SLQ?OSUa@Nc@n@@z@GP]NUSCYKM[?IGMq@KIUBEGEw@c@KOMSy@e@_AUE_@^WA@aBDY\\{@^e@PI~@C`AVAk@FUJQj@]`@iA@u@Gg@?STq@K]?]`@sA?w@Oq@a@Sq@D}@l@u@ZaBnAYp@EhAs@l@aAf@cCt@i@@KA]GoEuAyAy@cABq@To@?{@Y}@G}Af@OP_@`C_@t@Mv@[p@NrCH\\}@^cAHeBMsBm@kAgA?GE?[YgAo@e@KyADq@R]L[XgFzF]b@AxADd@?tAIn@]lAOZ{@Ai@Ik@Wo@My@a@[Gc@?e@Fe@Ty@L_ACc@N_@b@Od@M^IVUn@Ox@C`@AdA?x@@bABr@Fx@AXMXQJUDOCc@i@SWSS[M]K_@G]G_@Ik@QsAe@k@Ok@M]C]A]A]A]CWEq@SUESBGDGDGDEFCFADAF?F?N@L@JBLDLDJBFDHDFFFFDHDH@H@b@DL@L?L?J?`@@h@LTRr@`At@`C`@vA?d@Q~@U^g@l@sAd@aFb@c@Nk@|@M\\eAxA_@P_BBo@Kc@?_@N_@b@Sd@Gr@GFEZk@h@y@`@gABwA[w@Ya@Y_@e@Uc@YgAYq@aAaAc@W_Bo@K?yCoAe@GuCa@sAG_ABoAHk@NsAFy@L_@?IESI}Fvt@cJ{@}GlbAtANoGjaAUhDAPx@C`@x@S`DLHCTkE|p@nEd@c@bHuBf\\nSnBeD~c@sVgCeC~_@}Bb^QCsBj[cBxWiP{AiB~VQlCC^w@tLlANiAxRoSuBaElh@yAOwBfZq_@iEc@xFm@lIgBjV~Fn@yBbZkEe@Gp@}A~SuC[{Ezm@uc@_F{T`gCpEj@jNbBd@F|j@dH^F@ChEsCHaAuDaBs@}AjBeCH{@rRvKlE~KQlGtDbJpH}C~F}@jCo@|Af@f@t@|BNjCE~@_CeS_q@GiAAcAfAa@bCyAfE_CzDuHvCeCjCwElA{@"
   },
-  "postcode": 2443
+  "postcode": 2443,
+  "average_tax_return": {
+    "taxable_income": 33505.26714975845,
+    "gross_tax": 5788.906280193237,
+    "medicare_levy": 395.9246376811594,
+    "help_debt": 36.141304347826086,
+    "gross_interest": 1923.3944444444444,
+    "work_expenses": 1026.2746376811594,
+    "donations": 88.19227053140096,
+    "child_support": 14.280676328502416,
+    "gross_rent": 1827.525845410628
+  }
 }

@@ -305,5 +305,16 @@
   "license": "Creative Commons Attribution 2.5 Australia",
   "attribution": "Based on Australian Bureau of Statistics Data",
   "year": "2011",
-  "postcode": 2729
+  "postcode": 2729,
+  "average_tax_return": {
+    "taxable_income": 41216.92216216216,
+    "gross_tax": 7816.674594594595,
+    "medicare_levy": 543.4789189189189,
+    "help_debt": 54.65189189189189,
+    "gross_interest": 1240.535135135135,
+    "work_expenses": 1346.9243243243243,
+    "donations": 80.28648648648648,
+    "child_support": 68.2627027027027,
+    "gross_rent": 1395.6886486486487
+  }
 }

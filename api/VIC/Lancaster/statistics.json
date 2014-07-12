@@ -313,5 +313,16 @@
     "area": 3796.985965092546,
     "poly": "tby|EopstZvBGs@gA[e@U]`BoBFc@A{@FcYNopAA}@@iBBwNAy@A_c@?_BBsl@@oQAcn@a@@OAmk@B?OBck@vl@D?cdA{zAFA_x@?iw@szACwl@?@xw@eC?{h@@?nw@ozAAI?@dpB?nqB`zAP?nE?|iDfl@k@zl@?~{AH?JhvAB"
   },
-  "postcode": 3620
+  "postcode": 3620,
+  "average_tax_return": {
+    "taxable_income": 37383.77064846416,
+    "gross_tax": 6712.546985210466,
+    "medicare_levy": 473.84459613196816,
+    "help_debt": 55.426166097838454,
+    "gross_interest": 1490.1858930602957,
+    "work_expenses": 1611.2976109215017,
+    "donations": 95.97133105802048,
+    "child_support": 31.209328782707622,
+    "gross_rent": 1643.6807736063708
+  }
 }

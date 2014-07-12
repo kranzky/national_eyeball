@@ -313,5 +313,16 @@
     "area": 1627.0371734224698,
     "poly": "ljehD{|jf\\sAmBiAkCqE_MyAqIxJwrAACD_@lBwV@c@vEin@JoA`LczA?Ssx@iIDs@gSsBiAMsAe@GJG?UXG?GLG?[XuBpA_D|AI?OLy@RiD~AkCr@e@TWB}CpAoBpAuC|AGLmAv@]d@a@PaAFu@\\k@f@iC~@m@`@u@z@?H[h@G\\a@`@KBKPuBlAo@NcB|@a@Fq@XiDf@_@JwBLqC?_CKu@Q}@G[Mm@CeASW?MGq@IiBGuCWqA?sAXk@TIN_@POTIBo@f@ANwAwBcBfCQzD\\|DlGlKbC|FnEfJfAvGbBnSKdIEfC`FvJ`D|Fr@~GmCdIwGjJuF|DaFzF{CxHWzJh@hK@|G@bKaEnNjDxFdOdApGrDtCzHb@|]|@|MhAhJo@zG{@nCmEnAoDs@yArGgAxFiAzJwBxFi@zCxAjBzBj@dDf@`ENnFa@~G_AlG{B`CaBhD{BfDuBrBChB`AhAhBz@~Dt@|E`@`BjAdB`Cv@lCO`B_AvBmATkCjAqOrA}PXwDPCdJ~@pAE~APeJeUhA{@vE{UjD}DjSpB|IyIbHmQrHPp@T|CzA"
   },
-  "postcode": 4207
+  "postcode": 4207,
+  "average_tax_return": {
+    "taxable_income": 44047.109154929574,
+    "gross_tax": 8344.97097026604,
+    "medicare_levy": 583.1531298904538,
+    "help_debt": 66.01122848200313,
+    "gross_interest": 566.4007433489828,
+    "work_expenses": 1745.0239827856026,
+    "donations": 97.45907668231612,
+    "child_support": 81.17339593114241,
+    "gross_rent": 1723.326212832551
+  }
 }

@@ -313,5 +313,16 @@
     "area": 931.0069930428572,
     "poly": "~y{eFqiwvZ}HuX_EqOmHaW_IwWqQml@iEm@}MkBy@KcG{@tAeRgFq@}ViDw@xLSbDu@jLLd@gCna@aEe@sWaD_SgCgU_CgDkCKL_RbXsAjk@wAdKjLxWlK`VhLzV`FvKvk@xqA`XuT`MeKK_EfN}Mb]o\\lHiH?]jLeRhOmVd@n@TZtBrB~@^tAf@"
   },
-  "postcode": 3139
+  "postcode": 3139,
+  "average_tax_return": {
+    "taxable_income": 46732.4788543571,
+    "gross_tax": 9668.243997562462,
+    "medicare_levy": 633.3124923826934,
+    "help_debt": 52.07544180377818,
+    "gross_interest": 969.8210847044485,
+    "work_expenses": 1469.90225472273,
+    "donations": 92.2375380865326,
+    "child_support": 35.53735527117611,
+    "gross_rent": 1549.005606337599
+  }
 }

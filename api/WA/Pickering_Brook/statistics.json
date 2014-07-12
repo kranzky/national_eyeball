@@ -313,5 +313,16 @@
     "area": 10494.080481963474,
     "poly": "hdobE{imdUpD@RDjA@z@HlBC_C|A[d@kFvFg@n@iBn@qAZ}A|@}@Xk@X]XW\\oAlCQl@k@lAy@`CMN[|AcBtFOnACjABdIG`@Qf@_@`CMJ[v@Ux@y@vB_A|As@jB]l@a@bAgA`BCBaAt@i@Pi@FgA^eARyAb@}Gt@u@Vi@`@oDnByDhCkAtAm@d@M`@Iv@?`@JlAb@pBPd@h@jCp@jCVN?DBTGTyAhAQZIdBCdDD`@^l@|@~@T`@JfB@dC\\zBH|@In@wEzOa@z@aH~ImBnCi@fAm@xBc@dDM~B?l@d@fDB~@K`Ai@bBcBlEYhAAd@RtBx@pLRrC?pCSdHa@bB_AhDS^sAdAmChAcAl@iB~A[\\NEh@EdAMAvAKrAQhACr@^`NKfEFtI^dBtAnE~A|GAn@sCtDu@r@INChCDtBK~BDdBBxHAtEj@hChAvCZlAXx@j@j@Tj@A`@_@n@kBJe@JG\\KHa@xAMdATxNGbH@jJIlEFdRRnAd@hBH`Al@rDLzAdA`Ha@dDQlBkAlCi@xASbAEhDGrE@tBF~B@vFA~@Cj@Eh@NbBKrM\\vCDfAY`G@xGEtBQxAyAnHaAXiQ{@Bx{@Al@@tYA~N@bw@lB?pC?CsY|N??rY?ThRAvD?vF@NR|C?~C??jTli@Aj@?sBvB{ChDKx@R?iAhItH~M`FzIhE|Hv@nAhI}FlCiDfF}InCuEp@yApA|@~AlAfAAnA@t[DHUrB?SqFDuBn@{E@qI@wNsLAzNaR~NeRoNiA`AuDlCiK|E_HvB{CtBRtNtA?s`@HIpBcHtJgJfDcAh@HfMdAdPxIrKaG|D_BdEEjD`Cd@zBUhCIpAdFlBfJiNhIuHhMcNhRoOjN}ItL_@jAmFdCqFn_@o@fGKlFwD`BfA`@obDN_gAqe@@?ip@uw@@?sYtw@A?hHtU?@}jQ_YMggB?FiW}@b@c@Hq@LkBj@SNm@r@yA`A_CfB_A~@{CxD_@hAAbBCJOf@AN@^JNDX?XIR[h@In@WdAEb@Br@NTh@hAR~@@l@Qn@MTgA|@{@L_AXqABSD]Rs@l@i@d@i@t@eAhAkAhBsAxCuAnBi@fAML[?WAs@FcAv@_BZy@b@YH}@Bs@CSJ]r@YpBs@pBQtBEzAO`@MNIj@OXQFWBm@@a@XYHs@A[Ie@[QOi@w@sAk@y@]}@AuAYcECs@TODgEt@e@RmAz@IDi@VyA`AcC~@{BhA}AdAw@t@yAlA}@jAOb@]f@Sf@M^iA~Bo@hBg@n@y@b@S^Qp@SX_@Za@jAIJ_@\\i@Te@d@e@Xk@p@_@X_@d@OHi@Hi@Vc@Z[b@INC`@AhCCl@[h@_@Xg@VSRe@z@ELHn@ABANi@NILA~AETYt@IN[RQ\\WASNc@rACDY@Sl@[f@IFg@Ki@TQ^Lf@MXa@X]j@g@Hk@@Qd@YLODe@?k@`@c@AWFE\\e@Xc@fASNk@Kg@BUXo@jAMHQBUT?Nc@t@WNg@OSHKp@GHg@PWb@@Hb@v@QJg@HQCYMy@RUNKVYVWNc@DUVc@hA[f@YFIKC[Mc@CGSIQBSLYBSGQOEg@IGWASRSZUHqAJOXS?SSiAG]S_@g@G?SJUDk@m@Q?WRGN?n@ELSEm@Hy@@SNEHCTGNgBESNOd@c@\\Yr@CTi@n@}@`@g@?UHIZIj@OHq@CiAJGDGN@BTBENm@h@[|@?~AQbAi@Rk@`@]p@RfAPb@Fb@Mp@CFQBSd@ALWV@t@RD@t@RAREbBNFDT^@HOZ@FXXJFXDZTFNDl@HTJz@@JPTHRFZ`@XRTAh@MTANVH@JCVMd@@d@a@NIt@@t@Ld@JBPMLARr@AX]`@GXMTQJa@FQ^a@RKNc@FQL?n@ADOL?H??jJfAtDfBHnBe@\\Cr@p@TTt@c@bAMDb@nDxAdBnCvDF@V?@_@XCNVTdANEHY@i@J?\\|AFHl@Ba@z@A^@l@?`@Eb@CtATr@FFvAn@@JKXAX@l@fAPv@\\n@RzAZpANvFH|NM"
   },
-  "postcode": 6076
+  "postcode": 6076,
+  "average_tax_return": {
+    "taxable_income": 62078.27792114695,
+    "gross_tax": 14943.68265232975,
+    "medicare_levy": 867.0153405017921,
+    "help_debt": 100.0994265232975,
+    "gross_interest": 1700.1068100358423,
+    "work_expenses": 1100.887670250896,
+    "donations": 139.73039426523297,
+    "child_support": 41.64272401433692,
+    "gross_rent": 3268.2224372759856
+  }
 }

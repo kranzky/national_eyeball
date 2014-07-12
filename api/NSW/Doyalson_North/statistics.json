@@ -313,5 +313,16 @@
     "area": 338.9176478107263,
     "poly": "jcoiEan}{[uBrWGl@dYdHxMfEt@@nAVzBLt@VR\\Jh@LhBRzEFfAPxBZpBx@dEKd@[dCbHhKx@}@TWbAzAf@i@hQiQsIkNHKtJgJ{@kRtE{k@t@{IuGui@cEz@cEz@gMhCUK`A_DrFmKsDEqFGeAAs@Co@A[?gACaCAm_@g@oEC}@PaIxC}M~EoI|CmS`Iju@jJ~G|@oAnOoCr\\"
   },
-  "postcode": 2262
+  "postcode": 2262,
+  "average_tax_return": {
+    "taxable_income": 41873.681405405405,
+    "gross_tax": 7649.41254054054,
+    "medicare_levy": 547.4898378378379,
+    "help_debt": 57.42886486486486,
+    "gross_interest": 673.0003243243243,
+    "work_expenses": 1938.2383783783785,
+    "donations": 75.044,
+    "child_support": 104.21405405405406,
+    "gross_rent": 1035.1594594594594
+  }
 }

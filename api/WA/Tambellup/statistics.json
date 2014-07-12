@@ -313,5 +313,16 @@
     "area": 541.4916926576296,
     "poly": "pkxnE}{`mUWsFe[?_L?uJAuL@Dl}@?Zc@N?hCn@nCFxC?|]Jn@?|gArR@hLApVBxBWrYA~XBAyd@A{t@Dga@?_AAoe@RsB?wA?s@?mEaYA_CT]AoA?}LtD"
   },
-  "postcode": 6320
+  "postcode": 6320,
+  "average_tax_return": {
+    "taxable_income": 35543.87894736842,
+    "gross_tax": 6603.473684210527,
+    "medicare_levy": 457.28684210526313,
+    "help_debt": 71.36052631578947,
+    "gross_interest": 2171.0157894736844,
+    "work_expenses": 723.1736842105263,
+    "donations": 45.8,
+    "child_support": 7.105263157894737,
+    "gross_rent": 2145.621052631579
+  }
 }

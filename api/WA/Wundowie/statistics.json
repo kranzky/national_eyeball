@@ -313,5 +313,16 @@
     "area": 5533.635193548886,
     "poly": "xep`EyeceU`UAhv@Ap_A?`fBCjCpGjZbt@hx@GCyn@vg@CfRC?{DvK??~Hlb@A?wO?oNA{M?_EvUA?{L?q@`GnIbIdLf@t@b@x@`@z@\\|@X`Af@zBF`@RxANzBH~AAxAG|@dA?nP??gK``@`Pr@\\n\\pRjEnD|GlMpDrIvEpEFOLe@J_A|@iKv@wIjAeI|@cGViA`@eAj@}@r@s@ZUdHgHbIqI@CcC_F_@q@yAkL_@oC_CoI{ByFkAgHeCqNRA_Gw\\_AsF{DqR_@kAcFyOiFgLuE{GqPiVwMsSeUiV_@_@v@?sT_g@_BsDcBqSe@@wjAM_AB}JiI[GWMa@OoAa@{Cu@aAO{Ey@iASk@OmEsA}Aw@a@_@g@k@}CiGqBkHm@oSZ}BzCcLn@sA|AwCrCoEnBaFLc@Fa@VkCNgBAyG?COsCoDwPuDqNc@yACGcZdLmD~A{AjAa@Ra@@kC?s@?}AAHtE?r@ErAIrAOl@Od@[r@Qb@e@v@iAAydA??bCaF??vi@?j[?V?rL?JrF??|m@}WDeBj@aqBEs@]}pCG?tuBjl@B?dzA?h@?~sA"
   },
-  "postcode": 6560
+  "postcode": 6560,
+  "average_tax_return": {
+    "taxable_income": 51839.274796747966,
+    "gross_tax": 10640.975609756097,
+    "medicare_levy": 719.739837398374,
+    "help_debt": 31.767479674796746,
+    "gross_interest": 631.7105691056911,
+    "work_expenses": 1309.2455284552846,
+    "donations": 50.73170731707317,
+    "child_support": 188.92520325203253,
+    "gross_rent": 1267.2
+  }
 }

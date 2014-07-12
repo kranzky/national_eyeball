@@ -313,5 +313,16 @@
     "area": 509575.7340393114,
     "poly": "d|pdEcds}ZoPoN~Xuk@oS}h@oFyz@i\\gl@_Aq@kOgNgJcq@uJuh@xFu|@{ZgEoUsPoI}SoQwVk\\yf@sH_L{G_n@wI{_@Jwk@f]iIdiAag@nU_Cla@qKjd@{b@lO_o@`Wkp@rU{Q|DeInNkKhWwU|x@XzWuOhU{w@`_@{q@fQuErNqR`UsJfM{X@o^?c@?u@?gC`Cse@[wa@xR}KzKuLpt@eV|Sm[vMr@lQ{G?iWyDuVrA_IcGs]lEi]kDqRjGgJ~YcTdRRlA@bIHy@uAwr@_mAgtBqoD}Lk_@sH{@cbAaeByyB~oBmdA`~@qAhAejAfcAyWpUoAfA}iDmqGvWmUmcDsaGq@I{zDucHtqF}tEuq@aGoD[uwAcMke@eEC?`QqgC|AyWfLwnBgAKypBgQtAiVdKcfBHsBWa@q@kAk@f@qC}FwLyRc]sn@K_@e|@}{A_aAccBaTe`@cp@klAok@weA[i@w@uAYi@m@oAQc@EQ[?e@AKAMEMGEEEEc@m@OQGGGCWIuAVoaAj{@i\\bZe@n@e\\d[yAtBuDjCusAdjAo@`@_CxBoD`CmDtBub@b_@_ThQuLlLeSdRwh@vj@_p@xr@o\\`^aP|PsH`IKHKHMHMDODK@M@M?KAMAECGAECECEEcDsDSm@M]wA_DcBwCkBuCkBuCaByC[i@[i@[k@Uk@aBqBow@ouAQ]U]WYYYYSe@U]KqvA_dCun@ohAiBsCU]Y[w@u@_@]c@Yc@Ya@Y[_@[k@Qq@Ou@Ms@Y_BKi@Ii@Mi@Og@a@w@k@q@m@o@o@q@k@q@mAaBe@s@e@q@a@s@Yg@Ui@Ui@Wg@Wi@k@_Ao@_Ao@}@s@{@u@y@g@g@g@g@i@e@i@e@g@i@a@c@a@c@a@e@_@e@_@g@W_@Wa@W_@m@cAYe@[e@Yc@}~DhdDfaB`yDm{MjeLdb@ty@[VmkA|cAoi@~e@aL`KmbClrB}h@vc@geCywEyuA|jAgk@pe@cy@mzA]Ve}A|xA`v@puAeuAfjAW`@us@moAiTq^uzAy}B[XiGiK_FkIeFiIcFkIaFkIaFmIwLkSZ[ow@qoAufA||@mfBlxASc@at@zl@wcA_fBc_@co@i|@nr@yiAx}@e@^eQeK_IqJy[ql@yJ{PaV~R{xDh`Dgy@_aBwfAp}@xy@r~AT^wcD~mCl~BzeEBDj@bAa@Ry|@vu@ibDroCneAzlBfjC`xEdyAvkC}aFjeET`@{FrEi_@nYecAugBy~@wgAg_@oq@Sa@ylCnqBUa@{yAc~Co{BdbB{Fao@atIqt@tDu}E}fAoLpDkl@zEd@zCwe@_eCeWqoBuQcwEq`@a@RtPnZl~@jaB]VkrEdzDhjApsBo|AzrA[Z|mBncDj\\vfB[b@u@tLb@@e\\tkFeh@|b@i@b@_yAnmA{zC~fCubC}mEk@d@aBnAU_@yqAddAT`@tRv]]ZT^`zAjmCs{ArpAduBjxDc|Dz`DA@]VX`@~~D`yG^n@]V{}GheGn]fXniIxvGlhH|yFl{L{gKh@gAnKyJl}AnrCjbB|vCr{Ig{HcCwD~_FiaE~fEt}H~mCm_Ch{ClpFnfEkiDvRgPlnDzpGr_@hr@j|C`wF`dCea@lgCab@vx@{MtwGggAfcDii@zkEys@ztAeUtj@mI|y@aMz@Ov@M~{JuaBnvDqn@bdHgnAvqCuf@xaDak@py@{NrGgAv{B_`@fJ}AvpCqe@FAdiEmv@nI~ExJfBjUxAnt@_a@`x@}M|HhFhJcRxsAyUxp@kL`E{IjMfEvn@mMl[sGbNkNp_@mG|KlFxMiBKaBpCc@?Ao@qJ_AyJm@iGm@uDy@sFW{CCqD^gEf@wDd@wDl@uCz@}Cf@qDP{DCwEMwCiAqCUoBIaCLwDQkCm@wD_@uCqAmGMwCb@uBlA{BdAmCx@eBd@qCXkCd@wBz@yAf@kAVgBpHqc@zCiXUiGa@{CQqDUaD_AaD_@kCeAqBq@i@[S{BwAGaBf@UH?gCkB_BmA"
   },
-  "postcode": 2831
+  "postcode": 2831,
+  "average_tax_return": {
+    "taxable_income": 35591.8217270195,
+    "gross_tax": 6463.043454038997,
+    "medicare_levy": 454.7782729805014,
+    "help_debt": 51.9125348189415,
+    "gross_interest": 1472.607799442897,
+    "work_expenses": 1140.8885793871866,
+    "donations": 47.47743732590529,
+    "child_support": 32.32757660167131,
+    "gross_rent": 1388.599442896936
+  }
 }

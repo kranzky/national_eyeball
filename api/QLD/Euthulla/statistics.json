@@ -313,5 +313,16 @@
     "area": 84804.55172677261,
     "poly": "fzu`Duspj[vB_AvAKhBw@dB{A`Ac@f@y@Jm@ByAJYz@c@r@e@p@}@nAm@z@eAzAq@r@EjEq@rAi@jAQxDq@lDSlBQfD]rAs@f@K|AaApA{AvAiAzBqB~CgDl@]v@Ux@WhBu@VK\\ClAa@f@Ih@IzA[f@U|@[nAa@|@[v@s@bBaApCqA`Bg@n@OlBw@xAYv@G\\GnAU|AB~@MjAWtA@x@Gh@Kn@SvBKpCg@dDk@z@QtB_@lC_@h@E^AvAk@|CMnAFrB@zBCv@HhAIb@AhJawADk@tBy[C[`@GvsA{WXGG[a]sbCgAaKy@oFaKit@aLcx@aJgp@WeBiDyU_d@m_DSiAIk@i@WyFaa@qJgq@oHsg@fAScCsPv\\oGyEw\\R_DzRbBlCoa@fLyBzTiEjq@uMbgA{Sb@_@hwBqc@hb@mHrKyAKq@_CgNc@eLhHccCiEuwD@wBlBwr@Bg@`JsfDb@J\\aBz@uId@sGZwA`HqLbCkFHm@_A{Q`@{@Lm@F{@DiAFkBT_RbDmzBtP_pLmG`HqD[mmAiKkBnx@w@pz@mBEcu@cGu`B{PiuA_Q}DAUa@_NeAaWpn@csCc~AuNaIHcA_kAqo@ulByfAqeAjbCl@IzC^pClBnAtBzAdDjBzFdBbHhAxChAbAxDnBlBLlIu@bBMdIbAtEf@|A\\jAxAvCrDv@fBVlBHtFAx@Q`AyAnAoA^cJxAwBr@kAjBo@dCcALy_A`[_@RpHnYxf@`dA|Avd@Hd@i@Eie@FguCvtAQTy@hAow@hiAqjBh[}_Ct|AoFtCu_@`XipAj[NVmDrl@g@jIw@lAi]trAg{FxaAc`@aNiaDpm@la@ttCunAvUfGvKnUbFzp@le@tFnD|@d@zeAhRhp@tf@hyA|gAl@r@kEz@g~@vRJz@ra@~eCzd@`sCRlAld@dqCje@`uCn@fEj@|DfpAhbINx@p@SteBw_@Nv@~PjgAlI`SVpVzHze@cAFo~AxKgGbDu@NxGha@N|@hg@z|CrAbJjK`r@Ph@fNa@bDyDjBcA~CrAvBbB~@l@pBKvE{C|JkHpCgA~C_BbAgAtDcBzDeDjCwApAw@bDoAnJP`IRjIVbDRvBjA`AhArAvBxAfCfAzCt@jAt@hAZhAn@vA~ArBvAlDnEdCtFs@pEoBvA}@`FyDjGsEvC{B`EyBtAaAjA{@tBqB|A_AbAg@pBmAfCsAfCqAfHcBzBSrCJnAEpDLlB_@hDj@rD`BrAnB|ArBv@|@x@rBt@pAj@tCTrCGfAIr@OdAg@~AaBpBs@h@e@DkAPYPm@l@u@dBw@fDuAfCkAzAKlCThBd@hADdAQpAkAzBcC`DoAbAiK`H_A~@yAzAkDpBqBpAeBxAkA^c@nCCbErAtIvAjCfB~ArBx@hD\\dBtA|Al@zBbBjB~@hBt@rCjBxBdAbEt@vERzE?lCa@dBQhBi@pAm@zAsB\\gAr@kCVoArAmDpAeDj@mBj@iA\\OHLxM|TZf@p@F~i@oHh~@_M`J_Hv@m@hSoOhy@mn@\\WxO}L|@oAdGsP|BcFpAoBrFeBreAsVr@Uh|@ol@PWa@c@aC_CX_@pDoCpGcBjBoAvAaCb@cGTuDFsGe@sFk@mFm@oJ_AaLkAuGcBoJi@qEBaAt@cAjBGtBAlEl@dEO`@GzBJ~@RnGFhEpAbI`AvB\\xBh@zEt@fAElBCtAM~BU|A_@lF_B~@_@`AYnDw@`B{@x@gBVuBQw@oAoAgBm@iCc@eEqD{ByCcA_Bw@gCqAiDByAf@uCo@aDyAyAkBk@qCe@iCd@q@VyAb@_B\\iBR}Bd@mCDqAm@]}AQyAs@{@a@kAUsBf@yBz@iAbBu@"
   },
-  "postcode": 4455
+  "postcode": 4455,
+  "average_tax_return": {
+    "taxable_income": 53030.40524271844,
+    "gross_tax": 11423.544660194175,
+    "medicare_levy": 732.1689320388349,
+    "help_debt": 117.8485436893204,
+    "gross_interest": 1100.7590291262136,
+    "work_expenses": 1623.7566990291261,
+    "donations": 62.90077669902912,
+    "child_support": 56.87495145631068,
+    "gross_rent": 2402.0957281553397
+  }
 }

@@ -313,5 +313,16 @@
     "area": 3992.188594592923,
     "poly": "~`cfEmiraUhAc@D_@CMc@]@c@DET?JL^ABDL`BMJA`@LRg@ZW?KFO\\UEG]MMWSYKM?G`@YF@JX`@f@f@j@\\x@Fj@VJRb@bBR^RPNRZz@XDh@CPFHHTj@ZPVB\\C`BDTE^OhCwAbAw@t@kA\\Yp@QLIb@c@x@oAtB}BFMNk@h@eAl@k@z@]`AFJMJ[D]C_AN[F[Vi@b@a@t@[FADDHRNUn@o@`Aa@Py@JQVIf@CnAmAdA]`AOhADr@Vb@FVNRRPVBf@MP_@VGPGz@?NPr@@ZEl@DJHHHDX?`@KH@TNNVRDV[DMBm@N@HLRt@@fAf@|AZLn@Bb@F\\J~AnAJZHd@\\XDJ@NK|@?VJ~@FR^ZHj@CT_@dAC\\@p@Lz@Ml@@LVVh@LlAp@d@f@lArBZv@ATFPJFd@?d@X^jA?JUhA?LHl@G~@dAd@^TZBRFNTTFd@d@Rj@F`@NNHPF\\Yl@ER@PNd@tAxAFNDTBb@K`@i@FEFG^a@ZALPt@AFQNyAf@SJEb@Df@CJEBm@Is@Zg@D_@?g@EQHYb@CJ@HPNh@XBL@NS`@@j@DDNBNCb@_@NATNDHDf@f@JP?XKLWRwAFIPK\\Aj@LN?RIl@Br@f@BH?`@@L`@h@@PGb@?v@Rp@HJ\\A\\FDL@h@FRf@p@GxBU`AGj@Bn@}@bDAbAHdAMl@A~BKVa@VEJItAF^FRx@v@bANXNHJRt@Fl@?rBDp@Yx@aAjAAFDVRPp@BPJBJ?b@FVJLd@@LCVYJAJFf@n@r@Lx@b@V@RCPGT?T^n@hBDFxBgJpBmKgCiFgFb@_DjGqCwHm@eKdAwJlDmDkFuNuBuFu@exC`@wBSmx@Dm@IyG]ib@[k_Ae@ywBc@}lBOuj@A?oA@aFDiDAgF@{NAuJNoE?kIB_EAU?w^FcXDlBzOi@nPu@nRA|AS?k[Fc@?}SD?xCiZD?mBGUCKmClDW\\}KhQc@c@waAal@aAQaAl\\KjGeBhJiDhFaDxBgEV}@mBdAkGHeFuAcEmCoBsBYsCvB]`EhChJNxEcEbGuIrEyCjDo@e@m@]i@~A_Ae@UEa@vAQKQIsAxBeRwYeLeCoJkBgC|Su@G{TtlBtAbDa@r@a@t@_@t@[v@[x@Wz@W|@S~@Q~@M~@}BfRdC?nAAzA?`H@nb@Kfb@GD?NCNBtlAQ|XGfZCc@hEoG~r@B|Hg@ALfV?`@GpI@lL@jDHtt@f_@GvI?H?{CrXsAfCfZG@tWDx]f@VbA`Av@jBd@x@f@^t@hAh@h@f@d@|A|@b@BdJF|BOdBSdAa@r@CnEeBfAu@f@e@p@_@HOHc@FUb@}@NMDBFHDhARl@FHR@RL\\^LDP?HEPQJ]?a@EWo@qATGZAFGD_@DGLCDK@aBDMZg@@GAIUMg@@OJCF@JRd@EBQMa@o@Gk@VGF]Ec@@o@Ck@LcARFHVHp@PVLLXLbAr@BpADLDFF?HMLEN?ZJBREJe@h@DPJL`@JHn@VNFJBNCDQNCPCjAA@CAOYCAMHm@eCW{@EAILA^FlAHLVPHN]Xq@lBOSIUGFB`@\\t@M\\G^EtCK`@A`@Dl@@FD?"
   },
-  "postcode": 6208
+  "postcode": 6208,
+  "average_tax_return": {
+    "taxable_income": 58867.37322097379,
+    "gross_tax": 13823.426029962548,
+    "medicare_levy": 808.0657303370787,
+    "help_debt": 53.88895131086142,
+    "gross_interest": 1279.0308988764045,
+    "work_expenses": 1291.7659176029963,
+    "donations": 71.53689138576779,
+    "child_support": 108.81348314606741,
+    "gross_rent": 2474.1026217228464
+  }
 }

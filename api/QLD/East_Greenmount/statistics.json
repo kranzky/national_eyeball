@@ -313,5 +313,16 @@
     "area": 9558.095360769907,
     "poly": "jbuhDgnz}[zB}[Ya@jHchAgKxDpG{`A^WfKgxAxEas@vNqG_@sDxGwcAfFmu@bPe~BDmAbM{D?k@lHy_Ass@aHwBzAw\\gCsEoArIcpAVoAyx@iIgm@kGe@?ekByQ]Amb@ijBwJm@sBvXqY|@cHdLcSiAC]eKfCdBjMEvGoDhGqKfIkJjvAjGx@oAhTSTsEvr@c~@aJ_JdrAbJ|@jSxSk@lF{Sp\\BZma@dn@U`@w_@|k@a@dGhNlJR|HtWeDMnG[j@fGrEdJnAcKnS}Jr`Bb_A{DgFhs@lALxf@nWjCoCw@|Ib@lI|KtB~k@vGn@FsD|K_FvHk@zDwDjFfv@|HmGr]rUbCiItgAb@hA_HbeAzlCdWn\\~Dm@`FrSuCjImMzJe@vR{vAyHsElWbC"
   },
-  "postcode": 4359
+  "postcode": 4359,
+  "average_tax_return": {
+    "taxable_income": 39030.33008130081,
+    "gross_tax": 7361.167479674797,
+    "medicare_levy": 505.5772357723577,
+    "help_debt": 85.08130081300813,
+    "gross_interest": 985.9479674796748,
+    "work_expenses": 1179.6975609756098,
+    "donations": 201.94471544715446,
+    "child_support": 49.390243902439025,
+    "gross_rent": 1184.8455284552845
+  }
 }

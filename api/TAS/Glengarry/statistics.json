@@ -313,5 +313,16 @@
     "area": 4885.879419040983,
     "poly": "bzn{Fufg_[rMoJ{AmE`OsKf@HdPlCjFoaA@?f@_JjJacB??_Pka@iDyI}GktAdBmA~}@y^aQ}ScK{LwF{GGGs@o@s@y@Ye@Y_@aAoAgAqAgDaE[_@gDaEyVx\\sIlL_E`GgBjCkb@p^gCxByIjHkCa@qOi^qDbDmEiKoGxFc@cA}@oBiMsY~[uYSy@iHsPwA}C}BoFad@|a@uCjG}HlBoErCmQ}b@{J~IQc@oDmIsJaVvQ_PmDsIjTga@xK_KgP{_@oMfK}C}HoXpVe@iAyO~MuCd`@QDuC_H_g@fb@wD}K_NtLIa@IWI[I[U}@YgACKIYCMAEeLdKa@{CyP|N~\\dx@uF`F{m@|i@bYpo@bPiN~BhPsD~@pEj_@h@xE{JfIfDtH`D_AdCU`D_CzCj@ZCzAfn@qZ|XzFzKgSlRoBiEwF~BMQUWIMIKIKIIGIGIGGGGKM{H`HNP@TSP?T@FFL@@^V@X_@f@AZ?HJTTBHGTa@L@@DLn@FHBB^T\\TJJPb@Bf@Qr@Ab@FZVf@@@@F@h@GxABd@HdA?BDPDHBFLLDDJHJn@XXT|@Vd@?F@PADLxBBDBZAJVvEBHHRGVl@HAf@Al@?x@^lF@pCJz@?DDNBDPZ\\p@@B^`AHPVHH@LDFD@FNVDJF@FBFJH`ABLN`@BDABGv@CJg@tCGx@?n@?|ABLFn@J`@DJP\\JLFFn@t@HFXPPFB@DBDHBfA?F@Lf@J`Ab@j@@^M~@}@HKVMTEJAzBQn@VlALX\\RHbB?fBb@ZNXPJHLTNl@@NCL?B_@x@A`@Nh@a@j@CBCDQd@GHaAdBe@rBOr@a@v@]p@MRIFo@d@m@`AGFo@l@W^E^Cl@HlADj@@tAAJO|@OZ?VP|@@D?V?^In@ABABc@bAMr@GNDDVTXJZCRILSDGJIdBJfBZ`@XHXNn@LJd@G\\_@TYTMNCb@@B@VHHDbAh@TH`AFhBf@t@DnBRzEfAF@lA@PBDBt@`@t@R@X[r@ABi@lCA`@@HDNDHFJBBRHVCVE\\QlAkAd@QfBOXFLHLJd@j@`@|@PfAP~@`AjBDHPVLLxA`A^d@FPXr@DFVXFF@@d@NVHJBf@NPBVDD?@??JBPD\\L`@RRf@d@FHDFBBBPJ~@LRZLfBBr@VLTDL?DBLwOwBaCz\\aPiC^kEaIaAmAbOq@nIUlCzNcG}@fMeCn^hShC~PvBf`@rE~r@jIno@qdApb@_r@bj@bHtZpDRsCXyADYFYLu@FYD[FWDWDUBQBQ@O@M@O?_@?QAIAYCg@CQAQCOCMCSAGAC?CCGCGCICKEICKIUMm@CKAICKEUCIAKCMCOEQCSEUEWCWEUCQAQCMAMCYAKCMAKAMAKAKCM?MCOAOAOAQAOAQAQAQCQAQAQAQAQCg@AUGgBA_@EyAAWCuAC[AWAWEi@AQG_@COI]CMEKAKCGCGIWdFmDx@[zAnE"
   },
-  "postcode": 7275
+  "postcode": 7275,
+  "average_tax_return": {
+    "taxable_income": 42824.506077348065,
+    "gross_tax": 8477.306077348067,
+    "medicare_levy": 562.4116022099447,
+    "help_debt": 57.66243093922652,
+    "gross_interest": 965.2552486187845,
+    "work_expenses": 1093.6425414364642,
+    "donations": 109.44585635359115,
+    "child_support": 45.065193370165744,
+    "gross_rent": 1586.9226519337017
+  }
 }

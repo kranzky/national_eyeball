@@ -313,5 +313,16 @@
     "area": 208.90863366650345,
     "poly": "hltjDcxxg\\IES?KQ[Mc@CUPJRIZVPh@Pf@MfA\\n@Xl@Lt@\\\\ZZh@H^Fz@CJBf@]`Hr@@rAR`BBpBR|CfC~B|BjBvCLPt@hA`BnDrBpCzChAtDd@dBv@`Bx@|@`Az@tAXh@j@dATdA@fDAtC@zCEjCp@fCbAi@zAu@R\\rAo@d@Mb@I^GPXXRp@y@nAwA|CmD^o@XWpCuDjD_ETWn@o@t@}@`AkAlHmIt@u@zAoBtB_ETqADoCCoA[mK{De@U_@kC_D}AgBa@c@u@vAq@dAcA}@cCsBINi@x@a@_@uB?oC|AMPa@?aAa@g@My@S_@Cu@Oe@ImBKeAGk@Ok@Sm@[`@e@d@_CP_Ah@kCHa@~@y@fB_Be@g@Zo@HW@YI[[i@c@_@U]IIrACn@SGUqDwIg@qAGuA}@z@Ib@APQh@MPOJIBe@PoBp@{DfBe@PE?_@Pu@j@MPG@m@h@K?OFu@Ty@Z{@f@QHIBoBvAM\\CHCP?HQ`@e@f@GBa@d@YRe@VOLq@b@kBp@a@NUBMHKCiAl@UF}@b@}BvAoAn@OBu@VMJg@Pe@XMBOFE?WJC?_AXi@JUHS@c@H"
   },
-  "postcode": 4223
+  "postcode": 4223,
+  "average_tax_return": {
+    "taxable_income": 48120.9661426844,
+    "gross_tax": 10295.139177750907,
+    "medicare_levy": 644.5510278113663,
+    "help_debt": 93.92829504232165,
+    "gross_interest": 1261.3379685610641,
+    "work_expenses": 1872.563361547763,
+    "donations": 103.04365175332528,
+    "child_support": 47.462636033857315,
+    "gross_rent": 2841.5669891172915
+  }
 }

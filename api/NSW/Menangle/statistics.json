@@ -313,5 +313,16 @@
     "area": 29.94593872360164,
     "poly": "j{ioEss_w[Pc@P_B`AgMEe@iKcEcFqBoLyFeKuEaCz[IA_Io@AXE`BX@?KXBAJxF`@J@VDpLpANqBB[jAJr@JxBZl@FbBTJZvFh@fDhAhEzD"
   },
-  "postcode": 2568
+  "postcode": 2568,
+  "average_tax_return": {
+    "taxable_income": 53444.49037037037,
+    "gross_tax": 11645.734814814814,
+    "medicare_levy": 735.6725925925925,
+    "help_debt": 79.26814814814814,
+    "gross_interest": 1833.3318518518518,
+    "work_expenses": 1700.6,
+    "donations": 143.94962962962964,
+    "child_support": 50.64296296296296,
+    "gross_rent": 3176.863703703704
+  }
 }

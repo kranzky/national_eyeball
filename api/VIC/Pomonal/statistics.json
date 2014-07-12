@@ -313,5 +313,16 @@
     "area": 26007.72706340474,
     "poly": "zqibFyigfZ@UbDgl@b@_InGr@zAuUdDuh@{^yDtAmYDSvIxApD_n@TQxYnCrGsgA@[vOpLtRaiDbO{cCoB`A_VuBuD_AwEkAMCeESoHiCaWoBl@s@t@yB}hAuOuG~DyHtKkf@}EOAu@lM}SmMmHsEgEeDcGuEoD{AcI{@}DIkEp@eFhBjAkS{S}F_NqA^yGoaA}J}F`Boa@~XA@Bc@g@f@I|BcAhPwA|T^Hk@hJ_BW}DIcGd@}A^eC`A_ZjNiBr@eEpBmSjJaIvDyH}@oExr@iPkBwApUeDzi@g@jKN`BiHlkAyArVnJbAaGlcAi`@j@qCN_Dj@gUbF}Cn@Ch@aB`\\gJs@Gj@uD`t@kd@kFg@jJwKiAmACoQkB[rGyBbDe@pInNpEj@d@uBdDmDpD~B|ItB|AvAlE^^~DPvXrD|A`DdAr@Y~B{@vA}A~GoFfFyBfEyDrFChEhAxApApF|ApElBr@_@vE\\FeC`^wKbAeC\\WJm@b@y@lAwCvI}E`LcAdBTfoB`yAEAz[QlBw@nC@b@v@|EVdD@rL?nRAtZ?hQ?jP?ncBAj_AFLLX?faEa@fAAln@?b@?xSEnb@@xH[fY@tIJ~CTxN?hNFd@e@d_Ap@rf@Apl@BnOAbyBAP@|EHx~AXQbHyF~FkIrFcF|GuBtHkHjK_K~HyIdJiHdGgGdKyHvG}LbJuHnKcI~K_FhK{CfJoGtFqGrGmGvHoFvHgFpJmIxHyF|ImGvHsH|CsDhBg@dGgBNGxDiBvAIfAOl@c@f@s@n@q@p@c@xB[^E|EsAbBq@xAuArAy@pAm@t@a@hAg@zHeFnBkBxByAfBcAbBcAjAi@|@c@~@y@~@u@`Aq@|@WpAWrBi@|Ag@lA{@`Ay@h@i@|@y@\\iBXsBl@k@\\iB^mCNiCOaDMmCh@{AbAaBr@iAvCqDpBoBnCsAxAk@jAOxAIlADzAFl@@|Am@`EoBdDqBlBuA`Ai@j@[fA]`AC`BL|AXnARjBPt@AjFcAlF_@zDg@nCaArBUfBUrAk@pAiAtAaCvAwBRw@v@Cp@PFDNHPJ`AtCRpBH~EDlADj@Dl@?DXxBXhCp@dBn@xAj@`@r@HjAFrAEjCXdAn@~@z@~@zAnAxArAhAvAd@tAFxAY|@g@vFs@hHiBxDq@xKmChH}AzCoApAWvI@bDTxCKfE{AjCw@hCW|CLbAV`Aj@r@v@VnBK`DDlDVlBZbAl@Tj@I`ASxBqA|BmDhBaDxAwC`AoAzAmAxAq@r@Gj@DRN^hAhEjQjExKfH`MjG`MfCdIvAlHn@hDr@tBjAbBnAbAz@f@~BFfCO`Bg@VDpBzC^Rh@EfB}@fCmBpAsA`AwAlC}FxG}Gh@Sl@?`@Jn@`Al@jABd@Ed@SzAQf@iBnEGx@F`@NNZBZINOlB}Cj@{AvD_FzBkEpAwApMeH|Ae@pE_@dAo@l@q@t@yA`@uARiB\\eHtBoLp@qBv@}@ZEf@Jz@~ApA~Bp@v@bAl@`BVvH\\r@EFc@SoBpAUD[EMQUeDiBsAmAyC{D?a@\\SlBZ~A?r@Yb@]vE{GfAgC`EgFA}LtmCzx@|BpItFdDpHsCr^iYdf@lDxMnUz[HdJnk@h@lInPt]HdBbHlCz`@qB|EyFp@kNw@eb@n@oMPgOhBkLvG{Wd@eFlAuFv@eI}Msy@}Ny|@VoDIm@mE_G{AmGsEaa@ViOm~@s_AqsAwIwwFtOia@eEQC_XqCcb@vFgeAaKc@y@gDoGaq@aGpFaZc@CsRsB|Bud@yGq@oBpAuH{COYeVcCxAyGzHwpAQGRyCkCA?v@Mp@Oh@Wb@sAjAsAfB_BhBgA`BkAd@gBNoBr@yAVaA_@o@{@v@C`AQn@k@TcAY{CLeBf@}@g@uBCFw^e[[[rLcU|DkIa\\qEzI_xABUgp@_YONst@tbAQT?rNAjoAQL}o@FFe^{cALQ@@ioAiUB?wuBlNAdFqVnjBt@?W?irA?ctA?e{@rkBvRNVdl@fFTS`s@lG"
   },
-  "postcode": 3381
+  "postcode": 3381,
+  "average_tax_return": {
+    "taxable_income": 40805.690434782606,
+    "gross_tax": 8081.547826086957,
+    "medicare_levy": 520.2556521739131,
+    "help_debt": 35.342608695652174,
+    "gross_interest": 2019.7565217391304,
+    "work_expenses": 1221.046956521739,
+    "donations": 78.97043478260869,
+    "child_support": 41.27478260869565,
+    "gross_rent": 1574.208695652174
+  }
 }

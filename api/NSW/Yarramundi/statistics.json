@@ -313,5 +313,16 @@
     "area": 1522.9693018095209,
     "poly": "jjqlEotov[hUlCrCq`@{s@xEuWqEuB_AcPiHKsB_@wAwFsOuBcG}FyGsCs@q@OiC][c@mCPu@EeBa@kERoEj@S@a@b@OHOV_@HaAAcAUm@_BaC^{E`AyDxAoBh@iBVqBb@cCR_B?}AYOQY[]QgEyAy@Wm@UMGMGOGYOOGME[QOGMI]SOIMIMGMEMIOIMGMIMISMGEOKMKKGIGm@OOIG?_@]cLyCsOgFuSaH{As@mUyKmf@iO_TkL{MkLsC_FsD_DqEmGcAyAV{@DiASw@McA?i@Jy@Lm@b@a@TYJWB]KeBe@{DIgAUqAe@qBQcA_@gB_@uAc@qAm@{A}@sBk@kAm@y@o@gAqCmCiA{@cAq@_BuAgHc@{Fm@kERuMv@c@BeMl@PX`@^PZHNFPFNNVHRJRHRLRHPHNJRTb@HNFPHNHNHRHPJPHPHNHPHPJRJNJRJPJPJRJPFPFNHPHRFNHRJPJPT`@JRJPJPJPHPFPHPRt@HRDPHRPd@HRHPJRHXDRFTDNDPDPFPPh@DRNf@Jb@DPDNDPPd@FRLf@DNJb@Jd@FRDRBNDNFPFPNz@DRDNFRDRDPNh@FTFRDRDTFPFRDRDTFPDPFRTx@DPDNFRJd@DTDRDPBNDRBPFTBPDPHh@BNBRDRBPHd@Hf@@R@d@@d@@PBPBPBb@BRBP@PBRBPB`@Bb@@P@N@P?P@P@R?N@V?PAP?RBb@DxG@r@@|@ChAObBSzAQxAStAU|AU`B[`Ba@nB]jBUpA_@zA[jBYxB_@`COlAIpA?tABtA?t@F`AJ|ALzAXpDH`CBfABrADzA@pA@hBFbBBvA?tAGzACbADfALzAPhBRpAVfBPdBL~AHvBH~ALvAPjAVtAf@bBf@`Bj@jBnA`Dz@zBTn@Z`Ax@tBn@|Ad@pAn@jBj@~Al@dBd@hBd@fBb@fB`@|ApALvb@lEdSxBfl@lGxGr@nAmLtGeIpe@hFjEon@pX|CF@?GAOAQIc@EOAOAQGs@AOCQEQQa@EOIQGQIMfd@dF]xEd_@jEnDkg@rDd@`RxB[`EjYdDCT~m@`HN_ClVrCZkE"
   },
-  "postcode": 2753
+  "postcode": 2753,
+  "average_tax_return": {
+    "taxable_income": 48175.42899159664,
+    "gross_tax": 9734.525105042017,
+    "medicare_levy": 635.4668067226891,
+    "help_debt": 66.79863445378152,
+    "gross_interest": 1296.28256302521,
+    "work_expenses": 1634.6283613445378,
+    "donations": 105.30556722689076,
+    "child_support": 61.272689075630254,
+    "gross_rent": 2713.162605042017
+  }
 }

@@ -313,5 +313,16 @@
     "area": 15.95547109788802,
     "poly": "t|ixEmd{lYhAAjBy@rCa@`BuCFm@DeEeAqASgCqAk@_AyAuCaB}Bk@wDQsCdB}@hBI`@LxBlDxJnC|@l@pC~Ap@"
   },
-  "postcode": 5211
+  "postcode": 5211,
+  "average_tax_return": {
+    "taxable_income": 36868.511772486774,
+    "gross_tax": 6790.466005291005,
+    "medicare_levy": 447.20066137566135,
+    "help_debt": 33.47433862433862,
+    "gross_interest": 1689.7948412698413,
+    "work_expenses": 921.1634920634921,
+    "donations": 118.36335978835979,
+    "child_support": 30.594841269841268,
+    "gross_rent": 1496.7117724867726
+  }
 }

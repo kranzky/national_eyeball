@@ -313,5 +313,16 @@
     "area": 8.76599296016653,
     "poly": "bxbtFshmmZRBP?J?FFRPPDT@nALh@HTA^QDE@MDSAIQQaAa@e@SYGa@MKMCIAYBEDCR@FEDM?KCGOIGGYc@ISCUAs@DULWJGDEDIAKKMGGCCEIAUBy@BQTUFCFBF@LADG@GEQ@GH?ZLPDNABEAMQ[YYOEOAIJK@GEMQ?KDOCMUc@YSQQIGSB]Q_AUc@@IDADHR@RCXIPOPUNMHGLGh@Qf@Wb@k@t@SPULM@ICCAOAODYTU@ICEGAIAGAGGKI?KBELAPENMVARD^N`@JVTt@X~@PXLF`A\\n@DLHPZXVLBZHd@DNH`@^r@XRFRC"
   },
-  "postcode": 7256
+  "postcode": 7256,
+  "average_tax_return": {
+    "taxable_income": 44538.666666666664,
+    "gross_tax": 8483.637037037037,
+    "medicare_levy": 584.8314814814814,
+    "help_debt": 39.617592592592594,
+    "gross_interest": 1509.0435185185186,
+    "work_expenses": 615.7925925925925,
+    "donations": 70.25833333333334,
+    "child_support": 0.25,
+    "gross_rent": 1205.6166666666666
+  }
 }

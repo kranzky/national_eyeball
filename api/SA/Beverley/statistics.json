@@ -313,5 +313,16 @@
     "area": 153.6407745297773,
     "poly": "z__tEu{qlYP??DfAEhCIfB}Cj@_AT_@AAn@eAf@}@HM`CcEzB{DjG_LxAEXAdEOUkL?CM{GK{CcFPaFPkFP[@sDLsEP_ABiJ^K?_ELwAFgBFa@BwGTeENwDLk@]oGxKuBnDoGvKmAvBw@rAeDvFwAdC[f@kItN~@AxBK`ESVArDQzGUhDKB?n@Cl@ArA@j@?fCGzCKh@A~DMzEMnBGdDIlACfHShCI"
   },
-  "postcode": 5009
+  "postcode": 5009,
+  "average_tax_return": {
+    "taxable_income": 44088.77981981982,
+    "gross_tax": 8406.952072072072,
+    "medicare_levy": 586.2886486486486,
+    "help_debt": 123.33585585585585,
+    "gross_interest": 900.3888288288289,
+    "work_expenses": 1208.9837837837838,
+    "donations": 96.80756756756757,
+    "child_support": 25.482882882882883,
+    "gross_rent": 2097.118918918919
+  }
 }

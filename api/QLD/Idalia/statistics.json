@@ -313,5 +313,16 @@
     "area": 337.98066201395386,
     "poly": "px{tByha_[zAuA`AiMhA{QjAeOAw@BaL@_Cu@PoDr@gn@pM{GvA{VjFo@N_O|CcIbB}Bd@sPjDeNpCkAV?j@U`EAp@SfECn@GnAS~DARSdEzAKEl@KdCGvAY|Ff@xAv@{AvDcCzBy@lI_@|Aa@lA]vCmApCClARrAXvAh@zAzBdBfDxBzBpBdB`@hBv@~EjAzCt@jA^h@xBxB~@fCHxACx@nBu@nImGvNwLdQcOl@g@vVcU"
   },
-  "postcode": 4811
+  "postcode": 4811,
+  "average_tax_return": {
+    "taxable_income": 53392.91045218681,
+    "gross_tax": 11293.687472201631,
+    "medicare_levy": 696.5826538176427,
+    "help_debt": 125.95744996293551,
+    "gross_interest": 739.6471460340994,
+    "work_expenses": 1522.2295033358043,
+    "donations": 76.31964418087472,
+    "child_support": 71.50615270570793,
+    "gross_rent": 2293.875908080059
+  }
 }

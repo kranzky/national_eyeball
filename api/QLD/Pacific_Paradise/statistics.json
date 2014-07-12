@@ -313,5 +313,16 @@
     "area": 81.1151689004252,
     "poly": "`|maD{~ge\\~LrARDHTv@K|AnBl@uJKEB[FE@S{C[D}@@?T}CJ{A@gACe@CQV]`@a@v@u@bAgBTmANe@yBWDk@\\cEDc@PuBJwA@IJiAB[Dg@XqDyBW_@E_BQ_@EgAK_@EkCYc@E}AQyHy@GA_CWiAMQAyB]SGKGi@WeAc@QtBMpAm@|GARq@fIC^g@jGcAbM?F@HBDHVIz@l@FM|A~@\\jTrI`C`@LG"
   },
-  "postcode": 4564
+  "postcode": 4564,
+  "average_tax_return": {
+    "taxable_income": 43590.18201144726,
+    "gross_tax": 8602.397710547833,
+    "medicare_levy": 566.2194603434178,
+    "help_debt": 76.22943581357318,
+    "gross_interest": 1253.449877350777,
+    "work_expenses": 1513.6930498773509,
+    "donations": 85.28421913327882,
+    "child_support": 61.54505314799673,
+    "gross_rent": 2456.188062142273
+  }
 }

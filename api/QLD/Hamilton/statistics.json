@@ -313,5 +313,16 @@
     "area": 164.53154959277248,
     "poly": "zymfDulce\\jBR~C\\~BVt@K^pADd@DjAlDV`Aq@p@QB?ACQe@COAEEICCGAE?G?E?A@}AyCIKKa@GYMSAOEUCQIk@AMAI?GFUBGBS@M@KBMAICIKSECEEGIGI}@kEI]EOAMIa@AIAMAOCMAQ?M@M?KBIAI@KEUAa@?]AM?Y@M?[AMAK?KCKASCYAG?SEi@AMAO?MAMAQ?QCW?YAKAQ@OAKAO?w@Di@F]?K?KBM@OB[BO@CD[FWHYDKRs@?GFO@OHg@D]BK?MDS@O@QBK@OBU@Q?O@M@SJe@BK?KD{BD{CASAKCK@K@MAQ?O@Q?ICUEQEMWiAlAFVgHH_A`@aEXmCLmAZwCl@eGd@qEb@HT}AC?uHsAmAIuHu@g@m@k@Po@?oBmHeByF_B{E_ByEaC_Jg@_CeFa@oCUq@Bo@Re@n@Yn@]tBGhA[xEWfEWjEWfEWfElALZD|@H~It@pAL|D\\P@~CV~APz@pDNl@SBIvAk@rIW~DIpAS~CQdCy@EKbBMdBUvDGx@SpCMvBi@zHIfAg@dHuEi@OtBIfA]zEYxDtCZMtAc@dA_AvBG`CA`@_AjCCJKZI^?XPn@Bb@Ch@MlBa@jGKvAxANfAJl@Fn@FP@PBZBVBv@HfGj@NB`CsDfAWBY"
   },
-  "postcode": 4007
+  "postcode": 4007,
+  "average_tax_return": {
+    "taxable_income": 95716.37913385827,
+    "gross_tax": 28861.6468503937,
+    "medicare_levy": 1340.6274278215224,
+    "help_debt": 218.83845144356957,
+    "gross_interest": 3296.7324146981628,
+    "work_expenses": 1807.6325459317586,
+    "donations": 550.9880577427822,
+    "child_support": 48.769816272965876,
+    "gross_rent": 6194.980577427821
+  }
 }

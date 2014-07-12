@@ -313,5 +313,16 @@
     "area": 3.9836547671298432,
     "poly": "r~mkA_pe~WfCaDW{AgCqBoB?}CrBk@zA?zAnBbA`F?"
   },
-  "postcode": 832
+  "postcode": 832,
+  "average_tax_return": {
+    "taxable_income": 60159.53537117904,
+    "gross_tax": 12993.299388646288,
+    "medicare_levy": 764.6543231441048,
+    "help_debt": 137.90515283842794,
+    "gross_interest": 338.3191266375546,
+    "work_expenses": 1888.5282096069868,
+    "donations": 81.42550218340611,
+    "child_support": 109.0349344978166,
+    "gross_rent": 2610.5147598253275
+  }
 }

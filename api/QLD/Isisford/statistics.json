@@ -313,5 +313,16 @@
     "area": 1055266.5151192842,
     "poly": "fpbqC}``oZodA`zRpHd@vnBrOntW~|B}Sr|Fkl@fyIUxBdG`@btHji@_o@zdR{V|iHtqCrLjcLzd@eCfq@_[tmHj@jI~eIhe@hlAlHxbCjJdcA|KziAvGoApYljAvGgD~v@`]`CxwF``@qBbq@rlP|v@uXoqKz@eKhr@fGxEicAhJ^r{Mlz@bnCbQmMlJiDzLqc@zh@uxD~`D~EvHnhI~cMtCpEblBbuCzHrL|xJffOvqPouLbo@`eA_LrxChaEtqGvk@h~@`kAzF|nDdoFf@`JjIpCt]~i@h@xJvHfAtgClzDrn@nB~IhOzOfDz~@hDfpZg}WrHwGkRiKkH{NiK_B}[ws@w|@qf@i[nAmc@zUib@k@k\\im@qMcIyF_XqC_d@is@_QLqTqY{|@x~@qu@nXcChMiZ|OaO`PeGre@}e@~OmI~SkQzsDk}C\\W}Lwe@qFs[cAuo@wCs\\eFsUwHkWkHmFyK{IcR_MqMmIiOkOcPeUeImJe\\}XqNuOwDiDwTqFm\\iDo]gEk`@gCyXgG_XwDyHeFcPqMuQ_PuRuDwRcFoX_LgI}FaOyJoS{PqMyD_RyNwJ}LuCcY_Ka[qS{V}Zy^y\\mc@_OuQ}MgPoYmTcPmWw]wXmFsGuHuTuC}DcRiW}x@}v@}GuLeIyQwGq@wGiB{P_\\mOwQ}LgNwFiUeIkNeLs[yCa\\eGgRaOiMwR{DaEkMyCg]sAqWyFc^uO_b@qI}VuIs]kJ{XgKmNgRaOoPmG_N_B{N_Bk_@s@mWn@qO_BoLeDwOuJeRuKkSyPwLqLny@sq@`BuAjWiTtyCsgC{iAcdBx^a]~CoIll@ij@|BqNdEmP~CeJlAkDlzEstElGkGxyAivApa@|j@neCavBrFsJj@e@n`GccFbJyCdaDwnCvhFgnEntD}dDstCwgEbsIomHnbD}pCrdFvzHrJxN`YEtIxNlX`JhzBq`AnHVrj@{VfgFefClrBnb@ne@fE_zGkdDszQuhXttBylBmpRuhKp}Gs|BmrTwm[}jz@uoCqOqg@aSip@{g@qcBsImTyrAqJyPrcEa_AyJeGe@uD[qtB{KmHa@io@wDydCaMoA}BgaN}u@ItBijD_R{aHc]ysBaK{rFgXunDeQsmDiSwIa@a|@cEKrDg`G{WmBIuDQgsAcGsyAkJ}kA}GeIm@jR}aEl[}lHnJsAtCmu@iJc@_~Gs_@gKyV_s@l\\{mCsOo{I_e@ig@cGe|@x@iF~HFvS_CzVoDrM_Lvn@kBlX|AdHp@rPmBrMwAbBbBbf@zAbEnVtYxIlWbDrPhY|[dFnMnGxBdCs@hJTtDfArIdKxFdAnGfAnLdKfT`K|MtLzMnF`DpMpNzH~CfAtIlJjRvf@bAVvG~b@fC`B@`Bg@vSjA|f@wEb`@kBbVXlGsHn[@hK|A|HHxj@i@tFcCpJn@lQdAnJSdE_AvIDrWjJtLvI|UdWrVtIxOtS|XfHnM|AhKbF~K~C`EnExLdA|HzBtq@pHnu@xD`OrNbRvKhGdRvOdM~D`KbHnGrFhJ~A|HbHbK~N`Fn@fOhGtZnS|CfA|HtIhCzEt_@~^pBn@zR`RjMrg@~M~XlHt]|ClGrNtLfFbRbWlWpBrFxFlGvh@`QxFzErGvV|Ihl@e@|f@mDbVK`j@lCx`@tGl^BtPbDd\\zPzf@|M~NxW`Rl@hDlLxEvFq@nGzEhJfDrG`Bs_@fb@kkAlqA_@p@qcAfiAbq@bi@~iC|sB|l@`CyGt`BuFviAgMbtCuCjo@ItBte@rBcCnn@gr@xf@af@fCg]~h@aXpqAyzAwMeCzDo[xf@mcGo`@cdDgTiG|EmNhmCoTldEoSr{D{FxfAi^`hGk@lKsH|@_KnDSxBaFfHe]`PiJZ}CrCgJ@qBo@cH?sPbI}VxFyHrCaMrJmGtCmNlN_R~E}CbBiQ~EgJbBiJ_BcMsF{AcEk@?{H@eHm@cMiDwFqCwWSyAq@qU~B{ChA_FfHk@dE}C`BqIvF{Ho@wGp@YdHkCvt@uiAiFohAiFqa@kBgdIa_@kLi@"
   },
-  "postcode": 4731
+  "postcode": 4731,
+  "average_tax_return": {
+    "taxable_income": 39603.34545454545,
+    "gross_tax": 6827.063636363637,
+    "medicare_levy": 514.4636363636364,
+    "help_debt": 31.327272727272728,
+    "gross_interest": 1163.9636363636364,
+    "work_expenses": 1549.6454545454546,
+    "donations": 22.172727272727272,
+    "child_support": 221.9090909090909,
+    "gross_rent": 241.6818181818182
+  }
 }

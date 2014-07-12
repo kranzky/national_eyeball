@@ -313,5 +313,16 @@
     "area": 6.451277513253712,
     "poly": "jabpEgtpxXj@AX?jD}B|@Mh@uAnBs@ROBA@_@?KKO_AWAKl@u@@_@][MCuABaAZkCt@iAXgBd@eBr@{Er@EJAFCdANz@NFnFr@xBn@"
   },
-  "postcode": 5631
+  "postcode": 5631,
+  "average_tax_return": {
+    "taxable_income": 53817.33959731543,
+    "gross_tax": 11625.508724832214,
+    "medicare_levy": 752.565100671141,
+    "help_debt": 66.85906040268456,
+    "gross_interest": 2192.9114093959734,
+    "work_expenses": 861.3731543624161,
+    "donations": 102.20536912751678,
+    "child_support": 37.20805369127517,
+    "gross_rent": 1304.5597315436241
+  }
 }

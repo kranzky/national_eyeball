@@ -313,5 +313,16 @@
     "area": 3612.136600891336,
     "poly": "zsolEoh{~T{FGg@AC~IEtCObI@lD?F?`DAl@@v@?tGA|ACf@@rZ@tIFjA?tG?zYDvEHzAJpCm@rAFhFVnXRjUB`D?lOCj}@?lW?tB?tJ?rAQl@Ap[?tM?hCK|i@?DHdC?vE?x_@?zOh\\EAreCrG?ddA@rP?@RbH?d~@Lb[AtDAXShC?CsoACgi@tIg@x^wApLc@zJxFnEn@`F|BlNhDxKeB`CAxM??i`BAe@lDsQrK}i@xFmYkK@eg@@kq@@oB@A|HoFtE}@dDeB|DaBpByJdFej@jJqIrACev@Ayl@?kc@pDgZVsv@iOB}i@?oI@e@@yCmHk]qy@eDaI}GiPB_@?_CiPuh@uAgC?wAuVHuOJuEBaKF"
   },
-  "postcode": 6280
+  "postcode": 6280,
+  "average_tax_return": {
+    "taxable_income": 48013.98222374743,
+    "gross_tax": 10072.883802333563,
+    "medicare_levy": 644.5106382978723,
+    "help_debt": 58.46842827728209,
+    "gross_interest": 1395.032326698696,
+    "work_expenses": 1052.011873713109,
+    "donations": 76.37563486616335,
+    "child_support": 70.16396705559369,
+    "gross_rent": 2363.3655456417296
+  }
 }

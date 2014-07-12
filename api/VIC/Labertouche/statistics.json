@@ -313,5 +313,16 @@
     "area": 7373.79657769821,
     "poly": "fzmgFgkrxZtGfKtA~AB]Oem@{O{Al@sKrAe\\vBua@OBaBHe@AaBa@jCug@uYeDmBOcBkTKcLna@`EfAB@wMpAaZaPaB`A}P@UxCZlEkfABUn^nTRKxBia@vHv@hB_]mDaBgQcIpAgFj@sBd@}A^iA\\gATu@x@}D\\gBd@gD`@sCbAqF\\sBf@aE^aDp@eFRuBgYyC}@gAa`@mEA?wBlD[rAD^|@~AjBvCvC|Df@Zf@NZNXj@Er@q@fAmAdA[`@Cf@@`@LzAL|A@j@Gh@Uh@q@l@cBpAwAx@g@z@YjA[x@i@Ri@B}@Ku@N[\\YbA@l@JVVRt@RTNP^Aj@Ih@DVwZkCSR}S_B{RaA[nF_[aC|Iu{AHUk`@eESRkBrZYC}PpAMiBUAlAgWoKaAaDtAwDk@iCdBGStFqcAqZsDmU}BoD_@BUsOaByT_C}@jPcNfh@e@T}@vL__@sd@}ReC_@dEmAbAu@^kB?e@c@WwA[kBy@_AuB]_CB_DvA}BRaAR_JvFmEnC?X{fAhmBwGng@iz@tm@wChh@mnBaRaXsDuTvrDo@|JkEb`AiO~wCfHkGdFgOXgBnCyFpDyJtCiHhAwAjAqA`CaFh@qAhCgBRc@t@s@n@aAPINELGnA_BlC_BlCyBl@wAh@oB|AgAf@uBz@_CrCoCfCWnBPvBbC^d@^Rd@IVc@Co@g@y@]_ABc@P[\\CzAC~AQTOAeAFgA`@u@nAkAt@o@h@_ADe@Ic@C_@BOLSZK\\Ix@w@LQFs@Lu@P_@NQLEHDBR`@Pt@g@Xy@FUTMXo@?i@CYDONELPNTVAP_@Pg@XCHTEJ@TP?^w@b@w@r@a@~@[VFpAhAb@JLSDc@Qa@@WRKj@Hd@EVHN\\Hr@Dd@NJ`@Od@_@R_@Bo@PWl@IbAPhAx@pBpAhBbAVGHOA[Ic@BYTa@n@Qd@JTVPn@^\\t@X\\BPO^MVLR\\@\\LZr@Zn@?NOFSNSZABd@JXXP^GT]VY^MbANl@Tb@Nf@Yn@oAr@cBxAs@l@Rt@?d@Wd@CnA`@jADVPd@bAXD\\IhAs@pEo@d@Wp@aAt@k@~AWz@ClAe@p@y@\\y@VWdBw@b@]xBWbBi@j@DZPLRPp@@BTPb@?nAo@T@x@Vh@?`@S`AyA`@ObBNhBC~ARfBCdBx@t@CbAe@V?TVQ~ADRV?d@qAZMTPBNOv@?f@FLP?NSRo@PWb@GBV?z@XXP?RQRiB\\StB`@l@?VGj@BpA[zCDl@InAo@\\?x@`@d@p@vA|C`CpCfFzCzChDnFjE`ApArAfChBdBz@fAZt@BVLbBx@l@tJ_AX[Tg@\\g@h@Qh@Bf@N\\d@P`@l@l@r@v@~DlG~@Hh@I`CrA\\LhAHT?tE_@pG_@zAo@nBe@pHBjC_Dp@e@z@?p@f@|@lC`@nCzAl@vAHh@Mx@e@lCs@rA_At@aAnAs@~AEl@H|Bs@~DUn@DVBtCI\\[`@mARWLG^?TVNr@@pCNh@?j@K\\Fn@PLtACtA`ARNT?zAi@VWPIZIp@?p@R\\f@TLRCl@d@v@lAh@IhAy@tBQd@[FSdAqAh@WxAMf@i@`@SRk@Hy@Zi@h@MnAd@R?PI\\o@b@Qh@`@`@bAh@r@d@xBTVd@pAd@n@fArA`An@tBt@jBHpA`@~A?p@GhAe@vAwBnAgArAy@fBe@TMrAAT?f@Dj@h@X^v@x@ZHpALx@\\rAbA^Nf@d@rAt@zABd@Mh@?ZNnAjA\\dBl@f@d@EXMtC@d@OhBkAnENdBWx@Dl@j@l@`CXd@d@Vr@@x@m@D[OgB?o@N]n@Cp@R`@?l@Sl@_@zAEf@Un@y@lAy@v@?NRd@zATP^D`@[`@cAp@a@bENlBWlAo@|AAZGf@E^GXDfB~@t@IxCShElCx@hAxIxBnAhBb@p@R|@ZfAXjBJhCGv@\\nDn@jCj@vAz@fApA~@TF@FpAXh@l@dBpDlAbBx@d@\\HlA?@g@M{a@C_L@W"
   },
-  "postcode": 3816
+  "postcode": 3816,
+  "average_tax_return": {
+    "taxable_income": 40560.03070866142,
+    "gross_tax": 7358.262992125984,
+    "medicare_levy": 531.9354330708661,
+    "help_debt": 48.08188976377953,
+    "gross_interest": 1410.7590551181102,
+    "work_expenses": 1573.2811023622048,
+    "donations": 53.69133858267717,
+    "child_support": 44.523622047244096,
+    "gross_rent": 990.1748031496063
+  }
 }

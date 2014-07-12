@@ -313,5 +313,16 @@
     "area": 2037.4767863855525,
     "poly": "~m`gBspnmWAgjBAiq@Ait@?it@eV?_{A@mU?osB@@teCAdC?h|BbdF?~SCdC?"
   },
-  "postcode": 6743
+  "postcode": 6743,
+  "average_tax_return": {
+    "taxable_income": 58331.879899497486,
+    "gross_tax": 12890.445477386935,
+    "medicare_levy": 816.2173366834171,
+    "help_debt": 176.22587939698494,
+    "gross_interest": 640.3384422110553,
+    "work_expenses": 991.0922110552764,
+    "donations": 83.92437185929649,
+    "child_support": 63.301256281407035,
+    "gross_rent": 4182.665326633166
+  }
 }

@@ -313,5 +313,16 @@
     "area": 72.67648644912825,
     "poly": "pqs~Dc`cu[{P_PqDgFsEk@{GZsHvbAdh@tFjFuq@"
   },
-  "postcode": 2343
+  "postcode": 2343,
+  "average_tax_return": {
+    "taxable_income": 41339.500746268655,
+    "gross_tax": 8196.249253731343,
+    "medicare_levy": 539.1388059701493,
+    "help_debt": 41.70223880597015,
+    "gross_interest": 1488.9078358208956,
+    "work_expenses": 1254.5197761194029,
+    "donations": 104.35820895522389,
+    "child_support": 56.59291044776119,
+    "gross_rent": 1919.5869402985074
+  }
 }

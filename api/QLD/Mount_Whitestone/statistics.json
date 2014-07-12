@@ -313,5 +313,16 @@
     "area": 13048.515846150916,
     "poly": "z}jhDw~f_\\jFf@hK{D`H[fNgGfHpDvFvAbFyq@agByQpAmQvCo`@fyB|TxDef@`Av@rB|@nE?l@_I|NglBmQgBbJulAQCQAy{AyOTq@e@qBj@e@bClA`MeA|AsAv@kCi@kC_CyBq@iFeDiDNiAyAkBU@aMwJKQoA`AyB?j@yHbM_dBHSiDW{@aAcAu@oA_@_A[s@g@{IgDsF{FmCPE@_BZi@q@US_Am@y@k@SEiAJ}@b@i@P]Lc@\\W^UL[CUM[UQAODIREf@I^SP[JWVWb@Qn@Sb@KJQLM@SC]M]WOGg@Am@EUG]OeAM{@K]Oi@[YYIEMAa@LSBYBWGc@Uo@[YKgAMeA?iB@oA@]H[d@Kn@]pAWR]TUJ]@o@KcAMUIe@e@e@k@[U[KYA[NMRIh@G^S^SZQJa@LQ?m@MUK_@g@a@k@MKQKQAO@OJ]^W\\SLo@Fc@@w@Fg@Dk@EOG]m@i@u@OGg@F_@BUGe@c@WMUGWAi@LU?k@KSIm@c@WMs@McAE[GUKKKCI@ML_@?MEKQWMG_@IUGMKKKGEE?I@SPQf@]j@c@VONI\\ML_@Je@RQFOBKEGGI]EMGGKG[Gc@A[BQFOJSCE[m@BgHbEoIiCoFFBS|JotAuPgB{J~qAk@PoJgDyB}FyGsFgE{QeSm\\mLsReGqDeKgCyCeBwJyFyFrCaJsBuCJqCgCmC_@{DTeG]k`@zCyCcB[OmC[aLhEiRXcCPqCYgBe@kCq@aLjA_KoAl@oGmoAcNxC{`@yPQ}ZeD]_@QMgA|NQCiTqBiHt`AmJjoAS~AY`DARW_@WY_@m@c@eAm@{@[e@aAs@CZu@vKkBxBATvCVmB~U]DiBjUUNwBpWiKxyAPDfg@`FT@TD`Hr@yAjQkHzaArT~BR@PDrh@zFqDbb@SrBwY}CwCb`@hYrCmEnj@LNzBa@pG`BfDxA`CjC`CRBTzBVsGv{@\\In@Wr@OXC`@DcLr_BOA{A|SBR|D_AvDrBzKyCrKhKbEK~Hh@xBiA`Hp@~CsCd@pKLLfCqCiBqFpDs@FSlLrDjCBtF|BvFFlDeApEd@nBlC~EZfDbC~EfGfBbCt@zANZrB?hDbDvH|DdBy@DQ]uGfDkFhDiAn@kI|@yAE}BOyCMKLMtFyHdH_CgAfR~d@vDb@S`@Ed@A`@D|@TfAVp@JZCn@Sj@a@j@k@f@]j@Qz@Gp@I`ACh@Cn@MZQLQBUCa@Km@N@pRtAuIjyASj@DhAYzEsL_AoKpiBcK_AwCvb@CRARuBzZpc@|DzEb@lkAvKpAuCXkS}@aIzAsEtNyMmK_AMiEfAiWh@Sj@iOrEgA|LpCwB{GiAoAoAmB_@qAI_BDmA\\kAd@s@`Ak@hBQdAGj@@nAc@iAqDa@c@i@_AMo@HkAHwAVgBh@kB`@mAR}AFeAC_ADo@X{@RyA^mABy@Ii@@a@`@s@pBPtCeE|@]p@q@n@yAX_Bj@cBXiAdB{A\\oAp@s@[Cv@k@fA_A^o@Lg@Lk@HgAWwAm@}BGu@Cg@dBwAdALjAGpCq@~@k@b@_A^kBDu@HgBUiCEy@@m@bGqHz@Gh@W`@u@PeAG_B]kAgAgB{@i@[MgARiAX_@@a@YJcEpt@tHzFmw@hUfCwC|_@|MtAp[dDrEgn@j@JNMNO"
   },
-  "postcode": 4347
+  "postcode": 4347,
+  "average_tax_return": {
+    "taxable_income": 39568.14333333333,
+    "gross_tax": 7276.3,
+    "medicare_levy": 517.715,
+    "help_debt": 42.983333333333334,
+    "gross_interest": 1229.0033333333333,
+    "work_expenses": 1265.4133333333334,
+    "donations": 60.57666666666667,
+    "child_support": 16.92,
+    "gross_rent": 2041.7533333333333
+  }
 }

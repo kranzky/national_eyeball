@@ -313,5 +313,16 @@
     "area": 18.99529039881178,
     "poly": "bdtbFuyktZH@ZFXER@XOHEHDLHH@PI`@YHEF@N?P?@}@I}Ap@Qp@Yj@y@jAcBn@eB~@e@p@kAj@{@h@aBe@S[MsCII?GCIKAOBKHOFKe@?AWcFAqCAoECQ?cKGKnPrBoB|AYfAL?zA@PAPCL?FJVVPLL@JGJEF?FFFT\\Lr@?h@C\\J^VT\\Nd@PTCRBh@E"
   },
-  "postcode": 3658
+  "postcode": 3658,
+  "average_tax_return": {
+    "taxable_income": 43507.63349282297,
+    "gross_tax": 8239.428389154706,
+    "medicare_levy": 570.0060606060606,
+    "help_debt": 34.574481658692186,
+    "gross_interest": 772.1464114832536,
+    "work_expenses": 1794.4838915470496,
+    "donations": 184.1377990430622,
+    "child_support": 32.814673046252,
+    "gross_rent": 1134.5362041467304
+  }
 }

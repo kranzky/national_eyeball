@@ -313,5 +313,16 @@
     "area": 494.31639998066294,
     "poly": "vjfeFsmqsZtAL`AJCb@M|BtALGdA]lFMzB[|Em@vJCdAQnCDxBtDcAhIwBfBe@tBhOJj@FQdB_Ad@y@d@qALg@\\qAd@k@x@s@PMh@Wp@o@lBm@VMb@Ej@CdANd@YVc@Lq@Cq@Ou@Me@Gm@Eo@@q@^}@DGj@YFBn@RPNRETMRc@Dw@V[HMj@?^B^V\\f@Tx@Zf@RNvBp@\\Lr@?t@QJIn@i@^yAR{@Jg@Vi@XU`@MPQVs@xBiDlBaF~A}@CmA@WiAL_Gj@@QBc@FeA\\kFLgBr@gLVeEVgE~@wO^kGl@eKd@aIn@_KJoBBs@ZiGVwET}EkAMuGm@yCYiCUMBg@TyFe@iAIcDWWCcAIiKy@_@EcHk@sAMqIu@i@EkCUg@E_CUiD[uD[a@EuEa@yEc@aDY}CYaD[KhBs@bMObCu@pMKbBEj@m@pKUvDGdAYxEKfBMdBOlCE~@IfAM|BYxESCM|BAHt@H@QRMxBR@CbAJEb@Cb@SnD?HOjCIrAEl@lGt@\\Dc@zGOxBy@pMnAJPiCDg@lCVMxBpALBg@dCTBc@`@Db@Dn@FtBRAR|@H\\DNFJFbCTEn@~ANJkB"
   },
-  "postcode": 3044
+  "postcode": 3044,
+  "average_tax_return": {
+    "taxable_income": 51093.902972477066,
+    "gross_tax": 10660.270972477065,
+    "medicare_levy": 699.682495412844,
+    "help_debt": 162.78414678899082,
+    "gross_interest": 1367.7155963302753,
+    "work_expenses": 1755.501871559633,
+    "donations": 127.68711926605505,
+    "child_support": 21.57034862385321,
+    "gross_rent": 3020.707229357798
+  }
 }

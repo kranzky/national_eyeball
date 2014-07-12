@@ -305,5 +305,16 @@
   "license": "Creative Commons Attribution 2.5 Australia",
   "attribution": "Based on Australian Bureau of Statistics Data",
   "year": "2011",
-  "postcode": 3314
+  "postcode": 3314,
+  "average_tax_return": {
+    "taxable_income": 41243.34133333333,
+    "gross_tax": 8407.253333333334,
+    "medicare_levy": 539.416,
+    "help_debt": 58.778666666666666,
+    "gross_interest": 2153.2426666666665,
+    "work_expenses": 978.4426666666667,
+    "donations": 49.17066666666667,
+    "child_support": 0.0,
+    "gross_rent": 1193.424
+  }
 }

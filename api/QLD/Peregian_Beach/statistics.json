@@ -313,5 +313,16 @@
     "area": 1895.8880129872973,
     "poly": "~lj`D{}me\\ECy@nB{@AE?G@?NG^IHLFXb@Wj@qF\\AHv@tA|@zA\\hB~@bAo@tBh@r~@CASz@^FTBTDpAV`A\\b@H\\Hj@T\\JVFl@VRFVLZLZT`@JVRRPTNNH\\h@^t@Pr@b@b@Lf@Xf@R^`@Xr@XNLTNRVLPTLVh@b@j@j@d@z@r@n@r@T\\h@h@t@p@r@x@v@j@|@l@hAr@dAl@`@Tv@Tn@Ht@Zr@Pf@Hd@P~@X`APbAF|ATfAA|@Dv@?r@ClAGx@Kz@Cx@E`@M|@Wv@_@`A[fA]j@SbAc@`Ag@^]FC`@]l@g@j@s@Vq@^e@f@[n@a@dAEnAPt@L`ATt@Zf@f@h@f@^`@Zn@Nr@Jj@@TAHAn@[b@_@d@CTNn@JZP\\RHr@~@BJb@b@ZTLXRf@t@j@Rj@Ph@Vh@\\r@j@pATxAHd@Ft@Lr@Nx@P~@VnABx@TlAFpADpALvADh@Dj@JtACfAA`ABr@?bAE`AKzAa@~BG|@ShAUfA]hAEh@Ih@Hr@UxAAj@C|@QzA[vAKp@Sp@Kb@CVSf@c@~AWp@Uz@i@fAEVSDIZJ@NJNJDHFt@Gr@Ij@YfAQfAA|@SxAA~@QbBQl@Yj@g@jB_@j@]VQLSZI\\Mf@KEO@IRDRHVAl@O\\E^O\\Ql@QVSNQT[l@U^S\\Yf@]`@O\\M`@Oj@Wr@QVW`@]Zc@\\YXYZc@ZaAb@g@`@_@Nq@FWJBbB|VdCZEMd@xuAbNaCr[hAaBzi@ys@nHgK|CmGtBoHx@aGfAmNPuAs@COc@wB{FAMDMjCeIhC_Ip@gBPg@bAyCh@aBhBqUrFuu@xZvCti@hF`D{A`DyAb@kB~@{DtBqDpC}`@n@}CJWrBcDnA_AXg@Ho@U}@DSb@c@mBgCOO@O^k@GIT{C@ORuC_@AUGUEq@AcAMw@Gi@Es@Ka@Ko@Km@G_@Gk@E{@CcACsAMi@Eq@Gw@Em@Ey@IaAOe@Gi@GcAKq@Cw@Km@Ik@Em@C{BWq@I_@Mk@Ik@Cm@Cq@Cs@GaAIsAG{@IkAAw@Ee@Cg@Go@?cAAoACeAMm@EgAMy@EOAi@AcBMuAMiAM{@Cs@Ec@Gw@Go@Gi@I}@A{@Ew@Aw@EaAEi@Cw@Gu@Cs@CiAIs@OiASs@KcBC{AO_@Es@E}@Cs@GeAIoACcAG}@Kw@CqAEmA@s@K_AQcAEoABgAOkAIoAQcBAo@K}@QaAO}BWM@i@Ik@Sy@CqAMeAQy@E]CmBE{AY_BUaAM_AGmAIy@SwAO_AEsAIoAIo@Le@PPBWhDEb@UbDCd@I^ID[N_@ZINOTQf@CLG\\?LAL}Bv@ALCJcBl@mEjFSVSPb@l@OJgA`ASa@eCsD[[_@Ug@MGAE|@eB`Aw@DsAIcBTqALqCBo@h@qAv@_Hf@gAK}B_AgAk@[Ug@_@u@u@u@_Ac@m@EsAhBmCdAiA{@aDMe@fAa@\\{@_@wAn@q@i@oBSi@]c@a@Wg@Qi@G_DGImBA]c@@}AR}ANuAAqAIoAU}C_AyAa@oASeAGa@CaBCsAD_BZkA^cA`@{@P_AFcAQ_Ag@u@q@w@w@kBeCqAmA}Ao@_I}BGZwCbHAAA@"
   },
-  "postcode": 4573
+  "postcode": 4573,
+  "average_tax_return": {
+    "taxable_income": 45134.51326568959,
+    "gross_tax": 9211.430364524615,
+    "medicare_levy": 597.0274332957534,
+    "help_debt": 84.48019541525743,
+    "gross_interest": 1175.5733934611048,
+    "work_expenses": 1530.890266816986,
+    "donations": 89.82908680947013,
+    "child_support": 34.99255918827509,
+    "gross_rent": 2570.4826756858324
+  }
 }

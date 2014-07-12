@@ -313,5 +313,16 @@
     "area": 93.31426510192235,
     "poly": "rshmEs_zy[P{B@]NmBNuB`@gAJoA`@yFF]wFnBuE~AuBr@k@RoBp@kBn@_AuEOs@COGS}@mEGYeBmIqAiGESEUMk@eAcFMDc@Nw@VyHfCi@ROF]LIB_@H]FU@Q@[A]t@{E~AaAvDMb@S~@TjAtA`HjChMp@~CNr@v@tDCXC^d@tBlB`Jb@tBbCy@r@HxFr@d@FnAPNBrANpAPpBVpBVvAPhJhA`AJ@SL}AP_C\\eFZmELeBLgB"
   },
-  "postcode": 2068
+  "postcode": 2068,
+  "average_tax_return": {
+    "taxable_income": 102389.01785890479,
+    "gross_tax": 31706.307350764677,
+    "medicare_levy": 1468.2982733103108,
+    "help_debt": 110.13764183522447,
+    "gross_interest": 3805.029995066601,
+    "work_expenses": 1619.523828317711,
+    "donations": 550.9015293537248,
+    "child_support": 26.790922545633943,
+    "gross_rent": 5826.432659102122
+  }
 }

@@ -313,5 +313,16 @@
     "area": 62.3923864737028,
     "poly": "v_`rEelbw[tDzAhAa@tBgAv@SlGsDrEcEu@uEOqBG_Ad@kImDeGwMaSUOIHm@\\wI|DOJQL_LnFQA?R@V?h@Bp@J~FHpFFlBBtAF|@?DDb@BV?B@B?BX|A@DrH|QDNbEsB`AO"
   },
-  "postcode": 2527
+  "postcode": 2527,
+  "average_tax_return": {
+    "taxable_income": 47916.60533333333,
+    "gross_tax": 9540.690044444444,
+    "medicare_levy": 652.0085333333334,
+    "help_debt": 60.912977777777776,
+    "gross_interest": 717.5074666666667,
+    "work_expenses": 2109.383911111111,
+    "donations": 101.69528888888888,
+    "child_support": 46.68346666666667,
+    "gross_rent": 1314.4907555555556
+  }
 }

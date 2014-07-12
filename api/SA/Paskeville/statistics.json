@@ -313,5 +313,16 @@
     "area": 59.92089369569669,
     "poly": "dmvnEeqthYaJfYnKxFnCxAdIbEzKy\\JUBgPN?bGAAc@C_NC}W{D{@IJmFoAo@`EaArHyBc@c@hDgAS_@IwB|SObIeGC"
   },
-  "postcode": 5552
+  "postcode": 5552,
+  "average_tax_return": {
+    "taxable_income": 55938.71304347826,
+    "gross_tax": 12924.08695652174,
+    "medicare_levy": 784.4434782608696,
+    "help_debt": 34.97391304347826,
+    "gross_interest": 2625.113043478261,
+    "work_expenses": 680.7391304347826,
+    "donations": 47.15652173913043,
+    "child_support": 0.0,
+    "gross_rent": 679.1652173913044
+  }
 }

@@ -313,5 +313,16 @@
     "area": 212.48797191856966,
     "poly": "rxvdDub{l[kFg@u@pKC\\[CoE_@s@aBaAcAoAm@iBMwB\\y@LlArJHbG?|@OvEm@lJuApKeArEkApDiBdEaC~EmAdC}A`DsCnEoGlGHx@INGPAL?NDPfk@tF~c@hEr@mAEwFt@s@~E^bDsd@uD]p@sKiIw@x@_M@{AJyA~@oG?yBn@iJ|@mMaK_Au@I{CYaFe@"
   },
-  "postcode": 4417
+  "postcode": 4417,
+  "average_tax_return": {
+    "taxable_income": 40168.08493150685,
+    "gross_tax": 7454.28493150685,
+    "medicare_levy": 534.3342465753425,
+    "help_debt": 141.3890410958904,
+    "gross_interest": 776.5698630136986,
+    "work_expenses": 1698.8,
+    "donations": 39.534246575342465,
+    "child_support": 0.547945205479452,
+    "gross_rent": 2123.2986301369865
+  }
 }

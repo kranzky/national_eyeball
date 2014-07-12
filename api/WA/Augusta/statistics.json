@@ -313,5 +313,16 @@
     "area": 0.08194107295553466,
     "poly": "~mkpEkv{}TPADGFE\\_@@K?IEIICWRUZKR?HHD"
   },
-  "postcode": 6290
+  "postcode": 6290,
+  "average_tax_return": {
+    "taxable_income": 41050.63505154639,
+    "gross_tax": 8266.044329896908,
+    "medicare_levy": 522.4896907216495,
+    "help_debt": 31.170103092783506,
+    "gross_interest": 2592.69793814433,
+    "work_expenses": 826.3072164948453,
+    "donations": 84.11030927835051,
+    "child_support": 41.06082474226804,
+    "gross_rent": 2095.045360824742
+  }
 }

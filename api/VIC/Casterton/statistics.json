@@ -313,5 +313,16 @@
     "area": 22717.17200787048,
     "poly": "z|ndFupe~YaADoAfA}@bBWRiAB_A]o@Pe@z@[|Ai@d@eBv@iAv@sAhB}@dAy@`@i@Qo@qAO}@LsAZaBEmAk@yAc@}CNuBLuADqAG_A[uAEkAnA}@z@M`B}@jAm@v@_AZcAJgBX]pA\\`Cf@rA[r@sACyBg@sCw@y@Y_@UyBu@oAc@g@Gu@ZcAl@u@j@y@pAy@r@c@`@}@LgBDc@_Am@eGyAiAkBwCb@cc@{D_W}BzFoqADg@_DsAjWc{AkC_X~DsPnd@}i@hM{K{EwEmGsUkApBGUvAe`@dAuYpCVvCsi@yq@oGOC^aHQC_k@uEOpC_hAgLxA_[?Y{\\dVmOqL{NcXeOjUgNbTyA~IpBpe@BtMQ|KMvH`BvKrCnE`D`DtDnCdA~BtS~kAu`@zc@}VvDaChh@SIa_AeIyHruAGh@nDc@j^`s@h@bAEx@{Ef|@e`@oD_Dto@cn@bb@mM|AuBxd@RF_ChPie@db@JXdP|nA`@e@TQ^]hAq@lBo@fBa@x@MZEd@GpBC`DFbAAd@ENQL[Hm@CcACu@OsAIkAHiATa@JOVW^g@b@Sv@ObAg@hBo@~@Ir@M^?r@FbAr@n@t@zApB|AtAVF|@A|Cg@`AWd@?\\Ht@G~@Dz@^~@h@x@d@l@n@f@x@Tz@Bp@CZGf@I`@OXe@n@S`@]dAKdACz@Af@Dt@Jn@Vr@Td@n@l@j@b@j@\\v@b@d@Xl@^\\RXPVVPXZx@N~A?`A@f@Jd@N`@FJZTBN]j@UVSJSRYl@GHGp@Db@NZTNXF`@J\\V\\LbAIPIPQNYVm@JU^g@VW^_@h@ANHLFZPTNTN\\Fp@W`@i@NWDKN_@f@o@bAs@ZOp@Yn@Gr@@b@Hz@hAj@xAd@rANh@`@z@XZVRVJx@Rv@LXDd@FZPHNFRNh@Pd@PTLHRDf@Gh@Ut@Mp@Cd@BRHPHPNT`@\\z@Pl@JVPTLD^DK~@y@|PaL~dCBZdl@nEmIbtBnfBhMbQrAzWpB?VgArXlb@|DnAPfCq@t@d@zXrBsXzuAc@dUdE|o@mCrp@uCls@uBth@`u@pdHaAzQaCjJ{KdQoD~Ql@dhBfNdw@xJt{FiCbLfoE~a@rr@xG~IoeBbIe~Ax{@m{BtFuhAxMimCxCwl@Bg@jo@pnA|F{EzMc}BZD~Csh@i@yAa@oCcBqGqAkDy@yBc@kBEuBb@{BtAoBhBErAzB|@rCpBz@`BaALoEOoDu@_DwAiAyD{B{AaB}CsKgAeF_B_C_@iAB}BbAyBbAy@`BMpAHjD^zC}BvBkAlAy@pF_B|GiBnEy@pH|@hKbAfCKlDw@lDeCp@kBNeDXmH?eCb@oDQgEi@{D_BuIyCgLmA}GuAaE{AoBkDUaDWg@EeEmCeEeC{AeAy@IS@}Cq@kBmAgA{@kDkBaB}@eEyDU{@iAOwAuAu@}BUmAcAoGOqB]kE?kE\\aBx@kAj@q@v@Yd@FL`@JdAb@jBz@hAlC~@xFBhLiPiAwC^iMmMej@iFnBeGvOme@`RyzBsRqw@}GtJipB@Unw@~GAWhE{x@|_@pDP@dQ}jD}xAyMvV}bFdKgrBOFQJqAMyAoC{A{Bq@g@yAi@gEiAmF_AyBk@_BDeBvAq@~@gADcAo@y@y@{@a@m@IeAGqBw@s@KsAS_EaBsBg@iAE_An@Oj@GfAGdBAtA?pACpAGlAQh@e@h@w@\\wA[m@g@e@_@q@g@mAUsB\\yBf@}C_@aAsAAaAh@aA~@y@nAu@fAiAGeAw@qAaAUsBd@_Bh@oBAmBcAqAqB{A{Cg@{AeAoCuB}@mCJcEjBeEpCu@dBo@dAkClAaC|@uCTuB_@m@oAo@kAyAT}AnBMvBb@fCr@zBWxA_AjAkBfAeBrAo@r@mAj@iABkCn@oNxEoB[_BSeBX{A]aAiAgAe@uDq@gBm@a@]a@e@WaAQoAOwAv@k@`@wALeBCeDOiAYy@i@w@{@aAc@o@Wa@c@a@mB_AiA]"
   },
-  "postcode": 3311
+  "postcode": 3311,
+  "average_tax_return": {
+    "taxable_income": 35410.24326923077,
+    "gross_tax": 6187.664423076923,
+    "medicare_levy": 447.1923076923077,
+    "help_debt": 27.91346153846154,
+    "gross_interest": 1659.6519230769231,
+    "work_expenses": 1026.6942307692307,
+    "donations": 50.761538461538464,
+    "child_support": 62.090384615384615,
+    "gross_rent": 719.0836538461539
+  }
 }

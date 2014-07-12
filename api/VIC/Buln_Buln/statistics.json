@@ -313,5 +313,16 @@
     "area": 2209.089304002898,
     "poly": "|npgF}ksyZzOaFvEo@hl@{LbGyeAzFi~@pBArEcw@^o@pBiDlFm_A?GQFiLp@eAFkm@nA}`@x@gBz@sKg[nUiKIS_Ja`@lB{@iF}Ti@uGe`@dQo@j@lFdDq@h@wv@j]_WafAOLsLoh@{KdHqNlEcOFEViBb^oA{Ay^lh@x`@lg@JcUtb@i@Crr@Vb@\\o@nCeL^RrIrG`DfAlBNXBkDjm@uSwBEl@gDlk@lHt@}HftAl_@dEsCbi@L@OTcAnUkI_AtA|SkHy@aAMmU{Cg@GDVjB|HdAxNbBjO@ZNlCz@FJHLHLFJFLFZNLFZJLDLD\\JZF\\FNB\\B\\BL@N@L?N?L@NAL?N?\\C\\CLCNALCLCNCZI\\KLELELELGZMLGXQLGNKVz@tFXB`@za@hE{H`rAl@Gv@Wz@cAj@eAP]lXz`@b@r@kIhKlA@pg@vFlKjAp@ah@IS{H_AcEg@sAe@yEi@t@cAnB}EnB{EpAeA`DiLlBSBI@IBMDIFGx@c@NALCFELKFGHKDABCBABA@Ab@Wj@H?DBBB@@BD@B@B@@?HFX@ZCVODKLGNIp@QZUp@SfAKFAR[]Q`AmDcI_EvE_RyCyn@"
   },
-  "postcode": 3821
+  "postcode": 3821,
+  "average_tax_return": {
+    "taxable_income": 43215.55415282392,
+    "gross_tax": 8677.120930232559,
+    "medicare_levy": 573.6571428571428,
+    "help_debt": 40.82990033222591,
+    "gross_interest": 1440.2252491694353,
+    "work_expenses": 1256.339534883721,
+    "donations": 124.40863787375416,
+    "child_support": 43.38139534883721,
+    "gross_rent": 1074.572757475083
+  }
 }

@@ -313,5 +313,16 @@
     "area": 668.2799720754726,
     "poly": "~vqeFghotZt@w@`C_FAGAOAM?O?M@SHwFBe@?U@uE?qGIoFSuOIiDKiFAu@@g@BoA`@_Gr@}CbDsGh@k@x@w@xAgAYoCvBo@cAKx@sP{AMJyBaAIiE_@qCWSA{Fg@kCUqD[e@EqK_AiCUsGk@yAMM|AOxBWhDEh@UzC_@z@{AjD]v@oC~FiEaGWnAoDa@s@ImBSaI}@gBSiJcAqC[o@|DEVUpAUnAG^ERG`@I`@]lBYCa@E_@E}@vAcBjCu@Bu@@W`@Y^gAbBQr@ANUE[bBw@I]EC?SpBK`@YbAKb@YbAAFCLU~AkAMmACiEc@{Eg@PlBe@GqMqAKl@jBfAdA`Af@`AXrANzA?dAGz@YzA_A~BcAdBm@v@o@pBe@lBEfADlBRvCH`ACr@S`A_@\\m@T_BjAg@`@Yn@SbA]fCGvA@j@NXVHl@FZB|@@n@N|@`@fCjAv@Nr@Br@K`@WTa@Hm@CeA@qAFg@RSTCJJBd@FRFDXF`@FNV\\j@j@p@x@h@d@`@PXBXA\\Kd@[f@SVQDa@Gw@GaABsBj@q@f@y@l@Up@OtAGjB?dAFr@J^Zh@`@Zn@d@d@JxAXbAb@h@Xl@H\\?XUhAuBRu@XeBXaCR{AZ_APWh@e@d@WTCVBZd@Hd@ZjALz@Bt@Gr@Or@k@jA{@dAQl@Kx@EtA?tBCz@Mn@Un@m@v@Qj@?l@Dx@PXRPRTXz@b@l@j@`@nCdBj@Jz@Rn@@j@ONa@@s@K}@e@mDYqAeAsCm@gAYu@Bq@Fa@\\g@f@Q`@MjAUd@IX?f@T`@FJ@ZCvAY^OXUHWNe@LYf@a@j@o@\\s@Xw@Zc@\\Sb@CXHx@ZhAn@BB~Aj@tAb@dAh@dAv@f@b@Z^LL^r@d@t@r@h@|@b@r@Fz@?r@Ih@AZTNj@Bj@M~@q@pCo@nCs@bDQjAC~@Fx@Lz@Vx@^h@j@Tn@?jCSvAQ|Ae@j@]Za@Vo@Jw@RiA\\u@r@oA`@iAReAPsAZ{@Za@b@WLAVEl@AdAPr@@h@Kd@Sp@s@`@_Ad@o@`@k@VGR@T@NFPH^ZT`@F\\B\\C\\?RI^Q^g@l@k@\\gAjAeA`Aq@z@[|@Qp@Aj@G~AE~@Qv@]j@g@h@u@d@c@\\O^C`@BVPZZXd@d@h@l@p@fB`@h@r@t@^Tt@Xh@Jh@@n@?b@?XBb@BL?LENKDKFSP]\\Sp@Gd@BTH\\Rb@Xf@\\j@^f@P^Pf@Z^Tn@`@x@\\h@Rv@Tt@Pf@Hd@Df@PXDX@b@JVHRBT@r@IpBOF@^JR@^Jn@XPJZX?y@D_@HwAPw@Bu@Hi@RwAEgAKo@Oo@c@oBI[Au@Ui@WWQBKPi@Pm@?MGY[Ma@MUQsA?s@DQXcA@MMoDIgBJ_@?SW[EIW?YUs@Oa@CQMm@a@kA{AoAyA_A{@UUK]QkAW}@g@kAGkCFk@DK@MDW@G@CDEDCJGJGHCFC^e@@CBG?ECKEKKOCGCG?G?EDKFGPKDEFGDIBG@EAGEEEEGEMICEAE?I?GBIBEHEHCDADADCLKFGHCJ?JAF?HAF?DBPFDBF@J@L?DADE@E?G@K?MBGBEDCDCL?BADGHSDKDEFCBCBEFCDAHEHCFEDGBCDCBCBADE?u@@O"
   },
-  "postcode": 3105
+  "postcode": 3105,
+  "average_tax_return": {
+    "taxable_income": 52230.035348837206,
+    "gross_tax": 11616.66,
+    "medicare_levy": 705.24,
+    "help_debt": 144.5846511627907,
+    "gross_interest": 2290.5928682170543,
+    "work_expenses": 1568.0572093023256,
+    "donations": 126.92015503875969,
+    "child_support": 10.055038759689923,
+    "gross_rent": 4677.470697674418
+  }
 }

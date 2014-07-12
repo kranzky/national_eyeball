@@ -313,5 +313,16 @@
     "area": 9813.2814680206,
     "poly": "|t}tBgxf~ZSmBYoBc@sBS@{f@cCgEi@j@kq@kCJsH]}Ow@wXsAkFWkPw@uByEAyJlB}GgAyFq@GOUAi@DyAzIn@xAJ~O`AvI`@|Np@bNp@l@BlDD|Het@MSq@{@AAoAmAs@WY_@a@m@w@{@k@Y??}@MoAc@{@e@k@O_Bu@OEA?{Cy@}Ac@wA]uBeAy@YqAEeBBsAR_Bt@kCb@aBv@mARe@UoAuAyAaBcBeAaAWaB@oBH{Dl@uBGy@KI@q@C{Bb@sBfAyChAo@f@gA|@iAv@aBXsBQaAMsFcDcAs@WOkDmD_@c@aAgAYg@QMo@]s@m@wCuB{@c@OEOWy@QeAs@_BuA{Be@}Dk@aBmAeBi@{BQ{@a@}A_@_BYu@Ae@B{@Du@Hy@D}@HwBb@wADcB_@oBg@uBU}ASyAk@sAk@aAi@y@[aCKqB?oC@{Dr@uAf@k@Ng@J{A`@y@h@WXMTA\\At@IR_@`@O?o@Pc@^a@r@U\\g@`@i@v@Sf@i@t@e@bAYZQ\\EXMXmA~Cg@t@Yt@Y^_@Xk@x@k@f@_AlAiAjBQJk@r@m@x@m@h@q@p@eAnAg@p@[t@g@n@m@^s@H{@Ww@Os@[gAk@mDkAkDo@aDSuEeAoBq@uBq@wHcB_FgAsBYcC{@s@QUtAwAdHcBvE}BfFMViLrRgMdTmEpHv@TlD|@vBbA`IdBnJf@wFhWsDSCd@N\\L^o@pNuAbZkCbl@?Pf@Mp@w@v@SbATtAj@bCrBn@Tl@XzCdAlBhBRfBVf@^\\Al@]~@Th@v@A`ATr@f@`@h@b@Fd@O`@Ij@Ht@Zx@Mh@ULJu@dQkCbl@e@CeBxQvH\\fH\\~GZpPt@lXnAlXnAnGXnGXb@BmB`f@uA~\\uA`^kDb{@SxEuBtg@Wv@?@hL~DjGtB`ChH~AfChGhCzEn@xEb@pECnIt@bEvDpGrKpDlD~G`BpAx@nCvF~CvLlGxGdE`DbEjClEdAjExB`CvBfFbFnDjDbA\\lDbA~D`@nE^lKn@lL`ApClAfAf@nC`BzCtAzBnB|BzB~@bBbDlB|At@dANRDpB`ArDbAjDfAvBdArBjArAhBlDhCbB`AfC~@xE^~GRtAVxB`BlIbG~CzB|CfAzH?fCi@~Aw@lAeAbC_CdCyArBP`AzBJzCb@tB|AvAd@V^BpFzAn@NnBd@fCt@zBAxDEpFcBlBw@xBk@bDc@|BAfDRxEf@lDXzFa@|C_@t@kBV}Bd@aC~@cArAy@hBQvA{@xBaAzBYjAP`C~A`BnAz@l@bAb@d@P`C~Ap@p@`@Jj@?~CWlFmC|BqBj@i@x@cAl@m@bAa@`AOtABhB^xAf@z@d@d@J~@FtAb@^X~@t@tArCxA`BlFRXJ~@OdBYlAGjABb@J\\Bh@Ar@?pAH`EZhDArCLlKpArD|@zFrCvAR~BElFV~EUbAHjEb@l@Bj@F|A\\zD`BtEjC^b@`AfCV\\p@^Z^Vf@VpBJ`@l@~@TR`GmfAhBy]sgAaIQU`GwdAMYgN_AbFyrAoZ{AY_@^WrH{jBgcC}KyqAaGtDw_Aay@uD~Au`@kx@qDo@CXuBpA}@`@?RGTMNSHe@JiBBc@Cs@?OBMDMLOZYNQ|@sBF[?UOcAScAAYF[Vs@X]XUzAo@xB_@XMhBy@r@a@jFqDv@_AP_@FYFc@B_AIsCB_@H[PUZQh@KhBUlBMVIl@_@DMFe@Fy@Aw@OsA"
   },
-  "postcode": 4817
+  "postcode": 4817,
+  "average_tax_return": {
+    "taxable_income": 52323.978898071626,
+    "gross_tax": 10737.228154269973,
+    "medicare_levy": 677.2185674931129,
+    "help_debt": 111.55641873278238,
+    "gross_interest": 576.7361983471075,
+    "work_expenses": 1507.5101377410467,
+    "donations": 75.50865013774104,
+    "child_support": 95.2833608815427,
+    "gross_rent": 1982.8160330578512
+  }
 }

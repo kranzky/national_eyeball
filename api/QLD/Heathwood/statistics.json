@@ -305,5 +305,16 @@
   "license": "Creative Commons Attribution 2.5 Australia",
   "attribution": "Based on Australian Bureau of Statistics Data",
   "year": "2011",
-  "postcode": 4110
+  "postcode": 4110,
+  "average_tax_return": {
+    "taxable_income": 44558.88621359223,
+    "gross_tax": 8434.624466019417,
+    "medicare_levy": 589.1780582524271,
+    "help_debt": 109.92893203883496,
+    "gross_interest": 695.2650485436893,
+    "work_expenses": 1523.886796116505,
+    "donations": 95.22873786407767,
+    "child_support": 69.66601941747572,
+    "gross_rent": 1921.6093203883495
+  }
 }

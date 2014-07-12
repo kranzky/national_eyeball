@@ -313,5 +313,16 @@
     "area": 2461.607652169912,
     "poly": "`dl{D{eghZ|@}sAm`@yfDce@}AGAqsF`kBzEzaGhdC_@raBjL~PqcD~`@nWrVnO"
   },
-  "postcode": 2836
+  "postcode": 2836,
+  "average_tax_return": {
+    "taxable_income": 44458.783870967745,
+    "gross_tax": 8771.938709677419,
+    "medicare_levy": 590.4709677419355,
+    "help_debt": 126.65483870967742,
+    "gross_interest": 1408.8612903225805,
+    "work_expenses": 1170.1870967741936,
+    "donations": 50.68064516129032,
+    "child_support": 79.83870967741936,
+    "gross_rent": 970.9064516129032
+  }
 }

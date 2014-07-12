@@ -313,5 +313,16 @@
     "area": 41283.08971686866,
     "poly": "lwmcEq{|nXzA[HKLa@D_@X[fDgAbAL|BtA\\FtCR|ASrC\\D@P\\Np@HnD^r@XLpEMh@TXb@DhEBPBLXZLJtBL@?HJXtAR`@b@VdFaBlAKpA\\d@R~BdD|@`@bAHvD[xCuAbCM|Bk@NMDIPa@^mABQJuAA_@eAm@c@s@_AOo@]{@kAc@wBu@yI{@eECu@@mBEGkCy@}@_BY{Bw@qAEQu@{KiAkIa@eGk@iEI_AF{B@Ir@kDV}@Fc@B_ASu@qAyBKg@AMNm@T_@hAwA@wAMaDy@k@mBi@]QU_@MgDG[CIMU}@mAWWIIUo@Y_AwEqh@yAwR?M[sGAuF@UB[LwAzAiNfAiFFgE\\w@rAqADKAo@Ww@]uAG_@?EDkCv@_CR{BZoAv@w@d@QpCi@T[`@oAAeAaAqBq@}B]sCAyADk@Hq@l@sCHq@LsDPqBh@sCHa@ZuAp@uB~A}BbCiAfCeC`Aa@pBc@XEjA_@Na@CuBNc@hDqEZ]|@s@nAg@JCj@IzBIhC`@~AbAZ`@dCbEvApA^RB?PBl@KDKDW@yBQoASgAW{@yAaCqAiAa@g@o@uAy@gD]o@QWiAaAcAqBmAyAeDsAuAs@Ug@K_CYaA?kCKWYEk@d@_AHmAe@g@eAGeDp@sJ~@qFhDyKZ}@Ha@h@_BP}@bAgDzAeD`C{Fr@oA|@oAs[E}gJgAomAOD_AwJAE~@}zCa@odIaAgf@EuxFo@_d@E?|@GjpCIhkCOxaFu@??~@?h@a@riKkqHTJzyNVpN?lBmAR@lnE?xp@?hnDA~@bnC@roA?bE?x{C?d|G@@_AzD?zQcdM@S?MlBssAjAqf@lDshCBm@pCeqBAk@~AadAXqEl@yEl@mDbA{ET{@hHg\\L_AjoBGdDBzAiL`@mBLe@TeAr@wCVw@Zs@hAyAj@c@~As@rEw@vBoAdC{EnEuEt@mBzA}ALe@H_@Fw@AgFi@iAWiAuAcAAAEEU]GiAa@o@KgBkAyBUi@JkAXy@Rc@DQ?q@?w@m@}B@k@EW~B`Af@HdA@tBc@pD`@nBUd@q@`@w@H_AH}FV{@f@y@IeAqAiBA_Ap@eA@AzAwAlBu@rAC~DRtB~@z@H`AjAv@pCr@pAXhBd@dAvALX?hBsAFEJQCo@e@w@qBaAt@aKn@uGbAaCvAaBReCFMSAGCsB`@iBJg@Bk@CMQkA_Ke@qAaAmABqAeAeAe@o@a@SaBK{AiAMEyAyLC}CdBkMrA{GlAmD`AmC|@qBnAiEN_@NYn@uAzBwB|CgBdCqBlCeAzBqA~Cn@`@Xh@v@Bd@N~@J?@GJKHW^{Ad@{CFo@?o@m@}BESKu@CqADoA~@oHt@wARWnBsApCaHJm@HwAA}BAaAs@}@GMUe@Q_@gBkAq@{@o@sIYgAy@_Br@iCnAuDdAaCpBqDhFkIp@gBR[d@e@~@_@pDVXh@VRj@LRHp@`@fADzAm@`CoB`CwArB{@zAS~Af@nDxCnBv@dDWlFsBnAGn@XZ|Ab@TnBp@nBOnBMbCa@x@h@hBXn@fCfAt@~A}@jCmBz@m@zBU|Hw@xCeA|A@j@h@n@CxCg@jFKrHEjANrABxEb@zDh@bIhCtAr@`Ab@b@tBn@rBv@r@fB`@hC`A|Bv@d@^`@b@dCfE^pEXz@j@jBrDdFtA}Ah@k@WmErBvC|MoNQUD[`@u@Go@i@[y@y@_@iAs@mD?aFKmFOmDFm@DsAR{EL_@@SzAqFbDgInBkCr@mB~AmCxCwG~E_KnB}D`KoNnJ_PnCeD|D_DrFmGdDgCjDcBxIuCbFgAhCYtIH~@TPLf@~@fBjAJTb@rE^j@LLnA\\vEDlBt@tA`Ab@x@Ah@a@v@BlCJ^|A~B|@b@rEi@^AzAxBd@f@PBzA@~@C|BpA~BXTFJd@VlBd@^vDF~A]~H?bC]bEf@jA_@zC{BvBs@bCWzFFt@\\d@d@PZ`@b@JFRH`FbA^R@BDXH`B^f@PHbHHb@LfA`@\\RFDh@t@RrBDNTf@ZXdAlAZb@tIGnBXxDlAj@VSpADV"
   },
-  "postcode": 5690
+  "postcode": 5690,
+  "average_tax_return": {
+    "taxable_income": 45889.846741573034,
+    "gross_tax": 8764.899325842696,
+    "medicare_levy": 615.4449438202247,
+    "help_debt": 53.80988764044944,
+    "gross_interest": 1234.3806741573035,
+    "work_expenses": 1292.192808988764,
+    "donations": 44.83370786516854,
+    "child_support": 17.173932584269664,
+    "gross_rent": 1544.9671910112359
+  }
 }

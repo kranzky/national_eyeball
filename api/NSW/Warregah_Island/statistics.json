@@ -313,5 +313,16 @@
     "area": 0.6546002316484694,
     "poly": "duerD}{bg\\VN@Al@G?OD??Oa@c@{@_AK?EQE?GKM@SAQ??DELUJ?FQNKNVLLJAh@^LNI^Xh@M"
   },
-  "postcode": 2469
+  "postcode": 2469,
+  "average_tax_return": {
+    "taxable_income": 30523.94518072289,
+    "gross_tax": 5142.609036144579,
+    "medicare_levy": 346.089156626506,
+    "help_debt": 33.83072289156627,
+    "gross_interest": 1573.0415662650603,
+    "work_expenses": 959.1548192771085,
+    "donations": 57.721084337349396,
+    "child_support": 41.486746987951804,
+    "gross_rent": 1310.2259036144578
+  }
 }

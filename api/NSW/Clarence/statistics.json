@@ -313,5 +313,16 @@
     "area": 1872.5512617928066,
     "poly": "`xgkEuoxs[m@GgBjZuYyCeAnOvAPwAjRIrAKrAAHFBH@H@H@HAH@H@FDHBNJF@FDFFHDHBFDBH@VCHCFEHCVAJ?J?J?b@A`@?JAJAH@J?J@T?J?LAJAT?J?J?J@VAJ?J?`@AL?JBHBHBHDHBHBHDPBDDBFFDFDHTRDDF@F?FCLSFCJIJAFDH?FDH?FDFDFFFDFFDHBNBFBHBFJ`@BVF^@X@JBHBJDFFFFDFDH@PFF@DDJ@FBH?F?J?PDJDHBH?HCH@HDNHHBDBLBHBJAPAR@JBH?F?HCH?HBHFFBHFFFFFBHDJDFHRDHDHFPDJDVHR@J@J@H?VAHAJAHETAJEFCHCHEJ?HAL?HCJAJ?JAH?JELAPCn@AHAh@AJCH?JAHAJ?HC`@AJA^DPd@dAz@nBFjB^Qn@Cz@n@`AAt@R?RVn@?rAqAnICb@?f@@f@Bf@Df@Dd@Hd@Hd@Ld@Lb@Nb@N`@R`@R\\|BxDXBdFn@rH|@\\r@NEPIEY^Fr@HnJhAi@hHb@FjGr@nS`CfB}XPaCL@jB_ZmKgAv@c@|N{HlBIjCDdEVb@B`FXxCuArEeD?Sd@c@DwM_A{GoJ_W_B}AiAeBqAuC[uAOkCG_DJiBXaDt@cCtCwCTmCFwCcAmEgAkCm@yA_BeBsFd@qElA_BP[Db@m@Z_@\\_@^]^[`@Y`@W`@Ub@Sb@Qf@Qb@Mb@Kj@O^M^O\\Q\\SZUZWXWV[X[T]T]Pa@Ra@Na@Nc@Le@Je@BS@QDWBOHe@Je@Le@Nc@Na@Pa@Ra@T]V]V]VYZYXU\\U\\S\\Q\\OFCVK`@K^I`@E^E\\CtCI`BGh@G`@I`@K^M^O^O\\S\\UZUZYXY\\m@z\\em@Na@Na@Jc@Jc@Fe@Fe@De@Be@@g@@e@Ag@Ae@Ee@Ee@Ge@Ie@Kc@Mc@Ma@Oa@S_@Q_@U[U[W[WYYU[UiBk@mM_Ea@]_@_@]_@]c@Wa@]g@We@Wg@Ui@Uk@Qi@Qk@?A?AOk@Mm@Km@Ko@Gs@AEsHi[o@iBc@kAe@iAg@iAi@gAi@gAk@eAm@cAm@aAo@aAq@_As@_As@{@u@{@u@{@w@w@AAY_@a@g@c@e@c@e@e@a@e@a@g@_@g@]i@[i@Yk@Wk@Uk@Sm@Sm@Om@Mm@Ko@Im@Go@Co@Co@A?j@cBACa@Q@c@Fc@Fa@Hc@Ja@NUHk@V_@T]T]V[Xq]d]kEnFaGq@_@E]E]I]K]M[M[QYSYSWWWWUYU[Q]S]O]Qi@y@IKa@U{@gBiDa@C?CTyG@mDt@iC~JcFj@I\\I\\I\\KZO\\OXQXUXUVWVYTYR]R]HOFMTk@t@cCTwAHaDYMeBaA{CpEcO_ADi@WAee@oFwASi@O|@gLsZ{DoBfVCAa@EsA_@gDeASDWAYGWKMMKe@@WFGjB[LGHGBY?[EW{AgCk@aBEUAWF_@L]FKLMr@YLKVk@FINKj@K|Fc@j@IPKZ_@DGL{AEOEISMoB_@k@EgAEWEk@Ue@_@MSGQGi@?U@SFQLYRWVU^Uj@Ml@I^C`CDxBK|C[^Kp@]XGv@GTAaj@qFgBfWoi@lfAYtDiDhm@dAg@~RdKrWrPxA}TdFK|E`D~EnFbE[qA~Pp^bGhArHT`B~AnK\\hLhVr_@vLrAjD^mFfu@"
   },
-  "postcode": 2790
+  "postcode": 2790,
+  "average_tax_return": {
+    "taxable_income": 51553.44667114997,
+    "gross_tax": 11069.264425016812,
+    "medicare_levy": 701.3484868863484,
+    "help_debt": 48.466577000672494,
+    "gross_interest": 1174.535305985205,
+    "work_expenses": 1258.1529253530598,
+    "donations": 131.97767316745126,
+    "child_support": 77.97700067249495,
+    "gross_rent": 1738.9027572293207
+  }
 }

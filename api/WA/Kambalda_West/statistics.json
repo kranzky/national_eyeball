@@ -313,5 +313,16 @@
     "area": 3109.1224742158206,
     "poly": "r}m}DkfleViXtZ{B~BmC~BwCnB_DbBeDpAkD`Au`@tGgFx@}Cl@kD`AeDrA}CbBsCtBmCbCAz@k^r^@hv@@nhB?jTKjDLvb@x@z@`nF?b@GjgEiaEhq@i^iq@}XeuCc}@sBq@gDmAcDwA_D}A}c@uUw@a@cDwAiDgAmDu@qDe@qDUuDAsDLqD\\oDn@iD`AeDnA_D`ByCnBoC|BuCzC"
   },
-  "postcode": 6442
+  "postcode": 6442,
+  "average_tax_return": {
+    "taxable_income": 75637.27163120567,
+    "gross_tax": 18436.39503546099,
+    "medicare_levy": 1086.2609929078014,
+    "help_debt": 62.1354609929078,
+    "gross_interest": 354.23617021276596,
+    "work_expenses": 1625.7007092198583,
+    "donations": 71.33971631205674,
+    "child_support": 177.73262411347517,
+    "gross_rent": 1858.9517730496455
+  }
 }

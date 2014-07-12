@@ -313,5 +313,16 @@
     "area": 331.5114040514831,
     "poly": "`i|gFi{bpZjCcEzH{LfAgBvA}BaE{AmDoAKb@mBs@e@QsC_AYIsDqA{Aq@WYGSg@KsCaAKE}DyASIsBs@oAc@iE_B[MiC}@{CeAuAi@[IyAg@SByAg@aEyAy@YwCeAeJeDe@UaA_@GGa@WGNaD~Ax@~AI~AT|@?r@K^UbAEh@PrBFRZ|@a@hFA`@Lr@ETIVIh@CPCTEhASEEDMRo@zBm@P]La@r@Y|@QTa@@?q@a@Ac@lCl@NCP]F[nAfATo@bCgAc@Qf@aGhOC^qEfK_DjEcDnEyBzCGf@A?IDEBi@Pe@`@MHGFCFKNKT[d@QLUZu@l@}Cx@qAh@_@Cg@GMIOKGKIKGMcDnAgCAyBDsAUeEWq@]E|AOtCC^Ev@SbDI~A_@fGMrB?VbBGpAOp@OB?j@K`Be@hBg@l@KbCo@`Bg@n@[l@_@p@g@t@aAfAqAx@aAZ]j@q@dAcAlANL@PCHC[`@KLGHk@n@lAM~AGf@?d@?J?rCD`H^~@FvBP~C^dCXhBRfGr@dFl@bEd@b@DxAPzAPnCZxEh@lANfALpCZtDb@h@FhAoG~@{E\\cB^LnHmLfAeBdFeIbCwDvM{S"
   },
-  "postcode": 3220
+  "postcode": 3220,
+  "average_tax_return": {
+    "taxable_income": 62301.846268656715,
+    "gross_tax": 15569.37901119403,
+    "medicare_levy": 854.3972947761195,
+    "help_debt": 127.41902985074627,
+    "gross_interest": 1824.0141791044775,
+    "work_expenses": 1583.52098880597,
+    "donations": 253.1910447761194,
+    "child_support": 34.856156716417914,
+    "gross_rent": 3413.7627798507465
+  }
 }

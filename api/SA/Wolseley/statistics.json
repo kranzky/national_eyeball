@@ -313,5 +313,16 @@
     "area": 24153.755209549865,
     "poly": "jny|Eosk{Yk_PbCqf@JhAruIx@pvGj@ryEL|oA~iJoBrJ|Ehd@Ip[mpDv@?fdBg@dEAxgBg@}@rL\\h@Pb@dL`e@\\|yBhiDYXeLbC_f@fUmuAvDgmANuMSyB}Hyh@vj@Y?i@haAm@|w@U~|B@Sm_ABu~Ay@avA?enArEkAyEkUM{ROijB?oBa@odD@W}qIRqh@FaDj@OBG?sxDl@"
   },
-  "postcode": 5269
+  "postcode": 5269,
+  "average_tax_return": {
+    "taxable_income": 33213.47,
+    "gross_tax": 5289.34,
+    "medicare_levy": 431.67,
+    "help_debt": 0.0,
+    "gross_interest": 783.94,
+    "work_expenses": 788.99,
+    "donations": 89.84,
+    "child_support": 38.93,
+    "gross_rent": 1958.44
+  }
 }

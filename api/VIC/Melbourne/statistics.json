@@ -313,5 +313,16 @@
     "area": 12.192246272460922,
     "poly": "tbveFi~vsZr@W|LkERkEPaD}@IeAKsEc@cAK{KkAY`FWtE[|FlDT~DV"
   },
-  "postcode": 3000
+  "postcode": 3000,
+  "average_tax_return": {
+    "taxable_income": 52854.30003288392,
+    "gross_tax": 13028.326603091089,
+    "medicare_levy": 641.3727063465965,
+    "help_debt": 175.08082867477805,
+    "gross_interest": 1468.04722130878,
+    "work_expenses": 1143.6378822755673,
+    "donations": 218.44097336402498,
+    "child_support": 18.38546530746465,
+    "gross_rent": 2900.385136468267
+  }
 }
