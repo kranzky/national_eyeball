@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
+gem 'rails', '~> 4.1.2'
+gem 'pg', '~> 0.17.1'
+
 group :development do
+  gem 'rake', '~> 10.3.2'
   gem 'byebug', '~> 3.1.2'
   gem 'sangaku', '~> 0.5.4'
   gem 'awesome_print', '~> 1.2.0'
