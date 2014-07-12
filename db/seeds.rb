@@ -86,7 +86,7 @@ def add_statistic(source, feature, feature_id, heading, name, value)
       INSERT INTO statistics (source_id, parent_id, name, feature_type)
       VALUES (
         (SELECT id FROM sources WHERE name='#{source}'),
-        (SELECT id FROM statistics WHERE name='#{heading}'),
+        (SELECT id FROM statistics WHERE name='#{heading}' AND parent_id IS NULL),
         #{ActiveRecord::Base.connection.quote(name || heading)},
         #{ActiveRecord::Base.connection.quote(feature)}
       );
