@@ -11,12 +11,6 @@ require 'bundler'
 
 Bundler.require(:development)
 
-#path = google.maps.geometry.encoding.decodePath(raw)
-#polygon = new google.maps.Polygon({paths: [path], map: map})
-#pos = new google.maps.LatLng(-32.024903025734886,115.84926158165317)
-#marker = new google.maps.Marker({position: myLatlng, map: map})
-#google.maps.geometry.spherical.computeArea(path)
-
 def get_area(kml_blob)
   0
 end
