@@ -6,7 +6,11 @@ def add_sources
   data = JSON.parse(File.read("api/sources.json"))
   data.each do |source|
     sql = <<-SQL
-      INSERT INTO sources (name, description) VALUES ('#{source["name"]}', '#{source["description"]}');
+      INSERT INTO sources (name, description)
+      VALUES (
+        '#{source["name"]}',
+        '#{source["description"]}'
+      );
     SQL
     ActiveRecord::Base.connection.execute(sql)
   end
@@ -20,6 +24,84 @@ end
 
 def add_suburb(filename)
   data = JSON.parse(File.read(filename))
+
+  puts filename
+  sql = <<-SQL
+    INSERT INTO features (type, name, lat, lng, postcode, area, polyline)
+    VALUES (
+      'Suburb',
+      '#{data["suburb"]}',
+      #{data["spatial"]["pole"][0]},
+      #{data["spatial"]["pole"][1]},
+      #{data["postcode"]},
+      #{data["spatial"]["area"]},
+      '#{data["spatial"]["poly"]}'
+    );
+  SQL
+  ActiveRecord::Base.connection.execute(sql)
+
+  feature_id = ActiveRecord::Base.connection.execute("SELECT MAX(id) FROM features;").to_a[0]["max"].to_i
+
+  add_ato_statistics(feature_id, data['gender'], 'Gender')
+  add_ato_statistics(feature_id, data['age'], 'Age')
+  add_ato_statistics(feature_id, data['school_completed'], 'Level of School Completed')
+  add_ato_statistics(feature_id, data['level_of_education'], 'Further Education')
+  add_ato_statistics(feature_id, data['qualifications'], 'Qualifications')
+  add_ato_statistics(feature_id, data['industry_of_employment'], 'Industry of Employment')
+  add_ato_statistics(feature_id, data['occupation'], 'Occupation')
+  add_ato_statistics(feature_id, data['travel_to_work'], 'Work Commute')
+  add_ato_statistics(feature_id, data['marital_status'], 'Marital Status')
+  add_ato_statistics(feature_id, data['country_of_birth'], 'Country of Birth')
+  add_ato_statistics(feature_id, data['languages_spoken'], 'Languages Spoken')
+  add_ato_statistics(feature_id, data['religion'], 'Religion')
+  add_ato_statistics(feature_id, data['number_of_children'], 'Number of Children')
+  add_ato_statistics(feature_id, data['internet_type'], 'Type of Internet Connection')
+end
+
+def add_ato_statistics(feature_id, data, heading)
+  add_statistic("ATO", "Suburb", feature_id, heading, nil, data.values.reduce(:+))
+  data.each do |name, count|
+    add_statistic("ATO", "Suburb", feature_id, heading, name, count)
+  end
+end
+
+INSERTED = Hash.new { |h, k| h[k] = 0 }
+def add_statistic(source, feature, feature_id, heading, name, value)
+  return if value <= 0
+  key = [source, feature, heading, name || ""].join('|')
+  INSERTED[key] += 1
+  if INSERTED[key] == 1
+    sql = <<-SQL
+      INSERT INTO statistics (source_id, parent_id, name, feature_type)
+      VALUES (
+        (SELECT id FROM sources WHERE name='#{source}'),
+        (SELECT id FROM statistics WHERE name='#{heading}'),
+        '#{name || heading}',
+        '#{feature}'
+      );
+    SQL
+    ActiveRecord::Base.connection.execute(sql)
+  end
+
+  sql = <<-SQL
+    SELECT id FROM statistics
+      WHERE feature_type='#{feature}'
+        AND source_id IN (SELECT id FROM sources WHERE name='#{source}')
+        AND name='#{name || heading}'
+        AND (parent_id IS NULL OR parent_id IN (SELECT id FROM statistics WHERE name='#{heading}'))
+    ;
+  SQL
+  statistic_id = ActiveRecord::Base.connection.execute(sql).to_a[0]["max"].to_i
+
+  sql = <<-SQL
+    INSERT INTO values (statistic_id, feature_id, value)
+    VALUES (
+      #{statistic_id},
+      #{feature_id},
+      #{value}
+    );
+  SQL
+  ActiveRecord::Base.connection.execute(sql)
 end
 
 def add_bus_stops
@@ -37,8 +119,8 @@ end
 def add_public_toilets
 end
 
-#clear_tables
-#add_sources
+clear_tables
+add_sources
 add_suburbs
 add_bus_stops
 add_polling_places

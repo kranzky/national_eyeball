@@ -7,7 +7,7 @@ class AddSpatialFeatures < ActiveRecord::Migration
       t.float :lng, null: false
       t.integer :postcode
       t.float :area
-      t.string :polyline
+      t.text :polyline
     end
     add_index :features, :type
     add_index :features, :lat
