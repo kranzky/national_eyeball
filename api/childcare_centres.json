@@ -1,0 +1,8204 @@
+[
+  {
+    "name": "124 Early Learning Centre",
+    "location": [
+      -32.529829,
+      115.767802
+    ],
+    "places": 37
+  },
+  {
+    "name": "4 Big Kids",
+    "location": [
+      -32.5223763,
+      115.7396566
+    ],
+    "places": 65
+  },
+  {
+    "name": "4 Big Kids Pinjarra",
+    "location": [
+      -32.6284935,
+      115.865344
+    ],
+    "places": 20
+  },
+  {
+    "name": "A1 Fun Osh",
+    "location": [
+      -32.51521,
+      115.7388
+    ],
+    "places": 80
+  },
+  {
+    "name": "Adam Road OSHClub",
+    "location": [
+      -33.3593178,
+      115.6336403
+    ],
+    "places": 50
+  },
+  {
+    "name": "Addison Park Day Care Centre",
+    "location": [
+      -31.668768,
+      115.716149
+    ],
+    "places": 57
+  },
+  {
+    "name": "Adventure Zone",
+    "location": [
+      -32.5285516,
+      115.7255414
+    ],
+    "places": 70
+  },
+  {
+    "name": "Albany Occasional Care Centre",
+    "location": [
+      -35.0250471,
+      117.8820062
+    ],
+    "places": 42
+  },
+  {
+    "name": "Albany Regional Day Care Centre",
+    "location": [
+      -35.024419,
+      117.881186
+    ],
+    "places": 60
+  },
+  {
+    "name": "Alexander Heights Child Care Centre",
+    "location": [
+      -31.830041,
+      115.865925
+    ],
+    "places": 61
+  },
+  {
+    "name": "Ali's Magic Carpet Pre-kindy",
+    "location": [
+      -31.9808612,
+      115.7995504
+    ],
+    "places": 15
+  },
+  {
+    "name": "All Saints' College Out Of School Hours Care",
+    "location": [
+      -32.0517237,
+      115.8657122
+    ],
+    "places": 60
+  },
+  {
+    "name": "Altitude Childcare and Kindergarten",
+    "location": [
+      -31.9676038,
+      115.8167389
+    ],
+    "places": 59
+  },
+  {
+    "name": "Altone Park Leisure Centre Holiday Program",
+    "location": [
+      -31.874982,
+      115.939396
+    ],
+    "places": 78
+  },
+  {
+    "name": "Annie's Angels Play and Development Centre",
+    "location": [
+      -33.082362,
+      115.891237
+    ],
+    "places": 24
+  },
+  {
+    "name": "Annie's Playschool",
+    "location": [
+      -31.965689,
+      115.774928
+    ],
+    "places": 13
+  },
+  {
+    "name": "Applecross OSHClub",
+    "location": [
+      -32.010782,
+      115.838747
+    ],
+    "places": 50
+  },
+  {
+    "name": "Arbor Grove OSHClub",
+    "location": [
+      -31.7698072,
+      115.9617189
+    ],
+    "places": 50
+  },
+  {
+    "name": "Ardross Primary School OSHClub",
+    "location": [
+      -32.027439,
+      115.834653
+    ],
+    "places": 50
+  },
+  {
+    "name": "Ashdale Early Learning Childcare Centre",
+    "location": [
+      -31.811923,
+      115.84449
+    ],
+    "places": 94
+  },
+  {
+    "name": "ASILO Bilingual Childcare And Learning Centre",
+    "location": [
+      -31.893325,
+      115.839645
+    ],
+    "places": 55
+  },
+  {
+    "name": "Assumption OSHClub Mandurah",
+    "location": [
+      -32.5110073,
+      115.744196
+    ],
+    "places": 50
+  },
+  {
+    "name": "Atwell Pre-Kindy",
+    "location": [
+      -32.1512855,
+      115.8659959
+    ],
+    "places": 20
+  },
+  {
+    "name": "Aubin Grove Pre-Kindy",
+    "location": [
+      -32.1721519,
+      115.8644542
+    ],
+    "places": 20
+  },
+  {
+    "name": "Aussie Kidz Childcare & Education Services",
+    "location": [
+      -31.968425,
+      115.932382
+    ],
+    "places": 37
+  },
+  {
+    "name": "Aussie Kidz Childcare and Education Service",
+    "location": [
+      -31.968425,
+      115.932382
+    ],
+    "places": 0
+  },
+  {
+    "name": "A-Z Family Day Care",
+    "location": [
+      -31.863167,
+      115.883188
+    ],
+    "places": 0
+  },
+  {
+    "name": "Bakers Hill Out of School Hours Care",
+    "location": [
+      -31.7449226,
+      116.3839765
+    ],
+    "places": 24
+  },
+  {
+    "name": "Balcatta Kids Club",
+    "location": [
+      -31.869888,
+      115.821683
+    ],
+    "places": 40
+  },
+  {
+    "name": "Balga OSHC",
+    "location": [
+      -31.8531321,
+      115.8332431
+    ],
+    "places": 65
+  },
+  {
+    "name": "Ballajura Child Care Centre",
+    "location": [
+      -31.834218,
+      115.8863
+    ],
+    "places": 57
+  },
+  {
+    "name": "Ballajura South Child Care Centre",
+    "location": [
+      -31.850622,
+      115.901002
+    ],
+    "places": 37
+  },
+  {
+    "name": "Bambara After School And Vacation Care",
+    "location": [
+      -31.7976774,
+      115.7600623
+    ],
+    "places": 50
+  },
+  {
+    "name": "Bambi Child Care Centre",
+    "location": [
+      -28.77940899999999,
+      114.602716
+    ],
+    "places": 43
+  },
+  {
+    "name": "Bambi Child Care Centre - Fitzgerald",
+    "location": [
+      -28.7853306,
+      114.6077975
+    ],
+    "places": 57
+  },
+  {
+    "name": "Banksia Grove OSHClub",
+    "location": [
+      -31.695132,
+      115.805451
+    ],
+    "places": 36
+  },
+  {
+    "name": "Bardi Jawi Family and Early Learning Centre",
+    "location": [
+      -17.848355,
+      122.5028355
+    ],
+    "places": 30
+  },
+  {
+    "name": "Barnes Street Early Learning Centre",
+    "location": [
+      -31.887859,
+      115.78846
+    ],
+    "places": 36
+  },
+  {
+    "name": "Bassendean Childcare Centre",
+    "location": [
+      -31.905781,
+      115.945639
+    ],
+    "places": 55
+  },
+  {
+    "name": "Baya Gawiy Early Childhood Learning Unit",
+    "location": [
+      -18.1847211,
+      125.5636549
+    ],
+    "places": 50
+  },
+  {
+    "name": "Bayswater Family Centre Inc.",
+    "location": [
+      -31.922881,
+      115.908682
+    ],
+    "places": 20
+  },
+  {
+    "name": "Bayswater Out Of School",
+    "location": [
+      -31.920768,
+      115.909487
+    ],
+    "places": 39
+  },
+  {
+    "name": "Bedfordale Child Care Centre",
+    "location": [
+      -32.178955,
+      116.058393
+    ],
+    "places": 57
+  },
+  {
+    "name": "Bee @ Vasse Outside School Hours Care",
+    "location": [
+      -33.6873551,
+      115.2478141
+    ],
+    "places": 20
+  },
+  {
+    "name": "Bee on Hadfield",
+    "location": [
+      -33.661847,
+      115.306269
+    ],
+    "places": 38
+  },
+  {
+    "name": "Beechboro Child Care Centre",
+    "location": [
+      -31.870101,
+      115.924378
+    ],
+    "places": 39
+  },
+  {
+    "name": "Beldon School of Early Learning",
+    "location": [
+      -31.7776928,
+      115.7659602
+    ],
+    "places": 58
+  },
+  {
+    "name": "Belmont Oasis OSHC",
+    "location": [
+      -31.9584464,
+      115.9314428
+    ],
+    "places": 80
+  },
+  {
+    "name": "Benara Road Early Learning Centre",
+    "location": [
+      -31.875214,
+      115.932521
+    ],
+    "places": 39
+  },
+  {
+    "name": "Bernice McLeod Child Care Centre",
+    "location": [
+      -21.9301192,
+      114.1247457
+    ],
+    "places": 24
+  },
+  {
+    "name": "Bertram OSHC Program",
+    "location": [
+      -32.2476315,
+      115.8431173
+    ],
+    "places": 58
+  },
+  {
+    "name": "Bicton OSHClub",
+    "location": [
+      -32.0328941,
+      115.7826319
+    ],
+    "places": 39
+  },
+  {
+    "name": "Billabong Community Child Care Centre",
+    "location": [
+      -31.983267,
+      115.901181
+    ],
+    "places": 47
+  },
+  {
+    "name": "Binningup Occasional Child Care Centre",
+    "location": [
+      -33.15073690000001,
+      115.6944073
+    ],
+    "places": 19
+  },
+  {
+    "name": "Birra-li Child Care Centre",
+    "location": [
+      -32.0517526,
+      115.8134053
+    ],
+    "places": 46
+  },
+  {
+    "name": "Bletchley Play & Learn",
+    "location": [
+      -32.102601,
+      115.946241
+    ],
+    "places": 90
+  },
+  {
+    "name": "Blue Gum Early Learning And Child Care Centre",
+    "location": [
+      -32.040437,
+      115.847748
+    ],
+    "places": 51
+  },
+  {
+    "name": "Blue Gum Out Of School Care",
+    "location": [
+      -32.040437,
+      115.847748
+    ],
+    "places": 91
+  },
+  {
+    "name": "Bluebird After School And Vacation Care",
+    "location": [
+      -33.7040841,
+      115.3257775
+    ],
+    "places": 40
+  },
+  {
+    "name": "Bluebird Central",
+    "location": [
+      -33.654263,
+      115.343427
+    ],
+    "places": 52
+  },
+  {
+    "name": "Bluebird Childcare Centre",
+    "location": [
+      -33.6667389,
+      115.3325838
+    ],
+    "places": 62
+  },
+  {
+    "name": "Boddington Early Learning Centre",
+    "location": [
+      -32.801945,
+      116.469832
+    ],
+    "places": 36
+  },
+  {
+    "name": "Booragoon Occasional Child Care Centre",
+    "location": [
+      -32.038312,
+      115.830473
+    ],
+    "places": 38
+  },
+  {
+    "name": "Booragoon OSHClub",
+    "location": [
+      -32.0340798,
+      115.8255103
+    ],
+    "places": 50
+  },
+  {
+    "name": "Bounce OSHC - Atwell",
+    "location": [
+      -32.134773,
+      115.868013
+    ],
+    "places": 75
+  },
+  {
+    "name": "Bounce OSHC - Bibra Lake",
+    "location": [
+      -32.094096,
+      115.839146
+    ],
+    "places": 75
+  },
+  {
+    "name": "Bounce OSHC - Bletchley Park",
+    "location": [
+      -32.102758,
+      115.947143
+    ],
+    "places": 100
+  },
+  {
+    "name": "Bounce OSHC - Caladenia",
+    "location": [
+      -32.074975,
+      115.932734
+    ],
+    "places": 100
+  },
+  {
+    "name": "Bounce OSHC - Campbell",
+    "location": [
+      -32.0709598,
+      115.8938833
+    ],
+    "places": 120
+  },
+  {
+    "name": "Bounce OSHC - Centro",
+    "location": [
+      -32.0938752,
+      115.9222444
+    ],
+    "places": 40
+  },
+  {
+    "name": "Bounce OSHC - Huntingdale",
+    "location": [
+      -32.077635,
+      115.971701
+    ],
+    "places": 75
+  },
+  {
+    "name": "Bounce OSHC - Ranford",
+    "location": [
+      -32.0948396,
+      115.9109643
+    ],
+    "places": 67
+  },
+  {
+    "name": "Bremer Bay Occasional Child Care Centre",
+    "location": [
+      -34.392276,
+      119.380128
+    ],
+    "places": 15
+  },
+  {
+    "name": "Bridgetown Stepping Stones",
+    "location": [
+      -33.957422,
+      116.139713
+    ],
+    "places": 15
+  },
+  {
+    "name": "Bright Beginnings Freshwater Bay",
+    "location": [
+      -31.9849919,
+      115.7813874
+    ],
+    "places": 20
+  },
+  {
+    "name": "Bright Futures Family Day Care",
+    "location": [
+      -32.2343098,
+      115.815795
+    ],
+    "places": 0
+  },
+  {
+    "name": "Bright Sparks Early Learning Centre (Gosnells)",
+    "location": [
+      -32.071136,
+      116.000958
+    ],
+    "places": 74
+  },
+  {
+    "name": "Bright Stars Family Day Care",
+    "location": [
+      -28.801446,
+      114.624508
+    ],
+    "places": 0
+  },
+  {
+    "name": "Bright Start Child Care Centre",
+    "location": [
+      -33.68612,
+      117.549131
+    ],
+    "places": 26
+  },
+  {
+    "name": "Brockman House Child Care Centre",
+    "location": [
+      -31.870711,
+      115.946326
+    ],
+    "places": 31
+  },
+  {
+    "name": "Brook View Family Centre",
+    "location": [
+      -31.88781,
+      116.046154
+    ],
+    "places": 20
+  },
+  {
+    "name": "Broome Daycare Centre",
+    "location": [
+      -17.958891,
+      122.236925
+    ],
+    "places": 62
+  },
+  {
+    "name": "Broome Out Of School Care Children's Activities Inc",
+    "location": [
+      -17.963768,
+      122.234378
+    ],
+    "places": 55
+  },
+  {
+    "name": "Broome Recreation and Aquatic Centre",
+    "location": [
+      -17.9496359,
+      122.2167264
+    ],
+    "places": 50
+  },
+  {
+    "name": "Bruce Rock Day Care Centre",
+    "location": [
+      -31.872248,
+      118.146913
+    ],
+    "places": 15
+  },
+  {
+    "name": "Bubbles Family Day Care Scheme",
+    "location": [
+      -31.994102,
+      115.915257
+    ],
+    "places": 0
+  },
+  {
+    "name": "Buggles Child Care - Beckenham",
+    "location": [
+      -32.018729,
+      115.9593317
+    ],
+    "places": 62
+  },
+  {
+    "name": "Buggles Child Care - Beldon",
+    "location": [
+      -31.771261,
+      115.766944
+    ],
+    "places": 62
+  },
+  {
+    "name": "Buggles Child Care - Brookfield Place",
+    "location": [
+      -31.9543003,
+      115.8549179
+    ],
+    "places": 62
+  },
+  {
+    "name": "Buggles Child Care - Cherry Court",
+    "location": [
+      -31.895107,
+      115.920664
+    ],
+    "places": 62
+  },
+  {
+    "name": "Buggles Child Care - Coolbellup",
+    "location": [
+      -32.082743,
+      115.807688
+    ],
+    "places": 72
+  },
+  {
+    "name": "Buggles Child Care - Forrestfield",
+    "location": [
+      -31.971994,
+      116.004328
+    ],
+    "places": 72
+  },
+  {
+    "name": "Buggles Child Care - Hilton",
+    "location": [
+      -32.063875,
+      115.782325
+    ],
+    "places": 75
+  },
+  {
+    "name": "Buggles Child Care - Maddington",
+    "location": [
+      -32.0584147,
+      115.9941999
+    ],
+    "places": 82
+  },
+  {
+    "name": "Buggles Child Care - Mandurah",
+    "location": [
+      -32.529023,
+      115.747397
+    ],
+    "places": 82
+  },
+  {
+    "name": "Buggles Child Care - Riverton",
+    "location": [
+      -32.0386719,
+      115.8975208
+    ],
+    "places": 60
+  },
+  {
+    "name": "Buggles Child Care - South Lake",
+    "location": [
+      -32.115619,
+      115.838676
+    ],
+    "places": 72
+  },
+  {
+    "name": "Buggles Child Care - Spearwood",
+    "location": [
+      -32.1166846,
+      115.7835998
+    ],
+    "places": 82
+  },
+  {
+    "name": "Buggles Childcare Beeliar",
+    "location": [
+      -32.132245,
+      115.815916
+    ],
+    "places": 99
+  },
+  {
+    "name": "Buggles Early Learning and Kindy - Atwell",
+    "location": [
+      -32.1566721,
+      115.8620533
+    ],
+    "places": 92
+  },
+  {
+    "name": "Bullsbrook OSHC",
+    "location": [
+      -31.6598175,
+      116.0324559
+    ],
+    "places": 33
+  },
+  {
+    "name": "Bunbury Cathedral Grammar School Before And After School Care",
+    "location": [
+      -33.404396,
+      115.638559
+    ],
+    "places": 60
+  },
+  {
+    "name": "Busselton Child Care Centre",
+    "location": [
+      -33.653502,
+      115.343817
+    ],
+    "places": 54
+  },
+  {
+    "name": "Busselton Early Education",
+    "location": [
+      -33.652166,
+      115.343164
+    ],
+    "places": 43
+  },
+  {
+    "name": "Busy Bee Pre Kindergarten Inc",
+    "location": [
+      -32.1352153,
+      116.0008165
+    ],
+    "places": 19
+  },
+  {
+    "name": "Butterflies Play Centre",
+    "location": [
+      -32.571828,
+      115.672781
+    ],
+    "places": 37
+  },
+  {
+    "name": "Buzy Kidz Care Centre",
+    "location": [
+      -31.7737714,
+      115.7588152
+    ],
+    "places": 30
+  },
+  {
+    "name": "Byford Child Care Centre",
+    "location": [
+      -32.220757,
+      116.011877
+    ],
+    "places": 90
+  },
+  {
+    "name": "Camillo Early Learning Centre",
+    "location": [
+      -32.110778,
+      116.004
+    ],
+    "places": 48
+  },
+  {
+    "name": "Camp Australia - Aquinas College",
+    "location": [
+      -32.0217918,
+      115.8628658
+    ],
+    "places": 59
+  },
+  {
+    "name": "Camp Australia - Aubin Grove Primary School OSHC",
+    "location": [
+      -32.1728336,
+      115.8641124
+    ],
+    "places": 90
+  },
+  {
+    "name": "Camp Australia - Beechboro Christian School OSHC",
+    "location": [
+      -31.855588,
+      115.9354656
+    ],
+    "places": 38
+  },
+  {
+    "name": "Camp Australia - Beeliar Primary School OSHC",
+    "location": [
+      -32.13363400000001,
+      115.82051
+    ],
+    "places": 70
+  },
+  {
+    "name": "Camp Australia - Canning Vale Primary School OSHC",
+    "location": [
+      -32.0765016,
+      115.9118626
+    ],
+    "places": 30
+  },
+  {
+    "name": "Camp Australia - Coogee Primary School OSHC",
+    "location": [
+      -32.127071,
+      115.771848
+    ],
+    "places": 70
+  },
+  {
+    "name": "Camp Australia - Coolbinia Primary School OSHC",
+    "location": [
+      -31.9119436,
+      115.8559934
+    ],
+    "places": 60
+  },
+  {
+    "name": "Camp Australia - Craigie Heights Primary School OSHC",
+    "location": [
+      -31.7894933,
+      115.7605032
+    ],
+    "places": 74
+  },
+  {
+    "name": "Camp Australia – Excelsior Primary School OSHC",
+    "location": [
+      -32.082175,
+      115.944205
+    ],
+    "places": 50
+  },
+  {
+    "name": "Camp Australia - Forest Crescent Primary School OSHC",
+    "location": [
+      -32.07607,
+      115.950005
+    ],
+    "places": 60
+  },
+  {
+    "name": "Camp Australia - Fremantle Primary OSHC",
+    "location": [
+      -32.05887,
+      115.753523
+    ],
+    "places": 60
+  },
+  {
+    "name": "Camp Australia - Freshwater Bay Primary School OSHC.",
+    "location": [
+      -31.984778,
+      115.781042
+    ],
+    "places": 52
+  },
+  {
+    "name": "Camp Australia - Harmony Primary School OSHC",
+    "location": [
+      -32.1479585,
+      115.8632167
+    ],
+    "places": 50
+  },
+  {
+    "name": "Camp Australia - Hillarys Primary School OSHC.",
+    "location": [
+      -31.813288,
+      115.752567
+    ],
+    "places": 60
+  },
+  {
+    "name": "Camp Australia - Hocking Primary School OSHC",
+    "location": [
+      -31.7692408,
+      115.8168626
+    ],
+    "places": 95
+  },
+  {
+    "name": "Camp Australia - Illawarra Primary School OSHC",
+    "location": [
+      -31.8278593,
+      115.882096
+    ],
+    "places": 90
+  },
+  {
+    "name": "Camp Australia - Jandakot Primary School OSHC",
+    "location": [
+      -32.139145,
+      115.845625
+    ],
+    "places": 70
+  },
+  {
+    "name": "Camp Australia - Lake Joondalup Baptist College OSHC",
+    "location": [
+      -31.7382548,
+      115.7610565
+    ],
+    "places": 87
+  },
+  {
+    "name": "Camp Australia - Makybe Rise Primary School OSHC",
+    "location": [
+      -32.3429911,
+      115.8172407
+    ],
+    "places": 60
+  },
+  {
+    "name": "Camp Australia - Melville Primary School OSHC",
+    "location": [
+      -32.0405303,
+      115.8057814
+    ],
+    "places": 90
+  },
+  {
+    "name": "Camp Australia - Mount Pleasant Primary School OSHC",
+    "location": [
+      -32.030201,
+      115.845319
+    ],
+    "places": 60
+  },
+  {
+    "name": "Camp Australia - Newton Primary School OSHC",
+    "location": [
+      -32.112171,
+      115.789012
+    ],
+    "places": 60
+  },
+  {
+    "name": "Camp Australia - Nollamara Primary School OSHC",
+    "location": [
+      -31.8849056,
+      115.8406964
+    ],
+    "places": 60
+  },
+  {
+    "name": "Camp Australia - North Cottesloe Primary School OSHC.",
+    "location": [
+      -31.989145,
+      115.765386
+    ],
+    "places": 100
+  },
+  {
+    "name": "Camp Australia - North Morley Primary School OSHC.",
+    "location": [
+      -31.8794799,
+      115.8770213
+    ],
+    "places": 40
+  },
+  {
+    "name": "Camp Australia - Palmyra Primary School OSHC",
+    "location": [
+      -32.045285,
+      115.785314
+    ],
+    "places": 60
+  },
+  {
+    "name": "Camp Australia - Pearsall Primary School OSHC",
+    "location": [
+      -31.7800986,
+      115.8137317
+    ],
+    "places": 60
+  },
+  {
+    "name": "Camp Australia - Penrhos College OSHC",
+    "location": [
+      -31.997431,
+      115.872539
+    ],
+    "places": 56
+  },
+  {
+    "name": "Camp Australia - Perth Montessori School OSHC",
+    "location": [
+      -31.96511,
+      115.898491
+    ],
+    "places": 44
+  },
+  {
+    "name": "Camp Australia - Presbyterian Ladies' College OSHC",
+    "location": [
+      -31.994185,
+      115.7685653
+    ],
+    "places": 30
+  },
+  {
+    "name": "Camp Australia - Richmond Primary School OSHC",
+    "location": [
+      -32.0376487,
+      115.7694833
+    ],
+    "places": 30
+  },
+  {
+    "name": "Camp Australia - Rockingham Beach Primary School OSHC",
+    "location": [
+      -32.28213,
+      115.721919
+    ],
+    "places": 75
+  },
+  {
+    "name": "Camp Australia - Rostrata Primary School OSHC",
+    "location": [
+      -32.0495965,
+      115.8989457
+    ],
+    "places": 60
+  },
+  {
+    "name": "Camp Australia - St Columba's Catholic Primary School OSHC",
+    "location": [
+      -31.9776845,
+      115.8606577
+    ],
+    "places": 58
+  },
+  {
+    "name": "Camp Australia - Success Primary School OSHC",
+    "location": [
+      -32.152517,
+      115.849541
+    ],
+    "places": 100
+  },
+  {
+    "name": "Camp Australia - Sutherland Dianella Primary School OSHC",
+    "location": [
+      -31.893611,
+      115.864632
+    ],
+    "places": 53
+  },
+  {
+    "name": "Camp Australia - Swan Valley Anglican Community School OSHC",
+    "location": [
+      -31.7932684,
+      115.9845129
+    ],
+    "places": 70
+  },
+  {
+    "name": "Camp Australia - Swanbourne Primary School OSHC.",
+    "location": [
+      -31.9722413,
+      115.7716989
+    ],
+    "places": 100
+  },
+  {
+    "name": "Camp Australia - Upper Swan Valley Primary School OSHC",
+    "location": [
+      -31.786818,
+      116.025125
+    ],
+    "places": 85
+  },
+  {
+    "name": "Camp Australia - Wesley College OSHC",
+    "location": [
+      -31.979951,
+      115.86593
+    ],
+    "places": 70
+  },
+  {
+    "name": "Camp Australia- Rehoboth Christian College OSHC",
+    "location": [
+      -32.031618,
+      115.977925
+    ],
+    "places": 75
+  },
+  {
+    "name": "Camp Australia-Madeley Primary School OSHC",
+    "location": [
+      -31.8075315,
+      115.8301534
+    ],
+    "places": 70
+  },
+  {
+    "name": "Canning Vale Prekindy",
+    "location": [
+      -32.0776879,
+      115.9076562
+    ],
+    "places": 18
+  },
+  {
+    "name": "Canning Vale School of Early Learning",
+    "location": [
+      -32.073884,
+      115.912499
+    ],
+    "places": 112
+  },
+  {
+    "name": "Capel Childcare Centre",
+    "location": [
+      -33.5533418,
+      115.5632828
+    ],
+    "places": 28
+  },
+  {
+    "name": "Capel OSHC",
+    "location": [
+      -33.5549617,
+      115.5633044
+    ],
+    "places": 29
+  },
+  {
+    "name": "Care For Kids OSHC",
+    "location": [
+      -31.842292,
+      115.7870176
+    ],
+    "places": 55
+  },
+  {
+    "name": "Care for Kids OSHC - Glendale",
+    "location": [
+      -31.8487851,
+      115.8085994
+    ],
+    "places": 55
+  },
+  {
+    "name": "Care for Kids OSHC - Kingsley",
+    "location": [
+      -31.8141231,
+      115.791725
+    ],
+    "places": 65
+  },
+  {
+    "name": "Care for Kids OSHC Morley",
+    "location": [
+      -31.8770455,
+      115.8900229
+    ],
+    "places": 55
+  },
+  {
+    "name": "Care For Kids School of Early Learning",
+    "location": [
+      -31.84552699999999,
+      115.795918
+    ],
+    "places": 53
+  },
+  {
+    "name": "Care For Kids School of Early Learning - Kingsley",
+    "location": [
+      -31.817233,
+      115.811201
+    ],
+    "places": 64
+  },
+  {
+    "name": "Care For Kids School Of Early Learning Banksia Grove",
+    "location": [
+      -31.6908292,
+      115.7980249
+    ],
+    "places": 74
+  },
+  {
+    "name": "Care For Kids School Of Early Learning Mosman Park",
+    "location": [
+      -32.0075622,
+      115.7599591
+    ],
+    "places": 49
+  },
+  {
+    "name": "Care for Kids School of Early Learning Morley",
+    "location": [
+      -31.882597,
+      115.888492
+    ],
+    "places": 44
+  },
+  {
+    "name": "Caring and Sharing Family Day Care",
+    "location": [
+      -31.841466,
+      115.859013
+    ],
+    "places": 0
+  },
+  {
+    "name": "Carnamah Child Care Centre Inc",
+    "location": [
+      -29.688136,
+      115.888609
+    ],
+    "places": 14
+  },
+  {
+    "name": "Carramar OSHClub",
+    "location": [
+      -31.711387,
+      115.785747
+    ],
+    "places": 100
+  },
+  {
+    "name": "Carrington Child Care Centre",
+    "location": [
+      -32.0461189,
+      115.7796905
+    ],
+    "places": 48
+  },
+  {
+    "name": "Catherine McAuley Day Care Centre",
+    "location": [
+      -31.938326,
+      115.823026
+    ],
+    "places": 138
+  },
+  {
+    "name": "Catholic Parish of Ballajura (Alex and Flora Club)",
+    "location": [
+      -31.844642,
+      115.897194
+    ],
+    "places": 50
+  },
+  {
+    "name": "Challis Primary OSHClub",
+    "location": [
+      -32.139245,
+      116.000648
+    ],
+    "places": 50
+  },
+  {
+    "name": "Chapman Road Before and After School Care",
+    "location": [
+      -28.744551,
+      114.62224
+    ],
+    "places": 60
+  },
+  {
+    "name": "Charthouse OSHClub",
+    "location": [
+      -32.317141,
+      115.750833
+    ],
+    "places": 37
+  },
+  {
+    "name": "Child Australia OSHC Lockridge",
+    "location": [
+      -31.87925499999999,
+      115.948195
+    ],
+    "places": 30
+  },
+  {
+    "name": "Child Early Learning Centre Lockridge",
+    "location": [
+      -31.879313,
+      115.948525
+    ],
+    "places": 60
+  },
+  {
+    "name": "Children Heaven Family Day Care",
+    "location": [
+      -31.859196,
+      115.894511
+    ],
+    "places": 0
+  },
+  {
+    "name": "Children's Choice Family Day Care Pty Ltd",
+    "location": [
+      -31.878796,
+      115.832653
+    ],
+    "places": 0
+  },
+  {
+    "name": "Children's Hospital Child Care Centre",
+    "location": [
+      -31.9501898,
+      115.8337936
+    ],
+    "places": 47
+  },
+  {
+    "name": "Children's Program",
+    "location": [
+      -31.799368,
+      115.744961
+    ],
+    "places": 20
+  },
+  {
+    "name": "Christ Church Grammar - Camp Australia OSHC",
+    "location": [
+      -31.9865635,
+      115.7784227
+    ],
+    "places": 33
+  },
+  {
+    "name": "Christmas Island Daycare Centre",
+    "location": null,
+    "places": 23
+  },
+  {
+    "name": "Chrysalis Montessori After School Care",
+    "location": [
+      -31.917835,
+      115.818427
+    ],
+    "places": 76
+  },
+  {
+    "name": "Chuckles Childcare",
+    "location": [
+      -32.335705,
+      115.759657
+    ],
+    "places": 58
+  },
+  {
+    "name": "Churchlands Primary OSHC",
+    "location": [
+      -31.9275077,
+      115.7926724
+    ],
+    "places": 40
+  },
+  {
+    "name": "Circle of Friends Childcare and Early Learning Centre",
+    "location": [
+      -32.007974,
+      115.956543
+    ],
+    "places": 40
+  },
+  {
+    "name": "Citiplace Child Care Centre",
+    "location": [
+      -31.951616,
+      115.860357
+    ],
+    "places": 71
+  },
+  {
+    "name": "City of Canning Vacation Care",
+    "location": [
+      -32.0096303,
+      115.9405654
+    ],
+    "places": 75
+  },
+  {
+    "name": "City Of Gosnells Holiday Funtimes",
+    "location": [
+      -32.0543,
+      115.970101
+    ],
+    "places": 104
+  },
+  {
+    "name": "City of Mandurah OSHC",
+    "location": [
+      -32.5530092,
+      115.6940211
+    ],
+    "places": 50
+  },
+  {
+    "name": "City Of Rockingham Child Care Services",
+    "location": [
+      -32.291563,
+      115.743978
+    ],
+    "places": 76
+  },
+  {
+    "name": "City West Kidz Early Learning Centre",
+    "location": [
+      -31.944857,
+      115.846313
+    ],
+    "places": 128
+  },
+  {
+    "name": "Claremont Day Nursery",
+    "location": [
+      -31.9696822,
+      115.7936767
+    ],
+    "places": 39
+  },
+  {
+    "name": "Clarkson Care 4 Kids",
+    "location": [
+      -31.679477,
+      115.71646
+    ],
+    "places": 34
+  },
+  {
+    "name": "Clarkson Primary OSHClub",
+    "location": [
+      -31.677545,
+      115.718307
+    ],
+    "places": 26
+  },
+  {
+    "name": "Climb Early Learning Centre - Innaloo",
+    "location": [
+      -31.899927,
+      115.796345
+    ],
+    "places": 40
+  },
+  {
+    "name": "Cloverdale Child Care Centre",
+    "location": [
+      -31.965315,
+      115.949644
+    ],
+    "places": 46
+  },
+  {
+    "name": "Club GB - Applecross",
+    "location": [
+      -32.019175,
+      115.838688
+    ],
+    "places": 60
+  },
+  {
+    "name": "Club GB - Ellenbrook",
+    "location": [
+      -31.7702646,
+      115.9750083
+    ],
+    "places": 91
+  },
+  {
+    "name": "Coastal Kids After School Care",
+    "location": [
+      -30.307573,
+      115.0380296
+    ],
+    "places": 20
+  },
+  {
+    "name": "Coastal Kids Care Inc",
+    "location": [
+      -30.3041976,
+      115.0408676
+    ],
+    "places": 28
+  },
+  {
+    "name": "Cockburn Family Day Care Service",
+    "location": [
+      -32.082978,
+      115.80876
+    ],
+    "places": 0
+  },
+  {
+    "name": "College Community Child Care Centre",
+    "location": [
+      -33.3524877,
+      115.6665107
+    ],
+    "places": 43
+  },
+  {
+    "name": "Collie Early Education Inc",
+    "location": [
+      -33.3580892,
+      116.151548
+    ],
+    "places": 48
+  },
+  {
+    "name": "Communicare Family Day Care Service",
+    "location": [
+      -32.01497000000001,
+      115.938209
+    ],
+    "places": 0
+  },
+  {
+    "name": "Communicare Occasional Care Centre",
+    "location": [
+      -32.01497000000001,
+      115.938209
+    ],
+    "places": 32
+  },
+  {
+    "name": "Communicare St Joseph's Out Of School Hours Care",
+    "location": [
+      -32.005792,
+      115.938716
+    ],
+    "places": 39
+  },
+  {
+    "name": "Communicare St Jude's Out Of School Hours Care",
+    "location": [
+      -32.04435,
+      115.93515
+    ],
+    "places": 39
+  },
+  {
+    "name": "Community Kids High Wycombe Early Education Centre",
+    "location": [
+      -31.939927,
+      116.013475
+    ],
+    "places": 65
+  },
+  {
+    "name": "Community Kids Huntingdale Early Education Centre",
+    "location": [
+      -32.077016,
+      115.962928
+    ],
+    "places": 50
+  },
+  {
+    "name": "Community Kids Morley Early Education Centre",
+    "location": [
+      -31.886344,
+      115.92139
+    ],
+    "places": 60
+  },
+  {
+    "name": "Community Kids Seville Grove Early Education Centre",
+    "location": [
+      -32.1459778,
+      115.9852446
+    ],
+    "places": 56
+  },
+  {
+    "name": "Community Kids South Lake Early Education Centre",
+    "location": [
+      -32.1067153,
+      115.8278007
+    ],
+    "places": 65
+  },
+  {
+    "name": "Community Vision Family Day Care Service",
+    "location": [
+      -31.844299,
+      115.785667
+    ],
+    "places": 0
+  },
+  {
+    "name": "Como Children",
+    "location": [
+      -31.990258,
+      115.876132
+    ],
+    "places": 35
+  },
+  {
+    "name": "Connolly OSHClub",
+    "location": [
+      -31.7516285,
+      115.7498042
+    ],
+    "places": 51
+  },
+  {
+    "name": "Cooinda OSHClub",
+    "location": [
+      -33.335586,
+      115.6528546
+    ],
+    "places": 30
+  },
+  {
+    "name": "Cosy Corner Nursery School & Childcare Centre",
+    "location": [
+      -32.529273,
+      115.726833
+    ],
+    "places": 38
+  },
+  {
+    "name": "Cottesloe - Camp Australia OSHC",
+    "location": [
+      -32.002519,
+      115.761333
+    ],
+    "places": 35
+  },
+  {
+    "name": "Cottesloe Child Care Centre",
+    "location": [
+      -31.984603,
+      115.760231
+    ],
+    "places": 34
+  },
+  {
+    "name": "Cowaramup Child Care Centre",
+    "location": [
+      -33.848901,
+      115.105165
+    ],
+    "places": 36
+  },
+  {
+    "name": "Craigie Childcare Centre",
+    "location": [
+      -31.783229,
+      115.768444
+    ],
+    "places": 40
+  },
+  {
+    "name": "CSSU Bulgarra Early Learning Centre",
+    "location": [
+      -20.734214,
+      116.84861
+    ],
+    "places": 43
+  },
+  {
+    "name": "CSSU Children and Family Centre Roebourne",
+    "location": [
+      -20.7659439,
+      117.1405775
+    ],
+    "places": 33
+  },
+  {
+    "name": "CSSU Dampier Early Learning Centre",
+    "location": [
+      -20.6693173,
+      116.710917
+    ],
+    "places": 17
+  },
+  {
+    "name": "CSSU Family Daycare Scheme",
+    "location": [
+      -20.302071,
+      118.633026
+    ],
+    "places": 0
+  },
+  {
+    "name": "CSSU Kambalda Early Learning Centre",
+    "location": [
+      -31.20835,
+      121.621098
+    ],
+    "places": 45
+  },
+  {
+    "name": "CSSU Kununurra Children & Family Centre",
+    "location": [
+      -15.7673606,
+      128.7387476
+    ],
+    "places": 40
+  },
+  {
+    "name": "CSSU Onslow Early Learning Centre",
+    "location": [
+      -21.6446718,
+      115.1134504
+    ],
+    "places": 19
+  },
+  {
+    "name": "CSSU Pannawonica Early Learning Centre",
+    "location": [
+      -21.637163,
+      116.323122
+    ],
+    "places": 24
+  },
+  {
+    "name": "CSSU Paraburdoo Early Learning Centre",
+    "location": [
+      -23.199909,
+      117.675276
+    ],
+    "places": 23
+  },
+  {
+    "name": "CSSU Port Hedland Out of School Care",
+    "location": [
+      -20.3038386,
+      118.6357611
+    ],
+    "places": 26
+  },
+  {
+    "name": "CSSU Scallywags Early Learning Centre",
+    "location": [
+      -17.31687,
+      123.639051
+    ],
+    "places": 66
+  },
+  {
+    "name": "CSSU Wickham Early Learning Centre",
+    "location": [
+      -20.676061,
+      117.143954
+    ],
+    "places": 24
+  },
+  {
+    "name": "Cubby Houses Little Treasures",
+    "location": [
+      -33.842255,
+      121.900865
+    ],
+    "places": 72
+  },
+  {
+    "name": "Cuddles Child Care Centre - Bertram",
+    "location": [
+      -32.2460598,
+      115.8479014
+    ],
+    "places": 98
+  },
+  {
+    "name": "Cuddles Child Care Centre - Carlisle",
+    "location": [
+      -31.98724099999999,
+      115.916978
+    ],
+    "places": 114
+  },
+  {
+    "name": "Cuddles Child Care Centre - St James",
+    "location": [
+      -32.001714,
+      115.916356
+    ],
+    "places": 96
+  },
+  {
+    "name": "Cuddles Out of School Care Centre Bertram",
+    "location": [
+      -32.254394,
+      115.83907
+    ],
+    "places": 60
+  },
+  {
+    "name": "Cuddly Bear Day Care Centre",
+    "location": [
+      -31.902579,
+      115.79446
+    ],
+    "places": 35
+  },
+  {
+    "name": "Cunderdin Early Learning Centre",
+    "location": [
+      -31.650155,
+      117.239948
+    ],
+    "places": 19
+  },
+  {
+    "name": "Currambine Kids Care",
+    "location": [
+      -31.729665,
+      115.74571
+    ],
+    "places": 82
+  },
+  {
+    "name": "Curtin University Early Childhood Centre",
+    "location": [
+      -32.0019725,
+      115.8875408
+    ],
+    "places": 133
+  },
+  {
+    "name": "CYC Camp Cooloongup",
+    "location": [
+      -32.304714,
+      115.80108
+    ],
+    "places": 70
+  },
+  {
+    "name": "Dalkeith Early Learning Centre",
+    "location": [
+      -31.980127,
+      115.802959
+    ],
+    "places": 39
+  },
+  {
+    "name": "Dalwallinu Clubhouse - Early Learning Centre",
+    "location": [
+      -30.272562,
+      116.660435
+    ],
+    "places": 19
+  },
+  {
+    "name": "Denmark Occasional Day Care Centre",
+    "location": [
+      -34.9626241,
+      117.3488355
+    ],
+    "places": 19
+  },
+  {
+    "name": "Derrick Ernst Neighbourhood Centre",
+    "location": [
+      -31.89967,
+      115.900316
+    ],
+    "places": 38
+  },
+  {
+    "name": "Discovery Kids",
+    "location": [
+      -31.8806666,
+      115.7778364
+    ],
+    "places": 60
+  },
+  {
+    "name": "Dombai Family Day Care WA",
+    "location": [
+      -31.846333,
+      115.893244
+    ],
+    "places": 0
+  },
+  {
+    "name": "Donnybrook OSHClub",
+    "location": [
+      -33.5812664,
+      115.8129156
+    ],
+    "places": 50
+  },
+  {
+    "name": "Doubleview OSHClub",
+    "location": [
+      -31.898451,
+      115.777662
+    ],
+    "places": 50
+  },
+  {
+    "name": "Duncraig Early Learning Centre",
+    "location": [
+      -31.837516,
+      115.765591
+    ],
+    "places": 47
+  },
+  {
+    "name": "Duncraig Playgroup Inc",
+    "location": [
+      -31.8384237,
+      115.765429
+    ],
+    "places": 20
+  },
+  {
+    "name": "Early Bird Learning",
+    "location": [
+      -31.9566182,
+      116.0577142
+    ],
+    "places": 26
+  },
+  {
+    "name": "Early Learning Centre Hamilton Hill",
+    "location": [
+      -32.088179,
+      115.77947
+    ],
+    "places": 99
+  },
+  {
+    "name": "Early Learning Centre Summer Pines Canning Vale",
+    "location": [
+      -32.081046,
+      115.924756
+    ],
+    "places": 75
+  },
+  {
+    "name": "Early Years Pre School",
+    "location": [
+      -31.83069,
+      115.74852
+    ],
+    "places": 20
+  },
+  {
+    "name": "East Maddington OSHClub",
+    "location": [
+      -32.056499,
+      116.004398
+    ],
+    "places": 50
+  },
+  {
+    "name": "Eastern Goldfields YMCA OSHC",
+    "location": [
+      -30.7618989,
+      121.4894715
+    ],
+    "places": 78
+  },
+  {
+    "name": "Eastern Region Family Day Care",
+    "location": [
+      -31.8896545,
+      116.0205247
+    ],
+    "places": 0
+  },
+  {
+    "name": "Eaton Recreation Centre Holiday Program",
+    "location": [
+      -33.3196702,
+      115.7211553
+    ],
+    "places": 65
+  },
+  {
+    "name": "Edgewater Out Of School Care",
+    "location": [
+      -31.7684809,
+      115.7823044
+    ],
+    "places": 70
+  },
+  {
+    "name": "Elite Childcare Solutions",
+    "location": [
+      -35.013213,
+      117.880307
+    ],
+    "places": 0
+  },
+  {
+    "name": "Elite Family Childcare Perth",
+    "location": [
+      -31.9407437,
+      115.8404534
+    ],
+    "places": 0
+  },
+  {
+    "name": "Ellenbrook's Woodlake Child Care Centre",
+    "location": [
+      -31.7912271,
+      115.9768122
+    ],
+    "places": 72
+  },
+  {
+    "name": "Embracing Children Stripy Zebras",
+    "location": [
+      -20.7366148,
+      116.8467646
+    ],
+    "places": 60
+  },
+  {
+    "name": "Endeavour Child Care Centre Inc",
+    "location": [
+      -31.799368,
+      115.744961
+    ],
+    "places": 55
+  },
+  {
+    "name": "Esperance Outside School Hours Care",
+    "location": [
+      -33.8594128,
+      121.8932484
+    ],
+    "places": 30
+  },
+  {
+    "name": "Ewin Early Learning Centre Inc",
+    "location": [
+      -15.771586,
+      128.734
+    ],
+    "places": 80
+  },
+  {
+    "name": "F.R.O.G.S (Free Range on Grange) Early Learning Centre",
+    "location": [
+      -33.979907,
+      115.765722
+    ],
+    "places": 19
+  },
+  {
+    "name": "Farnham House Early Education Centre",
+    "location": [
+      -31.940223,
+      115.849246
+    ],
+    "places": 30
+  },
+  {
+    "name": "Federation Of WA Police & Community Youth Centres - Albany PCYC",
+    "location": [
+      -35.0108802,
+      117.8826285
+    ],
+    "places": 78
+  },
+  {
+    "name": "Federation Of WA Police & Community Youth Centres - Kensington PCYC",
+    "location": [
+      -31.986439,
+      115.888084
+    ],
+    "places": 85
+  },
+  {
+    "name": "Fifth Road Child Care Centre",
+    "location": [
+      -32.148738,
+      116.003681
+    ],
+    "places": 38
+  },
+  {
+    "name": "First Steps @ Dianella",
+    "location": [
+      -31.872108,
+      115.877133
+    ],
+    "places": 68
+  },
+  {
+    "name": "First Steps @ OLA",
+    "location": [
+      -31.8970132,
+      115.8736863
+    ],
+    "places": 80
+  },
+  {
+    "name": "First Steps @ St Andrews",
+    "location": [
+      -31.8718164,
+      115.8756973
+    ],
+    "places": 23
+  },
+  {
+    "name": "First Steps Early Learning",
+    "location": [
+      -32.06707,
+      115.790247
+    ],
+    "places": 86
+  },
+  {
+    "name": "Flying Start Child Care Centre",
+    "location": [
+      -31.6722812,
+      116.0318285
+    ],
+    "places": 23
+  },
+  {
+    "name": "Forest Lakes/Thornlie Family Centre",
+    "location": [
+      -32.0655237,
+      115.9454232
+    ],
+    "places": 40
+  },
+  {
+    "name": "Forrestdale Community Kindergarten",
+    "location": [
+      -32.148686,
+      115.936554
+    ],
+    "places": 15
+  },
+  {
+    "name": "Francis Jordan OSHClub",
+    "location": [
+      -31.731138,
+      115.738425
+    ],
+    "places": 50
+  },
+  {
+    "name": "Full of Beanz Beldon",
+    "location": [
+      -31.774649,
+      115.757251
+    ],
+    "places": 60
+  },
+  {
+    "name": "Fun and Learn Childcare Service",
+    "location": [
+      -32.0295769,
+      115.9870859
+    ],
+    "places": 56
+  },
+  {
+    "name": "Fun-A-Rama Comet Bay",
+    "location": [
+      -32.411333,
+      115.769433
+    ],
+    "places": 50
+  },
+  {
+    "name": "Fun-A-Rama Halls Head",
+    "location": [
+      -32.5630252,
+      115.6814822
+    ],
+    "places": 40
+  },
+  {
+    "name": "Fun-A-Rama Meadow Springs",
+    "location": [
+      -32.4993032,
+      115.7564141
+    ],
+    "places": 40
+  },
+  {
+    "name": "Future Leaders Family Day Care",
+    "location": [
+      -31.873773,
+      115.86323
+    ],
+    "places": 0
+  },
+  {
+    "name": "Garfields Learnaversity",
+    "location": [
+      -33.267164,
+      115.72763
+    ],
+    "places": 48
+  },
+  {
+    "name": "Gateway to Growing Family Day Care Services",
+    "location": [
+      -31.8557,
+      115.887486
+    ],
+    "places": 0
+  },
+  {
+    "name": "GEMS Prep School",
+    "location": [
+      -33.601259,
+      115.101876
+    ],
+    "places": 50
+  },
+  {
+    "name": "Geographe Leisure Centre",
+    "location": [
+      -33.6673287,
+      115.3243716
+    ],
+    "places": 65
+  },
+  {
+    "name": "Giggle Pots Day Care",
+    "location": [
+      -32.3282,
+      117.875848
+    ],
+    "places": 19
+  },
+  {
+    "name": "Giggles Day Care Centre",
+    "location": [
+      -32.2952868,
+      115.7702042
+    ],
+    "places": 53
+  },
+  {
+    "name": "Giggling Gecko Out of School Care",
+    "location": [
+      -31.7778,
+      115.748208
+    ],
+    "places": 54
+  },
+  {
+    "name": "Giggling Gecko Out of School Care - Poseidon Primary School",
+    "location": [
+      -31.76079,
+      115.751093
+    ],
+    "places": 37
+  },
+  {
+    "name": "Gingin Early Years Care and Education Centre",
+    "location": [
+      -31.344429,
+      115.910347
+    ],
+    "places": 54
+  },
+  {
+    "name": "Glen Huon OSHClub",
+    "location": [
+      -33.3157426,
+      115.727705
+    ],
+    "places": 50
+  },
+  {
+    "name": "Glen Iris Child Care Centre",
+    "location": [
+      -32.0994669,
+      115.8596343
+    ],
+    "places": 60
+  },
+  {
+    "name": "Glory Family Day Care",
+    "location": [
+      -31.79155,
+      115.820312
+    ],
+    "places": 0
+  },
+  {
+    "name": "Go Bananas Outside School Hours Care",
+    "location": [
+      -31.747504,
+      115.762679
+    ],
+    "places": 143
+  },
+  {
+    "name": "Go Bananas Outside School Hours Care - Banksia Grove",
+    "location": [
+      -31.702542,
+      115.808964
+    ],
+    "places": 92
+  },
+  {
+    "name": "Go Bananas Outside School Hours Care - Huntingdale",
+    "location": [
+      -32.078043,
+      115.958381
+    ],
+    "places": 57
+  },
+  {
+    "name": "Go Bananas Outside School Hours Care- Vacation Care",
+    "location": [
+      -31.747504,
+      115.762679
+    ],
+    "places": 71
+  },
+  {
+    "name": "Golden Kids Family Day Care",
+    "location": [
+      -31.793048,
+      115.963672
+    ],
+    "places": 0
+  },
+  {
+    "name": "Goldfields  Child Care Centre - Kalgoorlie",
+    "location": [
+      -30.76003,
+      121.481751
+    ],
+    "places": 58
+  },
+  {
+    "name": "Goldfields Child Care Centre Boulder",
+    "location": [
+      -30.7722734,
+      121.4836158
+    ],
+    "places": 29
+  },
+  {
+    "name": "Goldfields OSHC",
+    "location": [
+      -30.75468769999999,
+      121.4793245
+    ],
+    "places": 20
+  },
+  {
+    "name": "Good Vibes Family Day Care Service",
+    "location": [
+      -31.774809,
+      115.978538
+    ],
+    "places": 0
+  },
+  {
+    "name": "Goodstart Early Learning Albany",
+    "location": [
+      -35.007568,
+      117.871873
+    ],
+    "places": 99
+  },
+  {
+    "name": "Goodstart Early Learning Alfred Cove",
+    "location": [
+      -32.0321157,
+      115.810091
+    ],
+    "places": 67
+  },
+  {
+    "name": "Goodstart Early Learning Armadale",
+    "location": [
+      -32.155204,
+      116.005713
+    ],
+    "places": 85
+  },
+  {
+    "name": "Goodstart Early Learning Atwell",
+    "location": [
+      -32.136732,
+      115.867559
+    ],
+    "places": 54
+  },
+  {
+    "name": "Goodstart Early Learning Australind",
+    "location": [
+      -33.277188,
+      115.725524
+    ],
+    "places": 72
+  },
+  {
+    "name": "Goodstart Early Learning Baldivis",
+    "location": [
+      -32.3264085,
+      115.8054
+    ],
+    "places": 85
+  },
+  {
+    "name": "Goodstart Early Learning Ballajura",
+    "location": [
+      -31.846373,
+      115.902176
+    ],
+    "places": 55
+  },
+  {
+    "name": "Goodstart Early Learning Banksia Grove",
+    "location": [
+      -31.703228,
+      115.807944
+    ],
+    "places": 82
+  },
+  {
+    "name": "Goodstart Early Learning Bertram",
+    "location": [
+      -32.247493,
+      115.846582
+    ],
+    "places": 97
+  },
+  {
+    "name": "Goodstart Early Learning Busselton",
+    "location": [
+      -33.6564941,
+      115.3282302
+    ],
+    "places": 85
+  },
+  {
+    "name": "Goodstart Early Learning Canning Vale - Batman Road",
+    "location": [
+      -32.088095,
+      115.944408
+    ],
+    "places": 85
+  },
+  {
+    "name": "Goodstart Early Learning Canning Vale - Campbell Road",
+    "location": [
+      -32.0895808,
+      115.9299768
+    ],
+    "places": 95
+  },
+  {
+    "name": "Goodstart Early Learning Carlisle",
+    "location": [
+      -31.979261,
+      115.910436
+    ],
+    "places": 72
+  },
+  {
+    "name": "Goodstart Early Learning Clarkson",
+    "location": [
+      -31.685886,
+      115.714924
+    ],
+    "places": 99
+  },
+  {
+    "name": "Goodstart Early Learning Darch",
+    "location": [
+      -31.805154,
+      115.848847
+    ],
+    "places": 85
+  },
+  {
+    "name": "Goodstart Early Learning Dunsborough",
+    "location": [
+      -33.6316564,
+      115.1149007
+    ],
+    "places": 97
+  },
+  {
+    "name": "Goodstart Early Learning East Bunbury",
+    "location": [
+      -33.333122,
+      115.650765
+    ],
+    "places": 96
+  },
+  {
+    "name": "Goodstart Early Learning East Perth",
+    "location": [
+      -31.958736,
+      115.880291
+    ],
+    "places": 70
+  },
+  {
+    "name": "Goodstart Early Learning Eaton",
+    "location": [
+      -33.316382,
+      115.726499
+    ],
+    "places": 99
+  },
+  {
+    "name": "Goodstart Early Learning Edgewater",
+    "location": [
+      -31.7732591,
+      115.7890062
+    ],
+    "places": 57
+  },
+  {
+    "name": "Goodstart Early Learning Girrawheen",
+    "location": [
+      -31.837898,
+      115.839746
+    ],
+    "places": 99
+  },
+  {
+    "name": "Goodstart Early Learning Greenfields",
+    "location": [
+      -32.534662,
+      115.7663
+    ],
+    "places": 72
+  },
+  {
+    "name": "Goodstart Early Learning Halls Head",
+    "location": [
+      -32.5566771,
+      115.6925203
+    ],
+    "places": 75
+  },
+  {
+    "name": "Goodstart Early Learning High Wycombe",
+    "location": [
+      -31.931771,
+      116.004334
+    ],
+    "places": 67
+  },
+  {
+    "name": "Goodstart Early Learning Huntingdale",
+    "location": [
+      -32.08174,
+      115.960306
+    ],
+    "places": 99
+  },
+  {
+    "name": "Goodstart Early Learning Jandakot",
+    "location": [
+      -32.115458,
+      115.847249
+    ],
+    "places": 99
+  },
+  {
+    "name": "Goodstart Early Learning Joondalup",
+    "location": [
+      -31.728286,
+      115.763603
+    ],
+    "places": 57
+  },
+  {
+    "name": "Goodstart Early Learning Kalamunda",
+    "location": [
+      -31.982109,
+      116.063428
+    ],
+    "places": 68
+  },
+  {
+    "name": "Goodstart Early Learning Kingsley",
+    "location": [
+      -31.811856,
+      115.788573
+    ],
+    "places": 49
+  },
+  {
+    "name": "Goodstart Early Learning Madeley",
+    "location": [
+      -31.8182533,
+      115.8209416
+    ],
+    "places": 72
+  },
+  {
+    "name": "Goodstart Early Learning Madora Bay",
+    "location": [
+      -32.481474,
+      115.754921
+    ],
+    "places": 87
+  },
+  {
+    "name": "Goodstart Early Learning Maida Vale",
+    "location": [
+      -31.953119,
+      116.024647
+    ],
+    "places": 72
+  },
+  {
+    "name": "Goodstart Early Learning Meadow Springs",
+    "location": [
+      -32.4930002,
+      115.7494985
+    ],
+    "places": 75
+  },
+  {
+    "name": "Goodstart Early Learning Merriwa - Hughie Edwards Drive",
+    "location": [
+      -31.659097,
+      115.70762
+    ],
+    "places": 82
+  },
+  {
+    "name": "Goodstart Early Learning Merriwa - Seagrove Boulevard",
+    "location": [
+      -31.662651,
+      115.706262
+    ],
+    "places": 86
+  },
+  {
+    "name": "Goodstart Early Learning Mindarie",
+    "location": [
+      -31.692543,
+      115.71214
+    ],
+    "places": 53
+  },
+  {
+    "name": "Goodstart Early Learning Mount Nasura",
+    "location": [
+      -32.138533,
+      116.017968
+    ],
+    "places": 75
+  },
+  {
+    "name": "Goodstart Early Learning Myaree",
+    "location": [
+      -32.037542,
+      115.816062
+    ],
+    "places": 41
+  },
+  {
+    "name": "Goodstart Early Learning Nollamara",
+    "location": [
+      -31.880861,
+      115.848075
+    ],
+    "places": 56
+  },
+  {
+    "name": "Goodstart Early Learning Ocean Reef",
+    "location": [
+      -31.766866,
+      115.741702
+    ],
+    "places": 85
+  },
+  {
+    "name": "Goodstart Early Learning Port Kennedy",
+    "location": [
+      -32.358011,
+      115.766541
+    ],
+    "places": 99
+  },
+  {
+    "name": "Goodstart Early Learning Queens Park",
+    "location": [
+      -32.006365,
+      115.938886
+    ],
+    "places": 82
+  },
+  {
+    "name": "Goodstart Early Learning Rockingham",
+    "location": [
+      -32.28723799999999,
+      115.752196
+    ],
+    "places": 77
+  },
+  {
+    "name": "Goodstart Early Learning Secret Harbour",
+    "location": [
+      -32.406913,
+      115.769484
+    ],
+    "places": 97
+  },
+  {
+    "name": "Goodstart Early Learning Sinagra",
+    "location": [
+      -31.741581,
+      115.797506
+    ],
+    "places": 97
+  },
+  {
+    "name": "Goodstart Early Learning Somerville",
+    "location": [
+      -30.770859,
+      121.445655
+    ],
+    "places": 94
+  },
+  {
+    "name": "Goodstart Early Learning Stratton",
+    "location": [
+      -31.870628,
+      116.046971
+    ],
+    "places": 97
+  },
+  {
+    "name": "Goodstart Early Learning Success",
+    "location": [
+      -32.1400637,
+      115.84431
+    ],
+    "places": 66
+  },
+  {
+    "name": "Goodstart Early Learning Tapping",
+    "location": [
+      -31.718555,
+      115.790159
+    ],
+    "places": 82
+  },
+  {
+    "name": "Goodstart Early Learning Thornlie",
+    "location": [
+      -32.065003,
+      115.939779
+    ],
+    "places": 81
+  },
+  {
+    "name": "Goodstart Early Learning Warnbro",
+    "location": [
+      -32.331498,
+      115.7554904
+    ],
+    "places": 47
+  },
+  {
+    "name": "Goodstart Early Learning Welshpool",
+    "location": [
+      -31.9841508,
+      115.9328207
+    ],
+    "places": 102
+  },
+  {
+    "name": "Goodstart Early Learning Wonthella",
+    "location": [
+      -28.7593344,
+      114.6304853
+    ],
+    "places": 99
+  },
+  {
+    "name": "Goomalling Gumnuts Inc.",
+    "location": [
+      -31.300213,
+      116.826833
+    ],
+    "places": 19
+  },
+  {
+    "name": "Granny Glasgow Education and Care Inc",
+    "location": [
+      -24.879097,
+      113.656969
+    ],
+    "places": 42
+  },
+  {
+    "name": "Great Beginnings Applecross",
+    "location": [
+      -32.021656,
+      115.834568
+    ],
+    "places": 26
+  },
+  {
+    "name": "Great Beginnings Bentley",
+    "location": [
+      -32.012095,
+      115.915868
+    ],
+    "places": 37
+  },
+  {
+    "name": "Great Beginnings Bunbury",
+    "location": [
+      -33.371726,
+      115.630249
+    ],
+    "places": 99
+  },
+  {
+    "name": "Great Beginnings Butler",
+    "location": [
+      -31.650919,
+      115.698642
+    ],
+    "places": 90
+  },
+  {
+    "name": "Great Beginnings Byford",
+    "location": [
+      -32.211332,
+      116.004546
+    ],
+    "places": 86
+  },
+  {
+    "name": "Great Beginnings Camillo",
+    "location": [
+      -32.1299675,
+      115.9896139
+    ],
+    "places": 117
+  },
+  {
+    "name": "Great Beginnings Childcare - Floreat",
+    "location": [
+      -31.940303,
+      115.801141
+    ],
+    "places": 38
+  },
+  {
+    "name": "Great Beginnings Childcare - Quinns Rock",
+    "location": [
+      -31.65944,
+      115.701894
+    ],
+    "places": 72
+  },
+  {
+    "name": "Great Beginnings Childcare - Wanneroo",
+    "location": [
+      -31.747696,
+      115.817004
+    ],
+    "places": 99
+  },
+  {
+    "name": "Great Beginnings Childcare- Canning Vale",
+    "location": [
+      -32.069918,
+      115.894985
+    ],
+    "places": 80
+  },
+  {
+    "name": "Great Beginnings Dawesville",
+    "location": [
+      -32.62746,
+      115.633732
+    ],
+    "places": 97
+  },
+  {
+    "name": "Great Beginnings East Wanneroo",
+    "location": [
+      -31.755355,
+      115.816987
+    ],
+    "places": 53
+  },
+  {
+    "name": "Great Beginnings Ellenbrook",
+    "location": [
+      -31.7770447,
+      115.9735536
+    ],
+    "places": 60
+  },
+  {
+    "name": "Great Beginnings Family Day Care Service",
+    "location": [
+      -32.935474,
+      117.177376
+    ],
+    "places": 0
+  },
+  {
+    "name": "Great Beginnings FDC",
+    "location": [
+      -31.858236,
+      115.898238
+    ],
+    "places": 0
+  },
+  {
+    "name": "Great Beginnings Gosnells",
+    "location": [
+      -32.075388,
+      115.982733
+    ],
+    "places": 99
+  },
+  {
+    "name": "Great Beginnings Kenwick",
+    "location": [
+      -32.045586,
+      115.971908
+    ],
+    "places": 71
+  },
+  {
+    "name": "Great Beginnings Mirrabooka",
+    "location": [
+      -31.870154,
+      115.856616
+    ],
+    "places": 114
+  },
+  {
+    "name": "Great Beginnings Northam",
+    "location": [
+      -31.650532,
+      116.676271
+    ],
+    "places": 52
+  },
+  {
+    "name": "Great Beginnings Parmelia",
+    "location": [
+      -32.25857,
+      115.822695
+    ],
+    "places": 106
+  },
+  {
+    "name": "Great Beginnings Thornlie",
+    "location": [
+      -32.059277,
+      115.942513
+    ],
+    "places": 44
+  },
+  {
+    "name": "Great Beginnings Toodyay",
+    "location": [
+      -31.544795,
+      116.460626
+    ],
+    "places": 43
+  },
+  {
+    "name": "Greenmount and St Anthony's OSHC",
+    "location": [
+      -31.896291,
+      116.043544
+    ],
+    "places": 45
+  },
+  {
+    "name": "Growzone - Guildford Early Learning Centre",
+    "location": [
+      -31.892404,
+      115.992847
+    ],
+    "places": 38
+  },
+  {
+    "name": "Guildford Grammar School OSHC",
+    "location": [
+      -31.895508,
+      115.980947
+    ],
+    "places": 70
+  },
+  {
+    "name": "Gumblossom Childcare Fremantle",
+    "location": [
+      -32.056913,
+      115.764867
+    ],
+    "places": 60
+  },
+  {
+    "name": "Gumblossom Outside School Hours Care",
+    "location": [
+      -32.034546,
+      115.756789
+    ],
+    "places": 30
+  },
+  {
+    "name": "Gummi Bears Child Care Centre",
+    "location": [
+      -31.876435,
+      115.830589
+    ],
+    "places": 44
+  },
+  {
+    "name": "Hamersley OSHC",
+    "location": [
+      -31.8513899,
+      115.8066224
+    ],
+    "places": 40
+  },
+  {
+    "name": "Hammond Park OSHClub",
+    "location": [
+      -32.1685537,
+      115.8422219
+    ],
+    "places": 18
+  },
+  {
+    "name": "Hannan St Play & Learn",
+    "location": [
+      -30.75579299999999,
+      121.46269
+    ],
+    "places": 67
+  },
+  {
+    "name": "Happy Campers",
+    "location": [
+      -32.0107182,
+      115.7594316
+    ],
+    "places": 25
+  },
+  {
+    "name": "Happy Hands Early Learning Centre",
+    "location": [
+      -31.711406,
+      115.784126
+    ],
+    "places": 61
+  },
+  {
+    "name": "Happy Kids Family Day Care Scheme",
+    "location": [
+      -31.964994,
+      115.898282
+    ],
+    "places": 0
+  },
+  {
+    "name": "Harmony Park Child Care",
+    "location": [
+      -32.437904,
+      115.756061
+    ],
+    "places": 60
+  },
+  {
+    "name": "Harmony Park OSHC",
+    "location": [
+      -32.4408403,
+      115.7578758
+    ],
+    "places": 40
+  },
+  {
+    "name": "Harvey Occasional Child Care Centre",
+    "location": [
+      -33.0822425,
+      115.9059101
+    ],
+    "places": 23
+  },
+  {
+    "name": "Harvey Recreation  Centre - After School Care",
+    "location": [
+      -33.0766591,
+      115.8937096
+    ],
+    "places": 26
+  },
+  {
+    "name": "Hayley's Holiday Fun Care",
+    "location": [
+      -21.9327299,
+      114.1253381
+    ],
+    "places": 24
+  },
+  {
+    "name": "Health Services Family Association Incorporated",
+    "location": [
+      -31.9672122,
+      115.8078709
+    ],
+    "places": 90
+  },
+  {
+    "name": "Hedland Play & Learn",
+    "location": [
+      -20.4094123,
+      118.6004335
+    ],
+    "places": 57
+  },
+  {
+    "name": "Helmshore Way Child Care Centre",
+    "location": [
+      -32.369123,
+      115.759065
+    ],
+    "places": 85
+  },
+  {
+    "name": "Hepburn Heights Kindy Play",
+    "location": [
+      -31.814997,
+      115.778597
+    ],
+    "places": 30
+  },
+  {
+    "name": "High Wycombe 3 Year Old Kindergarten",
+    "location": [
+      -31.946401,
+      116.00673
+    ],
+    "places": 20
+  },
+  {
+    "name": "High Wycombe Out Of School Care OSHC",
+    "location": [
+      -31.946401,
+      116.00673
+    ],
+    "places": 60
+  },
+  {
+    "name": "Hilaac Family Day Care",
+    "location": [
+      -32.071938,
+      116.001628
+    ],
+    "places": 0
+  },
+  {
+    "name": "Hillarys Before And After School Care",
+    "location": [
+      -31.799368,
+      115.744961
+    ],
+    "places": 38
+  },
+  {
+    "name": "Hills Child Care Centre",
+    "location": [
+      -31.90048599999999,
+      116.164423
+    ],
+    "places": 65
+  },
+  {
+    "name": "Hills Outside School Care Association Inc",
+    "location": [
+      -31.923354,
+      116.07864
+    ],
+    "places": 33
+  },
+  {
+    "name": "HillSide College Out of School Care",
+    "location": [
+      -31.979724,
+      116.017287
+    ],
+    "places": 26
+  },
+  {
+    "name": "Holy Name Early Learning and Care Centre",
+    "location": [
+      -31.976229,
+      115.920814
+    ],
+    "places": 112
+  },
+  {
+    "name": "Holy Rosary Outside School Hours Care",
+    "location": [
+      -31.909286,
+      115.7875
+    ],
+    "places": 40
+  },
+  {
+    "name": "Honeywell Early Learning Centre",
+    "location": [
+      -31.855831,
+      115.867788
+    ],
+    "places": 43
+  },
+  {
+    "name": "Honky Nuts Childcare Centre",
+    "location": [
+      -31.995924,
+      116.070546
+    ],
+    "places": 38
+  },
+  {
+    "name": "Horizons Childhood Learning Centre Clarkson",
+    "location": [
+      -31.690168,
+      115.736443
+    ],
+    "places": 90
+  },
+  {
+    "name": "Horizons Childhood Learning Centre Phoenix OSHC",
+    "location": [
+      -32.0925598,
+      115.7794297
+    ],
+    "places": 39
+  },
+  {
+    "name": "Horizons Childhood Learning Centre South Fremantle",
+    "location": [
+      -32.072666,
+      115.75918
+    ],
+    "places": 79
+  },
+  {
+    "name": "Horizons Childhood Learning Centre South Fremantle OSHC",
+    "location": [
+      -32.072373,
+      115.77089
+    ],
+    "places": 39
+  },
+  {
+    "name": "Horizons Childhood Learning Centre Woodvale OSHC",
+    "location": [
+      -31.784616,
+      115.788365
+    ],
+    "places": 40
+  },
+  {
+    "name": "Horizons Childhood Learning Centre-Woodvale",
+    "location": [
+      -31.784416,
+      115.794275
+    ],
+    "places": 52
+  },
+  {
+    "name": "Humpty Dumpty Child Care Centre",
+    "location": [
+      -31.943395,
+      115.838567
+    ],
+    "places": 23
+  },
+  {
+    "name": "Hyden Occasional Child Care Centre",
+    "location": [
+      -32.4475788,
+      118.8617975
+    ],
+    "places": 24
+  },
+  {
+    "name": "Infant Jesus OSHClub",
+    "location": [
+      -31.8936338,
+      115.8885141
+    ],
+    "places": 46
+  },
+  {
+    "name": "Inglewood OSHC",
+    "location": [
+      -31.9217172,
+      115.8854589
+    ],
+    "places": 43
+  },
+  {
+    "name": "International Early Learning Centre",
+    "location": [
+      -32.0661259,
+      115.7712265
+    ],
+    "places": 61
+  },
+  {
+    "name": "Iona Presentation OSHClub",
+    "location": [
+      -32.0137569,
+      115.7579837
+    ],
+    "places": 50
+  },
+  {
+    "name": "Italian Australian Child Care Centre",
+    "location": [
+      -31.931212,
+      115.847204
+    ],
+    "places": 50
+  },
+  {
+    "name": "Jacaranda Aveley - Outside School Hours Care",
+    "location": [
+      -31.790199,
+      115.9915213
+    ],
+    "places": 65
+  },
+  {
+    "name": "Jacaranda Bassendean Outside School Hours Care",
+    "location": [
+      -31.907995,
+      115.953442
+    ],
+    "places": 39
+  },
+  {
+    "name": "Jacaranda Bayswater Outside School Hours Care",
+    "location": [
+      -31.909831,
+      115.903073
+    ],
+    "places": 55
+  },
+  {
+    "name": "Jacaranda Malvern Springs - Outside School Hours Care",
+    "location": [
+      -31.7553387,
+      115.9788684
+    ],
+    "places": 91
+  },
+  {
+    "name": "Jacaranda School of Early Learning - Aveley",
+    "location": [
+      -31.7932087,
+      115.9871507
+    ],
+    "places": 101
+  },
+  {
+    "name": "Jacaranda School Of Early Learning - Bayswater",
+    "location": [
+      -31.924543,
+      115.919007
+    ],
+    "places": 87
+  },
+  {
+    "name": "Jacaranda School Of Early Learning - Charlottes Vineyard",
+    "location": [
+      -31.770962,
+      115.964229
+    ],
+    "places": 138
+  },
+  {
+    "name": "Jack And Jill Child Care Centre",
+    "location": [
+      -32.532838,
+      115.733363
+    ],
+    "places": 52
+  },
+  {
+    "name": "James McAuley House",
+    "location": [
+      -31.759129,
+      115.752776
+    ],
+    "places": 38
+  },
+  {
+    "name": "Jelle Babies Family Day Care",
+    "location": [
+      -31.847886,
+      115.888693
+    ],
+    "places": 0
+  },
+  {
+    "name": "Jellybeans Child Care - Greenwood",
+    "location": [
+      -31.8282825,
+      115.8213441
+    ],
+    "places": 64
+  },
+  {
+    "name": "Jellybeans Child Care - Marangaroo",
+    "location": [
+      -31.826642,
+      115.821666
+    ],
+    "places": 72
+  },
+  {
+    "name": "Jellybeans Child Care - Morley",
+    "location": [
+      -31.879683,
+      115.924739
+    ],
+    "places": 65
+  },
+  {
+    "name": "Jellybeans Child Care - Padbury",
+    "location": [
+      -31.811979,
+      115.766523
+    ],
+    "places": 87
+  },
+  {
+    "name": "Jellybeans Child Care - Warwick",
+    "location": [
+      -31.842796,
+      115.811666
+    ],
+    "places": 102
+  },
+  {
+    "name": "Jellybeans Child Care - Wembley",
+    "location": [
+      -31.934516,
+      115.80696
+    ],
+    "places": 50
+  },
+  {
+    "name": "Jellybeans Child Care Carine",
+    "location": [
+      -31.8574224,
+      115.7917434
+    ],
+    "places": 69
+  },
+  {
+    "name": "Jellybeans Child Care Como",
+    "location": [
+      -31.998092,
+      115.860224
+    ],
+    "places": 82
+  },
+  {
+    "name": "Jellybeans Child Care Subiaco",
+    "location": [
+      -31.955813,
+      115.805593
+    ],
+    "places": 58
+  },
+  {
+    "name": "Jellybeans Child Care Swanbourne",
+    "location": [
+      -31.983221,
+      115.767574
+    ],
+    "places": 54
+  },
+  {
+    "name": "Jellybeans Greenwood OSHC",
+    "location": [
+      -31.828906,
+      115.809015
+    ],
+    "places": 40
+  },
+  {
+    "name": "Jellybeans Marangaroo OSHC",
+    "location": [
+      -31.830706,
+      115.839737
+    ],
+    "places": 28
+  },
+  {
+    "name": "Jellybeans Mt Claremont OSHC",
+    "location": [
+      -31.9606444,
+      115.7847378
+    ],
+    "places": 26
+  },
+  {
+    "name": "Jellybeans North Beach OSHC",
+    "location": [
+      -31.859634,
+      115.761106
+    ],
+    "places": 30
+  },
+  {
+    "name": "Jellybeans OSHC Marmion",
+    "location": [
+      -31.844068,
+      115.759552
+    ],
+    "places": 30
+  },
+  {
+    "name": "Jellybeans OSHC Noranda",
+    "location": [
+      -31.877401,
+      115.907796
+    ],
+    "places": 30
+  },
+  {
+    "name": "Jellybeans Sth Padbury OSHC",
+    "location": [
+      -31.81166,
+      115.767415
+    ],
+    "places": 40
+  },
+  {
+    "name": "Jellybeans Swanbourne OSHC",
+    "location": [
+      -31.9812871,
+      115.773203
+    ],
+    "places": 21
+  },
+  {
+    "name": "Jellybeans West Leederville OSHC",
+    "location": [
+      -31.939217,
+      115.833386
+    ],
+    "places": 40
+  },
+  {
+    "name": "Jerramungup Occasional Child Care",
+    "location": [
+      -33.941323,
+      118.917171
+    ],
+    "places": 19
+  },
+  {
+    "name": "John Butler OSHClub",
+    "location": [
+      -31.6330952,
+      115.6955945
+    ],
+    "places": 50
+  },
+  {
+    "name": "John Septimus Roe Anglican Community School Out Of School Care Programme Beechboro Campus",
+    "location": [
+      -31.87082969999999,
+      115.9448043
+    ],
+    "places": 39
+  },
+  {
+    "name": "John Septimus Roe Anglican Community School Out Of School Care Programme Mirrabooka Campus",
+    "location": [
+      -31.85627319999999,
+      115.8683876
+    ],
+    "places": 39
+  },
+  {
+    "name": "John Wollaston OSHClub",
+    "location": [
+      -32.1027784,
+      116.0149361
+    ],
+    "places": 50
+  },
+  {
+    "name": "Joondalup Early Learning Centre  Inc",
+    "location": [
+      -31.7525646,
+      115.7769361
+    ],
+    "places": 55
+  },
+  {
+    "name": "Joondalup Family Centre",
+    "location": [
+      -31.724465,
+      115.76138
+    ],
+    "places": 20
+  },
+  {
+    "name": "Joondalup Health Campus Vacation  Care",
+    "location": [
+      -31.724465,
+      115.76138
+    ],
+    "places": 45
+  },
+  {
+    "name": "Joondalup Primary OSHClub",
+    "location": [
+      -31.7238243,
+      115.7587425
+    ],
+    "places": 50
+  },
+  {
+    "name": "Jump Early Development Services",
+    "location": [
+      -32.111478,
+      115.935529
+    ],
+    "places": 40
+  },
+  {
+    "name": "Jump Early Development Services OSHC",
+    "location": [
+      -32.111478,
+      115.935529
+    ],
+    "places": 30
+  },
+  {
+    "name": "Just 4 Kids OSHC",
+    "location": null,
+    "places": 75
+  },
+  {
+    "name": "Just For Kids Family Day Care",
+    "location": [
+      -32.050221,
+      115.960661
+    ],
+    "places": 0
+  },
+  {
+    "name": "Just For Kidz Klub",
+    "location": [
+      -33.8773133,
+      116.2777073
+    ],
+    "places": 14
+  },
+  {
+    "name": "Kalamunda Out Of School Centre",
+    "location": [
+      -31.99823,
+      116.073744
+    ],
+    "places": 53
+  },
+  {
+    "name": "Kalbarri Occasional Child Care",
+    "location": [
+      -27.707495,
+      114.17056
+    ],
+    "places": 14
+  },
+  {
+    "name": "Kalgoorlie Early Learning Centre",
+    "location": [
+      -30.774837,
+      121.465617
+    ],
+    "places": 76
+  },
+  {
+    "name": "Kallaroo Community Threes",
+    "location": [
+      -31.790545,
+      115.751609
+    ],
+    "places": 20
+  },
+  {
+    "name": "Kardinya Primary OSHClub",
+    "location": [
+      -32.0630127,
+      115.8225866
+    ],
+    "places": 50
+  },
+  {
+    "name": "Karratha Occasional Care",
+    "location": [
+      -20.7354722,
+      116.8422521
+    ],
+    "places": 20
+  },
+  {
+    "name": "Karri Kids Child Care",
+    "location": [
+      -34.6331008,
+      116.1223642
+    ],
+    "places": 14
+  },
+  {
+    "name": "Katanning Community Child Care Centre",
+    "location": [
+      -33.690392,
+      117.5623255
+    ],
+    "places": 19
+  },
+  {
+    "name": "Kelmscott Childcare Centre",
+    "location": [
+      -32.121626,
+      116.01721
+    ],
+    "places": 66
+  },
+  {
+    "name": "Kenwick Child Care Centre",
+    "location": [
+      -32.03473,
+      115.972829
+    ],
+    "places": 80
+  },
+  {
+    "name": "Kenwick Childcare Centre - Maddington",
+    "location": [
+      -32.044049,
+      116.003748
+    ],
+    "places": 53
+  },
+  {
+    "name": "Kids Academy Early Learning Centre",
+    "location": [
+      -31.848195,
+      115.826531
+    ],
+    "places": 48
+  },
+  {
+    "name": "Kids Academy Out of School Hours Care",
+    "location": [
+      -31.846489,
+      115.824558
+    ],
+    "places": 25
+  },
+  {
+    "name": "Kids Central Childcare",
+    "location": [
+      -33.3926143,
+      116.7424158
+    ],
+    "places": 19
+  },
+  {
+    "name": "Kids College Child Care Centre",
+    "location": [
+      -31.793999,
+      115.748945
+    ],
+    "places": 58
+  },
+  {
+    "name": "Kids Corner Child Care Centre",
+    "location": [
+      -32.127868,
+      115.7877162
+    ],
+    "places": 50
+  },
+  {
+    "name": "Kids Crib Outside School Hours & Vacation Care",
+    "location": [
+      -32.067564,
+      115.988939
+    ],
+    "places": 47
+  },
+  {
+    "name": "Kids Diamond Family Day Care",
+    "location": [
+      -31.926081,
+      115.851462
+    ],
+    "places": 0
+  },
+  {
+    "name": "Kids Fun Early Learning",
+    "location": [
+      -32.305458,
+      115.75984
+    ],
+    "places": 30
+  },
+  {
+    "name": "Kids Inn - Forrestfield",
+    "location": [
+      -31.985773,
+      116.018637
+    ],
+    "places": 96
+  },
+  {
+    "name": "Kids Inn Ashby",
+    "location": [
+      -31.730074,
+      115.801504
+    ],
+    "places": 75
+  },
+  {
+    "name": "Kids Inn Childcare",
+    "location": [
+      -31.886491,
+      116.050563
+    ],
+    "places": 84
+  },
+  {
+    "name": "Kids Inn Childcare Dalyellup",
+    "location": [
+      -33.400543,
+      115.621524
+    ],
+    "places": 100
+  },
+  {
+    "name": "Kids Inn Kalamunda",
+    "location": [
+      -31.971495,
+      116.052546
+    ],
+    "places": 87
+  },
+  {
+    "name": "Kids Inn OSHC - High Wycombe",
+    "location": [
+      -31.951465,
+      116.003316
+    ],
+    "places": 51
+  },
+  {
+    "name": "Kids On Carrington Childcare",
+    "location": [
+      -30.758254,
+      121.477862
+    ],
+    "places": 60
+  },
+  {
+    "name": "Kidz Biz Early Learning Centre - Beaumaris",
+    "location": [
+      -31.752216,
+      115.736035
+    ],
+    "places": 81
+  },
+  {
+    "name": "Kidz Biz Early Learning Centre - Wanneroo",
+    "location": [
+      -31.752903,
+      115.800871
+    ],
+    "places": 84
+  },
+  {
+    "name": "Kidz Biz Early Learning Centre Jindalee",
+    "location": [
+      -31.649313,
+      115.695228
+    ],
+    "places": 84
+  },
+  {
+    "name": "Kidz Biz Sport & Recreation - East Wanneroo",
+    "location": [
+      -31.756874,
+      115.816756
+    ],
+    "places": 78
+  },
+  {
+    "name": "Kidz Biz Sport & Recreation Care - Beaumaris",
+    "location": [
+      -31.749336,
+      115.734873
+    ],
+    "places": 90
+  },
+  {
+    "name": "Kidz Biz Sport & Recreation East Butler",
+    "location": [
+      -31.643766,
+      115.711758
+    ],
+    "places": 120
+  },
+  {
+    "name": "Kidz Biz Sport and Recreation - Yanchep Beach",
+    "location": [
+      -31.5423117,
+      115.6331058
+    ],
+    "places": 60
+  },
+  {
+    "name": "Kidz Cottage",
+    "location": [
+      -33.357065,
+      116.154392
+    ],
+    "places": 19
+  },
+  {
+    "name": "Kidz Galore",
+    "location": [
+      -31.920557,
+      115.8475025
+    ],
+    "places": 45
+  },
+  {
+    "name": "Kidz Galore Child Care Centre Yokine",
+    "location": [
+      -31.901205,
+      115.853561
+    ],
+    "places": 41
+  },
+  {
+    "name": "Kidz Galore Kyilla",
+    "location": [
+      -31.924775,
+      115.849466
+    ],
+    "places": 73
+  },
+  {
+    "name": "Kidz Galore Nedlands",
+    "location": [
+      -31.9893626,
+      115.7960813
+    ],
+    "places": 40
+  },
+  {
+    "name": "Kidz Kingdom Child Care Centre",
+    "location": [
+      -32.041648,
+      115.848817
+    ],
+    "places": 51
+  },
+  {
+    "name": "Kidz Planet Family Day Care",
+    "location": [
+      -31.990963,
+      115.909443
+    ],
+    "places": 0
+  },
+  {
+    "name": "KIDZ 'R' US",
+    "location": [
+      -31.930604,
+      115.866385
+    ],
+    "places": 40
+  },
+  {
+    "name": "Kidz 'R' Us Early Learning Centre",
+    "location": [
+      -31.932083,
+      115.863698
+    ],
+    "places": 48
+  },
+  {
+    "name": "Kidz Retreat",
+    "location": [
+      -28.760728,
+      114.618762
+    ],
+    "places": 57
+  },
+  {
+    "name": "Kimberley Kids Early Learning Centre",
+    "location": [
+      -17.95991,
+      122.215577
+    ],
+    "places": 77
+  },
+  {
+    "name": "Kimberley Kids Outside School Hours Care",
+    "location": [
+      -17.959384,
+      122.219771
+    ],
+    "places": 28
+  },
+  {
+    "name": "Kindy Kids At Coastal Community Centre",
+    "location": [
+      -32.4249427,
+      115.7544422
+    ],
+    "places": 19
+  },
+  {
+    "name": "Kindy Kids at Frank Konecny",
+    "location": [
+      -32.2570097,
+      115.8228641
+    ],
+    "places": 27
+  },
+  {
+    "name": "Kingdom Kare Child Care Centre",
+    "location": [
+      -34.9979946,
+      117.8534724
+    ],
+    "places": 47
+  },
+  {
+    "name": "Kingfisher Happy Kids Child Care Centre",
+    "location": [
+      -31.8387105,
+      115.8960545
+    ],
+    "places": 35
+  },
+  {
+    "name": "Kingfisher Park Preschool",
+    "location": [
+      -31.8386628,
+      115.8952145
+    ],
+    "places": 20
+  },
+  {
+    "name": "Kingston Primary OSHClub",
+    "location": [
+      -33.2601523,
+      115.745073
+    ],
+    "places": 80
+  },
+  {
+    "name": "Kingsway Afterschool Care",
+    "location": [
+      -31.811618,
+      115.837644
+    ],
+    "places": 39
+  },
+  {
+    "name": "Kinross Kids Care",
+    "location": [
+      -31.722434,
+      115.746266
+    ],
+    "places": 46
+  },
+  {
+    "name": "Kojonup Occasional Care Centre",
+    "location": [
+      -33.8346867,
+      117.1629916
+    ],
+    "places": 23
+  },
+  {
+    "name": "Koorana OSHClub",
+    "location": [
+      -32.342925,
+      115.765318
+    ],
+    "places": 40
+  },
+  {
+    "name": "Kosy Kids Out Of School Care",
+    "location": [
+      -31.9018878,
+      115.8607371
+    ],
+    "places": 39
+  },
+  {
+    "name": "Kulin Child Care Centre",
+    "location": [
+      -32.669247,
+      118.1526979
+    ],
+    "places": 19
+  },
+  {
+    "name": "Kushland Family Day Care Services Pty Ltd (WA)",
+    "location": [
+      -32.069046,
+      115.753162
+    ],
+    "places": 0
+  },
+  {
+    "name": "Kwinana Out Of School Care",
+    "location": [
+      -32.234471,
+      115.804974
+    ],
+    "places": 50
+  },
+  {
+    "name": "Kwinana Recquatic Vacation Care Program",
+    "location": [
+      -32.2441016,
+      115.8122698
+    ],
+    "places": 70
+  },
+  {
+    "name": "La Scuola",
+    "location": [
+      -32.526656,
+      115.743837
+    ],
+    "places": 20
+  },
+  {
+    "name": "Lady Bugs Child Care Centre",
+    "location": [
+      -31.895252,
+      115.935578
+    ],
+    "places": 49
+  },
+  {
+    "name": "Lady Gowrie Child Care Centre - Karawara",
+    "location": [
+      -32.009396,
+      115.885216
+    ],
+    "places": 72
+  },
+  {
+    "name": "Ladybugs Child Care Centre",
+    "location": [
+      -31.916374,
+      116.028842
+    ],
+    "places": 65
+  },
+  {
+    "name": "Ladybugs Childcare Centre - Morley",
+    "location": [
+      -31.89949,
+      115.893207
+    ],
+    "places": 28
+  },
+  {
+    "name": "Ladybugs Out Of School Care",
+    "location": [
+      -31.906115,
+      116.041357
+    ],
+    "places": 39
+  },
+  {
+    "name": "Ladybugs Out of School Care - Anzac",
+    "location": [
+      -31.897198,
+      115.937247
+    ],
+    "places": 39
+  },
+  {
+    "name": "Lake Joondalup 3's Plus Program",
+    "location": [
+      -31.743567,
+      115.795776
+    ],
+    "places": 36
+  },
+  {
+    "name": "Landsdale Afterschool Care",
+    "location": [
+      -31.8034214,
+      115.8627605
+    ],
+    "places": 91
+  },
+  {
+    "name": "Landsdale Childcare Centre",
+    "location": [
+      -31.807629,
+      115.862981
+    ],
+    "places": 65
+  },
+  {
+    "name": "Landsdale Early Learning and Enrichment",
+    "location": [
+      -31.816835,
+      115.860232
+    ],
+    "places": 109
+  },
+  {
+    "name": "L'Atelier for Children",
+    "location": [
+      -31.892268,
+      115.774386
+    ],
+    "places": 30
+  },
+  {
+    "name": "Learning Circles Childcare",
+    "location": [
+      -31.98578,
+      115.90139
+    ],
+    "places": 32
+  },
+  {
+    "name": "Leederville Early Childhood Centre",
+    "location": [
+      -31.935585,
+      115.846176
+    ],
+    "places": 64
+  },
+  {
+    "name": "Leeming Child Care Centre",
+    "location": [
+      -32.0664029,
+      115.8563332
+    ],
+    "places": 66
+  },
+  {
+    "name": "Lefroy Road Child Care Centre",
+    "location": [
+      -32.068509,
+      115.768004
+    ],
+    "places": 47
+  },
+  {
+    "name": "Leinster Community Day Care",
+    "location": [
+      -27.9135694,
+      120.6968136
+    ],
+    "places": 42
+  },
+  {
+    "name": "Len Taplin Children's Services - Long Day Care",
+    "location": [
+      -20.312389,
+      118.6264969
+    ],
+    "places": 66
+  },
+  {
+    "name": "Leonora Child Care Facility",
+    "location": [
+      -28.87833809999999,
+      121.3336069
+    ],
+    "places": 19
+  },
+  {
+    "name": "Leschenault Leisure Centre Holiday Program",
+    "location": [
+      -33.2710917,
+      115.7403003
+    ],
+    "places": 65
+  },
+  {
+    "name": "Lesmurdie Little Tackas 3 Year Old Kindy",
+    "location": [
+      -32.010043,
+      116.044353
+    ],
+    "places": 24
+  },
+  {
+    "name": "Let's Play Centre",
+    "location": [
+      -31.777069,
+      115.96794
+    ],
+    "places": 65
+  },
+  {
+    "name": "Lifestreams Christian Church Inc.",
+    "location": [
+      -32.0001762,
+      115.8745305
+    ],
+    "places": 35
+  },
+  {
+    "name": "Lil' Tigers Early Learning Centre",
+    "location": [
+      -31.193884,
+      117.03192
+    ],
+    "places": 17
+  },
+  {
+    "name": "Lingalonga Early Years Learning Centre Inc",
+    "location": [
+      -33.858067,
+      121.888565
+    ],
+    "places": 67
+  },
+  {
+    "name": "Little Angels Early Learning Centre",
+    "location": [
+      -33.337118,
+      115.653588
+    ],
+    "places": 72
+  },
+  {
+    "name": "Little Bandits",
+    "location": [
+      -32.235648,
+      115.807914
+    ],
+    "places": 40
+  },
+  {
+    "name": "Little Barrens Early Learning Centre",
+    "location": [
+      -33.9443021,
+      120.1295682
+    ],
+    "places": 19
+  },
+  {
+    "name": "Little Beginnings Family Day Care",
+    "location": [
+      -31.972235,
+      115.896021
+    ],
+    "places": 0
+  },
+  {
+    "name": "Little Buds Kindy",
+    "location": [
+      -31.9292503,
+      115.8721873
+    ],
+    "places": 30
+  },
+  {
+    "name": "Little Creatures Child Care",
+    "location": [
+      -31.834503,
+      115.774526
+    ],
+    "places": 47
+  },
+  {
+    "name": "Little Dimples Early Learning Centre",
+    "location": [
+      -31.779764,
+      115.803538
+    ],
+    "places": 38
+  },
+  {
+    "name": "Little Fish's Early Learning Centre",
+    "location": [
+      -31.552614,
+      115.636159
+    ],
+    "places": 73
+  },
+  {
+    "name": "Little Fish's Early Learning Centre - Port Kennedy",
+    "location": [
+      -32.368252,
+      115.752448
+    ],
+    "places": 58
+  },
+  {
+    "name": "Little Fish's Out of School Hours Care",
+    "location": [
+      -31.553718,
+      115.636128
+    ],
+    "places": 38
+  },
+  {
+    "name": "Little Fruit Tree Family Day Care Service",
+    "location": [
+      -31.888399,
+      116.004939
+    ],
+    "places": 0
+  },
+  {
+    "name": "Little Gecko's Child Care Centre",
+    "location": [
+      -22.694225,
+      117.797546
+    ],
+    "places": 43
+  },
+  {
+    "name": "Little Generation Childcare",
+    "location": [
+      -32.018098,
+      115.838602
+    ],
+    "places": 30
+  },
+  {
+    "name": "Little Giggles Child Care Centre",
+    "location": [
+      -31.869515,
+      115.847678
+    ],
+    "places": 30
+  },
+  {
+    "name": "Little Giggles Outside School Hours Care",
+    "location": [
+      -31.869479,
+      115.848982
+    ],
+    "places": 40
+  },
+  {
+    "name": "Little Leprechauns Child Care Centre",
+    "location": [
+      -31.8631848,
+      115.9543296
+    ],
+    "places": 38
+  },
+  {
+    "name": "Little Muppets Child Care Centre",
+    "location": [
+      -31.761457,
+      115.779973
+    ],
+    "places": 52
+  },
+  {
+    "name": "Little Nuggets Early Learning Centre",
+    "location": [
+      -18.2306486,
+      127.6765053
+    ],
+    "places": 67
+  },
+  {
+    "name": "Little Peoples Place",
+    "location": [
+      -32.04132,
+      115.768066
+    ],
+    "places": 48
+  },
+  {
+    "name": "Little Peoples Place",
+    "location": [
+      -32.097758,
+      115.782376
+    ],
+    "places": 37
+  },
+  {
+    "name": "Little Peoples Place Byford",
+    "location": [
+      -32.211289,
+      116.008115
+    ],
+    "places": 42
+  },
+  {
+    "name": "Little Peoples Place Willagee",
+    "location": [
+      -32.050694,
+      115.794452
+    ],
+    "places": 49
+  },
+  {
+    "name": "Little Peoples Retreat",
+    "location": [
+      -31.981767,
+      116.014786
+    ],
+    "places": 38
+  },
+  {
+    "name": "Little People's Retreat Middle Swan",
+    "location": [
+      -31.87278,
+      116.016922
+    ],
+    "places": 48
+  },
+  {
+    "name": "Little People's Retreat Queens Park",
+    "location": [
+      -31.9978083,
+      115.9465637
+    ],
+    "places": 24
+  },
+  {
+    "name": "Little People's Retreat St James",
+    "location": [
+      -32.001282,
+      115.911827
+    ],
+    "places": 28
+  },
+  {
+    "name": "Little People's Retreat Swan View",
+    "location": [
+      -31.889526,
+      116.038006
+    ],
+    "places": 48
+  },
+  {
+    "name": "Little Possums Sharing Centre",
+    "location": [
+      -31.904834,
+      116.16208
+    ],
+    "places": 39
+  },
+  {
+    "name": "Little Rascals Child Care Centre - Leda",
+    "location": [
+      -32.2576952,
+      115.8083103
+    ],
+    "places": 53
+  },
+  {
+    "name": "Little Rascals Outside School Hours Care",
+    "location": [
+      -32.256947,
+      115.808433
+    ],
+    "places": 20
+  },
+  {
+    "name": "Little Stars Child Care Centre",
+    "location": [
+      -32.046919,
+      115.88968
+    ],
+    "places": 38
+  },
+  {
+    "name": "Little Taddies Child Care Centre",
+    "location": [
+      -34.444106,
+      116.034089
+    ],
+    "places": 19
+  },
+  {
+    "name": "Little Things Montessori Childcare",
+    "location": [
+      -31.871717,
+      115.809638
+    ],
+    "places": 42
+  },
+  {
+    "name": "Little Tykes Early Learning Centre",
+    "location": [
+      -32.0656331,
+      115.8024799
+    ],
+    "places": 57
+  },
+  {
+    "name": "Little VIP's Child Care & Early Education Centre",
+    "location": [
+      -32.036424,
+      115.927131
+    ],
+    "places": 78
+  },
+  {
+    "name": "Little Whalers Day Care Centre",
+    "location": [
+      -34.9651028,
+      117.3493285
+    ],
+    "places": 38
+  },
+  {
+    "name": "Living Waters OSHClub",
+    "location": [
+      -32.343041,
+      115.754401
+    ],
+    "places": 30
+  },
+  {
+    "name": "Liwara Catholic Outside School Hours Care",
+    "location": [
+      -31.833288,
+      115.791812
+    ],
+    "places": 52
+  },
+  {
+    "name": "Loftus 3+ Kindy",
+    "location": [
+      -31.93592,
+      115.84516
+    ],
+    "places": 20
+  },
+  {
+    "name": "Loftus Vacation Care",
+    "location": [
+      -31.93592,
+      115.84516
+    ],
+    "places": 78
+  },
+  {
+    "name": "Lollipops Child Care Centre",
+    "location": [
+      -32.121996,
+      115.784096
+    ],
+    "places": 48
+  },
+  {
+    "name": "LOSCCI - Bull Creek",
+    "location": [
+      -32.0671284,
+      115.8580914
+    ],
+    "places": 80
+  },
+  {
+    "name": "LOSCCI- Oberthur",
+    "location": [
+      -32.0671284,
+      115.8580914
+    ],
+    "places": 150
+  },
+  {
+    "name": "Love and Care Family Daycare Pty Ltd",
+    "location": [
+      -32.085868,
+      115.954447
+    ],
+    "places": 0
+  },
+  {
+    "name": "Lynwood Early Learning Centre",
+    "location": [
+      -32.042454,
+      115.933889
+    ],
+    "places": 54
+  },
+  {
+    "name": "Magic Circle Child Care Centre",
+    "location": [
+      -31.79382099999999,
+      115.765821
+    ],
+    "places": 56
+  },
+  {
+    "name": "Magic Cottage Child Care Centre",
+    "location": [
+      -28.764245,
+      114.628857
+    ],
+    "places": 44
+  },
+  {
+    "name": "Magic Moon Gwynne Park Childcare Centre",
+    "location": [
+      -32.156072,
+      116.003197
+    ],
+    "places": 25
+  },
+  {
+    "name": "Malaika Family Day Care",
+    "location": [
+      -31.659825,
+      115.725595
+    ],
+    "places": 0
+  },
+  {
+    "name": "Malvern Springs Early Learning Centre",
+    "location": [
+      -31.7934596,
+      115.9625343
+    ],
+    "places": 92
+  },
+  {
+    "name": "Marangaroo Child Care Centre",
+    "location": [
+      -31.821974,
+      115.844575
+    ],
+    "places": 38
+  },
+  {
+    "name": "Marangaroo Family Centre Inc.",
+    "location": [
+      -31.830706,
+      115.839737
+    ],
+    "places": 20
+  },
+  {
+    "name": "Margaret River Community Child Care Centre",
+    "location": [
+      -33.950873,
+      115.071293
+    ],
+    "places": 28
+  },
+  {
+    "name": "Margaret River Recreation Centre OSHC",
+    "location": [
+      -33.9603972,
+      115.0341291
+    ],
+    "places": 72
+  },
+  {
+    "name": "Marjorie Mann Lawley Day Care Centre Inc.",
+    "location": [
+      -31.9297218,
+      115.8718053
+    ],
+    "places": 52
+  },
+  {
+    "name": "Marmion Avenue Community Childcare",
+    "location": [
+      -31.8540629,
+      115.7677269
+    ],
+    "places": 39
+  },
+  {
+    "name": "Marri Grove Primary OSHClub",
+    "location": [
+      -32.2115364,
+      115.9995142
+    ],
+    "places": 50
+  },
+  {
+    "name": "Maylands Early Education Centre",
+    "location": [
+      -31.930861,
+      115.893412
+    ],
+    "places": 60
+  },
+  {
+    "name": "Maylands Out Of School Care",
+    "location": [
+      -31.9375948,
+      115.902633
+    ],
+    "places": 30
+  },
+  {
+    "name": "Meadow Springs Child Care Centre",
+    "location": [
+      -32.5089705,
+      115.7485925
+    ],
+    "places": 29
+  },
+  {
+    "name": "Meela Child Care Centre",
+    "location": [
+      -31.9402782,
+      115.8775762
+    ],
+    "places": 55
+  },
+  {
+    "name": "Meerilinga Children and Family Centre Beechboro",
+    "location": [
+      -31.865344,
+      115.934391
+    ],
+    "places": 20
+  },
+  {
+    "name": "Meerilinga Children and Family Centre Woodvale",
+    "location": [
+      -31.784616,
+      115.788365
+    ],
+    "places": 20
+  },
+  {
+    "name": "Meerilinga Early Learning Program Cockburn",
+    "location": [
+      -32.07513,
+      115.811556
+    ],
+    "places": 20
+  },
+  {
+    "name": "Meerilinga Early Learning Program Kingsley",
+    "location": [
+      -31.814818,
+      115.792572
+    ],
+    "places": 20
+  },
+  {
+    "name": "Melville Day Care Centre",
+    "location": [
+      -32.03806000000001,
+      115.8083
+    ],
+    "places": 48
+  },
+  {
+    "name": "Mercy Child Day Care Bedford",
+    "location": [
+      -31.9121973,
+      115.885813
+    ],
+    "places": 120
+  },
+  {
+    "name": "Mercy Child Day Care Seville Grove",
+    "location": [
+      -32.139297,
+      115.987223
+    ],
+    "places": 62
+  },
+  {
+    "name": "Mercy Child Day Care Thornlie",
+    "location": [
+      -32.04472,
+      115.950253
+    ],
+    "places": 62
+  },
+  {
+    "name": "Merino Court Child Care Centre",
+    "location": [
+      -32.043118,
+      115.952451
+    ],
+    "places": 32
+  },
+  {
+    "name": "Merredin And Districts Childcare And Play School",
+    "location": [
+      -31.484671,
+      118.2791767
+    ],
+    "places": 28
+  },
+  {
+    "name": "Merriwa OSHClub",
+    "location": [
+      -31.668431,
+      115.7127544
+    ],
+    "places": 50
+  },
+  {
+    "name": "Middle Swan Child Care Centre",
+    "location": [
+      -31.866207,
+      116.036702
+    ],
+    "places": 62
+  },
+  {
+    "name": "Midvale Early Childhood And Parenting Centre",
+    "location": [
+      -31.888713,
+      116.019784
+    ],
+    "places": 87
+  },
+  {
+    "name": "Midvale Early Childhood and Parenting Centre Outside School Hours Care",
+    "location": [
+      -31.8880535,
+      116.0199064
+    ],
+    "places": 50
+  },
+  {
+    "name": "Mighty Munchkins",
+    "location": [
+      -32.0708686,
+      115.8011884
+    ],
+    "places": 18
+  },
+  {
+    "name": "Miles of Smiles Child Care Centre",
+    "location": [
+      -32.16401,
+      116.002764
+    ],
+    "places": 48
+  },
+  {
+    "name": "Millars Well Childrens Services",
+    "location": [
+      -20.7412061,
+      116.8165011
+    ],
+    "places": 105
+  },
+  {
+    "name": "Milligan House Child Care Centre",
+    "location": [
+      -33.35902,
+      115.657498
+    ],
+    "places": 49
+  },
+  {
+    "name": "Milly Molly Mandy's",
+    "location": [
+      -32.371002,
+      117.010274
+    ],
+    "places": 19
+  },
+  {
+    "name": "Mimi Family Day Care Service",
+    "location": [
+      -31.868216,
+      115.858588
+    ],
+    "places": 0
+  },
+  {
+    "name": "Mindarie Keys Child Care & Early Learning Centre",
+    "location": [
+      -31.693722,
+      115.714337
+    ],
+    "places": 55
+  },
+  {
+    "name": "Mindarie Keys Early Learning Centre- Out of School Care",
+    "location": [
+      -31.687123,
+      115.709392
+    ],
+    "places": 80
+  },
+  {
+    "name": "Mindarie Kids Care",
+    "location": [
+      -31.67575799999999,
+      115.704032
+    ],
+    "places": 41
+  },
+  {
+    "name": "Mingenew Education & Care",
+    "location": [
+      -29.194302,
+      115.442505
+    ],
+    "places": 11
+  },
+  {
+    "name": "Mint Child Care and Kindy",
+    "location": [
+      -32.065586,
+      115.871423
+    ],
+    "places": 42
+  },
+  {
+    "name": "Miracles Early Learning Childcare Service",
+    "location": [
+      -32.127478,
+      116.032728
+    ],
+    "places": 27
+  },
+  {
+    "name": "Mission Australia Early Learning Service - Parmelia",
+    "location": [
+      -32.24189,
+      115.829666
+    ],
+    "places": 99
+  },
+  {
+    "name": "Mission Australia Early Learning Service - Warnbro South",
+    "location": [
+      -32.346866,
+      115.764746
+    ],
+    "places": 56
+  },
+  {
+    "name": "Monkey Bars Play & Learn Centre",
+    "location": [
+      -32.088647,
+      115.943429
+    ],
+    "places": 50
+  },
+  {
+    "name": "Montessori Stepping Stones",
+    "location": [
+      -32.124161,
+      115.825828
+    ],
+    "places": 96
+  },
+  {
+    "name": "Moolanda After School Care",
+    "location": [
+      -31.808037,
+      115.801683
+    ],
+    "places": 36
+  },
+  {
+    "name": "Moolanda Care & Learning Centre",
+    "location": [
+      -31.807211,
+      115.804712
+    ],
+    "places": 57
+  },
+  {
+    "name": "Moora Districts Child Care Centre",
+    "location": [
+      -30.634363,
+      116.002974
+    ],
+    "places": 28
+  },
+  {
+    "name": "Morley Out Of School Care",
+    "location": [
+      -31.8918483,
+      115.9102417
+    ],
+    "places": 75
+  },
+  {
+    "name": "Mosaic Early Learning Centre",
+    "location": [
+      -31.97836,
+      115.868722
+    ],
+    "places": 45
+  },
+  {
+    "name": "Mount Lawley Child Care Centre Inc",
+    "location": [
+      -31.9190677,
+      115.8690367
+    ],
+    "places": 51
+  },
+  {
+    "name": "Mt Hawthorn Out Of School Hours Centre",
+    "location": [
+      -31.9174982,
+      115.8338067
+    ],
+    "places": 39
+  },
+  {
+    "name": "Mt Hawthorn Out of School Hours Community Centre",
+    "location": [
+      -31.9195621,
+      115.8345367
+    ],
+    "places": 39
+  },
+  {
+    "name": "Mt Lawley Out of School Care",
+    "location": [
+      -31.921698,
+      115.870796
+    ],
+    "places": 35
+  },
+  {
+    "name": "Mulberry Tree Child Care - Ascot",
+    "location": [
+      -31.9285889,
+      115.94653
+    ],
+    "places": 95
+  },
+  {
+    "name": "Mulberry Tree Child Care - Broome",
+    "location": [
+      -17.9648126,
+      122.2334428
+    ],
+    "places": 55
+  },
+  {
+    "name": "Mulberry Tree Child Care - Cannington",
+    "location": [
+      -32.010103,
+      115.925021
+    ],
+    "places": 83
+  },
+  {
+    "name": "Mulberry Tree Child Care - Doubleview",
+    "location": [
+      -31.887733,
+      115.780466
+    ],
+    "places": 72
+  },
+  {
+    "name": "Mulberry Tree Child Care - Karrinyup",
+    "location": [
+      -31.875248,
+      115.778965
+    ],
+    "places": 70
+  },
+  {
+    "name": "Mulberry Tree Child Care - Leeming",
+    "location": [
+      -32.079332,
+      115.85374
+    ],
+    "places": 53
+  },
+  {
+    "name": "Mulberry Tree Child Care - Mount Hawthorn",
+    "location": [
+      -31.9051206,
+      115.8073801
+    ],
+    "places": 62
+  },
+  {
+    "name": "Mulberry Tree Child Care - North Perth",
+    "location": [
+      -31.934371,
+      115.859639
+    ],
+    "places": 60
+  },
+  {
+    "name": "Mulberry Tree Child Care - Osborne Park",
+    "location": [
+      -31.8906128,
+      115.8234856
+    ],
+    "places": 66
+  },
+  {
+    "name": "Mulberry Tree Child Care - Roleystone",
+    "location": [
+      -32.111218,
+      116.073152
+    ],
+    "places": 48
+  },
+  {
+    "name": "Mulberry Tree Child Care - Scarborough",
+    "location": [
+      -31.89556499999999,
+      115.782724
+    ],
+    "places": 62
+  },
+  {
+    "name": "Mulberry Tree Child Care - Tuart Hill",
+    "location": [
+      -31.902945,
+      115.840365
+    ],
+    "places": 40
+  },
+  {
+    "name": "Mulberry Tree Child Care - Wembley",
+    "location": [
+      -31.931924,
+      115.809323
+    ],
+    "places": 69
+  },
+  {
+    "name": "Mulberry Tree Child Care - Wembley Downs",
+    "location": [
+      -31.910121,
+      115.773715
+    ],
+    "places": 75
+  },
+  {
+    "name": "Mulberry Tree Child Care Glendalough",
+    "location": [
+      -31.920137,
+      115.827302
+    ],
+    "places": 33
+  },
+  {
+    "name": "Mulberry Tree Child Care Roebuck",
+    "location": [
+      -17.938631,
+      122.232532
+    ],
+    "places": 85
+  },
+  {
+    "name": "Mulberry Tree Childcare Mt Claremont",
+    "location": [
+      -31.9523851,
+      115.7819413
+    ],
+    "places": 60
+  },
+  {
+    "name": "Mulberry Tree Kids Club & Pre Kindy - Roleystone",
+    "location": [
+      -32.103329,
+      116.084596
+    ],
+    "places": 52
+  },
+  {
+    "name": "Mulberry Tree OSHC - Ascot",
+    "location": [
+      -31.9345125,
+      115.9450914
+    ],
+    "places": 80
+  },
+  {
+    "name": "Mulberry Tree OSHC - Broome",
+    "location": [
+      -17.9661638,
+      122.2168754
+    ],
+    "places": 32
+  },
+  {
+    "name": "Mulberry Tree OSHC - Cannington",
+    "location": [
+      -32.0058457,
+      115.9083631
+    ],
+    "places": 39
+  },
+  {
+    "name": "Mulberry Tree OSHC - Cannington",
+    "location": [
+      -32.008019,
+      115.916031
+    ],
+    "places": 67
+  },
+  {
+    "name": "Mulberry Tree OSHC - Karrinyup",
+    "location": [
+      -31.8697129,
+      115.7762296
+    ],
+    "places": 49
+  },
+  {
+    "name": "Mulberry Tree OSHC - Mt Claremont",
+    "location": [
+      -31.968109,
+      115.782673
+    ],
+    "places": 45
+  },
+  {
+    "name": "Mulberry Tree OSHC - Mt Lawley",
+    "location": [
+      -31.923953,
+      115.8656881
+    ],
+    "places": 75
+  },
+  {
+    "name": "Mulberry Tree OSHC - North Perth",
+    "location": [
+      -31.9195144,
+      115.8506055
+    ],
+    "places": 50
+  },
+  {
+    "name": "Mulberry Tree OSHC - Roebuck",
+    "location": [
+      -17.9512214,
+      122.2443272
+    ],
+    "places": 32
+  },
+  {
+    "name": "Mulberry Tree OSHC - Scarborough",
+    "location": [
+      -31.8960412,
+      115.7663998
+    ],
+    "places": 49
+  },
+  {
+    "name": "Mulberry Tree OSHC - Tuart Hill",
+    "location": [
+      -31.902564,
+      115.829947
+    ],
+    "places": 28
+  },
+  {
+    "name": "Mulberry Tree OSHC - Wembley Downs",
+    "location": [
+      -31.9104368,
+      115.7706696
+    ],
+    "places": 55
+  },
+  {
+    "name": "Mulberry Tree OSHC - Wilson",
+    "location": [
+      -32.0185817,
+      115.9124347
+    ],
+    "places": 0
+  },
+  {
+    "name": "Mulberry Tree OSHC Wembley",
+    "location": [
+      -31.923813,
+      115.821309
+    ],
+    "places": 79
+  },
+  {
+    "name": "Mulberry Tree Out of School Hours Care - Leeming",
+    "location": [
+      -32.0765929,
+      115.8625679
+    ],
+    "places": 37
+  },
+  {
+    "name": "Mulberry Tree Outside School Hours Care - Doubleview",
+    "location": [
+      -31.8852097,
+      115.7684969
+    ],
+    "places": 75
+  },
+  {
+    "name": "Munchkin Manor Child Care Centre",
+    "location": [
+      -33.3455798,
+      115.6478884
+    ],
+    "places": 48
+  },
+  {
+    "name": "Munchkins",
+    "location": [
+      -31.7728128,
+      115.9610283
+    ],
+    "places": 20
+  },
+  {
+    "name": "Mundarda Child Care Centre",
+    "location": [
+      -32.1352153,
+      116.0008165
+    ],
+    "places": 50
+  },
+  {
+    "name": "Mundaring Child Care Centre",
+    "location": [
+      -31.901373,
+      116.130266
+    ],
+    "places": 47
+  },
+  {
+    "name": "Murdoch University Child Care Centre",
+    "location": [
+      -32.0686354,
+      115.8329519
+    ],
+    "places": 48
+  },
+  {
+    "name": "Museum Street Child Care",
+    "location": [
+      -31.9483452,
+      115.8617115
+    ],
+    "places": 39
+  },
+  {
+    "name": "My World Child Care",
+    "location": [
+      -32.134389,
+      115.993136
+    ],
+    "places": 64
+  },
+  {
+    "name": "My World Child Care (Midvale)",
+    "location": [
+      -31.8930495,
+      116.0259791
+    ],
+    "places": 94
+  },
+  {
+    "name": "My World Child Care Waikiki",
+    "location": [
+      -32.318402,
+      115.760858
+    ],
+    "places": 57
+  },
+  {
+    "name": "My World Outside School Hours Care - Armadale",
+    "location": [
+      -32.1400867,
+      115.9979301
+    ],
+    "places": 80
+  },
+  {
+    "name": "My World Outside School Hours Care (Waikiki)",
+    "location": [
+      -32.3014389,
+      115.7611934
+    ],
+    "places": 56
+  },
+  {
+    "name": "Narembeen Numbats Occasional  Child Care Centre",
+    "location": [
+      -32.065653,
+      118.395094
+    ],
+    "places": 12
+  },
+  {
+    "name": "Narrogin Regional Child Care Services",
+    "location": [
+      -32.9357888,
+      117.1771376
+    ],
+    "places": 57
+  },
+  {
+    "name": "Nature Alliance Family Day Care Service",
+    "location": [
+      -33.63269580000001,
+      115.1151133
+    ],
+    "places": 0
+  },
+  {
+    "name": "Nectar Family Day Care Scheme",
+    "location": [
+      -31.910088,
+      115.79719
+    ],
+    "places": 0
+  },
+  {
+    "name": "Nedlands School of Early Learning",
+    "location": [
+      -31.975381,
+      115.794318
+    ],
+    "places": 100
+  },
+  {
+    "name": "Newman College Out Of School Care",
+    "location": [
+      -31.9331796,
+      115.7964355
+    ],
+    "places": 30
+  },
+  {
+    "name": "Newman Day Care Centre",
+    "location": [
+      -23.3547669,
+      119.7340369
+    ],
+    "places": 38
+  },
+  {
+    "name": "Newpark Child Care Centre",
+    "location": [
+      -31.834491,
+      115.829886
+    ],
+    "places": 62
+  },
+  {
+    "name": "Ngala Early Learning and Development Service",
+    "location": [
+      -31.987265,
+      115.8832217
+    ],
+    "places": 54
+  },
+  {
+    "name": "Ngala Early Learning and Development Service Perth Airport",
+    "location": [
+      -31.9327037,
+      115.9550367
+    ],
+    "places": 97
+  },
+  {
+    "name": "Ngala Early Learning and Development Services Joondalup",
+    "location": [
+      -31.74079279999999,
+      115.7742046
+    ],
+    "places": 72
+  },
+  {
+    "name": "Nile Family Day Care",
+    "location": [
+      -32.1173385,
+      116.0148126
+    ],
+    "places": 0
+  },
+  {
+    "name": "Nintirri After School Care",
+    "location": [
+      -22.6902901,
+      117.794508
+    ],
+    "places": 20
+  },
+  {
+    "name": "Nintirri Pre-Kindy Program",
+    "location": [
+      -22.6814097,
+      117.7823598
+    ],
+    "places": 19
+  },
+  {
+    "name": "Nippers Shoalwater Child Care Centre",
+    "location": [
+      -32.298154,
+      115.713072
+    ],
+    "places": 38
+  },
+  {
+    "name": "Nippers St Clair Child Care Centre",
+    "location": [
+      -32.353058,
+      115.754526
+    ],
+    "places": 38
+  },
+  {
+    "name": "Nippers Vacation Care",
+    "location": [
+      -32.32919,
+      115.761058
+    ],
+    "places": 44
+  },
+  {
+    "name": "Nollamara Child Care Centre",
+    "location": [
+      -31.87375179999999,
+      115.8380211
+    ],
+    "places": 28
+  },
+  {
+    "name": "Noranda Child Care Centre",
+    "location": [
+      -31.876463,
+      115.8930339
+    ],
+    "places": 47
+  },
+  {
+    "name": "North Perth Out Of School Care",
+    "location": [
+      -31.9311816,
+      115.8561494
+    ],
+    "places": 60
+  },
+  {
+    "name": "North Perth Out Of School Care - Highgate",
+    "location": [
+      -31.940288,
+      115.8661476
+    ],
+    "places": 50
+  },
+  {
+    "name": "Northam Vacation Care",
+    "location": [
+      -31.6501436,
+      116.6805427
+    ],
+    "places": 24
+  },
+  {
+    "name": "Northampton Child Care Association",
+    "location": [
+      -28.352583,
+      114.632883
+    ],
+    "places": 20
+  },
+  {
+    "name": "Northcliffe Vacation Care",
+    "location": [
+      -34.6331008,
+      116.1223642
+    ],
+    "places": 25
+  },
+  {
+    "name": "Nyier Family Day Care",
+    "location": [
+      -31.934456,
+      115.840915
+    ],
+    "places": 0
+  },
+  {
+    "name": "Oasis Outside School Hours Centre",
+    "location": [
+      -32.4086209,
+      115.7582617
+    ],
+    "places": 39
+  },
+  {
+    "name": "O'Connor Play & Learn",
+    "location": [
+      -32.062614,
+      115.789302
+    ],
+    "places": 73
+  },
+  {
+    "name": "On The Bus Programme",
+    "location": [
+      47.7510741,
+      -120.7401386
+    ],
+    "places": 40
+  },
+  {
+    "name": "Online Child Care Centre",
+    "location": [
+      -33.318416,
+      115.706475
+    ],
+    "places": 57
+  },
+  {
+    "name": "Orana Outside School Hours Care",
+    "location": [
+      -32.0447278,
+      115.8904672
+    ],
+    "places": 60
+  },
+  {
+    "name": "Orchard Montessori",
+    "location": [
+      -32.049222,
+      116.011233
+    ],
+    "places": 47
+  },
+  {
+    "name": "OrganiKids Childcare",
+    "location": [
+      -31.904369,
+      115.952446
+    ],
+    "places": 36
+  },
+  {
+    "name": "OROOSH Out Of School Hours Care",
+    "location": [
+      -31.7652363,
+      115.7394057
+    ],
+    "places": 70
+  },
+  {
+    "name": "OSCCA Geraldton OSHC",
+    "location": [
+      -28.7774354,
+      114.6049183
+    ],
+    "places": 50
+  },
+  {
+    "name": "Our Lady Of Lourdes OSHClub",
+    "location": [
+      -31.888012,
+      115.848508
+    ],
+    "places": 38
+  },
+  {
+    "name": "Our Lady Of Mercy OSHClub",
+    "location": [
+      -31.837357,
+      115.838988
+    ],
+    "places": 50
+  },
+  {
+    "name": "Out Of School Kids Care",
+    "location": [
+      -31.672983,
+      115.702846
+    ],
+    "places": 34
+  },
+  {
+    "name": "Pachamama Activity Centre",
+    "location": [
+      -32.012807,
+      116.038656
+    ],
+    "places": 43
+  },
+  {
+    "name": "Pachamama Early Education and Childcare",
+    "location": [
+      -32.012683,
+      116.03799
+    ],
+    "places": 69
+  },
+  {
+    "name": "Padbury Education & Child Care Centre Ltd",
+    "location": [
+      -31.805841,
+      115.759484
+    ],
+    "places": 104
+  },
+  {
+    "name": "Padbury OSHClub",
+    "location": [
+      -31.8157058,
+      115.7669952
+    ],
+    "places": 50
+  },
+  {
+    "name": "Parkfield OSHClub",
+    "location": [
+      -33.2688521,
+      115.7301262
+    ],
+    "places": 50
+  },
+  {
+    "name": "Pearsall Child Care Centre",
+    "location": [
+      -31.77843,
+      115.818875
+    ],
+    "places": 71
+  },
+  {
+    "name": "Penrhos College Pre-Kinder",
+    "location": [
+      -31.997431,
+      115.872539
+    ],
+    "places": 20
+  },
+  {
+    "name": "Periwinkles Learning & Child Care Centre",
+    "location": [
+      -32.066725,
+      115.819674
+    ],
+    "places": 36
+  },
+  {
+    "name": "Periwinkles Learning and  Child Care Centre",
+    "location": [
+      -32.084107,
+      115.964672
+    ],
+    "places": 38
+  },
+  {
+    "name": "Periwinkles Learning And Child Care Centre",
+    "location": [
+      -32.0675952,
+      115.9709968
+    ],
+    "places": 33
+  },
+  {
+    "name": "Perth College",
+    "location": [
+      -31.931425,
+      115.875297
+    ],
+    "places": 30
+  },
+  {
+    "name": "Perth Family Day Care Service",
+    "location": [
+      -32.012559,
+      115.925764
+    ],
+    "places": 0
+  },
+  {
+    "name": "Piara Waters OSHClub",
+    "location": [
+      -32.1357559,
+      115.908854
+    ],
+    "places": 70
+  },
+  {
+    "name": "Pickering Brook Pre-Kindergarten",
+    "location": [
+      -32.034675,
+      116.130736
+    ],
+    "places": 16
+  },
+  {
+    "name": "Pioneer Village After School Care",
+    "location": [
+      -32.150178,
+      116.023721
+    ],
+    "places": 40
+  },
+  {
+    "name": "Pipsqueaks Playschool",
+    "location": [
+      -32.3588018,
+      115.8139084
+    ],
+    "places": 53
+  },
+  {
+    "name": "Play2Learn Kindy",
+    "location": [
+      -32.0794177,
+      115.8575419
+    ],
+    "places": 13
+  },
+  {
+    "name": "Play's Kool",
+    "location": [
+      -31.945965,
+      115.792182
+    ],
+    "places": 42
+  },
+  {
+    "name": "Play's Kool Floreat Outside School Hours Care",
+    "location": [
+      -31.94194299999999,
+      115.7917522
+    ],
+    "places": 50
+  },
+  {
+    "name": "Play's Kool Halls Head",
+    "location": [
+      -32.539985,
+      115.70578
+    ],
+    "places": 35
+  },
+  {
+    "name": "Play's Kool Mandurah",
+    "location": [
+      -32.528896,
+      115.721276
+    ],
+    "places": 47
+  },
+  {
+    "name": "Point Resolution  Child Care",
+    "location": [
+      -32.002325,
+      115.794558
+    ],
+    "places": 24
+  },
+  {
+    "name": "Possum Hollow Child Care Centre",
+    "location": [
+      -31.896998,
+      115.826503
+    ],
+    "places": 38
+  },
+  {
+    "name": "Potters Patch Childcare Centre",
+    "location": [
+      -32.635384,
+      115.871178
+    ],
+    "places": 57
+  },
+  {
+    "name": "Princeton Pre School",
+    "location": [
+      -31.897308,
+      115.821625
+    ],
+    "places": 37
+  },
+  {
+    "name": "Quairading CWA Childcare Centre",
+    "location": [
+      -32.011774,
+      117.401084
+    ],
+    "places": 19
+  },
+  {
+    "name": "Queen of Apostles OSHClub",
+    "location": [
+      -32.030073,
+      115.894221
+    ],
+    "places": 50
+  },
+  {
+    "name": "Quinns Beach After School Care",
+    "location": [
+      -31.657647,
+      115.695041
+    ],
+    "places": 52
+  },
+  {
+    "name": "Quinns Beach Care for Kids Early Learning Centre",
+    "location": [
+      -31.655133,
+      115.692883
+    ],
+    "places": 67
+  },
+  {
+    "name": "Quinns Rocks Three Year Old Programme Inc",
+    "location": [
+      -31.66805149999999,
+      115.6996343
+    ],
+    "places": 20
+  },
+  {
+    "name": "Ragamuffins Child Care Centre",
+    "location": [
+      -35.010032,
+      117.892509
+    ],
+    "places": 30
+  },
+  {
+    "name": "Rainbow Child Care Centre",
+    "location": [
+      -34.9923076,
+      117.8591357
+    ],
+    "places": 42
+  },
+  {
+    "name": "Ravenswood Learning Centre",
+    "location": [
+      -32.58589500000001,
+      115.831259
+    ],
+    "places": 45
+  },
+  {
+    "name": "Ready Set Grow Child Care Centre - Beckenham",
+    "location": [
+      -32.026428,
+      115.968129
+    ],
+    "places": 42
+  },
+  {
+    "name": "Ready Set Grow Child Care Centre - Bluff Point",
+    "location": [
+      -28.739099,
+      114.623045
+    ],
+    "places": 57
+  },
+  {
+    "name": "Ready Set Grow Child Care Centre - Cannington",
+    "location": [
+      -32.013953,
+      115.934621
+    ],
+    "places": 72
+  },
+  {
+    "name": "Ready Set Grow Child Care Centre - Dongara",
+    "location": [
+      -29.260866,
+      114.931283
+    ],
+    "places": 43
+  },
+  {
+    "name": "Ready Set Grow Family Day Care",
+    "location": [
+      -31.930861,
+      115.893412
+    ],
+    "places": 0
+  },
+  {
+    "name": "Ready Set Grow Out of School Care - Beckenham",
+    "location": [
+      -32.024095,
+      115.957296
+    ],
+    "places": 59
+  },
+  {
+    "name": "Ready Set Grow Out of School Care - Bluff Point",
+    "location": [
+      -28.740371,
+      114.621607
+    ],
+    "places": 50
+  },
+  {
+    "name": "Ready Set Grow Out of School Care Attadale",
+    "location": [
+      -32.025854,
+      115.8013426
+    ],
+    "places": 59
+  },
+  {
+    "name": "Ready Set Grow Out of School Care Collier",
+    "location": [
+      -31.9913369,
+      115.8725264
+    ],
+    "places": 59
+  },
+  {
+    "name": "Ready Set Grow Out Of School Care Curtin",
+    "location": [
+      -32.006901,
+      115.873757
+    ],
+    "places": 60
+  },
+  {
+    "name": "Ready Set Grow Out of School Care Gibb Street",
+    "location": [
+      -32.0070103,
+      115.9536022
+    ],
+    "places": 59
+  },
+  {
+    "name": "Ready Set Grow Out of School Care Woodlupine",
+    "location": [
+      -31.984289,
+      116.00413
+    ],
+    "places": 59
+  },
+  {
+    "name": "Ready Set Grow Out of School Care Yale",
+    "location": [
+      -32.0502259,
+      115.9527056
+    ],
+    "places": 59
+  },
+  {
+    "name": "Regent College After School Care",
+    "location": [
+      -31.971479,
+      115.889749
+    ],
+    "places": 26
+  },
+  {
+    "name": "Riverdale Child Care Centre",
+    "location": [
+      -32.121428,
+      116.018976
+    ],
+    "places": 107
+  },
+  {
+    "name": "Riverlinks Child Care Centre",
+    "location": [
+      -33.2693459,
+      115.7440733
+    ],
+    "places": 77
+  },
+  {
+    "name": "Riverside Kids Club",
+    "location": [
+      -31.9714173,
+      115.8889502
+    ],
+    "places": 70
+  },
+  {
+    "name": "Riverton - Willetton Kindergarten (Independent)",
+    "location": [
+      -32.037789,
+      115.888702
+    ],
+    "places": 30
+  },
+  {
+    "name": "Riverton Out Of School OSHC",
+    "location": [
+      -32.0350829,
+      115.9023984
+    ],
+    "places": 50
+  },
+  {
+    "name": "Roberta Jull Family Day Care Service",
+    "location": [
+      -32.0707362,
+      115.9984892
+    ],
+    "places": 0
+  },
+  {
+    "name": "Rockingham Early Learning & Child Care Centre",
+    "location": [
+      -32.2812058,
+      115.757155
+    ],
+    "places": 52
+  },
+  {
+    "name": "Rosalie OSHClub",
+    "location": [
+      -31.961653,
+      115.815711
+    ],
+    "places": 50
+  },
+  {
+    "name": "Rose Nowers Early Learning Centre",
+    "location": [
+      -20.4104272,
+      118.6089074
+    ],
+    "places": 42
+  },
+  {
+    "name": "Rosebud Montessori",
+    "location": [
+      -31.94068799999999,
+      115.8815657
+    ],
+    "places": 30
+  },
+  {
+    "name": "Rossi Child Care Centre - Embleton",
+    "location": [
+      -31.90526899999999,
+      115.90314
+    ],
+    "places": 35
+  },
+  {
+    "name": "Rossi Child Care Centre - Morley",
+    "location": [
+      -31.894211,
+      115.924646
+    ],
+    "places": 42
+  },
+  {
+    "name": "Rossmoyne OSHClub",
+    "location": [
+      -32.0393157,
+      115.8657461
+    ],
+    "places": 50
+  },
+  {
+    "name": "Rostrata Out Of School  OSHC",
+    "location": [
+      -32.0498202,
+      115.8937793
+    ],
+    "places": 39
+  },
+  {
+    "name": "Ruth Landau Harp Child Care Centre",
+    "location": [
+      -31.9143643,
+      115.8654293
+    ],
+    "places": 52
+  },
+  {
+    "name": "Ruth Landau Harp Outside School Hours Care",
+    "location": [
+      -31.8995847,
+      115.8631284
+    ],
+    "places": 60
+  },
+  {
+    "name": "Sacred Heart Primary School Thornlie Child Care Centre",
+    "location": [
+      -32.067894,
+      115.956536
+    ],
+    "places": 56
+  },
+  {
+    "name": "Sacred Heart Primary School Thornlie OSHC",
+    "location": [
+      -32.067894,
+      115.956536
+    ],
+    "places": 60
+  },
+  {
+    "name": "Safe 'N' Sound Daycare Centre",
+    "location": [
+      -31.684678,
+      115.723855
+    ],
+    "places": 35
+  },
+  {
+    "name": "Saiyan Family Day Care",
+    "location": [
+      -32.003432,
+      115.91922
+    ],
+    "places": 0
+  },
+  {
+    "name": "Salisbury Child Care Centre",
+    "location": [
+      -31.9144109,
+      115.8884752
+    ],
+    "places": 47
+  },
+  {
+    "name": "Sanctuary Child Care Centre",
+    "location": [
+      -32.094978,
+      115.925683
+    ],
+    "places": 68
+  },
+  {
+    "name": "Santa Clara OSC",
+    "location": [
+      -32.005964,
+      115.911649
+    ],
+    "places": 50
+  },
+  {
+    "name": "Saranna Early Childhood Education & Care Centre",
+    "location": [
+      -31.800119,
+      115.913239
+    ],
+    "places": 60
+  },
+  {
+    "name": "Scarborough Baptist Outside School Hours Care",
+    "location": [
+      -31.89775599999999,
+      115.773779
+    ],
+    "places": 26
+  },
+  {
+    "name": "Scarborough OSHC",
+    "location": [
+      -31.8907366,
+      115.7752868
+    ],
+    "places": 55
+  },
+  {
+    "name": "School Mates OSHC",
+    "location": [
+      -32.1197398,
+      115.9999019
+    ],
+    "places": 120
+  },
+  {
+    "name": "Serpentine Child Care",
+    "location": [
+      -32.365912,
+      115.979825
+    ],
+    "places": 37
+  },
+  {
+    "name": "Sherpa Kids - Pegs Creek",
+    "location": [
+      -20.7399946,
+      116.8285523
+    ],
+    "places": 50
+  },
+  {
+    "name": "Sherpa Kids And Pilbara Preparatory - Dampier",
+    "location": [
+      -20.6642308,
+      116.7078642
+    ],
+    "places": 30
+  },
+  {
+    "name": "Sherpa Kids And Pilbara Preparatory - Karratha",
+    "location": [
+      -20.967771,
+      117.0794082
+    ],
+    "places": 50
+  },
+  {
+    "name": "Silverwood Child Care Centre",
+    "location": [
+      -31.897152,
+      115.905684
+    ],
+    "places": 59
+  },
+  {
+    "name": "Skooleez OSHC",
+    "location": [
+      -31.994221,
+      116.017545
+    ],
+    "places": 36
+  },
+  {
+    "name": "Skooleez Queens Park OSHC",
+    "location": [
+      -31.998595,
+      115.944428
+    ],
+    "places": 23
+  },
+  {
+    "name": "Skoolz Out",
+    "location": [
+      -31.753534,
+      115.795297
+    ],
+    "places": 120
+  },
+  {
+    "name": "Small Friends",
+    "location": [
+      -32.587833,
+      115.653454
+    ],
+    "places": 40
+  },
+  {
+    "name": "Small Friends Playschool Singleton",
+    "location": [
+      -32.447443,
+      115.755883
+    ],
+    "places": 45
+  },
+  {
+    "name": "Small World Child Care Centre",
+    "location": [
+      -31.9205012,
+      115.885884
+    ],
+    "places": 38
+  },
+  {
+    "name": "Smart Start Education Services - Floreat",
+    "location": [
+      -31.936048,
+      115.794695
+    ],
+    "places": 24
+  },
+  {
+    "name": "Smart Start Educational Services",
+    "location": [
+      -31.9609236,
+      115.8132515
+    ],
+    "places": 20
+  },
+  {
+    "name": "Smart Start Scarborough",
+    "location": [
+      -31.888437,
+      115.767432
+    ],
+    "places": 30
+  },
+  {
+    "name": "Smart Start Swanbourne",
+    "location": [
+      -31.9798602,
+      115.7604759
+    ],
+    "places": 30
+  },
+  {
+    "name": "Smartgen Family Day Care",
+    "location": [
+      -31.934456,
+      115.840915
+    ],
+    "places": 0
+  },
+  {
+    "name": "Smarties Child Care Centre",
+    "location": [
+      -32.087063,
+      115.996435
+    ],
+    "places": 38
+  },
+  {
+    "name": "Smiley's Child Care Centre",
+    "location": [
+      -32.060756,
+      115.77882
+    ],
+    "places": 67
+  },
+  {
+    "name": "Smiley's Out of School Care",
+    "location": [
+      -32.072347,
+      115.773115
+    ],
+    "places": 40
+  },
+  {
+    "name": "Snugglepot Child Care Centre",
+    "location": [
+      -32.13727,
+      115.98318
+    ],
+    "places": 37
+  },
+  {
+    "name": "Somerly OSHClub",
+    "location": [
+      -31.685463,
+      115.727861
+    ],
+    "places": 50
+  },
+  {
+    "name": "South Ballajura OSHClub",
+    "location": [
+      -31.84946669999999,
+      115.9115705
+    ],
+    "places": 50
+  },
+  {
+    "name": "South Coast Baptist College School of Early Learning Childcare",
+    "location": [
+      -32.3148671,
+      115.7550632
+    ],
+    "places": 122
+  },
+  {
+    "name": "South Coogee OSHClub",
+    "location": [
+      -32.129409,
+      115.797352
+    ],
+    "places": 50
+  },
+  {
+    "name": "South Lake Child Care Centre",
+    "location": [
+      -32.110533,
+      115.838489
+    ],
+    "places": 69
+  },
+  {
+    "name": "South Perth Uniting Church Child Care Centre",
+    "location": [
+      -31.981906,
+      115.868114
+    ],
+    "places": 53
+  },
+  {
+    "name": "South Thornlie OSHClub",
+    "location": [
+      -32.0672953,
+      115.9558661
+    ],
+    "places": 50
+  },
+  {
+    "name": "South West Sports Centre OSHC",
+    "location": [
+      -33.368539,
+      115.641187
+    ],
+    "places": 60
+  },
+  {
+    "name": "Southbank Montessori",
+    "location": [
+      -31.9865953,
+      115.8973747
+    ],
+    "places": 60
+  },
+  {
+    "name": "Southbank Montessori - East Victoria Park",
+    "location": [
+      -31.98646,
+      115.901596
+    ],
+    "places": 36
+  },
+  {
+    "name": "Southlake OSHC",
+    "location": [
+      -32.1053109,
+      115.8365413
+    ],
+    "places": 39
+  },
+  {
+    "name": "Sparx Early Learning Centre - Eden Hill",
+    "location": [
+      -31.889319,
+      115.947701
+    ],
+    "places": 43
+  },
+  {
+    "name": "Sparx Outside School Hours Care - Eden Hill",
+    "location": [
+      -31.8905329,
+      115.9523609
+    ],
+    "places": 60
+  },
+  {
+    "name": "SPOSCI OSHClub",
+    "location": [
+      -31.9803192,
+      115.860173
+    ],
+    "places": 80
+  },
+  {
+    "name": "St Andrews OSHClub",
+    "location": [
+      -31.687219,
+      115.721852
+    ],
+    "places": 50
+  },
+  {
+    "name": "St Brigid's Outside School Hours Care",
+    "location": [
+      -31.875635,
+      116.014347
+    ],
+    "places": 26
+  },
+  {
+    "name": "St Columba's Outside School Hours Care",
+    "location": [
+      -31.92288199999999,
+      115.910651
+    ],
+    "places": 40
+  },
+  {
+    "name": "St Emilies OSHClub",
+    "location": [
+      -32.081521,
+      115.932921
+    ],
+    "places": 50
+  },
+  {
+    "name": "St Hilda's Anglican School For Girls Extend- ED Service",
+    "location": [
+      -32.01905,
+      115.7645381
+    ],
+    "places": 40
+  },
+  {
+    "name": "St Jerome's OSHClub",
+    "location": [
+      -32.121899,
+      115.782541
+    ],
+    "places": 40
+  },
+  {
+    "name": "St Joseph's Outside School Hours Care",
+    "location": [
+      -15.776896,
+      128.733968
+    ],
+    "places": 68
+  },
+  {
+    "name": "St Luke's Out Of School Hours Care Centre",
+    "location": [
+      -31.802019,
+      115.80546
+    ],
+    "places": 40
+  },
+  {
+    "name": "St Mary's Anglican Girls School Out Of School Care",
+    "location": [
+      -31.8796269,
+      115.7648559
+    ],
+    "places": 30
+  },
+  {
+    "name": "St Michael's OSHClub",
+    "location": [
+      -31.9055772,
+      115.9502618
+    ],
+    "places": 50
+  },
+  {
+    "name": "St Munchin's Catholic School OSHC",
+    "location": [
+      -32.082272,
+      115.986994
+    ],
+    "places": 70
+  },
+  {
+    "name": "St Peter & Emmaus Early Learning & Development Centre",
+    "location": [
+      -31.9137,
+      115.839999
+    ],
+    "places": 74
+  },
+  {
+    "name": "St Simon Peter Early Learning Centre",
+    "location": [
+      -31.7528542,
+      115.7377937
+    ],
+    "places": 55
+  },
+  {
+    "name": "St Simon Peter Outside School Hours Care",
+    "location": [
+      -31.7528542,
+      115.7377937
+    ],
+    "places": 60
+  },
+  {
+    "name": "St Stephen's OSHClub",
+    "location": [
+      -31.717102,
+      115.788662
+    ],
+    "places": 50
+  },
+  {
+    "name": "Star Of The Sea Out Of School Care Centre Incorporated",
+    "location": [
+      -32.285295,
+      115.731686
+    ],
+    "places": 50
+  },
+  {
+    "name": "Starbright Early Learning Centre",
+    "location": [
+      -31.90011299999999,
+      115.827482
+    ],
+    "places": 48
+  },
+  {
+    "name": "Starbright Early Learning Centre - Booragoon",
+    "location": [
+      -32.041478,
+      115.83775
+    ],
+    "places": 40
+  },
+  {
+    "name": "Step By Step Family Day Care",
+    "location": [
+      -31.84488,
+      115.808944
+    ],
+    "places": 0
+  },
+  {
+    "name": "Stepping Stones Child Development Centre",
+    "location": [
+      -32.039512,
+      115.772843
+    ],
+    "places": 40
+  },
+  {
+    "name": "Stirling Childcare Centre",
+    "location": [
+      -31.889855,
+      115.821471
+    ],
+    "places": 97
+  },
+  {
+    "name": "Stratton Out Of School Care",
+    "location": [
+      -31.8691508,
+      116.0354039
+    ],
+    "places": 55
+  },
+  {
+    "name": "Subiaco Children's Centre",
+    "location": [
+      -31.951151,
+      115.82156
+    ],
+    "places": 39
+  },
+  {
+    "name": "Subiaco School of Early Learning",
+    "location": [
+      -31.9472089,
+      115.8218743
+    ],
+    "places": 97
+  },
+  {
+    "name": "Subicare Child Care",
+    "location": [
+      -31.950916,
+      115.821855
+    ],
+    "places": 60
+  },
+  {
+    "name": "Success Pre-Kindy",
+    "location": [
+      -32.1441432,
+      115.8458078
+    ],
+    "places": 30
+  },
+  {
+    "name": "Sudbury House Care and Development centre",
+    "location": [
+      -31.868435,
+      115.859986
+    ],
+    "places": 45
+  },
+  {
+    "name": "Sunshine Child Care Centre",
+    "location": [
+      -32.295163,
+      115.710276
+    ],
+    "places": 71
+  },
+  {
+    "name": "Sunshine Child Care Centre- OSHC And  Vacation Care",
+    "location": [
+      -32.298404,
+      115.756809
+    ],
+    "places": 52
+  },
+  {
+    "name": "Swan Children and Family Centre Clayton View",
+    "location": [
+      -31.9059672,
+      116.0400104
+    ],
+    "places": 58
+  },
+  {
+    "name": "Swan Park Leisure Centre Holiday Program",
+    "location": [
+      -31.8828388,
+      116.0250823
+    ],
+    "places": 78
+  },
+  {
+    "name": "Swan Valley Child Care",
+    "location": [
+      -31.8246262,
+      116.017165
+    ],
+    "places": 57
+  },
+  {
+    "name": "Swan Valley Out Of School Care",
+    "location": [
+      -31.8246262,
+      116.017165
+    ],
+    "places": 26
+  },
+  {
+    "name": "Tarbiyah Family Day Care",
+    "location": [
+      -31.946231,
+      115.9221281
+    ],
+    "places": 0
+  },
+  {
+    "name": "Technology Park Child Care Centre",
+    "location": [
+      -31.99726,
+      115.892012
+    ],
+    "places": 62
+  },
+  {
+    "name": "Teddy Bear Corner Child Care Centre",
+    "location": [
+      -32.075188,
+      115.790259
+    ],
+    "places": 47
+  },
+  {
+    "name": "The Boodie Rats",
+    "location": [
+      -30.9157127,
+      118.2076623
+    ],
+    "places": 17
+  },
+  {
+    "name": "The Children's Centre Of Margaret River",
+    "location": [
+      -33.9528257,
+      115.0725682
+    ],
+    "places": 38
+  },
+  {
+    "name": "The Children's Garden",
+    "location": [
+      -32.041995,
+      115.803325
+    ],
+    "places": 33
+  },
+  {
+    "name": "The Cub House",
+    "location": [
+      -33.581611,
+      120.0481056
+    ],
+    "places": 19
+  },
+  {
+    "name": "The Early Learning Centre Of Margaret River",
+    "location": [
+      -33.950003,
+      115.063845
+    ],
+    "places": 30
+  },
+  {
+    "name": "The Fluffy Ducklings Day Care",
+    "location": [
+      -31.7596986,
+      116.3844358
+    ],
+    "places": 20
+  },
+  {
+    "name": "The Grove Child Care Centre",
+    "location": [
+      -31.843111,
+      115.807961
+    ],
+    "places": 48
+  },
+  {
+    "name": "The Hangout Outside of School Hours Care",
+    "location": [
+      -31.8686023,
+      115.8610475
+    ],
+    "places": 60
+  },
+  {
+    "name": "The Kalgoorlie Creche",
+    "location": [
+      -30.75338,
+      121.463255
+    ],
+    "places": 33
+  },
+  {
+    "name": "The Salvation Army Balga Early Learning Centre",
+    "location": [
+      -31.859535,
+      115.835175
+    ],
+    "places": 50
+  },
+  {
+    "name": "The Sunny Child Care Centre",
+    "location": [
+      -31.9754513,
+      115.7587462
+    ],
+    "places": 47
+  },
+  {
+    "name": "The University Child Care Club (inc)",
+    "location": [
+      -31.985005,
+      115.818655
+    ],
+    "places": 122
+  },
+  {
+    "name": "Three Springs Childcare Centre",
+    "location": [
+      -29.5351054,
+      115.7602608
+    ],
+    "places": 12
+  },
+  {
+    "name": "Tiddlywinks",
+    "location": [
+      -31.937059,
+      115.811271
+    ],
+    "places": 30
+  },
+  {
+    "name": "Tinkerbell's Child Care Centre",
+    "location": [
+      -31.85134,
+      115.911675
+    ],
+    "places": 60
+  },
+  {
+    "name": "Tiny Beez",
+    "location": [
+      -31.884769,
+      115.786846
+    ],
+    "places": 43
+  },
+  {
+    "name": "Tiny Beez Education & Care Centre",
+    "location": [
+      -31.869618,
+      115.836923
+    ],
+    "places": 37
+  },
+  {
+    "name": "Tiny Tots Child Care Centre",
+    "location": [
+      -32.282234,
+      115.73649
+    ],
+    "places": 92
+  },
+  {
+    "name": "Tomato Lake Lady Gowrie Child Care Centre",
+    "location": [
+      -31.97400399999999,
+      115.930223
+    ],
+    "places": 57
+  },
+  {
+    "name": "Tranby College Child Care Centre",
+    "location": [
+      -32.340566,
+      115.800236
+    ],
+    "places": 57
+  },
+  {
+    "name": "Tranby College OSHC",
+    "location": [
+      -32.340566,
+      115.800236
+    ],
+    "places": 39
+  },
+  {
+    "name": "Treasure Island Child Care Centre",
+    "location": [
+      -32.015195,
+      115.938796
+    ],
+    "places": 66
+  },
+  {
+    "name": "Treasure Kindy",
+    "location": [
+      -31.9463422,
+      115.79808
+    ],
+    "places": 20
+  },
+  {
+    "name": "Treasured Tots",
+    "location": [
+      -32.061815,
+      115.75607
+    ],
+    "places": 28
+  },
+  {
+    "name": "Treasured Tots Child Care Bibra Lake",
+    "location": [
+      -32.085863,
+      115.839732
+    ],
+    "places": 59
+  },
+  {
+    "name": "TreeHouse Childcare Centre",
+    "location": [
+      -33.5813,
+      115.814217
+    ],
+    "places": 23
+  },
+  {
+    "name": "Treendale OSHClub",
+    "location": [
+      -33.2858697,
+      115.7356131
+    ],
+    "places": 20
+  },
+  {
+    "name": "Treloar Child Care Centre Incorporated",
+    "location": [
+      -20.408774,
+      118.603853
+    ],
+    "places": 71
+  },
+  {
+    "name": "Tuart Forest OSHClub",
+    "location": [
+      -33.3970611,
+      115.6149675
+    ],
+    "places": 50
+  },
+  {
+    "name": "Tuart Hill Baby & Child Care Centre",
+    "location": [
+      -31.898553,
+      115.8287424
+    ],
+    "places": 37
+  },
+  {
+    "name": "Tuart Hill Out Of School Care",
+    "location": [
+      -31.9022454,
+      115.8358116
+    ],
+    "places": 52
+  },
+  {
+    "name": "Turtle Cove After School & Vacation Care",
+    "location": [
+      -28.8178777,
+      114.6357119
+    ],
+    "places": 19
+  },
+  {
+    "name": "Turtle Cove Early Learning Centre",
+    "location": [
+      -28.753207,
+      114.645171
+    ],
+    "places": 57
+  },
+  {
+    "name": "Turtle Cove Early Learning Centre Wandina",
+    "location": [
+      -28.8178955,
+      114.6359579
+    ],
+    "places": 61
+  },
+  {
+    "name": "Two Rocks OSHClub",
+    "location": [
+      -31.484936,
+      115.593366
+    ],
+    "places": 50
+  },
+  {
+    "name": "United Family Day Care",
+    "location": [
+      -31.850024,
+      115.87855
+    ],
+    "places": 0
+  },
+  {
+    "name": "UWA Early Learning Centre",
+    "location": [
+      -31.9757041,
+      115.8115934
+    ],
+    "places": 100
+  },
+  {
+    "name": "UWA Out Of School Care",
+    "location": [
+      -31.984027,
+      115.818651
+    ],
+    "places": 39
+  },
+  {
+    "name": "Venueswest",
+    "location": [
+      -31.7361757,
+      115.7612192
+    ],
+    "places": 200
+  },
+  {
+    "name": "WA - Multicultural familydaycare",
+    "location": [
+      -31.842957,
+      115.808261
+    ],
+    "places": 0
+  },
+  {
+    "name": "WA Bright Kids Family Day Care",
+    "location": [
+      -31.98523,
+      115.903934
+    ],
+    "places": 0
+  },
+  {
+    "name": "Waabiny Out of School Hours Care",
+    "location": [
+      -32.125339,
+      115.826326
+    ],
+    "places": 30
+  },
+  {
+    "name": "Wagin Huggle Bears Daycare",
+    "location": [
+      -33.312504,
+      117.343087
+    ],
+    "places": 28
+  },
+  {
+    "name": "Waikiki Play School",
+    "location": [
+      -32.304163,
+      115.751058
+    ],
+    "places": 40
+  },
+  {
+    "name": "Walpole Child Care Centre",
+    "location": [
+      -34.97786,
+      116.7290253
+    ],
+    "places": 14
+  },
+  {
+    "name": "Wanslea Beaconsfield Outside School Hours Care",
+    "location": [
+      -32.069391,
+      115.7598296
+    ],
+    "places": 29
+  },
+  {
+    "name": "Wanslea Early Learning & Development Centre Rockingham",
+    "location": [
+      -32.27682000000001,
+      115.738522
+    ],
+    "places": 38
+  },
+  {
+    "name": "Wanslea Methodist ladies College Outside School Hours Care",
+    "location": [
+      -31.987155,
+      115.775473
+    ],
+    "places": 27
+  },
+  {
+    "name": "Wanslea Metropolitan Family Day Care",
+    "location": [
+      -31.893637,
+      115.767975
+    ],
+    "places": 0
+  },
+  {
+    "name": "Wanslea Plantagenet Early Learning & Development Centre",
+    "location": [
+      -34.62382400000001,
+      117.653892
+    ],
+    "places": 24
+  },
+  {
+    "name": "Wanslea Quarry St Early Learning and Development Centre",
+    "location": [
+      -32.049633,
+      115.751207
+    ],
+    "places": 60
+  },
+  {
+    "name": "Wanslea Regional Family Day Care",
+    "location": [
+      -35.0157892,
+      117.8867279
+    ],
+    "places": 0
+  },
+  {
+    "name": "Wanslea Samson Outside School Hours Care",
+    "location": [
+      -32.07239510000001,
+      115.8021988
+    ],
+    "places": 29
+  },
+  {
+    "name": "Wanslea Weybridge Outside School Hours Care",
+    "location": [
+      -32.0483084,
+      115.7586483
+    ],
+    "places": 26
+  },
+  {
+    "name": "Waratah All Year Care",
+    "location": [
+      -32.590689,
+      115.649209
+    ],
+    "places": 60
+  },
+  {
+    "name": "Warnbro Community Y Child Care (Thriving Threes Fun For Fours)",
+    "location": [
+      -32.3315633,
+      115.7539793
+    ],
+    "places": 18
+  },
+  {
+    "name": "Warnbro OSHClub",
+    "location": [
+      -32.335176,
+      115.75464
+    ],
+    "places": 60
+  },
+  {
+    "name": "Warnbro Pre Kindy",
+    "location": [
+      -32.3430261,
+      115.7533258
+    ],
+    "places": 24
+  },
+  {
+    "name": "Warooga Child Care Centre - Riverton",
+    "location": [
+      -32.03562,
+      115.903101
+    ],
+    "places": 37
+  },
+  {
+    "name": "Warooga Child Care Centre - Southern River",
+    "location": [
+      -32.1062621,
+      115.9397984
+    ],
+    "places": 82
+  },
+  {
+    "name": "Warriapendi Early Learning Centre",
+    "location": [
+      -31.852859,
+      115.848241
+    ],
+    "places": 90
+  },
+  {
+    "name": "Warwick Child Care Centre",
+    "location": [
+      -31.845378,
+      115.79807
+    ],
+    "places": 46
+  },
+  {
+    "name": "Wesley College",
+    "location": [
+      -31.979951,
+      115.86593
+    ],
+    "places": 22
+  },
+  {
+    "name": "West Byford OSHClub",
+    "location": [
+      -32.21052,
+      115.9781868
+    ],
+    "places": 50
+  },
+  {
+    "name": "West Coast Kids Outside School Hours Care",
+    "location": [
+      -31.78982,
+      115.813809
+    ],
+    "places": 104
+  },
+  {
+    "name": "West Greenwood OSHClub",
+    "location": [
+      -31.826681,
+      115.791777
+    ],
+    "places": 50
+  },
+  {
+    "name": "West Kinross Kids Care",
+    "location": [
+      -31.721374,
+      115.736881
+    ],
+    "places": 45
+  },
+  {
+    "name": "West Leederville School of Early Learning",
+    "location": [
+      -31.941582,
+      115.833765
+    ],
+    "places": 184
+  },
+  {
+    "name": "West Leeming OSHClub",
+    "location": [
+      -32.0697624,
+      115.8541731
+    ],
+    "places": 50
+  },
+  {
+    "name": "West Morley OSHClub",
+    "location": [
+      -31.891924,
+      115.8852234
+    ],
+    "places": 15
+  },
+  {
+    "name": "Western Star Kids Family Day Care",
+    "location": [
+      -31.856991,
+      115.895818
+    ],
+    "places": 0
+  },
+  {
+    "name": "White Butterfly Family Day Care",
+    "location": [
+      -31.85506,
+      115.895777
+    ],
+    "places": 0
+  },
+  {
+    "name": "Whitford Out of School Kids Care",
+    "location": [
+      -31.785517,
+      115.757716
+    ],
+    "places": 50
+  },
+  {
+    "name": "Whitfords After School and Vacation Care",
+    "location": [
+      -31.8043783,
+      115.7622783
+    ],
+    "places": 50
+  },
+  {
+    "name": "Whitfords Chipmunks OHSC",
+    "location": [
+      -31.79736,
+      115.744298
+    ],
+    "places": 114
+  },
+  {
+    "name": "Whitfords Occasional Care Centre",
+    "location": [
+      -31.799368,
+      115.744961
+    ],
+    "places": 28
+  },
+  {
+    "name": "Willetton Child Care Centre",
+    "location": [
+      -32.0595043,
+      115.8825785
+    ],
+    "places": 48
+  },
+  {
+    "name": "Willi Wag Tails Childcare Service",
+    "location": [
+      -33.025701,
+      116.880156
+    ],
+    "places": 20
+  },
+  {
+    "name": "Wind in the Willows Ashfield",
+    "location": [
+      -31.913797,
+      115.936364
+    ],
+    "places": 35
+  },
+  {
+    "name": "Wind In The Willows Bassendean",
+    "location": [
+      -31.90655,
+      115.948714
+    ],
+    "places": 55
+  },
+  {
+    "name": "Winthrop OSHClub",
+    "location": [
+      -32.0547639,
+      115.8332097
+    ],
+    "places": 50
+  },
+  {
+    "name": "Wirrabirra Child Care Centre",
+    "location": [
+      -32.074377,
+      115.979615
+    ],
+    "places": 62
+  },
+  {
+    "name": "Wombat Wallow Child Care Centre",
+    "location": [
+      -32.233696,
+      115.804425
+    ],
+    "places": 40
+  },
+  {
+    "name": "Wonderland OSHC Duncraig Community Hall",
+    "location": [
+      -31.8384237,
+      115.765429
+    ],
+    "places": 80
+  },
+  {
+    "name": "Wonderland OSHC Duncraig Leisure Centre",
+    "location": [
+      -31.8356871,
+      115.780771
+    ],
+    "places": 45
+  },
+  {
+    "name": "Wongan Cubbyhouse",
+    "location": [
+      -30.890359,
+      116.718139
+    ],
+    "places": 28
+  },
+  {
+    "name": "Woodlake Out Of School Care",
+    "location": [
+      -31.790735,
+      115.974424
+    ],
+    "places": 50
+  },
+  {
+    "name": "Woodlands Childcare & Learning Centre",
+    "location": [
+      -31.90618,
+      115.798631
+    ],
+    "places": 32
+  },
+  {
+    "name": "Woodlands OSHClub",
+    "location": [
+      -31.910981,
+      115.789828
+    ],
+    "places": 50
+  },
+  {
+    "name": "Woodlupine Family Centre",
+    "location": [
+      -31.988629,
+      116.007433
+    ],
+    "places": 20
+  },
+  {
+    "name": "World Of Kids Early Learning Centre",
+    "location": [
+      -32.559586,
+      115.743021
+    ],
+    "places": 29
+  },
+  {
+    "name": "World Of Kids Halls Head",
+    "location": [
+      -32.551354,
+      115.69488
+    ],
+    "places": 43
+  },
+  {
+    "name": "Wyndham Neighbourhood Child Care Centre",
+    "location": [
+      -15.485798,
+      128.121338
+    ],
+    "places": 20
+  },
+  {
+    "name": "Xavier OSHC",
+    "location": [
+      -32.1601199,
+      115.9917429
+    ],
+    "places": 45
+  },
+  {
+    "name": "Yangebup Occasional Child Care",
+    "location": [
+      -32.12496,
+      115.823725
+    ],
+    "places": 39
+  },
+  {
+    "name": "Yidarra OSHClub",
+    "location": [
+      -32.0595875,
+      115.8459016
+    ],
+    "places": 50
+  },
+  {
+    "name": "Yilgarn Occasional Child Care Centre",
+    "location": [
+      -31.228823,
+      119.328223
+    ],
+    "places": 22
+  },
+  {
+    "name": "YMCA Albany Early Learning Centre",
+    "location": [
+      -35.001434,
+      117.872339
+    ],
+    "places": 38
+  },
+  {
+    "name": "YMCA Ashdale Early Learning Centre",
+    "location": [
+      -31.8099992,
+      115.8389992
+    ],
+    "places": 55
+  },
+  {
+    "name": "YMCA Ashdale OSHC",
+    "location": [
+      -31.8077706,
+      115.8437881
+    ],
+    "places": 55
+  },
+  {
+    "name": "YMCA Ballajura OSHC",
+    "location": [
+      -31.8304163,
+      115.8771494
+    ],
+    "places": 39
+  },
+  {
+    "name": "YMCA Ballajura OSHC (Renovation)",
+    "location": [
+      -31.84719,
+      115.907605
+    ],
+    "places": 28
+  },
+  {
+    "name": "YMCA Boyup Brook Early Learning Centre",
+    "location": [
+      -33.832972,
+      116.38942
+    ],
+    "places": 19
+  },
+  {
+    "name": "YMCA Bridgetown Early Learning Centre",
+    "location": [
+      -33.9586394,
+      116.1401464
+    ],
+    "places": 23
+  },
+  {
+    "name": "YMCA Bunbury Early Learning Centre",
+    "location": [
+      -33.33471000000001,
+      115.686184
+    ],
+    "places": 92
+  },
+  {
+    "name": "YMCA Butler  OSHC",
+    "location": [
+      -31.6452701,
+      115.7026618
+    ],
+    "places": 75
+  },
+  {
+    "name": "YMCA Caralee OSHC",
+    "location": [
+      -32.049345,
+      115.805708
+    ],
+    "places": 35
+  },
+  {
+    "name": "YMCA Currambine OSHC",
+    "location": [
+      -31.7326478,
+      115.749626
+    ],
+    "places": 39
+  },
+  {
+    "name": "YMCA East Cannington Early Learning Centre",
+    "location": [
+      -32.004208,
+      115.964453
+    ],
+    "places": 59
+  },
+  {
+    "name": "YMCA Falcon Early Learning Centre",
+    "location": [
+      -32.592243,
+      115.652026
+    ],
+    "places": 92
+  },
+  {
+    "name": "YMCA Family Day Care Service",
+    "location": [
+      -33.6518479,
+      115.3484346
+    ],
+    "places": 0
+  },
+  {
+    "name": "YMCA FMH Vacation Care",
+    "location": [
+      -32.0328665,
+      115.7545304
+    ],
+    "places": 30
+  },
+  {
+    "name": "YMCA FSH Vacation Care",
+    "location": [
+      -32.0686354,
+      115.8329519
+    ],
+    "places": 45
+  },
+  {
+    "name": "YMCA Gumtrees OSHC",
+    "location": [
+      -31.927204,
+      115.838784
+    ],
+    "places": 40
+  },
+  {
+    "name": "YMCA Gwelup OSHC",
+    "location": [
+      -31.87159,
+      115.7977572
+    ],
+    "places": 39
+  },
+  {
+    "name": "YMCA Joan Watters OSHC",
+    "location": [
+      -31.937059,
+      115.811271
+    ],
+    "places": 41
+  },
+  {
+    "name": "YMCA Kingsley OSHC",
+    "location": [
+      -31.8090308,
+      115.7888435
+    ],
+    "places": 28
+  },
+  {
+    "name": "YMCA Kinross OSHC",
+    "location": [
+      -31.7189774,
+      115.7367879
+    ],
+    "places": 70
+  },
+  {
+    "name": "YMCA Mercy College OSHC",
+    "location": [
+      -31.8485329,
+      115.8553472
+    ],
+    "places": 39
+  },
+  {
+    "name": "YMCA Morley Childcare Thriving Threes And Fun For Fours",
+    "location": [
+      -31.8924916,
+      115.8947709
+    ],
+    "places": 35
+  },
+  {
+    "name": "YMCA Morley OSHC",
+    "location": [
+      -31.8924916,
+      115.8947709
+    ],
+    "places": 78
+  },
+  {
+    "name": "YMCA Newman Early Learning Centre",
+    "location": [
+      -23.3563441,
+      119.7338092
+    ],
+    "places": 98
+  },
+  {
+    "name": "YMCA P.M.H. Vacation Care",
+    "location": [
+      -31.9470757,
+      115.8262977
+    ],
+    "places": 35
+  },
+  {
+    "name": "YMCA Port Hedland Early Learning Centre",
+    "location": [
+      -20.3019835,
+      118.6317488
+    ],
+    "places": 120
+  },
+  {
+    "name": "YMCA RPH Vacation Care",
+    "location": [
+      -31.9551743,
+      115.8658079
+    ],
+    "places": 62
+  },
+  {
+    "name": "YMCA Sacred Heart OSHC",
+    "location": [
+      -31.937327,
+      115.868223
+    ],
+    "places": 39
+  },
+  {
+    "name": "YMCA Serpentine Jarrahdale OSHC",
+    "location": [
+      -32.2252615,
+      116.0013709
+    ],
+    "places": 39
+  },
+  {
+    "name": "YMCA South Hedland OSHC",
+    "location": [
+      -20.3981231,
+      118.5935147
+    ],
+    "places": 39
+  },
+  {
+    "name": "YMCA St Bernadette OSHC",
+    "location": [
+      -32.3535604,
+      115.7494664
+    ],
+    "places": 39
+  },
+  {
+    "name": "YMCA St Denis OSHC",
+    "location": [
+      -31.90973199999999,
+      115.844379
+    ],
+    "places": 26
+  },
+  {
+    "name": "YMCA St John of God Vacation Care",
+    "location": [
+      -32.0679039,
+      115.844965
+    ],
+    "places": 39
+  },
+  {
+    "name": "YMCA Tambrey Early Learning Centre",
+    "location": [
+      -20.743927,
+      116.801096
+    ],
+    "places": 120
+  },
+  {
+    "name": "YMCA Timber Tots Early Learning Centre",
+    "location": [
+      -34.2382275,
+      116.1452482
+    ],
+    "places": 38
+  },
+  {
+    "name": "YMCA Warnbro OSHC",
+    "location": [
+      -32.3315633,
+      115.7539793
+    ],
+    "places": 39
+  },
+  {
+    "name": "YMCA Woodvale OSHC",
+    "location": [
+      -31.79444879999999,
+      115.7936454
+    ],
+    "places": 50
+  },
+  {
+    "name": "York Child Care Centre",
+    "location": [
+      -31.883378,
+      116.7681
+    ],
+    "places": 29
+  },
+  {
+    "name": "Young Smarties Child Care Centre",
+    "location": [
+      -31.964972,
+      115.924494
+    ],
+    "places": 35
+  },
+  {
+    "name": "Yuluma OSHClub",
+    "location": [
+      -31.8914324,
+      115.7898824
+    ],
+    "places": 50
+  },
+  {
+    "name": "Zig Zags OSHC - Duncraig",
+    "location": [
+      -31.8328787,
+      115.7701465
+    ],
+    "places": 80
+  },
+  {
+    "name": "Zig Zags OSHC - Glengarry",
+    "location": [
+      -31.8306124,
+      115.7752703
+    ],
+    "places": 30
+  },
+  {
+    "name": "Zig Zags OSHC - Hawker Park",
+    "location": [
+      -31.8403525,
+      115.7973479
+    ],
+    "places": 51
+  }
+]

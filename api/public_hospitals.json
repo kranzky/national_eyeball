@@ -1,0 +1,6905 @@
+[
+  {
+    "name": "Canberra Hospital & Health Services",
+    "location": [
+      -35.3441352,
+      149.0988362
+    ],
+    "beds": 741,
+    "emergency": true
+  },
+  {
+    "name": "Calvary Public Hospital",
+    "location": [
+      -35.2439216,
+      149.0908947
+    ],
+    "beds": 235,
+    "emergency": true
+  },
+  {
+    "name": "QEII Family Centre",
+    "location": [
+      -35.323296,
+      149.079181
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "Justice Health",
+    "location": [
+      -33.9662764,
+      151.2449884
+    ],
+    "beds": 345,
+    "emergency": false
+  },
+  {
+    "name": "Children's Hospital Westmead",
+    "location": [
+      -33.802895,
+      150.991288
+    ],
+    "beds": 280,
+    "emergency": true
+  },
+  {
+    "name": "Sydney Children's",
+    "location": [
+      -33.915914,
+      151.2332432
+    ],
+    "beds": 148,
+    "emergency": true
+  },
+  {
+    "name": "Sacred Heart Hospice",
+    "location": [
+      -33.8808477,
+      151.2184552
+    ],
+    "beds": 69,
+    "emergency": false
+  },
+  {
+    "name": "St Vincent's Darlinghurst",
+    "location": [
+      -33.8792926,
+      151.2211482
+    ],
+    "beds": 363,
+    "emergency": true
+  },
+  {
+    "name": "St Joseph's Auburn",
+    "location": [
+      -33.848984,
+      151.028488
+    ],
+    "beds": 71,
+    "emergency": false
+  },
+  {
+    "name": "Balmain",
+    "location": [
+      -33.8601847,
+      151.1818581
+    ],
+    "beds": 74,
+    "emergency": false
+  },
+  {
+    "name": "Canterbury",
+    "location": [
+      -33.920374,
+      151.098874
+    ],
+    "beds": 172,
+    "emergency": true
+  },
+  {
+    "name": "Royal Prince Alfred",
+    "location": [
+      -33.8879173,
+      151.1807374
+    ],
+    "beds": 753,
+    "emergency": true
+  },
+  {
+    "name": "Tresillian Care Centres",
+    "location": [
+      -33.920456,
+      151.0989374
+    ],
+    "beds": 33,
+    "emergency": false
+  },
+  {
+    "name": "Concord",
+    "location": [
+      -33.837305,
+      151.090948
+    ],
+    "beds": 663,
+    "emergency": true
+  },
+  {
+    "name": "RPAH Institute of Rheumatology & Orthopaedics",
+    "location": [
+      -33.8884939,
+      151.1813543
+    ],
+    "beds": 24,
+    "emergency": false
+  },
+  {
+    "name": "Karitane Mothercraft Society",
+    "location": [
+      -33.8807388,
+      150.964882
+    ],
+    "beds": 18,
+    "emergency": false
+  },
+  {
+    "name": "Camden",
+    "location": [
+      -34.0625762,
+      150.6931243
+    ],
+    "beds": 56,
+    "emergency": true
+  },
+  {
+    "name": "Fairfield",
+    "location": [
+      -33.8602038,
+      150.9023022
+    ],
+    "beds": 208,
+    "emergency": true
+  },
+  {
+    "name": "Liverpool",
+    "location": [
+      -33.92069,
+      150.929921
+    ],
+    "beds": 738,
+    "emergency": true
+  },
+  {
+    "name": "Campbelltown",
+    "location": [
+      -34.0799411,
+      150.802628
+    ],
+    "beds": 334,
+    "emergency": true
+  },
+  {
+    "name": "Bankstown/ Lidcombe",
+    "location": [
+      -33.9319936,
+      151.0204445
+    ],
+    "beds": 392,
+    "emergency": true
+  },
+  {
+    "name": "Braeside",
+    "location": [
+      -33.8601583,
+      150.9023502
+    ],
+    "beds": 72,
+    "emergency": false
+  },
+  {
+    "name": "Bowral",
+    "location": [
+      -34.484516,
+      150.4247155
+    ],
+    "beds": 70,
+    "emergency": true
+  },
+  {
+    "name": "Sydney/ Sydney Eye",
+    "location": [
+      -33.867727,
+      151.212917
+    ],
+    "beds": 66,
+    "emergency": true
+  },
+  {
+    "name": "Sydney Dental",
+    "location": [
+      -33.8843282,
+      151.2076711
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Calvary",
+    "location": [
+      -33.975608,
+      151.135875
+    ],
+    "beds": 106,
+    "emergency": false
+  },
+  {
+    "name": "Gower Wilson (MPS)",
+    "location": [
+      -31.5273964,
+      159.0658449
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Waverley War Memorial",
+    "location": [
+      -33.897025,
+      151.253658
+    ],
+    "beds": 35,
+    "emergency": false
+  },
+  {
+    "name": "Prince of Wales",
+    "location": [
+      -33.920858,
+      151.238395
+    ],
+    "beds": 512,
+    "emergency": true
+  },
+  {
+    "name": "St George",
+    "location": [
+      -33.967763,
+      151.133215
+    ],
+    "beds": 605,
+    "emergency": true
+  },
+  {
+    "name": "Sutherland",
+    "location": [
+      -34.0373,
+      151.114017
+    ],
+    "beds": 318,
+    "emergency": true
+  },
+  {
+    "name": "Royal For Women",
+    "location": [
+      -33.9213127,
+      151.2395991
+    ],
+    "beds": 122,
+    "emergency": false
+  },
+  {
+    "name": "Bulli",
+    "location": [
+      -34.336554,
+      150.90406
+    ],
+    "beds": 56,
+    "emergency": true
+  },
+  {
+    "name": "Coledale",
+    "location": [
+      -34.2837029,
+      150.9522166
+    ],
+    "beds": 38,
+    "emergency": false
+  },
+  {
+    "name": "Kiama",
+    "location": [
+      -34.681913,
+      150.849632
+    ],
+    "beds": 20,
+    "emergency": false
+  },
+  {
+    "name": "Milton and Ulladulla",
+    "location": [
+      -35.3177069,
+      150.4388974
+    ],
+    "beds": 25,
+    "emergency": true
+  },
+  {
+    "name": "Port Kembla",
+    "location": [
+      -34.485546,
+      150.88121
+    ],
+    "beds": 56,
+    "emergency": false
+  },
+  {
+    "name": "Shoalhaven Memorial",
+    "location": [
+      -34.868838,
+      150.59581
+    ],
+    "beds": 155,
+    "emergency": true
+  },
+  {
+    "name": "Wollongong",
+    "location": [
+      -34.424813,
+      150.883485
+    ],
+    "beds": 484,
+    "emergency": true
+  },
+  {
+    "name": "Shellharbour",
+    "location": [
+      -34.5546255,
+      150.8415556
+    ],
+    "beds": 165,
+    "emergency": true
+  },
+  {
+    "name": "Illawarra Mental Health Services",
+    "location": [
+      -34.5837687,
+      150.8578304
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "David Berry",
+    "location": [
+      -34.7762191,
+      150.7083882
+    ],
+    "beds": 26,
+    "emergency": false
+  },
+  {
+    "name": "Auburn",
+    "location": [
+      -33.86093,
+      151.032588
+    ],
+    "beds": 123,
+    "emergency": true
+  },
+  {
+    "name": "Blacktown",
+    "location": [
+      -33.7753482,
+      150.9189439
+    ],
+    "beds": 336,
+    "emergency": true
+  },
+  {
+    "name": "Mount Druitt",
+    "location": [
+      -33.7650301,
+      150.831209
+    ],
+    "beds": 133,
+    "emergency": true
+  },
+  {
+    "name": "Westmead",
+    "location": [
+      -33.8045641,
+      150.9855127
+    ],
+    "beds": 788,
+    "emergency": true
+  },
+  {
+    "name": "Blue Mountains",
+    "location": [
+      -33.705556,
+      150.320647
+    ],
+    "beds": 92,
+    "emergency": true
+  },
+  {
+    "name": "Nepean",
+    "location": [
+      -33.7615737,
+      150.7150266
+    ],
+    "beds": 522,
+    "emergency": true
+  },
+  {
+    "name": "Springwood",
+    "location": [
+      -33.690114,
+      150.569729
+    ],
+    "beds": 29,
+    "emergency": false
+  },
+  {
+    "name": "Hawkesbury",
+    "location": [
+      -33.6099553,
+      150.8178427
+    ],
+    "beds": 97,
+    "emergency": true
+  },
+  {
+    "name": "Tresillian Wentworth",
+    "location": [
+      -33.7582447,
+      150.7131696
+    ],
+    "beds": 35,
+    "emergency": false
+  },
+  {
+    "name": "Wentworth Psychiatric Services",
+    "location": [
+      -33.7576792,
+      150.712925
+    ],
+    "beds": 11,
+    "emergency": false
+  },
+  {
+    "name": "Lithgow",
+    "location": [
+      -33.4989993,
+      150.1275995
+    ],
+    "beds": 36,
+    "emergency": true
+  },
+  {
+    "name": "Portland",
+    "location": [
+      -33.357898,
+      149.978896
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Greenwich",
+    "location": [
+      -33.827414,
+      151.183586
+    ],
+    "beds": 78,
+    "emergency": false
+  },
+  {
+    "name": "Neringah",
+    "location": [
+      -33.717669,
+      151.114605
+    ],
+    "beds": 19,
+    "emergency": false
+  },
+  {
+    "name": "Hornsby and Ku-Ring-Gai",
+    "location": [
+      -33.6997265,
+      151.1119539
+    ],
+    "beds": 252,
+    "emergency": true
+  },
+  {
+    "name": "Manly",
+    "location": [
+      -33.8053332,
+      151.2944904
+    ],
+    "beds": 155,
+    "emergency": true
+  },
+  {
+    "name": "Mona Vale",
+    "location": [
+      -33.685103,
+      151.307107
+    ],
+    "beds": 162,
+    "emergency": true
+  },
+  {
+    "name": "Royal North Shore",
+    "location": [
+      -33.8190174,
+      151.189121
+    ],
+    "beds": 657,
+    "emergency": true
+  },
+  {
+    "name": "Royal Rehabilitation",
+    "location": [
+      -33.8206087,
+      151.1066453
+    ],
+    "beds": 100,
+    "emergency": false
+  },
+  {
+    "name": "Ryde",
+    "location": [
+      -33.7927716,
+      151.0882722
+    ],
+    "beds": 142,
+    "emergency": true
+  },
+  {
+    "name": "Gosford",
+    "location": [
+      -33.42042199999999,
+      151.33971
+    ],
+    "beds": 478,
+    "emergency": true
+  },
+  {
+    "name": "Woy Woy",
+    "location": [
+      -33.496513,
+      151.321616
+    ],
+    "beds": 24,
+    "emergency": false
+  },
+  {
+    "name": "Long Jetty",
+    "location": [
+      -33.368898,
+      151.4746544
+    ],
+    "beds": 12,
+    "emergency": false
+  },
+  {
+    "name": "Wyong",
+    "location": [
+      -33.2625483,
+      151.4814951
+    ],
+    "beds": 320,
+    "emergency": true
+  },
+  {
+    "name": "Armidale",
+    "location": [
+      -30.512859,
+      151.655076
+    ],
+    "beds": 91,
+    "emergency": true
+  },
+  {
+    "name": "Barraba (MPS)",
+    "location": [
+      -30.3826513,
+      150.6106406
+    ],
+    "beds": 22,
+    "emergency": true
+  },
+  {
+    "name": "Bingara (MPS)",
+    "location": [
+      -29.866967,
+      150.561222
+    ],
+    "beds": 7,
+    "emergency": true
+  },
+  {
+    "name": "Boggabri (MPS)",
+    "location": [
+      -30.711653,
+      150.040243
+    ],
+    "beds": 19,
+    "emergency": true
+  },
+  {
+    "name": "Glen Innes",
+    "location": [
+      -29.7325786,
+      151.7318489
+    ],
+    "beds": 35,
+    "emergency": true
+  },
+  {
+    "name": "Gunnedah",
+    "location": [
+      -30.983175,
+      150.251269
+    ],
+    "beds": 33,
+    "emergency": true
+  },
+  {
+    "name": "Guyra (MPS)",
+    "location": [
+      -30.2119063,
+      151.6785288
+    ],
+    "beds": 22,
+    "emergency": true
+  },
+  {
+    "name": "Inverell",
+    "location": [
+      -29.771042,
+      151.129851
+    ],
+    "beds": 33,
+    "emergency": true
+  },
+  {
+    "name": "Manilla (MPS)",
+    "location": [
+      -30.746283,
+      150.732595
+    ],
+    "beds": 12,
+    "emergency": true
+  },
+  {
+    "name": "Moree",
+    "location": [
+      -29.4712411,
+      149.846238
+    ],
+    "beds": 39,
+    "emergency": true
+  },
+  {
+    "name": "Narrabri",
+    "location": [
+      -30.3262402,
+      149.7778394
+    ],
+    "beds": 29,
+    "emergency": true
+  },
+  {
+    "name": "Prince Albert Tenterfield",
+    "location": [
+      -29.0456668,
+      152.0211688
+    ],
+    "beds": 18,
+    "emergency": true
+  },
+  {
+    "name": "Quirindi",
+    "location": [
+      -31.4998683,
+      150.6772994
+    ],
+    "beds": 20,
+    "emergency": true
+  },
+  {
+    "name": "Tamworth",
+    "location": [
+      -31.073332,
+      150.925642
+    ],
+    "beds": 246,
+    "emergency": true
+  },
+  {
+    "name": "Tingha (MPS)",
+    "location": [
+      -29.9188085,
+      151.1170165
+    ],
+    "beds": 0,
+    "emergency": true
+  },
+  {
+    "name": "Vegetable Creek (MPS)",
+    "location": [
+      -29.5853928,
+      151.6675221
+    ],
+    "beds": 17,
+    "emergency": true
+  },
+  {
+    "name": "Walcha (MPS)",
+    "location": [
+      -30.9841408,
+      151.5911114
+    ],
+    "beds": 9,
+    "emergency": true
+  },
+  {
+    "name": "Warialda (MPS)",
+    "location": [
+      -29.539122,
+      150.5790059
+    ],
+    "beds": 10,
+    "emergency": true
+  },
+  {
+    "name": "Wee Waa",
+    "location": [
+      -30.225277,
+      149.448528
+    ],
+    "beds": 14,
+    "emergency": true
+  },
+  {
+    "name": "Werris Creek",
+    "location": [
+      -31.346403,
+      150.65228
+    ],
+    "beds": 13,
+    "emergency": true
+  },
+  {
+    "name": "Bulahdelah - Myall Lakes",
+    "location": [
+      -32.402088,
+      152.200342
+    ],
+    "beds": 0,
+    "emergency": true
+  },
+  {
+    "name": "Gloucester",
+    "location": [
+      -32.0145668,
+      151.9574287
+    ],
+    "beds": 19,
+    "emergency": true
+  },
+  {
+    "name": "Manning",
+    "location": [
+      -31.910804,
+      152.454713
+    ],
+    "beds": 167,
+    "emergency": true
+  },
+  {
+    "name": "Wingham",
+    "location": [
+      -31.877339,
+      152.366158
+    ],
+    "beds": 32,
+    "emergency": false
+  },
+  {
+    "name": "Cessnock",
+    "location": [
+      -32.828216,
+      151.347784
+    ],
+    "beds": 50,
+    "emergency": true
+  },
+  {
+    "name": "Dungog",
+    "location": [
+      -32.401419,
+      151.745815
+    ],
+    "beds": 15,
+    "emergency": true
+  },
+  {
+    "name": "Kurri Kurri",
+    "location": [
+      -32.8187861,
+      151.4806082
+    ],
+    "beds": 42,
+    "emergency": true
+  },
+  {
+    "name": "Maitland",
+    "location": [
+      -32.726035,
+      151.545945
+    ],
+    "beds": 194,
+    "emergency": true
+  },
+  {
+    "name": "Merriwa (MPS)",
+    "location": [
+      -32.142492,
+      150.359805
+    ],
+    "beds": 8,
+    "emergency": true
+  },
+  {
+    "name": "Muswellbrook",
+    "location": [
+      -32.264704,
+      150.899905
+    ],
+    "beds": 47,
+    "emergency": true
+  },
+  {
+    "name": "Denman (MPS)",
+    "location": [
+      -32.389614,
+      150.68442
+    ],
+    "beds": 17,
+    "emergency": true
+  },
+  {
+    "name": "Calvary Mater Newcastle",
+    "location": [
+      -32.8984826,
+      151.7214804
+    ],
+    "beds": 178,
+    "emergency": true
+  },
+  {
+    "name": "Belmont",
+    "location": [
+      -33.024991,
+      151.648255
+    ],
+    "beds": 98,
+    "emergency": true
+  },
+  {
+    "name": "Scott Memorial Scone",
+    "location": [
+      -32.052511,
+      150.877063
+    ],
+    "beds": 29,
+    "emergency": true
+  },
+  {
+    "name": "Singleton",
+    "location": [
+      -32.56672,
+      151.187009
+    ],
+    "beds": 47,
+    "emergency": true
+  },
+  {
+    "name": "Murrurundi",
+    "location": [
+      -31.7698149,
+      150.8365244
+    ],
+    "beds": 18,
+    "emergency": true
+  },
+  {
+    "name": "Tomaree Community",
+    "location": [
+      -32.720604,
+      152.1579838
+    ],
+    "beds": 14,
+    "emergency": true
+  },
+  {
+    "name": "John Hunter",
+    "location": [
+      -32.9227274,
+      151.6925943
+    ],
+    "beds": 761,
+    "emergency": true
+  },
+  {
+    "name": "Ballina",
+    "location": [
+      -28.863183,
+      153.564434
+    ],
+    "beds": 68,
+    "emergency": true
+  },
+  {
+    "name": "Byron Bay",
+    "location": [
+      -28.641719,
+      153.609487
+    ],
+    "beds": 19,
+    "emergency": true
+  },
+  {
+    "name": "Campbell Coraki",
+    "location": [
+      -28.993636,
+      153.275818
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Casino",
+    "location": [
+      -28.8641151,
+      153.0359993
+    ],
+    "beds": 29,
+    "emergency": true
+  },
+  {
+    "name": "Bonalbo",
+    "location": [
+      -28.7364339,
+      152.6228362
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Grafton",
+    "location": [
+      -29.67574,
+      152.941761
+    ],
+    "beds": 97,
+    "emergency": true
+  },
+  {
+    "name": "Kyogle (MPS)",
+    "location": [
+      -28.6260001,
+      153.0026635
+    ],
+    "beds": 36,
+    "emergency": false
+  },
+  {
+    "name": "Lismore",
+    "location": [
+      -28.809138,
+      153.291101
+    ],
+    "beds": 249,
+    "emergency": true
+  },
+  {
+    "name": "Nimbin (MPS)",
+    "location": [
+      -28.5942969,
+      153.2224015
+    ],
+    "beds": 12,
+    "emergency": false
+  },
+  {
+    "name": "Maclean",
+    "location": [
+      -29.453752,
+      153.201828
+    ],
+    "beds": 37,
+    "emergency": true
+  },
+  {
+    "name": "Mullumbimby",
+    "location": [
+      -28.559405,
+      153.492213
+    ],
+    "beds": 19,
+    "emergency": true
+  },
+  {
+    "name": "Murwillumbah",
+    "location": [
+      -28.323565,
+      153.400645
+    ],
+    "beds": 70,
+    "emergency": true
+  },
+  {
+    "name": "St. Vincent's Lismore",
+    "location": [
+      -28.820669,
+      153.287934
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "The Tweed Hospital",
+    "location": [
+      -28.1765295,
+      153.54433
+    ],
+    "beds": 229,
+    "emergency": true
+  },
+  {
+    "name": "Urbenville (MPS)",
+    "location": [
+      -28.471523,
+      152.543087
+    ],
+    "beds": 22,
+    "emergency": false
+  },
+  {
+    "name": "Riverlands Drug and Alcohol Centre",
+    "location": [
+      -28.8100679,
+      153.2903253
+    ],
+    "beds": 14,
+    "emergency": false
+  },
+  {
+    "name": "Bellinger River",
+    "location": [
+      -30.456655,
+      152.894689
+    ],
+    "beds": 30,
+    "emergency": false
+  },
+  {
+    "name": "Coffs Harbour",
+    "location": [
+      -30.318296,
+      153.091184
+    ],
+    "beds": 254,
+    "emergency": true
+  },
+  {
+    "name": "Dorrigo (MPS)",
+    "location": [
+      -30.340872,
+      152.713711
+    ],
+    "beds": 27,
+    "emergency": false
+  },
+  {
+    "name": "Macleay Valley - Kempsey",
+    "location": [
+      -31.06774799999999,
+      152.82083
+    ],
+    "beds": 68,
+    "emergency": true
+  },
+  {
+    "name": "Macksville",
+    "location": [
+      -30.713838,
+      152.920204
+    ],
+    "beds": 46,
+    "emergency": false
+  },
+  {
+    "name": "Wauchope",
+    "location": [
+      -31.45747099999999,
+      152.728044
+    ],
+    "beds": 32,
+    "emergency": false
+  },
+  {
+    "name": "Port Macquarie",
+    "location": [
+      -31.452089,
+      152.878677
+    ],
+    "beds": 169,
+    "emergency": true
+  },
+  {
+    "name": "Batemans Bay",
+    "location": [
+      -35.713919,
+      150.182253
+    ],
+    "beds": 38,
+    "emergency": true
+  },
+  {
+    "name": "Bega",
+    "location": [
+      -36.680857,
+      149.837247
+    ],
+    "beds": 70,
+    "emergency": true
+  },
+  {
+    "name": "Bombala",
+    "location": [
+      -36.9164002,
+      149.2361229
+    ],
+    "beds": 18,
+    "emergency": false
+  },
+  {
+    "name": "Braidwood (MPS)",
+    "location": [
+      -35.4433161,
+      149.8048258
+    ],
+    "beds": 32,
+    "emergency": false
+  },
+  {
+    "name": "Cooma HS",
+    "location": [
+      -36.241822,
+      149.128946
+    ],
+    "beds": 39,
+    "emergency": false
+  },
+  {
+    "name": "Crookwell",
+    "location": [
+      -34.464965,
+      149.467889
+    ],
+    "beds": 18,
+    "emergency": false
+  },
+  {
+    "name": "Delegate (MPS)",
+    "location": [
+      -37.044956,
+      148.945959
+    ],
+    "beds": 13,
+    "emergency": false
+  },
+  {
+    "name": "Goulburn",
+    "location": [
+      -34.747866,
+      149.713186
+    ],
+    "beds": 108,
+    "emergency": true
+  },
+  {
+    "name": "Moruya",
+    "location": [
+      -35.904156,
+      150.071629
+    ],
+    "beds": 59,
+    "emergency": true
+  },
+  {
+    "name": "Pambula",
+    "location": [
+      -36.9277687,
+      149.877565
+    ],
+    "beds": 29,
+    "emergency": false
+  },
+  {
+    "name": "Queanbeyan",
+    "location": [
+      -35.346012,
+      149.23317
+    ],
+    "beds": 45,
+    "emergency": false
+  },
+  {
+    "name": "Bourke Street Health Service",
+    "location": [
+      -34.748695,
+      149.719337
+    ],
+    "beds": 49,
+    "emergency": false
+  },
+  {
+    "name": "Yass",
+    "location": [
+      -34.843969,
+      148.906824
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "Lake Cargelligo (MPS)",
+    "location": [
+      -33.2912765,
+      146.3765727
+    ],
+    "beds": 22,
+    "emergency": false
+  },
+  {
+    "name": "Wyalong",
+    "location": [
+      -33.9106808,
+      147.1944517
+    ],
+    "beds": 22,
+    "emergency": false
+  },
+  {
+    "name": "Barham Koondrook",
+    "location": [
+      -35.6252192,
+      144.1340485
+    ],
+    "beds": 18,
+    "emergency": false
+  },
+  {
+    "name": "Berrigan (MPS)",
+    "location": [
+      -35.661727,
+      145.8134612
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Culcairn (MPS)",
+    "location": [
+      -35.66738,
+      147.042162
+    ],
+    "beds": 27,
+    "emergency": false
+  },
+  {
+    "name": "Corowa",
+    "location": [
+      -35.993266,
+      146.383857
+    ],
+    "beds": 50,
+    "emergency": false
+  },
+  {
+    "name": "Deniliquin",
+    "location": [
+      -35.524438,
+      144.962988
+    ],
+    "beds": 44,
+    "emergency": false
+  },
+  {
+    "name": "Finley",
+    "location": [
+      -35.641749,
+      145.568136
+    ],
+    "beds": 14,
+    "emergency": false
+  },
+  {
+    "name": "Henty (MPS)",
+    "location": [
+      -35.5160317,
+      147.03172
+    ],
+    "beds": 3,
+    "emergency": false
+  },
+  {
+    "name": "Holbrook",
+    "location": [
+      -35.721412,
+      147.306802
+    ],
+    "beds": 26,
+    "emergency": false
+  },
+  {
+    "name": "Jerilderie (MPS)",
+    "location": [
+      -35.356724,
+      145.720025
+    ],
+    "beds": 3,
+    "emergency": false
+  },
+  {
+    "name": "Mercy Care Centre Albury",
+    "location": [
+      -36.069311,
+      146.9167
+    ],
+    "beds": 30,
+    "emergency": false
+  },
+  {
+    "name": "Urana (MPS)",
+    "location": [
+      -35.3255384,
+      146.2666884
+    ],
+    "beds": 22,
+    "emergency": false
+  },
+  {
+    "name": "Tocumwal",
+    "location": [
+      -35.8151448,
+      145.577393
+    ],
+    "beds": 16,
+    "emergency": false
+  },
+  {
+    "name": "Tumbarumba (MPS)",
+    "location": [
+      -35.7793887,
+      148.0056033
+    ],
+    "beds": 42,
+    "emergency": false
+  },
+  {
+    "name": "Boorowa",
+    "location": [
+      -34.443147,
+      148.727032
+    ],
+    "beds": 5,
+    "emergency": false
+  },
+  {
+    "name": "Mercy Care Centre Young",
+    "location": [
+      -34.321197,
+      148.288798
+    ],
+    "beds": 26,
+    "emergency": false
+  },
+  {
+    "name": "Murrumburrah - Harden",
+    "location": [
+      -34.5524583,
+      148.3519599
+    ],
+    "beds": 13,
+    "emergency": false
+  },
+  {
+    "name": "Young",
+    "location": [
+      -34.320588,
+      148.288117
+    ],
+    "beds": 28,
+    "emergency": false
+  },
+  {
+    "name": "Batlow/Adelong (MPS)",
+    "location": [
+      -35.5225432,
+      148.1477375
+    ],
+    "beds": 5,
+    "emergency": false
+  },
+  {
+    "name": "Griffith",
+    "location": [
+      -34.2833286,
+      146.0426212
+    ],
+    "beds": 88,
+    "emergency": true
+  },
+  {
+    "name": "Gundagai",
+    "location": [
+      -35.052107,
+      148.102021
+    ],
+    "beds": 18,
+    "emergency": false
+  },
+  {
+    "name": "Hay",
+    "location": [
+      -34.500358,
+      144.851622
+    ],
+    "beds": 28,
+    "emergency": false
+  },
+  {
+    "name": "Hillston",
+    "location": [
+      -33.47872100000001,
+      145.539526
+    ],
+    "beds": 16,
+    "emergency": false
+  },
+  {
+    "name": "Junee (MPS)",
+    "location": [
+      -34.864993,
+      147.579122
+    ],
+    "beds": 34,
+    "emergency": false
+  },
+  {
+    "name": "Coolamon (MPS)",
+    "location": [
+      -34.8173634,
+      147.1979156
+    ],
+    "beds": 14,
+    "emergency": false
+  },
+  {
+    "name": "Leeton",
+    "location": [
+      -34.5529256,
+      146.404765
+    ],
+    "beds": 67,
+    "emergency": false
+  },
+  {
+    "name": "Lockhart",
+    "location": [
+      -35.222335,
+      146.719068
+    ],
+    "beds": 15,
+    "emergency": false
+  },
+  {
+    "name": "Narrandera",
+    "location": [
+      -34.7453838,
+      146.5481861
+    ],
+    "beds": 25,
+    "emergency": false
+  },
+  {
+    "name": "Temora",
+    "location": [
+      -34.443354,
+      147.542294
+    ],
+    "beds": 26,
+    "emergency": false
+  },
+  {
+    "name": "Tumut",
+    "location": [
+      -35.306316,
+      148.219426
+    ],
+    "beds": 31,
+    "emergency": false
+  },
+  {
+    "name": "Wagga Wagga",
+    "location": [
+      -35.1173228,
+      147.3572812
+    ],
+    "beds": 238,
+    "emergency": true
+  },
+  {
+    "name": "Cootamundra",
+    "location": [
+      -34.6344702,
+      148.0138498
+    ],
+    "beds": 25,
+    "emergency": false
+  },
+  {
+    "name": "Bourke (MPS)",
+    "location": [
+      -30.092731,
+      145.948063
+    ],
+    "beds": 20,
+    "emergency": false
+  },
+  {
+    "name": "Brewarrina (MPS)",
+    "location": [
+      -29.961763,
+      146.863685
+    ],
+    "beds": 20,
+    "emergency": false
+  },
+  {
+    "name": "Cobar",
+    "location": [
+      -31.52867699999999,
+      145.806725
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "Collarenebri (MPS)",
+    "location": [
+      -29.543972,
+      148.582227
+    ],
+    "beds": 13,
+    "emergency": false
+  },
+  {
+    "name": "Coolah (MPS)",
+    "location": [
+      -31.821537,
+      149.709993
+    ],
+    "beds": 27,
+    "emergency": false
+  },
+  {
+    "name": "Coonabarabran",
+    "location": [
+      -31.2754506,
+      149.285094
+    ],
+    "beds": 25,
+    "emergency": false
+  },
+  {
+    "name": "Baradine (MPS)",
+    "location": [
+      -30.945519,
+      149.067007
+    ],
+    "beds": 17,
+    "emergency": false
+  },
+  {
+    "name": "Coonamble (MPS)",
+    "location": [
+      -30.9543395,
+      148.3883978
+    ],
+    "beds": 25,
+    "emergency": false
+  },
+  {
+    "name": "Gulargambone (MPS)",
+    "location": [
+      -31.32986,
+      148.469581
+    ],
+    "beds": 12,
+    "emergency": false
+  },
+  {
+    "name": "Dubbo",
+    "location": [
+      -32.2394765,
+      148.6087173
+    ],
+    "beds": 159,
+    "emergency": true
+  },
+  {
+    "name": "Dunedoo (MPS)",
+    "location": [
+      -32.0172714,
+      149.392265
+    ],
+    "beds": 5,
+    "emergency": false
+  },
+  {
+    "name": "Gilgandra (MPS)",
+    "location": [
+      -31.70422499999999,
+      148.664886
+    ],
+    "beds": 31,
+    "emergency": false
+  },
+  {
+    "name": "Goodooga",
+    "location": [
+      -29.1110407,
+      147.4546731
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Gulgong",
+    "location": [
+      -32.362207,
+      149.532897
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Mudgee",
+    "location": [
+      -32.6022811,
+      149.5865259
+    ],
+    "beds": 40,
+    "emergency": false
+  },
+  {
+    "name": "Narromine",
+    "location": [
+      -32.2422324,
+      148.2405532
+    ],
+    "beds": 25,
+    "emergency": false
+  },
+  {
+    "name": "Nyngan (MPS)",
+    "location": [
+      -31.56928839999999,
+      147.1988601
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "Trangie (MPS)",
+    "location": [
+      -32.0308061,
+      147.9762042
+    ],
+    "beds": 20,
+    "emergency": false
+  },
+  {
+    "name": "Walgett",
+    "location": [
+      -30.03097799999999,
+      148.116102
+    ],
+    "beds": 21,
+    "emergency": false
+  },
+  {
+    "name": "Warren (MPS)",
+    "location": [
+      -31.694604,
+      147.836634
+    ],
+    "beds": 42,
+    "emergency": false
+  },
+  {
+    "name": "Wellington",
+    "location": [
+      -32.548954,
+      148.951513
+    ],
+    "beds": 22,
+    "emergency": false
+  },
+  {
+    "name": "Lightning Ridge (MPS)",
+    "location": [
+      -29.429919,
+      147.981981
+    ],
+    "beds": 24,
+    "emergency": false
+  },
+  {
+    "name": "Lourdes Dubbo",
+    "location": [
+      -32.2392391,
+      148.627521
+    ],
+    "beds": 34,
+    "emergency": false
+  },
+  {
+    "name": "Bathurst",
+    "location": [
+      -33.4060136,
+      149.5705515
+    ],
+    "beds": 115,
+    "emergency": true
+  },
+  {
+    "name": "Blayney (MPS)",
+    "location": [
+      -33.5377636,
+      149.2516698
+    ],
+    "beds": 25,
+    "emergency": false
+  },
+  {
+    "name": "Canowindra",
+    "location": [
+      -33.5576364,
+      148.6736964
+    ],
+    "beds": 18,
+    "emergency": false
+  },
+  {
+    "name": "Condobolin",
+    "location": [
+      -33.080189,
+      147.162362
+    ],
+    "beds": 22,
+    "emergency": false
+  },
+  {
+    "name": "Cowra",
+    "location": [
+      -33.832139,
+      148.692412
+    ],
+    "beds": 32,
+    "emergency": false
+  },
+  {
+    "name": "Cudal",
+    "location": [
+      -33.2869285,
+      148.7418348
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Eugowra (MPS)",
+    "location": [
+      -33.4248918,
+      148.3650165
+    ],
+    "beds": 12,
+    "emergency": false
+  },
+  {
+    "name": "Forbes",
+    "location": [
+      -33.396168,
+      148.014474
+    ],
+    "beds": 36,
+    "emergency": false
+  },
+  {
+    "name": "Grenfell (MPS)",
+    "location": [
+      -33.894429,
+      148.16752
+    ],
+    "beds": 34,
+    "emergency": false
+  },
+  {
+    "name": "Molong",
+    "location": [
+      -33.0917247,
+      148.8585461
+    ],
+    "beds": 27,
+    "emergency": false
+  },
+  {
+    "name": "Oberon (MPS)",
+    "location": [
+      -33.705411,
+      149.853116
+    ],
+    "beds": 30,
+    "emergency": false
+  },
+  {
+    "name": "Orange Health Service",
+    "location": [
+      -33.3177287,
+      149.0899821
+    ],
+    "beds": 318,
+    "emergency": true
+  },
+  {
+    "name": "Parkes",
+    "location": [
+      -33.1262591,
+      148.1709269
+    ],
+    "beds": 35,
+    "emergency": false
+  },
+  {
+    "name": "Peak Hill",
+    "location": [
+      -32.7644536,
+      148.2102738
+    ],
+    "beds": 13,
+    "emergency": false
+  },
+  {
+    "name": "Trundle (MPS)",
+    "location": [
+      -32.921069,
+      147.70398
+    ],
+    "beds": 11,
+    "emergency": false
+  },
+  {
+    "name": "Rylstone (MPS)",
+    "location": [
+      -32.8035292,
+      149.9753433
+    ],
+    "beds": 26,
+    "emergency": false
+  },
+  {
+    "name": "Tottenham (MPS)",
+    "location": [
+      -32.3298852,
+      147.3869777
+    ],
+    "beds": 3,
+    "emergency": false
+  },
+  {
+    "name": "Tullamore (MPS)",
+    "location": [
+      -32.63498,
+      147.569034
+    ],
+    "beds": 3,
+    "emergency": false
+  },
+  {
+    "name": "Menindee Health Service",
+    "location": [
+      -32.3911427,
+      142.4166102
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Balranald (MPS)",
+    "location": [
+      -34.64456,
+      143.568698
+    ],
+    "beds": 8,
+    "emergency": false
+  },
+  {
+    "name": "Wentworth",
+    "location": [
+      -34.107077,
+      141.992591
+    ],
+    "beds": 20,
+    "emergency": false
+  },
+  {
+    "name": "Broken Hill",
+    "location": [
+      -31.948868,
+      141.453644
+    ],
+    "beds": 95,
+    "emergency": true
+  },
+  {
+    "name": "Ivanhoe",
+    "location": [
+      -32.8957411,
+      144.2971889
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Tibooburra",
+    "location": [
+      -29.435543,
+      142.008598
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Wilcannia (MPS)",
+    "location": [
+      -31.5569397,
+      143.3853267
+    ],
+    "beds": 8,
+    "emergency": false
+  },
+  {
+    "name": "Thomas Walker",
+    "location": null,
+    "beds": 16,
+    "emergency": false
+  },
+  {
+    "name": "Cumberland",
+    "location": [
+      -33.8025919,
+      150.993046
+    ],
+    "beds": 310,
+    "emergency": false
+  },
+  {
+    "name": "Macquarie",
+    "location": [
+      -33.7975986,
+      151.1235626
+    ],
+    "beds": 193,
+    "emergency": false
+  },
+  {
+    "name": "Coral Tree Family Centre",
+    "location": [
+      -33.7645477,
+      151.1559089
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "Morisset",
+    "location": [
+      -33.111076,
+      151.479906
+    ],
+    "beds": 129,
+    "emergency": false
+  },
+  {
+    "name": "Hunter New England Mater Mental Health Service",
+    "location": [
+      -32.9313,
+      151.781853
+    ],
+    "beds": 119,
+    "emergency": false
+  },
+  {
+    "name": "Kenmore",
+    "location": [
+      -34.7118676,
+      149.7572107
+    ],
+    "beds": 54,
+    "emergency": false
+  },
+  {
+    "name": "Royal Darwin Hospital",
+    "location": null,
+    "beds": 367,
+    "emergency": true
+  },
+  {
+    "name": "Alice Springs Hospital",
+    "location": [
+      -23.7050058,
+      133.8800782
+    ],
+    "beds": 183,
+    "emergency": true
+  },
+  {
+    "name": "Tennant Creek Hospital",
+    "location": [
+      -19.6463735,
+      134.188178
+    ],
+    "beds": 20,
+    "emergency": true
+  },
+  {
+    "name": "Katherine Hospital",
+    "location": [
+      -14.4612138,
+      132.2629543
+    ],
+    "beds": 60,
+    "emergency": true
+  },
+  {
+    "name": "Gove Hospital",
+    "location": [
+      -12.1855142,
+      136.786834
+    ],
+    "beds": 34,
+    "emergency": true
+  },
+  {
+    "name": "MATER ADULT HOSPITAL",
+    "location": [
+      -27.4849316,
+      153.0268962
+    ],
+    "beds": 262,
+    "emergency": true
+  },
+  {
+    "name": "MATER CHILDREN'S HOSPITAL",
+    "location": [
+      -27.4849316,
+      153.0268962
+    ],
+    "beds": 161,
+    "emergency": true
+  },
+  {
+    "name": "MATER MOTHERS' HOSPITAL",
+    "location": [
+      -27.4849316,
+      153.0268962
+    ],
+    "beds": 128,
+    "emergency": false
+  },
+  {
+    "name": "THE PRINCE CHARLES HOSPITAL",
+    "location": [
+      -27.3929598,
+      153.027884
+    ],
+    "beds": 624,
+    "emergency": true
+  },
+  {
+    "name": "ROYAL CHILDREN'S HOSPITAL",
+    "location": [
+      -27.4489668,
+      153.0224151
+    ],
+    "beds": 201,
+    "emergency": true
+  },
+  {
+    "name": "PRINCESS ALEXANDRA HOSPITAL",
+    "location": [
+      -27.497371,
+      153.033526
+    ],
+    "beds": 944,
+    "emergency": true
+  },
+  {
+    "name": "IPSWICH HOSPITAL",
+    "location": [
+      -27.6194294,
+      152.7574575
+    ],
+    "beds": 341,
+    "emergency": true
+  },
+  {
+    "name": "REDCLIFFE HOSPITAL",
+    "location": [
+      -27.2297539,
+      153.1065101
+    ],
+    "beds": 352,
+    "emergency": true
+  },
+  {
+    "name": "ELLEN BARRON FAMILY CENTRE",
+    "location": [
+      -27.3828914,
+      153.0327866
+    ],
+    "beds": 48,
+    "emergency": false
+  },
+  {
+    "name": "QUEEN ELIZABETH II JUBILEE HOSPITAL",
+    "location": [
+      -27.5587746,
+      153.0506989
+    ],
+    "beds": 165,
+    "emergency": true
+  },
+  {
+    "name": "WYNNUM HOSPITAL",
+    "location": [
+      -27.4684389,
+      153.1827348
+    ],
+    "beds": 21,
+    "emergency": false
+  },
+  {
+    "name": "MARIE ROSE CENTRE",
+    "location": [
+      -27.4975385,
+      153.3998372
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "REDLAND HOSPITAL",
+    "location": [
+      -27.5414254,
+      153.2499818
+    ],
+    "beds": 151,
+    "emergency": true
+  },
+  {
+    "name": "LOGAN HOSPITAL",
+    "location": [
+      -27.6672851,
+      153.1402902
+    ],
+    "beds": 332,
+    "emergency": true
+  },
+  {
+    "name": "CABOOLTURE HOSPITAL",
+    "location": [
+      -27.0788074,
+      152.9577776
+    ],
+    "beds": 223,
+    "emergency": true
+  },
+  {
+    "name": "BEAUDESERT HOSPITAL",
+    "location": [
+      -27.984644,
+      153.002539
+    ],
+    "beds": 22,
+    "emergency": false
+  },
+  {
+    "name": "BOONAH HOSPITAL",
+    "location": [
+      -27.9991929,
+      152.6779868
+    ],
+    "beds": 23,
+    "emergency": false
+  },
+  {
+    "name": "CALOUNDRA HOSPITAL",
+    "location": [
+      -26.8000028,
+      153.120717
+    ],
+    "beds": 88,
+    "emergency": true
+  },
+  {
+    "name": "ESK HOSPITAL",
+    "location": [
+      -27.2399788,
+      152.4181825
+    ],
+    "beds": 20,
+    "emergency": false
+  },
+  {
+    "name": "GATTON HOSPITAL",
+    "location": [
+      -27.566827,
+      152.276262
+    ],
+    "beds": 22,
+    "emergency": false
+  },
+  {
+    "name": "KILCOY HOSPITAL",
+    "location": [
+      -26.941008,
+      152.561535
+    ],
+    "beds": 21,
+    "emergency": false
+  },
+  {
+    "name": "LAIDLEY HOSPITAL",
+    "location": null,
+    "beds": 15,
+    "emergency": false
+  },
+  {
+    "name": "MALENY HOSPITAL",
+    "location": [
+      -26.7553099,
+      152.8452452
+    ],
+    "beds": 24,
+    "emergency": false
+  },
+  {
+    "name": "NAMBOUR HOSPITAL",
+    "location": [
+      -26.6230346,
+      152.9548286
+    ],
+    "beds": 441,
+    "emergency": true
+  },
+  {
+    "name": "GOLD COAST HOSPITAL",
+    "location": [
+      -27.9589439,
+      153.3811592
+    ],
+    "beds": 570,
+    "emergency": true
+  },
+  {
+    "name": "BIGGENDEN HOSPITAL",
+    "location": [
+      -25.5129334,
+      152.0495744
+    ],
+    "beds": 7,
+    "emergency": false
+  },
+  {
+    "name": "BUNDABERG HOSPITAL",
+    "location": [
+      -24.8689885,
+      152.338006
+    ],
+    "beds": 243,
+    "emergency": true
+  },
+  {
+    "name": "CHERBOURG HOSPITAL",
+    "location": [
+      -26.2900947,
+      151.9563454
+    ],
+    "beds": 17,
+    "emergency": false
+  },
+  {
+    "name": "CHILDERS HOSPITAL",
+    "location": [
+      -25.239579,
+      152.272927
+    ],
+    "beds": 14,
+    "emergency": false
+  },
+  {
+    "name": "EIDSVOLD HOSPITAL",
+    "location": [
+      -25.3282782,
+      150.5009228
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "GAYNDAH HOSPITAL",
+    "location": [
+      -25.631997,
+      151.604943
+    ],
+    "beds": 12,
+    "emergency": false
+  },
+  {
+    "name": "GIN GIN HOSPITAL",
+    "location": [
+      -24.985378,
+      151.952983
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "GYMPIE HOSPITAL",
+    "location": [
+      -26.184359,
+      152.658222
+    ],
+    "beds": 89,
+    "emergency": true
+  },
+  {
+    "name": "HERVEY BAY HOSPITAL",
+    "location": [
+      -25.3005577,
+      152.8222725
+    ],
+    "beds": 151,
+    "emergency": true
+  },
+  {
+    "name": "KINGAROY HOSPITAL",
+    "location": [
+      -26.5322026,
+      151.8374867
+    ],
+    "beds": 47,
+    "emergency": false
+  },
+  {
+    "name": "MARYBOROUGH HOSPITAL",
+    "location": [
+      -25.522242,
+      152.690269
+    ],
+    "beds": 98,
+    "emergency": true
+  },
+  {
+    "name": "MONTO HOSPITAL",
+    "location": [
+      -24.866282,
+      151.112726
+    ],
+    "beds": 14,
+    "emergency": false
+  },
+  {
+    "name": "MOUNT PERRY HEALTH CENTRE",
+    "location": [
+      -25.1799738,
+      151.6451693
+    ],
+    "beds": 2,
+    "emergency": false
+  },
+  {
+    "name": "MUNDUBBERA HOSPITAL",
+    "location": [
+      -25.588401,
+      151.294278
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "MURGON HOSPITAL",
+    "location": [
+      -26.2382177,
+      151.9484566
+    ],
+    "beds": 15,
+    "emergency": false
+  },
+  {
+    "name": "NANANGO HOSPITAL",
+    "location": [
+      -26.665209,
+      152.008931
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "WONDAI HOSPITAL",
+    "location": [
+      -26.3213568,
+      151.8782081
+    ],
+    "beds": 5,
+    "emergency": false
+  },
+  {
+    "name": "CHINCHILLA HOSPITAL",
+    "location": [
+      -26.7485314,
+      150.6455829
+    ],
+    "beds": 26,
+    "emergency": false
+  },
+  {
+    "name": "DALBY HOSPITAL",
+    "location": [
+      -27.1694479,
+      151.2776554
+    ],
+    "beds": 46,
+    "emergency": false
+  },
+  {
+    "name": "GOONDIWINDI HOSPITAL",
+    "location": [
+      -28.5483248,
+      150.3073083
+    ],
+    "beds": 37,
+    "emergency": false
+  },
+  {
+    "name": "INGLEWOOD HOSPITAL",
+    "location": [
+      -28.4241634,
+      151.0423451
+    ],
+    "beds": 12,
+    "emergency": false
+  },
+  {
+    "name": "JANDOWAE HOSPITAL",
+    "location": [
+      -26.7817127,
+      151.1054917
+    ],
+    "beds": 12,
+    "emergency": false
+  },
+  {
+    "name": "MILES HOSPITAL",
+    "location": [
+      -26.655201,
+      150.19275
+    ],
+    "beds": 13,
+    "emergency": false
+  },
+  {
+    "name": "MILLMERRAN HOSPITAL",
+    "location": [
+      -27.879686,
+      151.262783
+    ],
+    "beds": 11,
+    "emergency": false
+  },
+  {
+    "name": "OAKEY HOSPITAL",
+    "location": [
+      -27.4251622,
+      151.7205276
+    ],
+    "beds": 9,
+    "emergency": false
+  },
+  {
+    "name": "STANTHORPE HOSPITAL",
+    "location": [
+      -28.660793,
+      151.929969
+    ],
+    "beds": 46,
+    "emergency": false
+  },
+  {
+    "name": "TARA HOSPITAL",
+    "location": [
+      -27.27315,
+      150.456642
+    ],
+    "beds": 15,
+    "emergency": false
+  },
+  {
+    "name": "TAROOM HOSPITAL",
+    "location": [
+      -25.6392836,
+      149.7981036
+    ],
+    "beds": 13,
+    "emergency": false
+  },
+  {
+    "name": "TEXAS HOSPITAL",
+    "location": [
+      -28.8544947,
+      151.1658956
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "TOOWOOMBA HOSPITAL",
+    "location": [
+      -27.5708426,
+      151.9466858
+    ],
+    "beds": 305,
+    "emergency": true
+  },
+  {
+    "name": "WARWICK HOSPITAL",
+    "location": [
+      -28.224358,
+      152.017861
+    ],
+    "beds": 66,
+    "emergency": false
+  },
+  {
+    "name": "WANDOAN HOSPITAL",
+    "location": [
+      -26.1179352,
+      149.9552975
+    ],
+    "beds": 2,
+    "emergency": false
+  },
+  {
+    "name": "AUGATHELLA HOSPITAL",
+    "location": [
+      -25.7965272,
+      146.5846671
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "CHARLEVILLE HOSPITAL",
+    "location": [
+      -26.411249,
+      146.237605
+    ],
+    "beds": 30,
+    "emergency": false
+  },
+  {
+    "name": "CUNNAMULLA HOSPITAL",
+    "location": [
+      -28.071877,
+      145.690591
+    ],
+    "beds": 20,
+    "emergency": false
+  },
+  {
+    "name": "DIRRANBANDI HOSPITAL",
+    "location": [
+      -28.5834775,
+      148.2279965
+    ],
+    "beds": 7,
+    "emergency": false
+  },
+  {
+    "name": "INJUNE HOSPITAL",
+    "location": [
+      -25.8470321,
+      148.5634863
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "MITCHELL HOSPITAL",
+    "location": [
+      -26.490395,
+      147.972178
+    ],
+    "beds": 13,
+    "emergency": false
+  },
+  {
+    "name": "MUNGINDI HOSPITAL",
+    "location": [
+      -28.9710782,
+      148.9885928
+    ],
+    "beds": 8,
+    "emergency": false
+  },
+  {
+    "name": "QUILPIE HOSPITAL",
+    "location": [
+      -26.616604,
+      144.27364
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "ROMA HOSPITAL",
+    "location": [
+      -26.5708172,
+      148.7831927
+    ],
+    "beds": 52,
+    "emergency": false
+  },
+  {
+    "name": "ST GEORGE HOSPITAL",
+    "location": [
+      -28.027243,
+      148.592678
+    ],
+    "beds": 34,
+    "emergency": false
+  },
+  {
+    "name": "SURAT HOSPITAL",
+    "location": [
+      -27.1564185,
+      149.0683977
+    ],
+    "beds": 7,
+    "emergency": false
+  },
+  {
+    "name": "THARGOMINDAH HOSPITAL",
+    "location": [
+      -27.9968618,
+      143.821919
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "WALLUMBILLA OUTPATIENTS CLINIC",
+    "location": [
+      -26.5279529,
+      149.178935
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "ALPHA HOSPITAL",
+    "location": [
+      -23.6543693,
+      146.6358281
+    ],
+    "beds": 5,
+    "emergency": false
+  },
+  {
+    "name": "BARALABA HOSPITAL",
+    "location": [
+      -24.179941,
+      149.8120888
+    ],
+    "beds": 5,
+    "emergency": false
+  },
+  {
+    "name": "BILOELA HOSPITAL",
+    "location": [
+      -24.396203,
+      150.518016
+    ],
+    "beds": 25,
+    "emergency": false
+  },
+  {
+    "name": "BLACKWATER HOSPITAL",
+    "location": [
+      -23.5730868,
+      148.8776271
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "EMERALD HOSPITAL",
+    "location": [
+      -23.515618,
+      148.154982
+    ],
+    "beds": 37,
+    "emergency": false
+  },
+  {
+    "name": "GLADSTONE HOSPITAL",
+    "location": [
+      -23.8520613,
+      151.2463528
+    ],
+    "beds": 78,
+    "emergency": true
+  },
+  {
+    "name": "MOUNT MORGAN HOSPITAL",
+    "location": [
+      -23.6452063,
+      150.3918346
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "MOURA HOSPITAL",
+    "location": [
+      -24.575703,
+      149.976576
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "ROCKHAMPTON BASE HOSPITAL",
+    "location": [
+      -23.3839681,
+      150.4992772
+    ],
+    "beds": 246,
+    "emergency": true
+  },
+  {
+    "name": "SPRINGSURE HOSPITAL",
+    "location": [
+      -24.1221806,
+      148.0888201
+    ],
+    "beds": 12,
+    "emergency": false
+  },
+  {
+    "name": "THEODORE HOSPITAL",
+    "location": [
+      -24.9444056,
+      150.0761433
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "CAPRICORN COAST HOSPITAL & HEALTH SERVICE",
+    "location": [
+      -23.14429,
+      150.733387
+    ],
+    "beds": 28,
+    "emergency": false
+  },
+  {
+    "name": "WOORABINDA HOSPITAL",
+    "location": [
+      -24.130799,
+      149.455656
+    ],
+    "beds": 7,
+    "emergency": false
+  },
+  {
+    "name": "ARAMAC HOSPITAL",
+    "location": [
+      -22.968041,
+      145.2455825
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "BARCALDINE HOSPITAL",
+    "location": [
+      -23.5526686,
+      145.2921134
+    ],
+    "beds": 12,
+    "emergency": false
+  },
+  {
+    "name": "BLACKALL HOSPITAL",
+    "location": [
+      -24.4229725,
+      145.4604092
+    ],
+    "beds": 16,
+    "emergency": false
+  },
+  {
+    "name": "BOULIA PRIMARY HEALTH CENTRE",
+    "location": [
+      -22.9093791,
+      139.9090775
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "JUNDAH PRIMARY HEALTH CENTRE",
+    "location": [
+      -24.8309128,
+      143.0589072
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "LONGREACH HOSPITAL",
+    "location": [
+      -23.4351241,
+      144.2622169
+    ],
+    "beds": 31,
+    "emergency": false
+  },
+  {
+    "name": "MUTTABURRA PRIMARY HEALTH CENTRE",
+    "location": [
+      -22.5954352,
+      144.5467442
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "TAMBO PRIMARY HEALTH CENTRE",
+    "location": [
+      -24.8838474,
+      146.2513689
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "WINTON HOSPITAL",
+    "location": [
+      -22.3900928,
+      143.0390909
+    ],
+    "beds": 8,
+    "emergency": false
+  },
+  {
+    "name": "ISISFORD PRIMARY HEALTH CENTRE",
+    "location": [
+      -24.2617007,
+      144.4398464
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "YARAKA CLINIC",
+    "location": [
+      -24.8827027,
+      144.0768493
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "WINDORAH CLINIC",
+    "location": [
+      -25.4200115,
+      142.6535627
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "CLERMONT HOSPITAL",
+    "location": [
+      -22.8303975,
+      147.6327021
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "MACKAY BASE HOSPITAL",
+    "location": [
+      -21.1448884,
+      149.1553034
+    ],
+    "beds": 182,
+    "emergency": true
+  },
+  {
+    "name": "MORANBAH HOSPITAL",
+    "location": [
+      -22.0025032,
+      148.0545883
+    ],
+    "beds": 12,
+    "emergency": false
+  },
+  {
+    "name": "PROSERPINE HOSPITAL",
+    "location": [
+      -20.3995108,
+      148.5856141
+    ],
+    "beds": 33,
+    "emergency": false
+  },
+  {
+    "name": "SARINA HOSPITAL",
+    "location": [
+      -21.421989,
+      149.2105075
+    ],
+    "beds": 16,
+    "emergency": false
+  },
+  {
+    "name": "DYSART HOSPITAL",
+    "location": [
+      -22.5888498,
+      148.3487454
+    ],
+    "beds": 9,
+    "emergency": false
+  },
+  {
+    "name": "AYR HOSPITAL",
+    "location": [
+      -19.5641575,
+      147.4096799
+    ],
+    "beds": 32,
+    "emergency": false
+  },
+  {
+    "name": "BOWEN HOSPITAL",
+    "location": [
+      -20.008656,
+      148.241334
+    ],
+    "beds": 27,
+    "emergency": false
+  },
+  {
+    "name": "CHARTERS TOWERS HOSPITAL",
+    "location": [
+      -20.0769285,
+      146.2650043
+    ],
+    "beds": 29,
+    "emergency": false
+  },
+  {
+    "name": "COLLINSVILLE HOSPITAL",
+    "location": [
+      -20.5441585,
+      147.8346237
+    ],
+    "beds": 8,
+    "emergency": false
+  },
+  {
+    "name": "HOME HILL HOSPITAL",
+    "location": [
+      -19.6626293,
+      147.4165454
+    ],
+    "beds": 14,
+    "emergency": false
+  },
+  {
+    "name": "INGHAM HOSPITAL",
+    "location": [
+      -18.651993,
+      146.164335
+    ],
+    "beds": 32,
+    "emergency": false
+  },
+  {
+    "name": "JOYCE PALMER HEALTH SERVICE",
+    "location": [
+      -18.7492079,
+      146.5790789
+    ],
+    "beds": 13,
+    "emergency": false
+  },
+  {
+    "name": "THE TOWNSVILLE HOSPITAL",
+    "location": [
+      -19.320589,
+      146.762064
+    ],
+    "beds": 624,
+    "emergency": true
+  },
+  {
+    "name": "ROYAL BRISBANE & WOMEN'S HOSPITAL",
+    "location": [
+      -27.4449684,
+      153.0228474
+    ],
+    "beds": 1024,
+    "emergency": true
+  },
+  {
+    "name": "ATHERTON HOSPITAL",
+    "location": [
+      -17.2670369,
+      145.4822101
+    ],
+    "beds": 44,
+    "emergency": false
+  },
+  {
+    "name": "BABINDA HOSPITAL",
+    "location": [
+      -17.3435614,
+      145.9188229
+    ],
+    "beds": 22,
+    "emergency": false
+  },
+  {
+    "name": "BAMAGA HOSPITAL",
+    "location": [
+      -10.8980738,
+      142.3826945
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "CAIRNS BASE HOSPITAL",
+    "location": [
+      -16.9029231,
+      145.7617765
+    ],
+    "beds": 480,
+    "emergency": true
+  },
+  {
+    "name": "CHILLAGOE HOSPITAL",
+    "location": [
+      -17.149558,
+      144.528908
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "COOKTOWN HOSPITAL",
+    "location": [
+      -15.477477,
+      145.250741
+    ],
+    "beds": 18,
+    "emergency": false
+  },
+  {
+    "name": "CROYDON HOSPITAL",
+    "location": [
+      -18.1958378,
+      142.2438639
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "FORSAYTH HOSPITAL",
+    "location": [
+      -18.5896663,
+      143.6038161
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "GEORGETOWN HOSPITAL",
+    "location": [
+      -18.2917547,
+      143.5476311
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "GORDONVALE HOSPITAL",
+    "location": [
+      -17.0860752,
+      145.7862276
+    ],
+    "beds": 24,
+    "emergency": false
+  },
+  {
+    "name": "HERBERTON HOSPITAL",
+    "location": [
+      -17.379743,
+      145.381287
+    ],
+    "beds": 38,
+    "emergency": false
+  },
+  {
+    "name": "INNISFAIL HOSPITAL",
+    "location": [
+      -17.5189,
+      146.030507
+    ],
+    "beds": 64,
+    "emergency": false
+  },
+  {
+    "name": "MAREEBA HOSPITAL",
+    "location": [
+      -16.9872854,
+      145.4255757
+    ],
+    "beds": 48,
+    "emergency": false
+  },
+  {
+    "name": "MOSSMAN HOSPITAL",
+    "location": [
+      -16.4645017,
+      145.3678645
+    ],
+    "beds": 24,
+    "emergency": false
+  },
+  {
+    "name": "MOUNT GARNET OUTPATIENTS CLINIC",
+    "location": [
+      -17.6785796,
+      145.1135191
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "THURSDAY ISLAND HOSPITAL",
+    "location": [
+      -10.5882962,
+      142.2105095
+    ],
+    "beds": 38,
+    "emergency": false
+  },
+  {
+    "name": "TULLY HOSPITAL",
+    "location": [
+      -17.9352968,
+      145.9229616
+    ],
+    "beds": 20,
+    "emergency": false
+  },
+  {
+    "name": "WEIPA HOSPITAL",
+    "location": [
+      -12.68131,
+      141.925187
+    ],
+    "beds": 14,
+    "emergency": false
+  },
+  {
+    "name": "YARRABAH HOSPITAL",
+    "location": [
+      -16.9271663,
+      145.8893534
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "AURUKUN PRIMARY HEALTH CARE CENTRE",
+    "location": [
+      -13.3549243,
+      141.7270769
+    ],
+    "beds": 1,
+    "emergency": false
+  },
+  {
+    "name": "HOPEVALE MEDICAL CENTRE",
+    "location": [
+      -15.2947395,
+      145.1122306
+    ],
+    "beds": 1,
+    "emergency": false
+  },
+  {
+    "name": "WUJAL WUJAL COMMUNITY HOSPITAL",
+    "location": [
+      -15.9481151,
+      145.3183603
+    ],
+    "beds": 1,
+    "emergency": false
+  },
+  {
+    "name": "LOCKHART RIVER PRIMARY HEALTH CARE CENTRE",
+    "location": [
+      -12.7866225,
+      143.3441181
+    ],
+    "beds": 1,
+    "emergency": false
+  },
+  {
+    "name": "BURKETOWN HEALTH CLINIC",
+    "location": [
+      -17.740906,
+      139.5456106
+    ],
+    "beds": 1,
+    "emergency": false
+  },
+  {
+    "name": "CAMOOWEAL HEALTH CLINIC",
+    "location": [
+      -19.9214148,
+      138.1187698
+    ],
+    "beds": 3,
+    "emergency": false
+  },
+  {
+    "name": "CLONCURRY HOSPITAL",
+    "location": [
+      -20.697021,
+      140.526391
+    ],
+    "beds": 25,
+    "emergency": false
+  },
+  {
+    "name": "HUGHENDEN HOSPITAL",
+    "location": [
+      -20.8422922,
+      144.1917558
+    ],
+    "beds": 15,
+    "emergency": false
+  },
+  {
+    "name": "JULIA CREEK HOSPITAL",
+    "location": [
+      -20.655988,
+      141.750245
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "MOUNT ISA HOSPITAL",
+    "location": [
+      -20.730871,
+      139.495281
+    ],
+    "beds": 86,
+    "emergency": true
+  },
+  {
+    "name": "NORMANTON HOSPITAL",
+    "location": [
+      -17.6717378,
+      141.0806932
+    ],
+    "beds": 14,
+    "emergency": false
+  },
+  {
+    "name": "RICHMOND HOSPITAL",
+    "location": [
+      -28.8099557,
+      153.3069116
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "MORNINGTON ISLAND HOSPITAL",
+    "location": [
+      -16.5174872,
+      139.4059435
+    ],
+    "beds": 11,
+    "emergency": false
+  },
+  {
+    "name": "KARUMBA HEALTH CLINIC",
+    "location": [
+      -17.4871222,
+      140.8438531
+    ],
+    "beds": 1,
+    "emergency": false
+  },
+  {
+    "name": "DAJARRA HEALTH CLINIC",
+    "location": [
+      -21.6943057,
+      139.514478
+    ],
+    "beds": 1,
+    "emergency": false
+  },
+  {
+    "name": "DOOMADGEE HOSPITAL",
+    "location": [
+      -17.9421502,
+      138.8259538
+    ],
+    "beds": 7,
+    "emergency": false
+  },
+  {
+    "name": "KOWANYAMA PRIMARY HEALTH CARE CENTRE",
+    "location": [
+      -15.4762054,
+      141.7454811
+    ],
+    "beds": 1,
+    "emergency": false
+  },
+  {
+    "name": "PORMPURAAW PRIMARY HEALTH CARE CENTRE",
+    "location": [
+      -14.8998679,
+      141.6220983
+    ],
+    "beds": 1,
+    "emergency": false
+  },
+  {
+    "name": "COEN PRIMARY HEALTH CARE CENTRE",
+    "location": [
+      -13.9453442,
+      143.1992117
+    ],
+    "beds": 1,
+    "emergency": false
+  },
+  {
+    "name": "CAPELLA OUTPATIENTS CLINIC",
+    "location": [
+      -28.031251,
+      147.475639
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "CRACOW OUTPATIENTS CLINIC",
+    "location": [
+      -23.0800555,
+      148.0236044
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "DIMBULAH OUTPATIENTS CLINIC",
+    "location": [
+      -25.293864,
+      150.2973461
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "DUARINGA OUTPATIENTS CLINIC",
+    "location": [
+      -17.146665,
+      145.106773
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "GLENMORGAN OUTPATIENTS CLINIC",
+    "location": [
+      -23.7173552,
+      149.6716136
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "LAURA PRIMARY HEALTH CARE CENTRE",
+    "location": [
+      -27.2487186,
+      149.6764906
+    ],
+    "beds": 1,
+    "emergency": false
+  },
+  {
+    "name": "MAGNETIC ISLAND HEALTH SERVICE CENTRE",
+    "location": [
+      -15.5593806,
+      144.4463851
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "MALANDA OUTPATIENTS CLINIC",
+    "location": [
+      -19.157493,
+      146.849846
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "MEANDARRA OUTPATIENTS CLINIC",
+    "location": [
+      -17.353832,
+      145.593863
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "MILLAA MILLAA OUTPATIENTS CLINIC",
+    "location": [
+      -27.3265817,
+      149.8808416
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "MORVEN OUTPATIENTS CLINIC",
+    "location": [
+      -17.514482,
+      145.60809
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "RAVENSHOE OUTPATIENTS CLINIC",
+    "location": [
+      -26.4090838,
+      147.1333925
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "MALAKOOLA PRIMARY HEALTH CARE CENTRE",
+    "location": [
+      -17.6068314,
+      145.4818837
+    ],
+    "beds": 1,
+    "emergency": false
+  },
+  {
+    "name": "ROBINA HOSPITAL",
+    "location": [
+      -12.6852791,
+      141.8898421
+    ],
+    "beds": 454,
+    "emergency": true
+  },
+  {
+    "name": "MOONIE OUTPATIENTS CLINIC",
+    "location": [
+      -27.7091202,
+      150.3767279
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "ISLAND MEDICAL SERVICE",
+    "location": [
+      -10.5848141,
+      142.2171923
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "GEMFIELDS OUTPATIENTS CLINIC",
+    "location": [
+      -23.4548042,
+      147.7254458
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "MAPOON PRIMARY HEALTH CARE CENTRE",
+    "location": [
+      -12.0220173,
+      141.9038022
+    ],
+    "beds": 1,
+    "emergency": false
+  },
+  {
+    "name": "BAILLIE HENDERSON HOSPITAL",
+    "location": [
+      -27.5279527,
+      151.9337687
+    ],
+    "beds": 180,
+    "emergency": false
+  },
+  {
+    "name": "CHARTERS TOWERS REHABILITATION UNIT",
+    "location": [
+      -20.074377,
+      146.281695
+    ],
+    "beds": 27,
+    "emergency": false
+  },
+  {
+    "name": "KIRWAN MENTAL HEALTH REHABILITATION UNIT",
+    "location": [
+      -19.30412,
+      146.730603
+    ],
+    "beds": 34,
+    "emergency": false
+  },
+  {
+    "name": "THE PARK CENTRE FOR MENTAL HEALTH",
+    "location": [
+      -27.5935824,
+      152.9135535
+    ],
+    "beds": 176,
+    "emergency": false
+  },
+  {
+    "name": "Hampstead Rehabilitation Centre",
+    "location": [
+      -34.8603831,
+      138.6183954
+    ],
+    "beds": 153,
+    "emergency": false
+  },
+  {
+    "name": "The Queen Elizabeth Hospital",
+    "location": [
+      -34.8832838,
+      138.5334176
+    ],
+    "beds": 346,
+    "emergency": true
+  },
+  {
+    "name": "Royal Adelaide Hospital",
+    "location": [
+      -34.9210186,
+      138.6087956
+    ],
+    "beds": 874,
+    "emergency": true
+  },
+  {
+    "name": "Pregnancy Advisory Centre",
+    "location": [
+      -34.880204,
+      138.5421895
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "St. Margaret's Hospital",
+    "location": [
+      -34.846416,
+      138.480467
+    ],
+    "beds": 48,
+    "emergency": false
+  },
+  {
+    "name": "Women's and Children's Hospital",
+    "location": [
+      -34.911882,
+      138.600324
+    ],
+    "beds": 324,
+    "emergency": true
+  },
+  {
+    "name": "Central Eyre Peninsula Hospital (Wudinna)",
+    "location": [
+      -33.050582,
+      135.467781
+    ],
+    "beds": 13,
+    "emergency": false
+  },
+  {
+    "name": "Cleve District Health and Aged Care",
+    "location": [
+      -33.6988852,
+      136.4932063
+    ],
+    "beds": 20,
+    "emergency": false
+  },
+  {
+    "name": "Cowell District Hospital",
+    "location": [
+      -33.685995,
+      136.921218
+    ],
+    "beds": 8,
+    "emergency": false
+  },
+  {
+    "name": "Cummins and District Memorial Hospital",
+    "location": [
+      -34.264457,
+      135.73313
+    ],
+    "beds": 19,
+    "emergency": false
+  },
+  {
+    "name": "Elliston Hospital",
+    "location": [
+      -33.6475544,
+      134.8911427
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "Kimba District Health and Aged Care",
+    "location": [
+      -33.1422628,
+      136.4168825
+    ],
+    "beds": 8,
+    "emergency": false
+  },
+  {
+    "name": "Ceduna District Health Service",
+    "location": [
+      -32.118862,
+      133.672244
+    ],
+    "beds": 21,
+    "emergency": false
+  },
+  {
+    "name": "Port Lincoln Health Service",
+    "location": [
+      -34.723993,
+      135.8503
+    ],
+    "beds": 50,
+    "emergency": true
+  },
+  {
+    "name": "Streaky Bay Hospital",
+    "location": [
+      -32.792774,
+      134.217716
+    ],
+    "beds": 19,
+    "emergency": false
+  },
+  {
+    "name": "Tumby Bay Hospital and Health Services",
+    "location": [
+      -34.3708997,
+      136.1052079
+    ],
+    "beds": 15,
+    "emergency": false
+  },
+  {
+    "name": "Gumeracha District Soldiers Memorial Hospital",
+    "location": [
+      -34.8254525,
+      138.8831483
+    ],
+    "beds": 17,
+    "emergency": false
+  },
+  {
+    "name": "Kangaroo Island Health Service",
+    "location": [
+      -35.6546185,
+      137.6411204
+    ],
+    "beds": 15,
+    "emergency": false
+  },
+  {
+    "name": "Karoonda & District Soldiers' Memorial Hospital",
+    "location": [
+      -35.093744,
+      139.889374
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Lameroo District Health Services",
+    "location": [
+      -35.328104,
+      140.514503
+    ],
+    "beds": 11,
+    "emergency": false
+  },
+  {
+    "name": "Tailem Bend District Hospital",
+    "location": [
+      -35.254575,
+      139.451761
+    ],
+    "beds": 9,
+    "emergency": false
+  },
+  {
+    "name": "The Mannum District Hospital",
+    "location": [
+      -34.9168027,
+      139.3079392
+    ],
+    "beds": 13,
+    "emergency": false
+  },
+  {
+    "name": "Meningie & Districts Memorial Hospital & Health Services",
+    "location": [
+      -35.69319,
+      139.335393
+    ],
+    "beds": 14,
+    "emergency": false
+  },
+  {
+    "name": "Mount Barker District Soldiers' Memorial Hospital",
+    "location": [
+      -35.0857138,
+      138.8721786
+    ],
+    "beds": 40,
+    "emergency": false
+  },
+  {
+    "name": "Mount Pleasant District Hospital",
+    "location": [
+      -34.773802,
+      139.05453
+    ],
+    "beds": 27,
+    "emergency": false
+  },
+  {
+    "name": "The Murray Bridge Soldiers' Memorial Hospital",
+    "location": [
+      -35.1283213,
+      139.2804048
+    ],
+    "beds": 58,
+    "emergency": false
+  },
+  {
+    "name": "Pinnaroo Soldiers' Memorial Hospital",
+    "location": [
+      -35.2571821,
+      140.906057
+    ],
+    "beds": 8,
+    "emergency": false
+  },
+  {
+    "name": "South Coast District Hospital",
+    "location": [
+      -35.56250929999999,
+      138.6028435
+    ],
+    "beds": 42,
+    "emergency": false
+  },
+  {
+    "name": "Strathalbyn and District Health Service",
+    "location": [
+      -35.257765,
+      138.89379
+    ],
+    "beds": 25,
+    "emergency": false
+  },
+  {
+    "name": "Booleroo Centre District Hospital and Health Services",
+    "location": [
+      -32.8812978,
+      138.3506178
+    ],
+    "beds": 23,
+    "emergency": false
+  },
+  {
+    "name": "Crystal Brook and District Hospital",
+    "location": [
+      -33.3546755,
+      138.2112177
+    ],
+    "beds": 13,
+    "emergency": false
+  },
+  {
+    "name": "Jamestown Hospital & Health Service",
+    "location": [
+      -33.2111111,
+      138.6055554
+    ],
+    "beds": 22,
+    "emergency": false
+  },
+  {
+    "name": "Laura & Districts Hospital",
+    "location": [
+      -33.177127,
+      138.298945
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Orroroo & District Health Service",
+    "location": [
+      -32.7412908,
+      138.6068939
+    ],
+    "beds": 8,
+    "emergency": false
+  },
+  {
+    "name": "Peterborough Soldiers' Memorial Hospital",
+    "location": [
+      -32.980922,
+      138.830314
+    ],
+    "beds": 22,
+    "emergency": false
+  },
+  {
+    "name": "Port Broughton District Hospital & Health Services",
+    "location": [
+      -33.6004771,
+      137.9334184
+    ],
+    "beds": 20,
+    "emergency": false
+  },
+  {
+    "name": "Port Pirie Regional Health Service",
+    "location": [
+      -33.177489,
+      138.0075583
+    ],
+    "beds": 68,
+    "emergency": true
+  },
+  {
+    "name": "McLaren Vale & Districts War Memorial Hospital Inc",
+    "location": [
+      -35.2242585,
+      138.544134
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Lyell McEwin Hospital",
+    "location": [
+      -34.7456907,
+      138.6668851
+    ],
+    "beds": 308,
+    "emergency": true
+  },
+  {
+    "name": "Modbury Hospital",
+    "location": [
+      -34.8341892,
+      138.6890066
+    ],
+    "beds": 166,
+    "emergency": true
+  },
+  {
+    "name": "Andamooka Outpost Hospital",
+    "location": [
+      -30.4498651,
+      137.1635473
+    ],
+    "beds": 2,
+    "emergency": false
+  },
+  {
+    "name": "Coober Pedy Hospital & Health Services",
+    "location": [
+      -29.0014392,
+      134.7621782
+    ],
+    "beds": 15,
+    "emergency": false
+  },
+  {
+    "name": "Hawker Memorial Hospital",
+    "location": [
+      -31.903914,
+      138.463387
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Leigh Creek Health Services",
+    "location": [
+      -30.5923371,
+      138.4027121
+    ],
+    "beds": 7,
+    "emergency": false
+  },
+  {
+    "name": "Royal District Nursing Service of SA (Marree Health Services)",
+    "location": [
+      -29.649697,
+      138.061909
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Oodnadatta Hospital",
+    "location": [
+      -27.5480766,
+      135.4477678
+    ],
+    "beds": 2,
+    "emergency": false
+  },
+  {
+    "name": "Port Augusta Hospital & Regional Health Services",
+    "location": [
+      -32.508364,
+      137.7754334
+    ],
+    "beds": 61,
+    "emergency": true
+  },
+  {
+    "name": "Quorn Health Services",
+    "location": [
+      -32.3522313,
+      138.0323346
+    ],
+    "beds": 11,
+    "emergency": false
+  },
+  {
+    "name": "Roxby Downs Health Services",
+    "location": [
+      -30.563107,
+      136.893997
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "Woomera Community Hospital",
+    "location": [
+      -31.1996682,
+      136.8254933
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "Whyalla Hospital & Health Services",
+    "location": [
+      -33.0336046,
+      137.5794199
+    ],
+    "beds": 99,
+    "emergency": true
+  },
+  {
+    "name": "Riverland Regional Health Service - Barmera Hospital",
+    "location": [
+      -34.2497802,
+      140.4707139
+    ],
+    "beds": 20,
+    "emergency": false
+  },
+  {
+    "name": "Riverland Regional Health Service - Berri Hospital",
+    "location": [
+      -34.2754903,
+      140.6020352
+    ],
+    "beds": 47,
+    "emergency": true
+  },
+  {
+    "name": "Loxton Hospital Complex",
+    "location": [
+      -34.453849,
+      140.5628055
+    ],
+    "beds": 22,
+    "emergency": false
+  },
+  {
+    "name": "Renmark Paringa District Hospital",
+    "location": [
+      -34.1655837,
+      140.7439316
+    ],
+    "beds": 23,
+    "emergency": false
+  },
+  {
+    "name": "Waikerie Hospital & Health Services",
+    "location": [
+      -34.182354,
+      139.985465
+    ],
+    "beds": 29,
+    "emergency": false
+  },
+  {
+    "name": "Flinders Medical Centre",
+    "location": [
+      -35.0232198,
+      138.5677775
+    ],
+    "beds": 589,
+    "emergency": true
+  },
+  {
+    "name": "Repatriation General Hospital",
+    "location": [
+      -34.990493,
+      138.58956
+    ],
+    "beds": 300,
+    "emergency": false
+  },
+  {
+    "name": "Noarlunga Public Hospital",
+    "location": [
+      -35.1388747,
+      138.4996501
+    ],
+    "beds": 80,
+    "emergency": true
+  },
+  {
+    "name": "Bordertown Memorial Hospital",
+    "location": [
+      -36.31207,
+      140.766796
+    ],
+    "beds": 49,
+    "emergency": false
+  },
+  {
+    "name": "Kingston Soldiers' Memorial Hospital",
+    "location": [
+      -36.8345171,
+      139.848462
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "Millicent & District Hospital & Health Services",
+    "location": [
+      -37.6005904,
+      140.3589345
+    ],
+    "beds": 30,
+    "emergency": false
+  },
+  {
+    "name": "Mount Gambier and Districts Health Service",
+    "location": [
+      -37.805262,
+      140.786949
+    ],
+    "beds": 90,
+    "emergency": true
+  },
+  {
+    "name": "Naracoorte Health Service",
+    "location": [
+      -36.966454,
+      140.743792
+    ],
+    "beds": 61,
+    "emergency": false
+  },
+  {
+    "name": "Penola War Memorial Hospital",
+    "location": [
+      -37.382444,
+      140.836649
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "South East Regional CHS",
+    "location": [
+      -30.0002315,
+      136.2091547
+    ],
+    "beds": 2,
+    "emergency": false
+  },
+  {
+    "name": "Gawler Health Service",
+    "location": [
+      -34.593414,
+      138.755172
+    ],
+    "beds": 62,
+    "emergency": true
+  },
+  {
+    "name": "Angaston District Hospital",
+    "location": [
+      -34.5037982,
+      139.0536046
+    ],
+    "beds": 32,
+    "emergency": false
+  },
+  {
+    "name": "Balaklava Soldier's Memorial District Hospital",
+    "location": [
+      -34.139663,
+      138.420194
+    ],
+    "beds": 31,
+    "emergency": false
+  },
+  {
+    "name": "Burra Hospital",
+    "location": [
+      -33.685094,
+      138.9341581
+    ],
+    "beds": 7,
+    "emergency": false
+  },
+  {
+    "name": "Clare Hospital",
+    "location": [
+      -33.829599,
+      138.614616
+    ],
+    "beds": 33,
+    "emergency": false
+  },
+  {
+    "name": "Eudunda Hospital",
+    "location": [
+      -34.175262,
+      139.090509
+    ],
+    "beds": 8,
+    "emergency": false
+  },
+  {
+    "name": "Kapunda Hospital",
+    "location": [
+      -34.3308399,
+      138.918796
+    ],
+    "beds": 27,
+    "emergency": false
+  },
+  {
+    "name": "Central Yorke Peninsula Hospital (Maitland)",
+    "location": [
+      -34.3715933,
+      137.674217
+    ],
+    "beds": 33,
+    "emergency": false
+  },
+  {
+    "name": "Riverton District Soldiers' Memorial Hospital",
+    "location": [
+      -34.160396,
+      138.742231
+    ],
+    "beds": 14,
+    "emergency": false
+  },
+  {
+    "name": "Snowtown Hospital",
+    "location": [
+      -33.833671,
+      138.120528
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Southern Yorke Peninsula Health Service (Yorketown)",
+    "location": [
+      -35.021194,
+      137.604989
+    ],
+    "beds": 26,
+    "emergency": false
+  },
+  {
+    "name": "Tanunda War Memorial Hospital",
+    "location": [
+      -34.528511,
+      138.961154
+    ],
+    "beds": 22,
+    "emergency": false
+  },
+  {
+    "name": "Northern Yorke Peninsula Health Service (Wallaroo)",
+    "location": [
+      -33.927262,
+      137.636053
+    ],
+    "beds": 21,
+    "emergency": false
+  },
+  {
+    "name": "Glenside Hospital",
+    "location": [
+      -34.943369,
+      138.62786
+    ],
+    "beds": 125,
+    "emergency": false
+  },
+  {
+    "name": "Oakden Hospital",
+    "location": [
+      -34.854419,
+      138.637672
+    ],
+    "beds": 24,
+    "emergency": false
+  },
+  {
+    "name": "Royal Hobart Hospital",
+    "location": [
+      -42.880057,
+      147.329922
+    ],
+    "beds": 486,
+    "emergency": true
+  },
+  {
+    "name": "Huon Hospital",
+    "location": [
+      -43.081156,
+      147.015965
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "New Norfolk Hospital",
+    "location": [
+      -42.78142,
+      147.059514
+    ],
+    "beds": 14,
+    "emergency": false
+  },
+  {
+    "name": "Esperance MPC",
+    "location": [
+      -43.3152596,
+      147.0178042
+    ],
+    "beds": 2,
+    "emergency": false
+  },
+  {
+    "name": "Tasman MPC",
+    "location": [
+      -43.096704,
+      147.742416
+    ],
+    "beds": 2,
+    "emergency": false
+  },
+  {
+    "name": "May Shaw District Nursing Centre",
+    "location": [
+      -42.127503,
+      148.077113
+    ],
+    "beds": 2,
+    "emergency": false
+  },
+  {
+    "name": "Midlands MPC",
+    "location": [
+      -42.29940200000001,
+      147.369088
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Launceston General Hospital",
+    "location": [
+      -41.445408,
+      147.1427807
+    ],
+    "beds": 340,
+    "emergency": true
+  },
+  {
+    "name": "Beaconsfield MPS",
+    "location": [
+      -41.193865,
+      146.806007
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Campbell Town MPS",
+    "location": [
+      -41.926395,
+      147.49341
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "NESM - Scottsdale Hospital",
+    "location": [
+      -41.155874,
+      147.520439
+    ],
+    "beds": 20,
+    "emergency": false
+  },
+  {
+    "name": "St Helens District Hospital",
+    "location": [
+      -41.3233628,
+      148.2467393
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "St Marys CHC",
+    "location": [
+      -41.5640411,
+      148.174942
+    ],
+    "beds": 8,
+    "emergency": false
+  },
+  {
+    "name": "Toosey Memorial - Longford",
+    "location": [
+      -41.59368449999999,
+      147.1196951
+    ],
+    "beds": 2,
+    "emergency": false
+  },
+  {
+    "name": "Flinders Island MPC",
+    "location": [
+      -40.1221989,
+      148.0181819
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Deloraine Hospital",
+    "location": [
+      -41.5320791,
+      146.6643503
+    ],
+    "beds": 20,
+    "emergency": false
+  },
+  {
+    "name": "George Town Hospital",
+    "location": [
+      -41.103884,
+      146.821384
+    ],
+    "beds": 15,
+    "emergency": false
+  },
+  {
+    "name": "NWRH_Burnie",
+    "location": [
+      -41.045982,
+      145.882255
+    ],
+    "beds": 115,
+    "emergency": true
+  },
+  {
+    "name": "King Is MPC",
+    "location": [
+      -39.9311669,
+      143.8515928
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "Smithton Hospital",
+    "location": [
+      -40.85012,
+      145.128305
+    ],
+    "beds": 13,
+    "emergency": false
+  },
+  {
+    "name": "Health West",
+    "location": [
+      -42.0805022,
+      145.5576877
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "Mersey",
+    "location": [
+      -41.2294681,
+      146.4238096
+    ],
+    "beds": 89,
+    "emergency": true
+  },
+  {
+    "name": "Tasmania_public_psychiatric",
+    "location": null,
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "Western District Health Service [Hamilton]",
+    "location": [
+      -37.737614,
+      142.0300403
+    ],
+    "beds": 67,
+    "emergency": true
+  },
+  {
+    "name": "Western District Health Service [Penshurst]",
+    "location": [
+      -37.8779444,
+      142.2826755
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "Colac Area Health",
+    "location": [
+      -38.3403964,
+      143.581116
+    ],
+    "beds": 37,
+    "emergency": false
+  },
+  {
+    "name": "Hesse Rural Health Service [Winchelsea]",
+    "location": [
+      -38.242733,
+      143.986406
+    ],
+    "beds": 5,
+    "emergency": false
+  },
+  {
+    "name": "Otway Health & Community Services [Apollo Bay]",
+    "location": [
+      -38.753903,
+      143.664058
+    ],
+    "beds": 2,
+    "emergency": false
+  },
+  {
+    "name": "Geelong Hospital",
+    "location": [
+      -38.1558841,
+      144.3624655
+    ],
+    "beds": 431,
+    "emergency": true
+  },
+  {
+    "name": "Casterton Memorial Hospital",
+    "location": [
+      -37.5932613,
+      141.3929363
+    ],
+    "beds": 15,
+    "emergency": false
+  },
+  {
+    "name": "Western District Health Service [Coleraine District Health Service]",
+    "location": [
+      -37.6036615,
+      141.6853316
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "South West Healthcare [Warrnambool]",
+    "location": [
+      -38.3785787,
+      142.4751247
+    ],
+    "beds": 166,
+    "emergency": true
+  },
+  {
+    "name": "Beaufort & Skipton Health Service [Skipton]",
+    "location": [
+      -37.684663,
+      143.3652413
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "Heywood Rural Health",
+    "location": [
+      -38.137917,
+      141.62504
+    ],
+    "beds": 5,
+    "emergency": false
+  },
+  {
+    "name": "Timboon & District Healthcare Service",
+    "location": [
+      -38.486205,
+      142.976516
+    ],
+    "beds": 13,
+    "emergency": false
+  },
+  {
+    "name": "Moyne Health Services [Port Fairy]",
+    "location": [
+      -38.384138,
+      142.227441
+    ],
+    "beds": 15,
+    "emergency": false
+  },
+  {
+    "name": "Portland District Health",
+    "location": [
+      -38.3452963,
+      141.6064495
+    ],
+    "beds": 53,
+    "emergency": false
+  },
+  {
+    "name": "Lorne Community Hospital",
+    "location": [
+      -38.545784,
+      143.981029
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Grace McKellar Centre [Geelong]",
+    "location": [
+      -38.119367,
+      144.337119
+    ],
+    "beds": 100,
+    "emergency": false
+  },
+  {
+    "name": "South West Healthcare [Camperdownl]",
+    "location": [
+      -38.23665370000001,
+      143.1382763
+    ],
+    "beds": 25,
+    "emergency": false
+  },
+  {
+    "name": "Terang & Mortlake Health Service [Terang]",
+    "location": [
+      -38.239325,
+      142.902109
+    ],
+    "beds": 26,
+    "emergency": false
+  },
+  {
+    "name": "East Grampians Health Service [Ararat]",
+    "location": [
+      -37.2794611,
+      142.9323193
+    ],
+    "beds": 43,
+    "emergency": false
+  },
+  {
+    "name": "East Grampians Health Service [Willaura]",
+    "location": [
+      -37.5452043,
+      142.7946447
+    ],
+    "beds": 8,
+    "emergency": false
+  },
+  {
+    "name": "Rural Northwest Health [Warracknabeal]",
+    "location": [
+      -36.25289,
+      142.383117
+    ],
+    "beds": 15,
+    "emergency": false
+  },
+  {
+    "name": "Rural Northwest Health [Hopetoun]",
+    "location": [
+      -35.732542,
+      142.366904
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Ballarat Health Services [Base Campus]",
+    "location": [
+      -37.55951,
+      143.84694
+    ],
+    "beds": 244,
+    "emergency": true
+  },
+  {
+    "name": "Ballarat Health Services [Queen Elizabeth Campus]",
+    "location": [
+      -37.563426,
+      143.841884
+    ],
+    "beds": 92,
+    "emergency": false
+  },
+  {
+    "name": "Wimmera Base Hospital [Horsham]",
+    "location": [
+      -36.7118244,
+      142.2048824
+    ],
+    "beds": 81,
+    "emergency": true
+  },
+  {
+    "name": "Dunmunkle Health Services [Murtoa]",
+    "location": [
+      -36.636555,
+      142.631907
+    ],
+    "beds": 2,
+    "emergency": false
+  },
+  {
+    "name": "Stawell Regional Health",
+    "location": [
+      -37.059534,
+      142.781634
+    ],
+    "beds": 36,
+    "emergency": false
+  },
+  {
+    "name": "West Wimmera Health Service [Nhill]",
+    "location": [
+      -36.3336642,
+      141.6553432
+    ],
+    "beds": 23,
+    "emergency": false
+  },
+  {
+    "name": "West Wimmera Health Service [Kaniva]",
+    "location": [
+      -36.3815278,
+      141.2455934
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "West Wimmera Health Service [Jeparit]",
+    "location": [
+      -36.1411741,
+      141.98468
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "West Wimmera Health Service [Rainbow]",
+    "location": [
+      -35.9039388,
+      141.9947958
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "East Wimmera Health Service [St Arnaud]",
+    "location": [
+      -36.60874450000001,
+      143.2469354
+    ],
+    "beds": 16,
+    "emergency": false
+  },
+  {
+    "name": "Djerriwarrh Health Service [Bacchus Marsh]",
+    "location": [
+      -37.678273,
+      144.433419
+    ],
+    "beds": 45,
+    "emergency": false
+  },
+  {
+    "name": "Beaufort & Skipton Health Service [Beaufort]",
+    "location": [
+      -37.431149,
+      143.38243
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "Dimboola District Hospital",
+    "location": [
+      -36.4492103,
+      142.0249999
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Edenhope & District Hospital",
+    "location": [
+      -37.035471,
+      141.288894
+    ],
+    "beds": 18,
+    "emergency": false
+  },
+  {
+    "name": "Daylesford District Hospital",
+    "location": [
+      -37.337513,
+      144.146604
+    ],
+    "beds": 21,
+    "emergency": false
+  },
+  {
+    "name": "Creswick District Hospital",
+    "location": [
+      -37.419901,
+      143.891538
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Bendigo Hospital The",
+    "location": [
+      -36.74869,
+      144.283373
+    ],
+    "beds": 252,
+    "emergency": true
+  },
+  {
+    "name": "Bendigo Health Care Group [Anne Caudle]",
+    "location": [
+      -36.751762,
+      144.280437
+    ],
+    "beds": 97,
+    "emergency": false
+  },
+  {
+    "name": "Goulburn Valley Health [Waranga]",
+    "location": [
+      -36.587605,
+      145.008751
+    ],
+    "beds": 12,
+    "emergency": false
+  },
+  {
+    "name": "Kyabram & District Health Service",
+    "location": [
+      -36.315078,
+      145.041905
+    ],
+    "beds": 45,
+    "emergency": false
+  },
+  {
+    "name": "Kyneton District Health Service",
+    "location": [
+      -37.255181,
+      144.469941
+    ],
+    "beds": 18,
+    "emergency": false
+  },
+  {
+    "name": "Heathcote Health",
+    "location": [
+      -36.9255295,
+      144.7099605
+    ],
+    "beds": 8,
+    "emergency": false
+  },
+  {
+    "name": "Maryborough District Health Service [Maryborough]",
+    "location": [
+      -37.0442682,
+      143.7392134
+    ],
+    "beds": 43,
+    "emergency": false
+  },
+  {
+    "name": "Maryborough District Health Service [Dunolly]",
+    "location": [
+      -36.855199,
+      143.734932
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Swan Hill District Health [Swan Hill]",
+    "location": [
+      -35.340628,
+      143.556258
+    ],
+    "beds": 38,
+    "emergency": true
+  },
+  {
+    "name": "Swan Hill District Health [Nyah]",
+    "location": [
+      -35.1854455,
+      143.3462205
+    ],
+    "beds": 3,
+    "emergency": false
+  },
+  {
+    "name": "East Wimmera Health Service [Wycheproof]",
+    "location": [
+      -36.0785275,
+      143.2337499
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "Cohuna District Hospital",
+    "location": [
+      -35.8010616,
+      144.2149527
+    ],
+    "beds": 16,
+    "emergency": false
+  },
+  {
+    "name": "Echuca Regional Health",
+    "location": [
+      -36.1365848,
+      144.7486361
+    ],
+    "beds": 65,
+    "emergency": true
+  },
+  {
+    "name": "Kerang District Health",
+    "location": [
+      -35.7246026,
+      143.9180942
+    ],
+    "beds": 24,
+    "emergency": false
+  },
+  {
+    "name": "Mildura Base Hospital",
+    "location": [
+      -34.186249,
+      142.143038
+    ],
+    "beds": 128,
+    "emergency": true
+  },
+  {
+    "name": "Mallee Track Health & Community Service",
+    "location": [
+      -35.073993,
+      142.312761
+    ],
+    "beds": 1,
+    "emergency": false
+  },
+  {
+    "name": "Maldon Hospital",
+    "location": [
+      -36.9901598,
+      144.0632837
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Manangatang & District Hospital",
+    "location": [
+      -35.0510576,
+      142.8810032
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "Boort District Health",
+    "location": [
+      -36.111748,
+      143.727371
+    ],
+    "beds": 9,
+    "emergency": false
+  },
+  {
+    "name": "Robinvale District Health Services",
+    "location": [
+      -34.584175,
+      142.781112
+    ],
+    "beds": 14,
+    "emergency": false
+  },
+  {
+    "name": "Rochester & Elmore District Health Service",
+    "location": [
+      -36.366699,
+      144.69761
+    ],
+    "beds": 12,
+    "emergency": false
+  },
+  {
+    "name": "East Wimmera Health Service [Donald]",
+    "location": [
+      -36.3649821,
+      142.9758993
+    ],
+    "beds": 15,
+    "emergency": false
+  },
+  {
+    "name": "Inglewood & District Health Service",
+    "location": [
+      -36.5730604,
+      143.8742337
+    ],
+    "beds": 8,
+    "emergency": false
+  },
+  {
+    "name": "East Wimmera Health Service [Birchip]",
+    "location": [
+      -35.9798954,
+      142.9152964
+    ],
+    "beds": 8,
+    "emergency": false
+  },
+  {
+    "name": "East Wimmera Health Service [Charlton]",
+    "location": [
+      -36.2709341,
+      143.3460218
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Castlemaine Health",
+    "location": [
+      -37.052104,
+      144.212273
+    ],
+    "beds": 54,
+    "emergency": false
+  },
+  {
+    "name": "Sea Lake & District",
+    "location": [
+      -35.500547,
+      142.85772
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Goulburn Valley Health [Shepparton]",
+    "location": [
+      -36.362487,
+      145.4045905
+    ],
+    "beds": 203,
+    "emergency": true
+  },
+  {
+    "name": "Goulburn Valley Health [Tatura]",
+    "location": [
+      -36.4394898,
+      145.2260187
+    ],
+    "beds": 8,
+    "emergency": false
+  },
+  {
+    "name": "Northeast Health Wangaratta",
+    "location": [
+      -36.354245,
+      146.313772
+    ],
+    "beds": 141,
+    "emergency": true
+  },
+  {
+    "name": "Tallangatta Health Service",
+    "location": [
+      -36.213679,
+      147.183808
+    ],
+    "beds": 15,
+    "emergency": false
+  },
+  {
+    "name": "Albury Wodonga Health - Wodonga Camps",
+    "location": [
+      -36.134296,
+      146.875359
+    ],
+    "beds": 110,
+    "emergency": true
+  },
+  {
+    "name": "Yarrawonga Health",
+    "location": [
+      -36.011308,
+      146.006988
+    ],
+    "beds": 29,
+    "emergency": false
+  },
+  {
+    "name": "Alpine Health [Myrtleford]",
+    "location": [
+      -36.554568,
+      146.727603
+    ],
+    "beds": 15,
+    "emergency": false
+  },
+  {
+    "name": "Alpine Health [Bright]",
+    "location": [
+      -36.733224,
+      146.966165
+    ],
+    "beds": 9,
+    "emergency": false
+  },
+  {
+    "name": "Alpine Health [Mount Beauty]",
+    "location": [
+      -36.743437,
+      147.169787
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "Upper Murray Health & Community Services [Corryong]",
+    "location": [
+      -36.199312,
+      147.902714
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "Seymour District Memorial Hospital",
+    "location": [
+      -37.017609,
+      145.138943
+    ],
+    "beds": 30,
+    "emergency": false
+  },
+  {
+    "name": "Mansfield District Hospital",
+    "location": [
+      -37.05763,
+      146.086015
+    ],
+    "beds": 24,
+    "emergency": false
+  },
+  {
+    "name": "Alexandra District Hospital",
+    "location": [
+      -37.1941433,
+      145.7168757
+    ],
+    "beds": 31,
+    "emergency": false
+  },
+  {
+    "name": "Numurkah & District Health Service",
+    "location": [
+      -36.0992237,
+      145.4434106
+    ],
+    "beds": 3,
+    "emergency": false
+  },
+  {
+    "name": "Kilmore & District Hospital The",
+    "location": [
+      -37.3004441,
+      144.9528172
+    ],
+    "beds": 28,
+    "emergency": false
+  },
+  {
+    "name": "Yea & District Memorial Hospital",
+    "location": [
+      -37.213597,
+      145.430948
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "Nathalia District Hospital",
+    "location": [
+      -36.056341,
+      145.197655
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "Benalla & District Memorial Hospital",
+    "location": [
+      -36.5554554,
+      145.9933771
+    ],
+    "beds": 56,
+    "emergency": false
+  },
+  {
+    "name": "Beechworth Health Service",
+    "location": [
+      -36.349655,
+      146.691525
+    ],
+    "beds": 13,
+    "emergency": false
+  },
+  {
+    "name": "Cobram District Hospital",
+    "location": [
+      -35.9161932,
+      145.6511579
+    ],
+    "beds": 17,
+    "emergency": false
+  },
+  {
+    "name": "Bairnsdale Regional Health Service",
+    "location": [
+      -37.831054,
+      147.607987
+    ],
+    "beds": 95,
+    "emergency": true
+  },
+  {
+    "name": "West Gippsland Healthcare Group [Warragul]",
+    "location": [
+      -38.173276,
+      145.927187
+    ],
+    "beds": 91,
+    "emergency": true
+  },
+  {
+    "name": "Bass Coast Regional Health",
+    "location": [
+      -38.6081769,
+      145.5812296
+    ],
+    "beds": 50,
+    "emergency": true
+  },
+  {
+    "name": "Yarram & District Health Service",
+    "location": [
+      -38.557522,
+      146.677787
+    ],
+    "beds": 22,
+    "emergency": false
+  },
+  {
+    "name": "Omeo District Health",
+    "location": [
+      -37.09826,
+      147.59725
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Central Gippsland Health Service [Sale]",
+    "location": [
+      -38.10786,
+      147.080854
+    ],
+    "beds": 81,
+    "emergency": true
+  },
+  {
+    "name": "Korumburra Hospital",
+    "location": [
+      -38.430357,
+      145.828276
+    ],
+    "beds": 15,
+    "emergency": false
+  },
+  {
+    "name": "Leongatha Memorial Hospital",
+    "location": [
+      -38.487646,
+      145.950554
+    ],
+    "beds": 37,
+    "emergency": false
+  },
+  {
+    "name": "Latrobe Regional Hospital [Traralgon]",
+    "location": [
+      -38.218453,
+      146.472072
+    ],
+    "beds": 239,
+    "emergency": true
+  },
+  {
+    "name": "Central Gippsland Health Service [Maffra]",
+    "location": [
+      -37.960877,
+      146.983607
+    ],
+    "beds": 9,
+    "emergency": false
+  },
+  {
+    "name": "South Gippsland Hospital [Foster]",
+    "location": [
+      -38.6587525,
+      146.2062226
+    ],
+    "beds": 16,
+    "emergency": false
+  },
+  {
+    "name": "Orbost Regional Health",
+    "location": [
+      -37.701876,
+      148.465497
+    ],
+    "beds": 16,
+    "emergency": false
+  },
+  {
+    "name": "Box Hill Hospital",
+    "location": [
+      -37.813664,
+      145.118963
+    ],
+    "beds": 348,
+    "emergency": true
+  },
+  {
+    "name": "Monash Medical Centre [Clayton]",
+    "location": [
+      -37.920718,
+      145.123085
+    ],
+    "beds": 589,
+    "emergency": true
+  },
+  {
+    "name": "Maroondah Hospital [East Ringwood]",
+    "location": [
+      -37.811072,
+      145.240135
+    ],
+    "beds": 263,
+    "emergency": true
+  },
+  {
+    "name": "Angliss Hospital",
+    "location": [
+      -37.8989476,
+      145.3132887
+    ],
+    "beds": 170,
+    "emergency": true
+  },
+  {
+    "name": "St George's Health Service- Aged Care",
+    "location": [
+      -37.808436,
+      145.053068
+    ],
+    "beds": 124,
+    "emergency": false
+  },
+  {
+    "name": "Caritas Christi Hospice Ltd [Kew]",
+    "location": [
+      -37.804495,
+      145.015607
+    ],
+    "beds": 28,
+    "emergency": false
+  },
+  {
+    "name": "Mercy Health - O'Connell Family Centre",
+    "location": [
+      -37.816657,
+      145.061734
+    ],
+    "beds": 20,
+    "emergency": false
+  },
+  {
+    "name": "Peter James Centre The (East Burwood)",
+    "location": [
+      -37.852789,
+      145.164565
+    ],
+    "beds": 136,
+    "emergency": false
+  },
+  {
+    "name": "Wantirna Health",
+    "location": [
+      -37.84831,
+      145.2261506
+    ],
+    "beds": 57,
+    "emergency": false
+  },
+  {
+    "name": "Royal Talbot Rehabilitation Centre [Kew]",
+    "location": [
+      -37.7896022,
+      145.0244362
+    ],
+    "beds": 76,
+    "emergency": false
+  },
+  {
+    "name": "Healesville and District Hospital",
+    "location": [
+      -37.646225,
+      145.528889
+    ],
+    "beds": 19,
+    "emergency": false
+  },
+  {
+    "name": "Yarra Ranges Health",
+    "location": [
+      -37.756501,
+      145.35128
+    ],
+    "beds": 16,
+    "emergency": false
+  },
+  {
+    "name": "Monash Medical Centre [Moorabbin]",
+    "location": [
+      -37.92077099999999,
+      145.064016
+    ],
+    "beds": 110,
+    "emergency": false
+  },
+  {
+    "name": "Rosebud Hospital",
+    "location": [
+      -38.3561026,
+      144.9038803
+    ],
+    "beds": 71,
+    "emergency": true
+  },
+  {
+    "name": "Sandringham & District Memorial Hospital",
+    "location": [
+      -37.9615564,
+      145.0190492
+    ],
+    "beds": 89,
+    "emergency": true
+  },
+  {
+    "name": "Caulfield General Medical Centre",
+    "location": [
+      -37.884311,
+      145.017128
+    ],
+    "beds": 216,
+    "emergency": false
+  },
+  {
+    "name": "Kooweerup Regional Health Service",
+    "location": [
+      -38.200988,
+      145.484577
+    ],
+    "beds": 12,
+    "emergency": false
+  },
+  {
+    "name": "Kingston Centre [Cheltenham]",
+    "location": [
+      -37.9625879,
+      145.0750381
+    ],
+    "beds": 175,
+    "emergency": false
+  },
+  {
+    "name": "Dandenong Campus",
+    "location": [
+      -37.976837,
+      145.218721
+    ],
+    "beds": 449,
+    "emergency": true
+  },
+  {
+    "name": "Cranbourne Integrated Care Centre",
+    "location": [
+      -38.11332900000001,
+      145.280643
+    ],
+    "beds": 21,
+    "emergency": false
+  },
+  {
+    "name": "Frankston Hospital",
+    "location": [
+      -38.151037,
+      145.128327
+    ],
+    "beds": 375,
+    "emergency": true
+  },
+  {
+    "name": "Calvary Health Care Bethlehem Ltd",
+    "location": [
+      -37.89718,
+      145.01343
+    ],
+    "beds": 68,
+    "emergency": false
+  },
+  {
+    "name": "Queen Elizabeth Centre [Noble Park]",
+    "location": [
+      -37.972068,
+      145.178452
+    ],
+    "beds": 37,
+    "emergency": false
+  },
+  {
+    "name": "Casey Hospital",
+    "location": [
+      -38.045011,
+      145.347325
+    ],
+    "beds": 220,
+    "emergency": true
+  },
+  {
+    "name": "Mount Eliza Aged Care & Rehabilitation Service",
+    "location": [
+      -38.169171,
+      145.087347
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Golf Links Road Rehabilitation Centre and PCU",
+    "location": [
+      -38.171814,
+      145.148449
+    ],
+    "beds": 73,
+    "emergency": false
+  },
+  {
+    "name": "The Mornington Centre",
+    "location": [
+      -38.2289241,
+      145.0413212
+    ],
+    "beds": 63,
+    "emergency": false
+  },
+  {
+    "name": "Alfred The",
+    "location": [
+      -37.8459998,
+      144.9876013
+    ],
+    "beds": 674,
+    "emergency": true
+  },
+  {
+    "name": "Austin Hospital [Heidelberg]",
+    "location": [
+      -37.756742,
+      145.060535
+    ],
+    "beds": 596,
+    "emergency": true
+  },
+  {
+    "name": "Austin Hospital [Heidelberg Repatriation Hospital]",
+    "location": [
+      -37.756619,
+      145.049348
+    ],
+    "beds": 193,
+    "emergency": false
+  },
+  {
+    "name": "Bundoora Extended Care Centre",
+    "location": [
+      -37.70114299999999,
+      145.055532
+    ],
+    "beds": 74,
+    "emergency": false
+  },
+  {
+    "name": "Mercy Hospital for Women",
+    "location": [
+      -37.756794,
+      145.060547
+    ],
+    "beds": 152,
+    "emergency": true
+  },
+  {
+    "name": "Western Hospital [Footscray]",
+    "location": [
+      -37.792378,
+      144.887311
+    ],
+    "beds": 343,
+    "emergency": true
+  },
+  {
+    "name": "Royal Children's Hospital [Parkville]",
+    "location": [
+      -37.7947418,
+      144.9502058
+    ],
+    "beds": 306,
+    "emergency": true
+  },
+  {
+    "name": "Royal Women's Hospital [Carlton]",
+    "location": [
+      -37.798129,
+      144.955111
+    ],
+    "beds": 196,
+    "emergency": true
+  },
+  {
+    "name": "Royal Victorian Eye & Ear Hospital, The",
+    "location": [
+      -37.808784,
+      144.976219
+    ],
+    "beds": 55,
+    "emergency": true
+  },
+  {
+    "name": "Northern Hospital The [Epping]",
+    "location": [
+      -37.65323,
+      145.014584
+    ],
+    "beds": 365,
+    "emergency": true
+  },
+  {
+    "name": "Mercy Public Hospital Inc.[Werribee]",
+    "location": [
+      -37.8860832,
+      144.6975
+    ],
+    "beds": 172,
+    "emergency": true
+  },
+  {
+    "name": "Orygen Inpatient Unit",
+    "location": [
+      -37.7913739,
+      144.887253
+    ],
+    "beds": 16,
+    "emergency": false
+  },
+  {
+    "name": "Royal Melbourne Hospital [Parkville]",
+    "location": [
+      -37.798877,
+      144.956177
+    ],
+    "beds": 670,
+    "emergency": true
+  },
+  {
+    "name": "Royal Melbourne Hospital- Royal Park Campus",
+    "location": [
+      -37.778975,
+      144.946489
+    ],
+    "beds": 114,
+    "emergency": false
+  },
+  {
+    "name": "Sunshine Hospital",
+    "location": [
+      -37.7603251,
+      144.8151785
+    ],
+    "beds": 401,
+    "emergency": true
+  },
+  {
+    "name": "St Vincent's Hospital [Fitzroy]",
+    "location": [
+      -37.807773,
+      144.9749601
+    ],
+    "beds": 541,
+    "emergency": true
+  },
+  {
+    "name": "Williamstown Hospital",
+    "location": [
+      -37.863685,
+      144.891883
+    ],
+    "beds": 83,
+    "emergency": true
+  },
+  {
+    "name": "Peter MacCallum Cancer Institute",
+    "location": [
+      -37.81152,
+      144.9774
+    ],
+    "beds": 129,
+    "emergency": false
+  },
+  {
+    "name": "Tweddle Child & Family Health Centre [Footscray]",
+    "location": [
+      -37.7973655,
+      144.8871432
+    ],
+    "beds": 29,
+    "emergency": false
+  },
+  {
+    "name": "Sunbury Day Hospital",
+    "location": [
+      -37.577171,
+      144.732698
+    ],
+    "beds": 27,
+    "emergency": false
+  },
+  {
+    "name": "Broadmeadows Health Service",
+    "location": [
+      -37.686386,
+      144.906873
+    ],
+    "beds": 130,
+    "emergency": false
+  },
+  {
+    "name": "Craigieburn Health Service",
+    "location": [
+      -37.5961609,
+      144.9196136
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "Melton Health",
+    "location": [
+      -37.68693409999999,
+      144.5580643
+    ],
+    "beds": 17,
+    "emergency": false
+  },
+  {
+    "name": "Dental Health Services Victoria",
+    "location": [
+      -37.7995492,
+      144.9644418
+    ],
+    "beds": 20,
+    "emergency": false
+  },
+  {
+    "name": "Albury Wodonga Health - Albury Camps",
+    "location": [
+      -36.078394,
+      146.938061
+    ],
+    "beds": 119,
+    "emergency": true
+  },
+  {
+    "name": "VIFMH",
+    "location": [
+      -37.7923512,
+      145.0095006
+    ],
+    "beds": 116,
+    "emergency": false
+  },
+  {
+    "name": "VIFMH-Prison Health Service (MAP)",
+    "location": [
+      -37.7923512,
+      145.0095006
+    ],
+    "beds": 36,
+    "emergency": false
+  },
+  {
+    "name": "Dame Phyllis Frost Centre - Marmak unit",
+    "location": [
+      -37.7797631,
+      144.7367683
+    ],
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Djerriwarrh Health Service",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Peninsula Health",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Monash Health",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Bendigo Health Care Group",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Goulburn Valley Health",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "East Grampians Health Service",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Maryborough District Health Service",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Swan Hill District Health",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Gippsland Southern Health Service",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Mercy Public Hospital Inc.",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Austin Health",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Albury Wodonga Health",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "West Wimmera Health Service",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Wimmera Health Care Group",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Beaufort & Skipton Health Service",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Alpine Health",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Ballarat Health Services",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "East Wimmera Health Service",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Hepburn Health Service",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Barwon Health",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Western District Health Service",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Rural Northwest Health",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "South West Healthcare",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Central Gippsland Health Service",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Western Health",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Northern Health",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Eastern Health",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Alfred Health",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Melbourne Health",
+    "location": null,
+    "beds": 0,
+    "emergency": false
+  },
+  {
+    "name": "Princess Margaret Hospital for Children",
+    "location": [
+      -31.9453967,
+      115.8292354
+    ],
+    "beds": 233,
+    "emergency": true
+  },
+  {
+    "name": "King Edward Memorial Hospital for Women",
+    "location": [
+      -31.949681,
+      115.818905
+    ],
+    "beds": 253,
+    "emergency": true
+  },
+  {
+    "name": "Sir Charles Gairdner Hospital",
+    "location": [
+      -31.9676038,
+      115.8167389
+    ],
+    "beds": 633,
+    "emergency": true
+  },
+  {
+    "name": "Selby Authorised Lodge",
+    "location": [
+      -31.957643,
+      115.803844
+    ],
+    "beds": 32,
+    "emergency": false
+  },
+  {
+    "name": "Osborne Park Hospital",
+    "location": [
+      -31.8852018,
+      115.8051637
+    ],
+    "beds": 157,
+    "emergency": false
+  },
+  {
+    "name": "Swan District Hospital",
+    "location": [
+      -31.8746503,
+      116.0070638
+    ],
+    "beds": 182,
+    "emergency": true
+  },
+  {
+    "name": "Kalamunda Hospital",
+    "location": [
+      -31.9684133,
+      116.0578244
+    ],
+    "beds": 33,
+    "emergency": false
+  },
+  {
+    "name": "Next Step Drug And Alcohol Services, East Perth",
+    "location": [
+      -31.953361,
+      115.868971
+    ],
+    "beds": 17,
+    "emergency": false
+  },
+  {
+    "name": "Joondalup Health Campus",
+    "location": [
+      -31.743405,
+      115.7697631
+    ],
+    "beds": 405,
+    "emergency": true
+  },
+  {
+    "name": "Royal Perth Hospital Shenton Park Campus",
+    "location": [
+      -31.9566339,
+      115.8049468
+    ],
+    "beds": 161,
+    "emergency": false
+  },
+  {
+    "name": "Royal Perth Hospital Wellington Street Campus",
+    "location": [
+      -31.9517684,
+      115.859598
+    ],
+    "beds": 696,
+    "emergency": true
+  },
+  {
+    "name": "Fremantle Hospital",
+    "location": [
+      -32.0583357,
+      115.753452
+    ],
+    "beds": 492,
+    "emergency": true
+  },
+  {
+    "name": "Kaleeya Hospital",
+    "location": [
+      -32.036042,
+      115.766238
+    ],
+    "beds": 67,
+    "emergency": false
+  },
+  {
+    "name": "Armadale-Kelmscott Memorial Hospital",
+    "location": [
+      -32.133412,
+      116.018018
+    ],
+    "beds": 206,
+    "emergency": true
+  },
+  {
+    "name": "Bentley Hospital",
+    "location": [
+      -32.0056173,
+      115.9289781
+    ],
+    "beds": 185,
+    "emergency": false
+  },
+  {
+    "name": "Rockingham General Hospital",
+    "location": [
+      -32.2924242,
+      115.7681205
+    ],
+    "beds": 179,
+    "emergency": true
+  },
+  {
+    "name": "Murray Hospital",
+    "location": [
+      -32.6388815,
+      115.8720224
+    ],
+    "beds": 15,
+    "emergency": false
+  },
+  {
+    "name": "Peel Health Campus",
+    "location": [
+      -32.533029,
+      115.764345
+    ],
+    "beds": 148,
+    "emergency": true
+  },
+  {
+    "name": "Fitzroy Crossing Hospital",
+    "location": [
+      -18.1905239,
+      125.5628359
+    ],
+    "beds": 14,
+    "emergency": false
+  },
+  {
+    "name": "Halls Creek Hospital",
+    "location": [
+      -18.226187,
+      127.666267
+    ],
+    "beds": 8,
+    "emergency": false
+  },
+  {
+    "name": "Broome Hospital",
+    "location": [
+      -17.9636704,
+      122.2367363
+    ],
+    "beds": 44,
+    "emergency": true
+  },
+  {
+    "name": "Derby Hospital",
+    "location": [
+      -17.3056892,
+      123.6309931
+    ],
+    "beds": 31,
+    "emergency": false
+  },
+  {
+    "name": "Wyndham Hospital",
+    "location": [
+      -15.482196,
+      128.1260823
+    ],
+    "beds": 7,
+    "emergency": false
+  },
+  {
+    "name": "Kununurra Hospital",
+    "location": [
+      -15.7728505,
+      128.7393304
+    ],
+    "beds": 32,
+    "emergency": false
+  },
+  {
+    "name": "Hedland Health Campus",
+    "location": [
+      -20.4125503,
+      118.5962297
+    ],
+    "beds": 59,
+    "emergency": true
+  },
+  {
+    "name": "Onslow Hospital",
+    "location": [
+      -21.639694,
+      115.1149579
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "Roebourne Hospital",
+    "location": [
+      -20.7744647,
+      117.1434341
+    ],
+    "beds": 8,
+    "emergency": false
+  },
+  {
+    "name": "Tom Price Hospital",
+    "location": [
+      -22.7084244,
+      117.775175
+    ],
+    "beds": 8,
+    "emergency": false
+  },
+  {
+    "name": "Newman Hospital",
+    "location": [
+      -23.3538711,
+      119.733089
+    ],
+    "beds": 8,
+    "emergency": false
+  },
+  {
+    "name": "Paraburdoo Hospital",
+    "location": [
+      -23.211151,
+      117.662225
+    ],
+    "beds": 2,
+    "emergency": false
+  },
+  {
+    "name": "Nickol Bay Hospital",
+    "location": [
+      -20.7377569,
+      116.8495779
+    ],
+    "beds": 28,
+    "emergency": true
+  },
+  {
+    "name": "Carnarvon Hospital",
+    "location": [
+      -24.8869771,
+      113.6593146
+    ],
+    "beds": 31,
+    "emergency": false
+  },
+  {
+    "name": "Exmouth Hospital",
+    "location": [
+      -21.927865,
+      114.119397
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "Geraldton Hospital",
+    "location": [
+      -28.7824489,
+      114.6061862
+    ],
+    "beds": 99,
+    "emergency": true
+  },
+  {
+    "name": "Meekatharra Hospital",
+    "location": [
+      -26.5931573,
+      118.4969472
+    ],
+    "beds": 9,
+    "emergency": false
+  },
+  {
+    "name": "Morawa Hospital",
+    "location": [
+      -29.213399,
+      116.0054799
+    ],
+    "beds": 3,
+    "emergency": false
+  },
+  {
+    "name": "Mullewa Hospital",
+    "location": [
+      -28.5362094,
+      115.5121038
+    ],
+    "beds": 2,
+    "emergency": false
+  },
+  {
+    "name": "Northampton Hospital",
+    "location": [
+      -28.3520585,
+      114.6336956
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "North Midlands Hospital",
+    "location": [
+      -29.5351078,
+      115.7595622
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Kalbarri Health Centre",
+    "location": [
+      -27.7121164,
+      114.1611655
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Dongara Multi-Purpose Health Centre",
+    "location": [
+      -29.265209,
+      114.934354
+    ],
+    "beds": 3,
+    "emergency": false
+  },
+  {
+    "name": "Lake Grace Hospital",
+    "location": [
+      -33.1008898,
+      118.4613049
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "Merredin Hospital",
+    "location": [
+      -31.484671,
+      118.2791767
+    ],
+    "beds": 24,
+    "emergency": false
+  },
+  {
+    "name": "Narrogin Hospital",
+    "location": [
+      -32.9372852,
+      117.1634026
+    ],
+    "beds": 44,
+    "emergency": false
+  },
+  {
+    "name": "Northam Hospital",
+    "location": [
+      -31.6511881,
+      116.6603512
+    ],
+    "beds": 43,
+    "emergency": false
+  },
+  {
+    "name": "Wagin Hospital",
+    "location": [
+      -33.3050465,
+      117.3480012
+    ],
+    "beds": 18,
+    "emergency": false
+  },
+  {
+    "name": "York Hospital",
+    "location": [
+      -31.8936403,
+      116.7545449
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "Beverley Hospital",
+    "location": [
+      -32.1024956,
+      116.9208451
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "Boddington Hospital",
+    "location": [
+      -32.802947,
+      116.475749
+    ],
+    "beds": 8,
+    "emergency": false
+  },
+  {
+    "name": "Bruce Rock Memorial Hospital",
+    "location": [
+      -31.873134,
+      118.146531
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Corrigin Hospital",
+    "location": [
+      -32.324136,
+      117.878848
+    ],
+    "beds": 5,
+    "emergency": false
+  },
+  {
+    "name": "Cunderdin Hospital",
+    "location": [
+      -31.6635092,
+      117.2449665
+    ],
+    "beds": 2,
+    "emergency": false
+  },
+  {
+    "name": "Dalwallinu Hospital",
+    "location": [
+      -30.2764266,
+      116.6557937
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "Kellerberrin Memorial Hospital",
+    "location": [
+      -31.6298179,
+      117.7175304
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Goomalling Hospital",
+    "location": [
+      -31.3017316,
+      116.8302488
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "Kondinin Hospital",
+    "location": [
+      -32.4903991,
+      118.2646785
+    ],
+    "beds": 5,
+    "emergency": false
+  },
+  {
+    "name": "Kununoppin Hospital",
+    "location": [
+      -31.110507,
+      117.9220627
+    ],
+    "beds": 10,
+    "emergency": false
+  },
+  {
+    "name": "Moora Hospital",
+    "location": [
+      -30.6388521,
+      115.9965546
+    ],
+    "beds": 15,
+    "emergency": false
+  },
+  {
+    "name": "Narembeen Memorial Hospital",
+    "location": [
+      -32.0618761,
+      118.3922824
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Pingelly Hospital",
+    "location": [
+      -32.531842,
+      117.08641
+    ],
+    "beds": 8,
+    "emergency": false
+  },
+  {
+    "name": "Southern Cross Hospital",
+    "location": [
+      -31.2375661,
+      119.3875191
+    ],
+    "beds": 5,
+    "emergency": false
+  },
+  {
+    "name": "Wongan Hills Hospital",
+    "location": [
+      -30.8948013,
+      116.723814
+    ],
+    "beds": 5,
+    "emergency": false
+  },
+  {
+    "name": "Wyalkatchem-Koorda and Districts Hospital",
+    "location": [
+      -31.1779436,
+      117.3840816
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Quairading Hospital",
+    "location": [
+      -32.0145748,
+      117.4009165
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Esperance Hospital",
+    "location": [
+      -33.8566602,
+      121.8911994
+    ],
+    "beds": 30,
+    "emergency": false
+  },
+  {
+    "name": "Kalgoorlie Hospital",
+    "location": [
+      -30.7489689,
+      121.459713
+    ],
+    "beds": 106,
+    "emergency": true
+  },
+  {
+    "name": "Laverton Hospital",
+    "location": [
+      -28.624009,
+      122.3955138
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "Leonora Hospital",
+    "location": [
+      -28.8943688,
+      121.3366072
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Norseman Hospital",
+    "location": [
+      -32.1992022,
+      121.7743253
+    ],
+    "beds": 5,
+    "emergency": false
+  },
+  {
+    "name": "Albany Hospital",
+    "location": [
+      -35.0049427,
+      117.9045025
+    ],
+    "beds": 113,
+    "emergency": true
+  },
+  {
+    "name": "Denmark Hospital",
+    "location": [
+      -34.9561081,
+      117.3566563
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "Katanning Hospital",
+    "location": [
+      -33.6875495,
+      117.559208
+    ],
+    "beds": 17,
+    "emergency": false
+  },
+  {
+    "name": "Gnowangerup Hospital",
+    "location": [
+      -33.9339108,
+      118.0050773
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Plantagenet Hospital",
+    "location": [
+      -34.627021,
+      117.660236
+    ],
+    "beds": 16,
+    "emergency": false
+  },
+  {
+    "name": "Ravensthorpe Hospital",
+    "location": [
+      -33.5844797,
+      120.0448071
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Kojonup Hospital",
+    "location": [
+      -33.8295047,
+      117.1561523
+    ],
+    "beds": 6,
+    "emergency": false
+  },
+  {
+    "name": "Augusta Hospital",
+    "location": [
+      -34.3060116,
+      115.1557178
+    ],
+    "beds": 7,
+    "emergency": false
+  },
+  {
+    "name": "Bunbury Hospital",
+    "location": [
+      -33.3980651,
+      115.6383733
+    ],
+    "beds": 141,
+    "emergency": true
+  },
+  {
+    "name": "Busselton Hospital",
+    "location": [
+      -33.6542618,
+      115.3214601
+    ],
+    "beds": 50,
+    "emergency": false
+  },
+  {
+    "name": "Collie Hospital",
+    "location": [
+      -33.3525064,
+      116.1626277
+    ],
+    "beds": 25,
+    "emergency": false
+  },
+  {
+    "name": "Margaret River Hospital",
+    "location": [
+      -33.9520158,
+      115.0703431
+    ],
+    "beds": 18,
+    "emergency": false
+  },
+  {
+    "name": "Donnybrook Hospital",
+    "location": [
+      -33.575383,
+      115.8072679
+    ],
+    "beds": 14,
+    "emergency": false
+  },
+  {
+    "name": "Harvey Hospital",
+    "location": [
+      -33.0772535,
+      115.8972209
+    ],
+    "beds": 26,
+    "emergency": false
+  },
+  {
+    "name": "Nannup Hospital",
+    "location": [
+      -33.988099,
+      115.7656685
+    ],
+    "beds": 4,
+    "emergency": false
+  },
+  {
+    "name": "Pemberton Hospital",
+    "location": [
+      -34.4430751,
+      116.0335491
+    ],
+    "beds": 8,
+    "emergency": false
+  },
+  {
+    "name": "Boyup Brook Soldiers Memorial Hospital",
+    "location": [
+      -33.8386405,
+      116.3904293
+    ],
+    "beds": 5,
+    "emergency": false
+  },
+  {
+    "name": "Warren Hospital",
+    "location": [
+      -34.2398174,
+      116.153467
+    ],
+    "beds": 22,
+    "emergency": false
+  },
+  {
+    "name": "Bridgetown Hospital",
+    "location": [
+      -33.9490528,
+      116.1166089
+    ],
+    "beds": 24,
+    "emergency": false
+  },
+  {
+    "name": "State Forensic Mental Health Service",
+    "location": [
+      -31.95903389999999,
+      115.7916095
+    ],
+    "beds": 38,
+    "emergency": false
+  },
+  {
+    "name": "Graylands Hospital",
+    "location": [
+      -31.95903389999999,
+      115.7916095
+    ],
+    "beds": 172,
+    "emergency": false
+  }
+]

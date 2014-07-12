@@ -10,4 +10,5 @@ group :development do
   gem 'nokogiri', '~> 1.6.2.1'
   gem 'execjs', '~> 2.2.1'
   gem 'progressbar', '~> 0.21.0'
+  gem 'geocoder', '~> 1.2.3'
 end
