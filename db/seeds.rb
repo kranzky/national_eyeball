@@ -251,6 +251,32 @@ def add_public_toilets
   end
 end
 
+def create_densities
+  sql = <<-SQL
+    INSERT INTO densities (id, statistic_id, feature_id, density)
+    SELECT id, statistic_id, feature_id, value
+    FROM values
+    ;
+  SQL
+  ActiveRecord::Base.connection.execute(sql)
+  ActiveRecord::Base.connection.execute("SELECT id FROM statistics;").to_a.each do |statistic|
+    sql = <<-SQL
+      SELECT MAX(value)
+      FROM values
+      WHERE statistic_id=#{statistic["id"]}
+      ;
+    SQL
+    maximum = ActiveRecord::Base.connection.execute(sql).to_a[0]["max"].to_f
+    sql = <<-SQL
+      UPDATE densities
+        SET density=density/#{maximum}
+        WHERE statistic_id=#{statistic["id"]}
+      ;
+    SQL
+    ActiveRecord::Base.connection.execute(sql)
+  end
+end
+
 clear_tables
 add_sources
 add_suburbs
@@ -259,3 +285,4 @@ add_polling_places
 add_childcare_centres
 add_public_hospitals
 add_public_toilets
+create_densities
