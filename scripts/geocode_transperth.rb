@@ -17,9 +17,14 @@ CSV.foreach("../stops.txt", headers: true) do |row|
 end
 
 stops = JSON.parse(File.read("stops.json"))
-stops.keys.each do |stop_id|
+stops["march"].keys.each do |stop_id|
   next unless index[stop_id]
-  stops[stop_id][:name] = index[stop_id][:name]
-  stops[stop_id][:pos] = index[stop_id][:pos]
+  stops["march"][stop_id][:name] = index[stop_id][:name]
+  stops["march"][stop_id][:pos] = index[stop_id][:pos]
+end
+stops["april"].keys.each do |stop_id|
+  next unless index[stop_id]
+  stops["april"][stop_id][:name] = index[stop_id][:name]
+  stops["april"][stop_id][:pos] = index[stop_id][:pos]
 end
 File.open("stops.json", "w") { |f| f.write(JSON.pretty_generate(stops)) }
