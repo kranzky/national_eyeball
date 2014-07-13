@@ -11,7 +11,7 @@ class HeatmapsController < ApplicationController
   end
 
   def comments
-    render json: _get_comments
+    render json: { comment: _get_comments.join(" | ") }
   end
 
   private
@@ -31,19 +31,19 @@ class HeatmapsController < ApplicationController
     SQL
     retval = {}
     ActiveRecord::Base::connection.execute(sql).each do |item|
-      retval[item['source_name']] ||=
+      retval[item['source_id'].to_i] ||=
         {
-          id: item['source_id'].to_i,
+          name: item['source_name'],
           topics: {}
         }
       if item['parent_id'].nil?
-        retval[item['source_name']][:topics][item['statistic_id'].to_i] =
+        retval[item['source_id'].to_i][:topics][item['statistic_id'].to_i] =
           {
             name: item['statistic_name'],
             statistics: {}
           }
       else
-        retval[item['source_name']][:topics][item['parent_id'].to_i][:statistics][item['statistic_id'].to_i] = item['statistic_name']
+        retval[item['source_id'].to_i][:topics][item['parent_id'].to_i][:statistics][item['statistic_id'].to_i] = item['statistic_name']
       end
     end
     retval
@@ -71,6 +71,23 @@ class HeatmapsController < ApplicationController
     end
   end
 
+  def _get_comments
+    params[:filters].map do |filter_id|
+      sql = <<-SQL
+        SELECT SUM(value) AS total FROM values
+          INNER JOIN statistics ON statistic_id=statistics.id
+          INNER JOIN features ON feature_id=features.id
+          WHERE statistic_id=#{filter_id}
+          AND #{_get_spatial_constraint}
+        ;
+      SQL
+      ActiveRecord::Base::connection.execute(sql).map do |item|
+        labels = ActiveRecord::Base::connection.execute("select sources.name as source,topics.name as subject,statistics.name as measure from statistics inner join sources on sources.id=source_id left join statistics as topics on topics.id=statistics.parent_id where statistics.id=#{filter_id}").first
+        "#{labels.values.compact.join(" / ")}: #{item["total"]}"
+      end
+    end
+  end
+
   def _get_spatial_constraint
     bounds = params[:bounds].map(&:to_f)
     return <<-SQL
@@ -92,9 +109,5 @@ class HeatmapsController < ApplicationController
         )
       )
     SQL
-  end
-
-  def _get_comments
-    {}
   end
 end

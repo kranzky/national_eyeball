@@ -1,16 +1,79 @@
 <div id="hack">
+  <select id="regional">
+    <option value="Australia">Australia</option>
+    <option value="Perth">Perth</option>
+    <option value="Adelaide">Adelaide</option>
+    <option value="Melbourne">Melbourne</option>
+    <option value="Hobart">Hobart</option>
+    <option value="Canberra">Canberra</option>
+    <option value="Sydney">Sydney</option>
+    <option value="Brisbane">Brisbane</option>
+    <option value="Darwin">Darwin</option>
+  </select>
+  <div id="controls">
+    <ul>
+      <li><a href="#hm1"><span>1</span></a></li>
+      <li><a href="#hm2"><span>2</span></a></li>
+      <li><a href="#hm3"><span>3</span></a></li>
+    </ul>
+    <div id="hm1">
+      <select class="source"></select>
+      <br/>
+      <select class="subject"></select>
+      <br/>
+      <select class="measure"></select>
+      <br/>
+      <input type="radio" class="enabled" checked="checked">
+      <label>Display</label>
+    </div>
+    <div id="hm2">
+      <input type="radio" class="enabled" checked="checked">
+      <label>Display</label>
+      <br/>
+      <select class="source"></select>
+      <br/>
+      <select class="subject"></select>
+      <br/>
+      <select class="measure"></select>
+    </div>
+    <div id="hm3">
+      <input type="radio" class="enabled" checked="checked">
+      <label>Display</label>
+      <br/>
+      <select class="source"></select>
+      <br/>
+      <select class="subject"></select>
+      <br/>
+      <select class="measure"></select>
+    </div>
+  </div>
+  <div id="info">
+    <button id="tools">Tools</button>
+    <button id="share">Share</button>
+    <span id="blurb"></span>
+  </div>
   <div class="map">
   </div>
+</div>
+<div id="welcome" title="Australian Government Exposed!">
+  <p>Welcome to <a href="http://hackerspace.govhack.org/content/national-eyeball">my entry</a> to GovHack 2014.</p>
+  <p><i>National Eyeball</i> allows you to</p>
+  <ul>
+    <li>create a heatmap to eyeball government data;</li>
+    <li>share your heatmap on Twitter; and</li>
+    <li>check out <a href="http://api.govdata.exposed/australia">api.govdata.exposed/australia</a>.</li>
+  </ul>
+  <p>Sources: ABS, ATO, AIHW, WAEC, PTA, DoHA and DOE.<p>
 </div>
 
 <script>
   HeatMap = {};
   HeatMap.state = {
     bounds: [0, 0, 0, 0],
-    filters: [1],
-    colours: [[255,0,255]],
+    filters: [262,269,5],
+    colours: [[255,0,0],[0,255,0],[0,0,255]],
     dirty: false,
-    viewing: "Perth"
+    viewing: "Australia"
   };
   HeatMap.instances = [];
 
@@ -81,11 +144,11 @@
     _.each(HeatMap.points, function(points, index){
       if (_.isUndefined(HeatMap.instances[index])) {
         HeatMap.instances[index] = new google.maps.visualization.HeatmapLayer({
-          map: map,
+          map: null,
           radius: 0.03,
           dissipating: false,
-          opacity: 0.9,
-          maxIntensity: 1,
+          opacity: 0.8,
+          maxIntensity: 1.0,
         });
       }
       gradient = [];
@@ -102,10 +165,16 @@
         }
       });
       HeatMap.instances[index].setData(points);
+      if (map.zoom >= 13) {
+        HeatMap.instances[index].setMap(null);
+      } else if (_.isNull(HeatMap.instances[index].map)) {
+        HeatMap.instances[index].setMap(map);
+      }
     });
   }
 
   function display_comments() {
+    $("#blurb").text(HeatMap.comments.comment);
   }
 
   function redraw_heatmaps() {
@@ -124,16 +193,54 @@
   function initialize_controls() {
     $.getJSON("heatmaps/filters", function(data){
       HeatMap.filters = data;
+      $("select.source").change(function(event){
+        subject = $(event.target).parent()[0].id;
+      });
+      $("select.subject").change(function(event){
+        event.target;
+      });
+      $("select.measure").change(function(event){
+        event.target;
+      });
+      _.each(data, function(item, value){
+        option = '<option value=' + value + '>' + item.name + '</option>';
+        $('select.source').append(option);
+      });
+    });
+    $("select#regional").change(function(event){
+      region = ZOOMS[$("#regional").val()];
+      map.setCenter(region.center);
+      map.setZoom(region.zoom);
     });
   }
 
   function initialize() {
+    $("#controls").tabs();
+    $("#info").tabs();
+    $("#tools").button().click(function(){
+      $("#controls").toggle();
+    });
+    $("#share").button().click(function(){
+      console.log("TODO: twitter");
+    });
+    $("#welcome").dialog({
+      width: 600,
+      height: 300,
+      buttons: [
+        {
+          text: "OK",
+          click: function() {
+            $(this).dialog("close");
+            initialize_controls();
+          }
+        }
+      ]
+    });
     map = new google.maps.Map($("#hack .map")[0], map_options);
     google.maps.event.addListener(map, 'idle', update_bounds);
     google.maps.event.addListener(map, "bounds_changed", function(){
       HeatMap.state.dirty = true;
     });
-    initialize_controls();
   }
 
   google.maps.event.addDomListener(window, 'load', initialize);
@@ -165,6 +272,36 @@
       width: 100%;
       height: 100%;
       margin: 0px;
+    }
+    div#controls {
+      display: none;
+      position: fixed;
+      bottom: 76px;
+      left: 1px;
+      width: 175px;
+      height: 200px;
+      z-index: 999;
+      opacity: 0.7;
+    }
+    div#info {
+      position: fixed;
+      bottom: 30px;
+      left: 0px;
+      width: 100%;
+      height: 38px;
+      z-index: 999;
+      opacity: 0.7;
+    }
+    select#regional {
+      position: fixed;
+      top: 5px;
+      right: 105px;
+      width: 100px;
+      z-index: 999;
+      opacity: 0.7;
+    }
+    span#blurb {
+      padding-left: 10px;
     }
   </style>
 <% end %>
