@@ -1,0 +1,10 @@
+{
+  "size": 5,
+  "endpoints": [
+    "/australia/amenities/childcare_centres.json",
+    "/australia/amenities/error.json",
+    "/australia/amenities/index.json",
+    "/australia/amenities/public_hospitals.json",
+    "/australia/amenities/public_toilets.json"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "size": 5,
+  "endpoints": [
+    "/australia/amenities",
+    "/australia/data_sources.json",
+    "/australia/error.json",
+    "/australia/index.json",
+    "/australia/states"
+  ],
+  "author": "Lloyd Kranzky",
+  "team": "The Kranzky Brothers",
+  "project": "National Eyeball",
+  "location": "WA/Perth",
+  "ref": "http://hackerspace.govhack.org/content/national-eyeball"
+}

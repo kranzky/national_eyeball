@@ -1,0 +1,7 @@
+{
+  "size": 2,
+  "endpoints": [
+    "/australia/states/NT/amenities/error.json",
+    "/australia/states/NT/amenities/index.json"
+  ]
+}

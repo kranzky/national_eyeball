@@ -1,0 +1,15 @@
+{
+  "size": 10,
+  "endpoints": [
+    "/australia/states/ACT",
+    "/australia/states/error.json",
+    "/australia/states/index.json",
+    "/australia/states/NSW",
+    "/australia/states/NT",
+    "/australia/states/QLD",
+    "/australia/states/SA",
+    "/australia/states/TAS",
+    "/australia/states/VIC",
+    "/australia/states/WA"
+  ]
+}
