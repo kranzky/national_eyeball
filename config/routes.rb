@@ -3,6 +3,7 @@ Rails.application.routes.draw do
     collection do
       get 'filters'
       get 'points'
+      get 'comments'
     end
   end
   root 'heatmaps#index'

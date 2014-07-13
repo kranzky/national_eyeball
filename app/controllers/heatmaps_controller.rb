@@ -7,7 +7,11 @@ class HeatmapsController < ApplicationController
   end
 
   def points
-    render json: {}
+    render json: _get_points
+  end
+
+  def comments
+    render json: _get_comments
   end
 
   private
@@ -43,5 +47,54 @@ class HeatmapsController < ApplicationController
       end
     end
     retval
+  end
+
+  def _get_points
+    params[:filters].map do |filter_id|
+      sql = <<-SQL
+        SELECT lat,lng,density FROM densities
+          INNER JOIN statistics ON statistic_id=statistics.id
+          INNER JOIN features ON feature_id=features.id
+          WHERE statistic_id=#{filter_id}
+          AND #{_get_spatial_constraint}
+          ORDER BY density desc,RANDOM()
+          LIMIT 100
+        ;
+      SQL
+      ActiveRecord::Base::connection.execute(sql).map do |item|
+        {
+          lat: item['lat'].to_f,
+          lng: item['lng'].to_f,
+          weight: item['density'].to_f
+        }
+      end
+    end
+  end
+
+  def _get_spatial_constraint
+    bounds = params[:bounds].map(&:to_f)
+    return <<-SQL
+      (
+        (lat BETWEEN #{bounds[0]} AND #{bounds[2]})
+        AND
+        (
+          #{bounds[1]} < #{bounds[3]} AND lng BETWEEN #{bounds[1]} AND #{bounds[3]}
+          OR
+          (
+            #{bounds[1]} >= #{bounds[3]}
+            AND
+            (
+              lng BETWEEN #{bounds[1]} AND 180
+              OR
+              lng BETWEEN -180 AND #{bounds[3]}
+            )
+          )
+        )
+      )
+    SQL
+  end
+
+  def _get_comments
+    {}
   end
 end

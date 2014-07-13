@@ -4,6 +4,55 @@
 </div>
 
 <script>
+  HeatMap = {};
+  HeatMap.state = {
+    bounds: [0, 0, 0, 0],
+    filters: [1],
+    colours: [[255,0,255]],
+    dirty: false,
+    viewing: "Perth"
+  };
+  HeatMap.instances = [];
+
+  ZOOMS = {
+    "Australia": {
+      center: new google.maps.LatLng(-28, 134),
+      zoom: 5
+    },
+    "Perth": {
+      center: new google.maps.LatLng(-32, 116),
+      zoom: 10
+    },
+    "Adelaide": {
+      center: new google.maps.LatLng(-35, 139),
+      zoom: 10
+    },
+    "Melbourne": {
+      center: new google.maps.LatLng(-38, 145),
+      zoom: 9
+    },
+    "Hobart": {
+      center: new google.maps.LatLng(-42.9, 147.2),
+      zoom: 11
+    },
+    "Canberra": {
+      center: new google.maps.LatLng(-35.3, 149),
+      zoom: 11
+    },
+    "Sydney": {
+      center: new google.maps.LatLng(-34, 151),
+      zoom: 9
+    },
+    "Brisbane": {
+      center: new google.maps.LatLng(-27, 153),
+      zoom: 9
+    },
+    "Darwin": {
+      center: new google.maps.LatLng(-12.4, 130.8),
+      zoom: 11
+    }
+  }
+
   map_options = {
     panControl: false,
     zoomControl: true,
@@ -12,12 +61,79 @@
     streetViewControl: false,
     overviewMapControl: false,
     scrollwheel: false,
-    center: new google.maps.LatLng(-28, 134),
-    zoom: 5
+    center: ZOOMS[HeatMap.state.viewing].center,
+    zoom: ZOOMS[HeatMap.state.viewing].zoom
   };
+
+  function update_bounds() {
+    if (!HeatMap.state.dirty) {
+      return;
+    }
+    HeatMap.state.dirty = false;
+    HeatMap.state.bounds[0] = map.getBounds().getSouthWest().lat();
+    HeatMap.state.bounds[1] = map.getBounds().getSouthWest().lng();
+    HeatMap.state.bounds[2] = map.getBounds().getNorthEast().lat();
+    HeatMap.state.bounds[3] = map.getBounds().getNorthEast().lng();
+    redraw_heatmaps();
+  }
+
+  function display_heatmaps() {
+    _.each(HeatMap.points, function(points, index){
+      if (_.isUndefined(HeatMap.instances[index])) {
+        HeatMap.instances[index] = new google.maps.visualization.HeatmapLayer({
+          map: map,
+          radius: 0.03,
+          dissipating: false,
+          opacity: 0.9,
+          maxIntensity: 1,
+        });
+      }
+      gradient = [];
+      _.times(14, function(i){
+        c = HeatMap.state.colours[index];
+        a = i/13.0;
+        gradient.push("rgba("+c[0]+","+c[1]+","+c[2]+","+a+")");
+      });
+      HeatMap.instances[index].set('gradient', gradient);
+      points = _.map(HeatMap.points[index], function(point){
+        return {
+          location: new google.maps.LatLng(point.lat,point.lng),
+          weight: point.weight
+        }
+      });
+      HeatMap.instances[index].setData(points);
+    });
+  }
+
+  function display_comments() {
+  }
+
+  function redraw_heatmaps() {
+    if (HeatMap.state.filters.length > 0) {
+      $.getJSON("heatmaps/points", HeatMap.state, function(data){
+        HeatMap.points = data;
+        display_heatmaps();
+      });
+      $.getJSON("heatmaps/comments", HeatMap.state, function(data){
+        HeatMap.comments = data;
+        display_comments();
+      });
+    }
+  }
+
+  function initialize_controls() {
+    $.getJSON("heatmaps/filters", function(data){
+      HeatMap.filters = data;
+    });
+  }
 
   function initialize() {
     map = new google.maps.Map($("#hack .map")[0], map_options);
+    google.maps.event.addListener(map, 'idle', update_bounds);
+    google.maps.event.addListener(map, "bounds_changed", function(){
+      HeatMap.state.dirty = true;
+    });
+    initialize_controls();
   }
 
   google.maps.event.addDomListener(window, 'load', initialize);
