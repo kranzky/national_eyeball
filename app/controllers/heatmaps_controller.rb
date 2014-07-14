@@ -11,7 +11,7 @@ class HeatmapsController < ApplicationController
   end
 
   def comments
-    render json: { comment: _get_comments.join(" | ") }
+    render json: _get_comments
   end
 
   private
@@ -19,7 +19,7 @@ class HeatmapsController < ApplicationController
   def _get_filters
     sql = <<-SQL
       SELECT sources.id AS source_id,
-             sources.name AS source_name,
+             sources.description AS source_name,
              parent.id AS parent_id,
              parent.name AS parent_name,
              statistics.id AS statistic_id,
@@ -58,7 +58,7 @@ class HeatmapsController < ApplicationController
           WHERE statistic_id=#{filter_id}
           AND #{_get_spatial_constraint}
           ORDER BY density desc,RANDOM()
-          LIMIT 100
+          LIMIT 250
         ;
       SQL
       ActiveRecord::Base::connection.execute(sql).map do |item|
@@ -81,10 +81,24 @@ class HeatmapsController < ApplicationController
           AND #{_get_spatial_constraint}
         ;
       SQL
-      ActiveRecord::Base::connection.execute(sql).map do |item|
-        labels = ActiveRecord::Base::connection.execute("select sources.name as source,topics.name as subject,statistics.name as measure from statistics inner join sources on sources.id=source_id left join statistics as topics on topics.id=statistics.parent_id where statistics.id=#{filter_id}").first
-        "#{labels.values.compact.join(" / ")}: #{item["total"]}"
-      end
+      total = ActiveRecord::Base::connection.execute(sql).first["total"]
+      sql = <<-SQL
+        SELECT sources.description AS source,
+               topics.name AS subject,
+               statistics.name AS measure
+        FROM statistics
+          INNER JOIN sources ON sources.id=source_id
+          LEFT JOIN statistics AS topics ON topics.id=statistics.parent_id
+          WHERE statistics.id=#{filter_id}
+        ;
+      SQL
+      labels = ActiveRecord::Base::connection.execute(sql).first
+      title = [labels['source'], labels['subject']].compact.join(' ')
+      measure = labels['measure']
+      {
+        comment: "#{title}, #{measure}",
+        count: total || 0
+      }
     end
   end
 

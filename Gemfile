@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '~> 4.1.2'
 gem 'pg', '~> 0.17.1'
+gem 'hodel_3000_compliant_logger', '~> 0.1.1'
 
 group :development do
   gem 'rake', '~> 10.3.2'

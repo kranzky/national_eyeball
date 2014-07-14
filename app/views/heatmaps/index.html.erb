@@ -1,71 +1,39 @@
 <div id="hack">
-  <select id="regional">
-    <option value="Australia">Australia</option>
-    <option value="Perth">Perth</option>
-    <option value="Adelaide">Adelaide</option>
-    <option value="Melbourne">Melbourne</option>
-    <option value="Hobart">Hobart</option>
-    <option value="Canberra">Canberra</option>
-    <option value="Sydney">Sydney</option>
-    <option value="Brisbane">Brisbane</option>
-    <option value="Darwin">Darwin</option>
-  </select>
-  <div id="controls">
-    <ul>
-      <li><a href="#hm1"><span>1</span></a></li>
-      <li><a href="#hm2"><span>2</span></a></li>
-      <li><a href="#hm3"><span>3</span></a></li>
-    </ul>
-    <div id="hm1">
-      <select class="source"></select>
-      <br/>
-      <select class="subject"></select>
-      <br/>
-      <select class="measure"></select>
-      <br/>
-      <input type="radio" class="enabled" checked="checked">
-      <label>Display</label>
-    </div>
-    <div id="hm2">
-      <input type="radio" class="enabled" checked="checked">
-      <label>Display</label>
-      <br/>
-      <select class="source"></select>
-      <br/>
-      <select class="subject"></select>
-      <br/>
-      <select class="measure"></select>
-    </div>
-    <div id="hm3">
-      <input type="radio" class="enabled" checked="checked">
-      <label>Display</label>
-      <br/>
-      <select class="source"></select>
-      <br/>
-      <select class="subject"></select>
-      <br/>
-      <select class="measure"></select>
-    </div>
-  </div>
   <div id="info">
-    <button id="tools">Tools</button>
-    <button id="share">Share</button>
-    <span id="blurb"></span>
+    <select id="regional">
+      <option value="Australia">Australia</option>
+      <option value="Perth">Perth</option>
+      <option value="Adelaide">Adelaide</option>
+      <option value="Melbourne">Melbourne</option>
+      <option value="Hobart">Hobart</option>
+      <option value="Canberra">Canberra</option>
+      <option value="Sydney">Sydney</option>
+      <option value="Brisbane">Brisbane</option>
+      <option value="Darwin">Darwin</option>
+    </select>
+    <button id="settings">..</button>
+    <div id="counts">
+      <div id="hm1"><p></p></div>
+      <div id="hm2"><p></p></div>
+      <div id="hm3"><p></p></div>
+    </div>
+    <button id="help">?</button>
+    <div id="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-hashtags="govhack">Tweet</a></div>
   </div>
   <div class="map">
   </div>
 </div>
 <div id="welcome" title="Australian Government Exposed!">
-  <p>Welcome to <a href="http://hackerspace.govhack.org/content/national-eyeball">my entry</a> to GovHack 2014.</p>
-  <p><i>National Eyeball</i> allows you to</p>
+  <p>Welcome to <a href="http://hackerspace.govhack.org/content/national-eyeball" target="_gh14">my entry</a> to GovHack 2014. You can</p>
   <ul>
     <li>create a heatmap to eyeball government data;</li>
     <li>share your heatmap on Twitter; and</li>
-    <li>check out <a href="http://api.govdata.exposed/australia">api.govdata.exposed/australia</a>.</li>
+    <li>check out <a href="http://api.govdata.exposed/australia" target="_api">api.govdata.exposed/australia</a>.</li>
   </ul>
-  <p>Sources: ABS, ATO, AIHW, WAEC, PTA, DoHA and DOE.<p>
+  <p>Sources: ABS, ATO, AIHW, WAEC, PTA, DoHA and DOE.</p>
 </div>
 
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 <script>
   HeatMap = {};
   HeatMap.state = {
@@ -165,16 +133,26 @@
         }
       });
       HeatMap.instances[index].setData(points);
-      if (map.zoom >= 13) {
-        HeatMap.instances[index].setMap(null);
-      } else if (_.isNull(HeatMap.instances[index].map)) {
+      if (map.zoom > 10) {
+        HeatMap.instances[index].set('opacity', 0.8 - (map.zoom - 10) / 10.0);
+      }
+      else
+      {
+        HeatMap.instances[index].set('opacity', 0.8);
+      }
+      if (_.isNull(HeatMap.instances[index].map)) {
         HeatMap.instances[index].setMap(map);
       }
     });
   }
 
   function display_comments() {
-    $("#blurb").text(HeatMap.comments.comment);
+    $("#hm1 p").text(HeatMap.comments[0].count);
+    $("#hm1").attr('title', HeatMap.comments[0].comment);
+    $("#hm2 p").text(HeatMap.comments[1].count);
+    $("#hm2").attr('title', HeatMap.comments[1].comment);
+    $("#hm3 p").text(HeatMap.comments[2].count);
+    $("#hm3").attr('title', HeatMap.comments[2].comment);
   }
 
   function redraw_heatmaps() {
@@ -190,38 +168,22 @@
     }
   }
 
-  function initialize_controls() {
-    $.getJSON("heatmaps/filters", function(data){
-      HeatMap.filters = data;
-      $("select.source").change(function(event){
-        subject = $(event.target).parent()[0].id;
-      });
-      $("select.subject").change(function(event){
-        event.target;
-      });
-      $("select.measure").change(function(event){
-        event.target;
-      });
-      _.each(data, function(item, value){
-        option = '<option value=' + value + '>' + item.name + '</option>';
-        $('select.source').append(option);
-      });
-    });
-    $("select#regional").change(function(event){
-      region = ZOOMS[$("#regional").val()];
-      map.setCenter(region.center);
-      map.setZoom(region.zoom);
-    });
-  }
-
   function initialize() {
     $("#controls").tabs();
     $("#info").tabs();
-    $("#tools").button().click(function(){
-      $("#controls").toggle();
+    $("#regional").selectmenu({
+      width: 160,
+      position: { collision: "flip" },
+      change: function() {
+        region = ZOOMS[$("#regional").val()];
+        map.setCenter(region.center);
+        map.setZoom(region.zoom);
+      }
     });
-    $("#share").button().click(function(){
-      console.log("TODO: twitter");
+    $("#hm1").tooltip();
+    $("#hm2").tooltip();
+    $("#hm3").tooltip();
+    $("#settings").button({
     });
     $("#welcome").dialog({
       width: 600,
@@ -231,10 +193,11 @@
           text: "OK",
           click: function() {
             $(this).dialog("close");
-            initialize_controls();
           }
         }
       ]
+    });
+    $("#help").button({
     });
     map = new google.maps.Map($("#hack .map")[0], map_options);
     google.maps.event.addListener(map, 'idle', update_bounds);
@@ -248,10 +211,10 @@
 
 <% content_for :head do %>
   <%= javascript_include_tag '//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js' %>
-  <%= javascript_include_tag '//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js' %>
+  <%= javascript_include_tag '//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js' %>
   <%= javascript_include_tag "//maps.googleapis.com/maps/api/js?libraries=geometry,drawing,visualization&sensor=false" %>
   <%= javascript_include_tag "//underscorejs.org/underscore-min.js" %>
-  <%= stylesheet_link_tag "//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" %>
+  <%= stylesheet_link_tag "//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css" %>
   <style>
     html {
       height: 100%;
@@ -273,35 +236,78 @@
       height: 100%;
       margin: 0px;
     }
-    div#controls {
-      display: none;
-      position: fixed;
-      bottom: 76px;
-      left: 1px;
-      width: 175px;
-      height: 200px;
-      z-index: 999;
-      opacity: 0.7;
-    }
     div#info {
       position: fixed;
       bottom: 30px;
       left: 0px;
       width: 100%;
-      height: 38px;
+      height: 42px;
       z-index: 999;
       opacity: 0.7;
     }
-    select#regional {
+    div#twitter {
       position: fixed;
-      top: 5px;
-      right: 105px;
-      width: 100px;
-      z-index: 999;
-      opacity: 0.7;
+      right: 10px;
+      bottom: 38px;
+      width: 120px;
+    }
+    div#counts {
+      position: fixed;
+      left: 225px;
+      right: 190px;
+      bottom: 34px;
+      height: 43px;
+      font-size: 22px;
+      color: white;
+      font-weight: bold; 
+      text-align: center;
+      line-height: 0;
+    }
+    #counts #hm1 {
+      background-color: red;
+      float: left;
+      width: 33%;
+      height: 100%;
+    }
+    #counts #hm2 {
+      background-color: green;
+      width: 34%;
+      float: left;
+      height: 100%;
+    }
+    #counts #hm3 {
+      position: relative;
+      background-color: blue;
+      width: 33%;
+      float: left;
+      height: 100%;
     }
     span#blurb {
-      padding-left: 10px;
+      width: 100%;
+    }
+    span#red {
+      width: 33%;
+      background-color: #FAA;
+    }
+    span#green {
+      width: 33%;
+      background-color: #AFA;
+    }
+    span#blue {
+      width: 33%;
+      background-color: #AAF;
+    }
+    button#settings {
+      position: fixed;
+      bottom: 35px;
+      height: 41px;
+      left: 170px;
+    }
+    button#help {
+      position: fixed;
+      bottom: 35px;
+      height: 41px;
+      right: 135px;
     }
   </style>
 <% end %>
