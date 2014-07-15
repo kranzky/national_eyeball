@@ -20,4 +20,4 @@ CSV.foreach("../publichospitalsinaihwhospitalsdatabase1213.csv", headers: true) 
   }
 end
 
-File.open("public_hospitals.json", "w") { |f| f.write(JSON.pretty_generate(hospitals)) }
+File.open("api/australia/amenities/public_hospitals.json", "w") { |f| f.write(JSON.pretty_generate(hospitals)) }

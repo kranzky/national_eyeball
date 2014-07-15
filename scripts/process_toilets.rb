@@ -24,4 +24,4 @@ toilets =
     }
   end
 
-File.open("toilets.json", "w") { |f| f.write(JSON.pretty_generate(toilets)) }
+File.open("api/australia/amenities/public_toilets.json", "w") { |f| f.write(JSON.pretty_generate(toilets)) }

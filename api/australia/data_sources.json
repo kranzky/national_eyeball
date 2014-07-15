@@ -1,30 +1,30 @@
 [
   {
-    "name": "ABS",
-    "description": "Census Data 2011"
+    "name": "Population",
+    "description": "ABS: Census Data 2011"
   },
   {
-    "name": "ATO",
-    "description": "Taxation Statistics 2011-12"
+    "name": "Tax Return",
+    "description": "ATO: Taxation Statistics 2011-12"
   },
   {
-    "name": "AIHW",
-    "description": "Australian Hospital Statistics 2012-13"
+    "name": "Public Hospitals",
+    "description": "AIHW: Australian Hospital Statistics 2012-13"
   },
   {
-    "name": "WAEC",
-    "description": "Election Results - First Preferences"
+    "name": "Votes",
+    "description": "WAEC: Election Results - First Preferences"
   },
   {
-    "name": "PTA",
-    "description": "SmartRider Utilisation"
+    "name": "Bus Stops",
+    "description": "PTA: SmartRider Utilisation"
   },
   {
-    "name": "DoHA",
-    "description": "National Public Toilet Map"
+    "name": "Public Toilets",
+    "description": "DoHA: National Public Toilet Map"
   },
   {
-    "name": "DOE",
-    "description": "Childcare by Location"
+    "name": "Childcare Centres",
+    "description": "DOE: Childcare by Location"
   }
 ]

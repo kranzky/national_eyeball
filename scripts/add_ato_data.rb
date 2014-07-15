@@ -11,7 +11,7 @@ require 'bundler'
 
 Bundler.require(:development)
 
-ATO = JSON.parse(File.read('ato.json'))
+ATO = JSON.parse(File.read('../ato.json'))
 def add_ato(filename)
   data = JSON.parse(File.read(filename))
   return unless data['state']
@@ -23,7 +23,8 @@ def add_ato(filename)
 end
 
 bar = ProgressBar.new("doing", 8511)
-Dir.glob("./api/**/statistics.json").each do |filename|
+Dir.glob("./api/australia/states/*/suburbs/*.json").each do |filename|
+  next if filename =~ /(index|error)/
   bar.inc
   add_ato(filename)
 end

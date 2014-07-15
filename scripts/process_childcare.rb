@@ -20,4 +20,4 @@ CSV.foreach("../Childcare-by-location.csv", headers: true) do |row|
   }
 end
 
-File.open("childcare_centres.json", "w") { |f| f.write(JSON.pretty_generate(centres)) }
+File.open("api/australia/states/WA/amenities/childcare_centres.json", "w") { |f| f.write(JSON.pretty_generate(centres)) }

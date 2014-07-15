@@ -25,4 +25,4 @@ CSV.foreach("../taxstats2012individual06aselecteditemsbystateandpostcode.csv", h
     }
 end
 
-File.open("ato.json", "w") { |f| f.write(JSON.pretty_generate(ato)) }
+File.open("../ato.json", "w") { |f| f.write(JSON.pretty_generate(ato)) }

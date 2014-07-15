@@ -15,4 +15,4 @@ CSV.foreach(filename, headers: true) do |row|
   codes[row[2]][row[1]] = row[0].to_i
 end
 
-File.open("codes.json", "w") { |f| f.write(JSON.pretty_generate(codes)) }
+File.open("../codes.json", "w") { |f| f.write(JSON.pretty_generate(codes)) }

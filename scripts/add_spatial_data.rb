@@ -64,6 +64,7 @@ def process_suburb(abs_data)
   File.open(abs_data, "w") { |f| f.write(JSON.pretty_generate(data)) }
 end
 
-Dir.glob("./api/**/*.json").each do |filename|
+Dir.glob("./api/australua/states/*/suburbs/*.json").each do |filename|
+  next if filename =~ /(index|error)/
   process_suburb(filename)
 end

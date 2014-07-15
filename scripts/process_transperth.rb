@@ -40,4 +40,4 @@ files.each do |filename, length|
   end
 end
 
-File.open("stops.json", "w") { |f| f.write(JSON.pretty_generate(bus_stops)) }
+File.open("api/australia/states/WA/amenities/bus_stops.json", "w") { |f| f.write(JSON.pretty_generate(bus_stops)) }

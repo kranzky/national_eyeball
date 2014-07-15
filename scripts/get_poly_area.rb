@@ -17,7 +17,8 @@ def process_suburb(abs_data)
 end
 
 blob = []
-Dir.glob("./api/**/**/statistics.json").each do |filename|
+Dir.glob("./api/australia/states/*/suburbs/*.json").each do |filename|
+  next if filename =~ /(index|error)/
   blob << process_suburb(filename)
 end
 File.open("blob", "w") { |f| f.write(blob.compact.to_json) }

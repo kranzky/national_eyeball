@@ -11,7 +11,7 @@ require 'bundler'
 
 Bundler.require(:development)
 
-AREAS = JSON.parse(File.read('areas.json'))
+AREAS = JSON.parse(File.read('../areas.json'))
 def add_area(filename)
   return unless AREAS[filename]
   data = JSON.parse(File.read(filename))
@@ -20,7 +20,8 @@ def add_area(filename)
 end
 
 bar = ProgressBar.new("doing", 8511)
-Dir.glob("./api/**/statistics.json").each do |filename|
+Dir.glob("./api/australia/states/*/suburbs/*.json").each do |filename|
+  next if filename =~ /(index|error)/
   bar.inc
   add_area(filename)
 end

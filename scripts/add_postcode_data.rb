@@ -11,7 +11,7 @@ require 'bundler'
 
 Bundler.require(:development)
 
-CODES = JSON.parse(File.read('codes.json'))
+CODES = JSON.parse(File.read('../codes.json'))
 def add_postcode(filename)
   data = JSON.parse(File.read(filename))
   return unless data['state']
@@ -23,7 +23,8 @@ def add_postcode(filename)
 end
 
 bar = ProgressBar.new("doing", 8511)
-Dir.glob("./api/**/statistics.json").each do |filename|
+Dir.glob("./api/australua/states/*/suburbs/*.json").each do |filename|
+  next if filename =~ /(index|error)/
   bar.inc
   add_postcode(filename)
 end
