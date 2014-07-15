@@ -48,11 +48,8 @@
   if (_.isUndefined(HeatMap.state.bounds)) {
     HeatMap.state.bounds = [0, 0, 0, 0];
   }
-  if (_.isUndefined(HeatMap.state.zoom)) {
-    HeatMap.state.zoom = 5;
-  }
   if (_.isUndefined(HeatMap.state.view)) {
-    HeatMap.state.view = "Australia";
+    HeatMap.state.view = "Perth";
   }
   if (_.isUndefined(HeatMap.state.welcomed)) {
     HeatMap.state.welcomed = false;
@@ -78,10 +75,6 @@
   };
 
   ZOOMS = {
-    "Australia": {
-      center: new google.maps.LatLng(-28, 134),
-      zoom: 5
-    },
     "Perth": {
       center: new google.maps.LatLng(-32, 116),
       zoom: 10
@@ -160,7 +153,7 @@
       HeatMap.instances[index].set('gradient', gradient);
       points = _.map(HeatMap.points[index], function(point){
         if (point.type == 'bool') {
-          HeatMap.instances[index].set('radius', 0.01);
+          HeatMap.instances[index].set('radius', 0.005);
           return new google.maps.LatLng(point.lat,point.lng);
         } else {
           HeatMap.instances[index].set('radius', 0.03);
