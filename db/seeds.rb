@@ -23,15 +23,21 @@ def get_source_id(source_name)
 end
 
 def add_feature(type, name, location, postcode=nil, area=nil, polyline=nil)
+  type = ActiveRecord::Base.connection.quote(type)
   name = ActiveRecord::Base.connection.quote(name)
   lat, lng = location
   postcode ||= "NULL"
   area ||= "NULL"
-  polyline = ActiveRecord::Base.connection.quote(polyline || "NULL")
+  polyline =
+    if polyline.nil?
+      "NULL"
+    else
+      ActiveRecord::Base.connection.quote(polyline)
+    end
 
   sql = <<-SQL
     INSERT INTO features (type, name, lat, lng, postcode, area, polyline)
-    VALUES ('Suburb', #{name}, #{lat}, #{lng}, #{postcode}, #{area}, #{polyline});
+    VALUES (#{type}, #{name}, #{lat}, #{lng}, #{postcode}, #{area}, #{polyline});
   SQL
 
   ActiveRecord::Base.connection.execute(sql)
@@ -77,11 +83,8 @@ def add_suburb(filename)
   add_value("Tax Return", "Suburb", feature_id, "Average", 'Gross Rent', 'average', data['gross_rent'])
 end
 
-POPULATION_NAME_MAP = {
-}
 def add_population_statistics(feature_id, data, heading)
   data.each do |name, count|
-    name = POPULATION_NAME_MAP[name] || name
     add_value("Population", "Suburb", feature_id, heading, name, 'count', count)
   end
 end
@@ -135,7 +138,7 @@ end
 def add_value(source, feature_type, feature_id, heading, name, type, value)
   source_id = get_source_id(source)
   heading_id = add_heading(source_id, feature_type, heading)
-  measure_id = add_measure(source_id, parent_id, feature_type, name, type)
+  measure_id = add_measure(source_id, heading_id, feature_type, name, type)
 
   return if value <= 0
 
@@ -146,7 +149,6 @@ def add_value(source, feature_type, feature_id, heading, name, type, value)
   ActiveRecord::Base.connection.execute(sql)
 end
 
-# TODO: reprocess data to index by average per day
 DAY_MAP = {
   'monday' => "Monday",
   'tuesday' => "Tuesday",
@@ -158,15 +160,23 @@ DAY_MAP = {
   'holiday' => "Public Holiday"
 }
 def add_bus_stops
-  data = JSON.parse(File.read("api/australia/states/WA/amenities/bus_stops.json"))
-  data.each do |day, stops|
-    stops.each do |stop_id, data|
-      next unless data['pos']
-      name = "##{stop_id}: (#{data['name']})"
-      feature_id = add_feature('Bus Stop', name, poll['location'])
-      add_value("Bus Stops", "Bus Stop", feature_id, "Number Of", "Locations", 'bool', 1)
-      add_value("Bus Stops", "Bus Stop", feature_id, "Tag Ons", DAY_MAP[day], 'count', data["on"])
-      add_value("Bus Stops", "Bus Stop", feature_id, "Tag Offs", DAY_MAP[day], 'count', data["off"])
+  stops = JSON.parse(File.read("api/australia/states/WA/amenities/bus_stops.json"))
+  stops.each do |stop_id, data|
+    next unless data['pos']
+    name = "##{stop_id}: (#{data['name']})"
+    feature_id = add_feature('Bus Stop', name, data['pos'])
+    add_value("Bus Stops", "Bus Stop", feature_id, "Number Of", "Locations", 'bool', 1)
+    data["on"].each do |day, count|
+      add_value("Bus Stops", "Bus Stop", feature_id, "Tagged On", DAY_MAP[day], 'count', count)
+    end
+    data["off"].each do |day, count|
+      add_value("Bus Stops", "Bus Stop", feature_id, "Tagged Off", DAY_MAP[day], 'count', count)
+    end
+    data["outbound_distance"].each do |day, count|
+      add_value("Bus Stops", "Bus Stop", feature_id, "Average Outbound Distance", DAY_MAP[day], 'average', count)
+    end
+    data["inbound_distance"].each do |day, count|
+      add_value("Bus Stops", "Bus Stop", feature_id, "Average Inbound Distance", DAY_MAP[day], 'average', count)
     end
   end
 end
@@ -193,7 +203,7 @@ def add_childcare_centres
   data = JSON.parse(File.read("api/australia/states/WA/amenities/childcare_centres.json"))
   data.each do |centre|
     next unless centre['location']
-    feature_id = add_feature('Child Care', centre['name'], centre['location')
+    feature_id = add_feature('Child Care', centre['name'], centre['location'])
     add_value("Childcare Centres", "Child Care", feature_id, "Number Of", "Locations", 'bool', 1)
     add_value("Childcare Centres", "Child Care", feature_id, "Number Of", "Children", 'count', centre['places'])
   end
@@ -216,11 +226,12 @@ def add_public_toilets
     next unless toilet['location']
     feature_id = add_feature('Toilet', toilet['name'], toilet['location'])
     add_value("Public Toilets", "Toilet", feature_id, "Number Of", "Locations", 'bool', 1)
-    add_value("Public Toilets", "Toilet", feature_id, "That Have", "Baby Change", 'bool', toilet['baby_change'] ? 1 : 0)
-    add_value("Public Toilets", "Toilet", feature_id, "That Have", "Shower", 'bool', toilet['showers'] ? 1 : 0)
-    add_value("Public Toilets", "Toilet", feature_id, "That Have", "Drinking Water", 'bool', toilet['drinking_water'] ? 1 : 0)
-    add_value("Public Toilets", "Toilet", feature_id, "That Have", "Sharps Disposal", 'bool', toilet['sharps_disposal'] ? 1 : 0)
-    add_value("Public Toilets", "Toilet", feature_id, "That Have", "Sanitary Disposal", 'bool', toilet['sanitary_disposal'] ? 1 : 0)
+    features = toilet['features']
+    add_value("Public Toilets", "Toilet", feature_id, "That Have", "Baby Change", 'bool', features['baby_change'] ? 1 : 0)
+    add_value("Public Toilets", "Toilet", feature_id, "That Have", "Shower", 'bool', features['showers'] ? 1 : 0)
+    add_value("Public Toilets", "Toilet", feature_id, "That Have", "Drinking Water", 'bool', features['drinking_water'] ? 1 : 0)
+    add_value("Public Toilets", "Toilet", feature_id, "That Have", "Sharps Disposal", 'bool', features['sharps_disposal'] ? 1 : 0)
+    add_value("Public Toilets", "Toilet", feature_id, "That Have", "Sanitary Disposal", 'bool', features['sanitary_disposal'] ? 1 : 0)
   end
 end
 
