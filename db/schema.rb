@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140712183126) do
+ActiveRecord::Schema.define(version: 20140714051442) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -50,10 +50,12 @@ ActiveRecord::Schema.define(version: 20140712183126) do
     t.integer "parent_id"
     t.string  "name",         null: false
     t.string  "feature_type", null: false
+    t.string  "type"
   end
 
   add_index "statistics", ["parent_id"], name: "index_statistics_on_parent_id", using: :btree
   add_index "statistics", ["source_id"], name: "index_statistics_on_source_id", using: :btree
+  add_index "statistics", ["type"], name: "index_statistics_on_type", using: :btree
 
   create_table "values", force: true do |t|
     t.integer "statistic_id", null: false
