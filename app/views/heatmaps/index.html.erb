@@ -36,14 +36,46 @@
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 <script>
   HeatMap = {};
-  HeatMap.state = {
-    bounds: [0, 0, 0, 0],
-    filters: [295,304,5],
-    colours: [[255,0,0],[0,255,0],[0,0,255]],
-    dirty: false,
-    viewing: "Australia"
-  };
+  HeatMap.dirty = false;
   HeatMap.instances = [];
+
+  if (!_.isUndefined(localStorage.heatmap)) {
+    localStorage.heatmap = "{}";
+  }
+
+  HeatMap.state = JSON.parse(localStorage.heatmap);
+
+  if (_.isUndefined(HeatMap.state.bounds)) {
+    HeatMap.state.bounds = [0, 0, 0, 0];
+  }
+  if (_.isUndefined(HeatMap.state.zoom)) {
+    HeatMap.state.zoom = 5;
+  }
+  if (_.isUndefined(HeatMap.state.view)) {
+    HeatMap.state.view = "Australia";
+  }
+  if (_.isUndefined(HeatMap.state.welcomed)) {
+    HeatMap.state.welcomed = false;
+  }
+  if (_.isUndefined(HeatMap.state.filters)) {
+    HeatMap.state.filters = [
+      {
+        id: 295,
+        colour: [255, 0, 0],
+        visible: true
+      },
+      {
+        id: 304,
+        colour: [0, 255, 0],
+        visible: true
+      },
+      {
+        id: 5,
+        colour: [0, 0, 255],
+        visible: true
+      }
+    ];
+  };
 
   ZOOMS = {
     "Australia": {
@@ -92,15 +124,15 @@
     streetViewControl: false,
     overviewMapControl: false,
     scrollwheel: false,
-    center: ZOOMS[HeatMap.state.viewing].center,
-    zoom: ZOOMS[HeatMap.state.viewing].zoom
+    center: ZOOMS[HeatMap.state.view].center,
+    zoom: ZOOMS[HeatMap.state.view].zoom
   };
 
   function update_bounds() {
-    if (!HeatMap.state.dirty) {
+    if (!HeatMap.dirty) {
       return;
     }
-    HeatMap.state.dirty = false;
+    HeatMap.dirty = false;
     HeatMap.state.bounds[0] = map.getBounds().getSouthWest().lat();
     HeatMap.state.bounds[1] = map.getBounds().getSouthWest().lng();
     HeatMap.state.bounds[2] = map.getBounds().getNorthEast().lat();
@@ -121,7 +153,7 @@
       }
       gradient = [];
       _.times(14, function(i){
-        c = HeatMap.state.colours[index];
+        c = HeatMap.state.filters[index].colour;
         a = i/13.0;
         gradient.push("rgba("+c[0]+","+c[1]+","+c[2]+","+a+")");
       });
@@ -162,12 +194,17 @@
   }
 
   function redraw_heatmaps() {
+    localStorage.heatmap = JSON.stringify(HeatMap.state);
     if (HeatMap.state.filters.length > 0) {
-      $.getJSON("heatmaps/points", HeatMap.state, function(data){
+      params = {
+        bounds: HeatMap.state.bounds,
+        filters: _.map(HeatMap.state.filters, function(f){ return f.id; })
+      };
+      $.getJSON("heatmaps/points", params, function(data){
         HeatMap.points = data;
         display_heatmaps();
       });
-      $.getJSON("heatmaps/comments", HeatMap.state, function(data){
+      $.getJSON("heatmaps/comments", params, function(data){
         HeatMap.comments = data;
         display_comments();
       });
@@ -208,7 +245,7 @@
     map = new google.maps.Map($("#hack .map")[0], map_options);
     google.maps.event.addListener(map, 'idle', update_bounds);
     google.maps.event.addListener(map, "bounds_changed", function(){
-      HeatMap.state.dirty = true;
+      HeatMap.dirty = true;
     });
   }
 
