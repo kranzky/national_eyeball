@@ -52,7 +52,7 @@ class HeatmapsController < ApplicationController
   def _get_points
     params[:filters].map do |filter_id|
       sql = <<-SQL
-        SELECT lat,lng,density FROM densities
+        SELECT lat,lng,density,statistics.type FROM densities
           INNER JOIN statistics ON statistic_id=statistics.id
           INNER JOIN features ON feature_id=features.id
           WHERE statistic_id=#{filter_id}
@@ -63,6 +63,7 @@ class HeatmapsController < ApplicationController
       SQL
       ActiveRecord::Base::connection.execute(sql).map do |item|
         {
+          type: item['type'],
           lat: item['lat'].to_f,
           lng: item['lng'].to_f,
           weight: item['density'].to_f

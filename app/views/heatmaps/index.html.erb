@@ -127,9 +127,15 @@
       });
       HeatMap.instances[index].set('gradient', gradient);
       points = _.map(HeatMap.points[index], function(point){
-        return {
-          location: new google.maps.LatLng(point.lat,point.lng),
-          weight: point.weight
+        if (point.type == 'bool') {
+          HeatMap.instances[index].set('radius', 0.01);
+          return new google.maps.LatLng(point.lat,point.lng);
+        } else {
+          HeatMap.instances[index].set('radius', 0.03);
+          return {
+            location: new google.maps.LatLng(point.lat,point.lng),
+            weight: point.weight
+          }
         }
       });
       HeatMap.instances[index].setData(points);
