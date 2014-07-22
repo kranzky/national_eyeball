@@ -1,24 +1,44 @@
 <div id="hack">
-  <div id="info">
-    <select id="regional">
-      <option value="Australia">Australia</option>
-      <option value="Perth">Perth</option>
-      <option value="Adelaide">Adelaide</option>
-      <option value="Melbourne">Melbourne</option>
-      <option value="Hobart">Hobart</option>
-      <option value="Canberra">Canberra</option>
-      <option value="Sydney">Sydney</option>
-      <option value="Brisbane">Brisbane</option>
-      <option value="Darwin">Darwin</option>
-    </select>
-    <button id="settings">..</button>
-    <div id="counts">
-      <div id="hm1"><p></p></div>
-      <div id="hm2"><p></p></div>
-      <div id="hm3"><p></p></div>
-    </div>
-    <button id="help">?</button>
+  <div id="menu">
     <div id="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-hashtags="govhack">Tweet</a></div>
+    <h3 id='title'>The National Eyeball: Australian GovData Exposed!</h3>
+    <div id="dropdown">
+      <select id="regional">
+        <option value="Perth">Perth</option>
+        <option value="Adelaide">Adelaide</option>
+        <option value="Melbourne">Melbourne</option>
+        <option value="Hobart">Hobart</option>
+        <option value="Canberra">Canberra</option>
+        <option value="Sydney">Sydney</option>
+        <option value="Brisbane">Brisbane</option>
+        <option value="Darwin">Darwin</option>
+      </select>
+    </div>
+  </div>
+  <div id="controls">
+    <div id="hm1">
+      <div class="count">0</div>
+      <input type="checkbox" class="enabled">
+      <select class="source"></select>
+      <select class="property"></select>
+      <select class="measure"></select>
+    </div>
+    <hr/>
+    <div id="hm2">
+      <div class="count">0</div>
+      <input type="checkbox" class="enabled">
+      <select class="source"></select>
+      <select class="property"></select>
+      <select class="measure"></select>
+    </div>
+    <hr/>
+    <div id="hm3">
+      <div class="count">0</div>
+      <input type="checkbox" class="enabled">
+      <select class="source"></select>
+      <select class="property"></select>
+      <select class="measure"></select>
+    </div>
   </div>
   <div class="map">
   </div>
@@ -39,7 +59,9 @@
   HeatMap.dirty = false;
   HeatMap.instances = [];
 
-  if (!_.isUndefined(localStorage.heatmap)) {
+  MAP_STYLES = [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}];
+
+  if (_.isUndefined(localStorage.heatmap)) {
     localStorage.heatmap = "{}";
   }
 
@@ -112,13 +134,18 @@
   map_options = {
     panControl: false,
     zoomControl: true,
-    mapTypeControl: true,
-    scaleControl: true,
+    mapTypeControl: false,
+    scaleControl: false,
     streetViewControl: false,
     overviewMapControl: false,
     scrollwheel: false,
     center: ZOOMS[HeatMap.state.view].center,
-    zoom: ZOOMS[HeatMap.state.view].zoom
+    zoom: ZOOMS[HeatMap.state.view].zoom,
+    zoomControlOptions: {
+      style: google.maps.ZoomControlStyle.LARGE,
+      position: google.maps.ControlPosition.RIGHT_CENTER
+    },
+    styles: MAP_STYLES
   };
 
   function update_bounds() {
@@ -178,12 +205,9 @@
   }
 
   function display_comments() {
-    $("#hm1 p").text(HeatMap.comments[0].count);
-    $("#hm1").attr('title', HeatMap.comments[0].comment);
-    $("#hm2 p").text(HeatMap.comments[1].count);
-    $("#hm2").attr('title', HeatMap.comments[1].comment);
-    $("#hm3 p").text(HeatMap.comments[2].count);
-    $("#hm3").attr('title', HeatMap.comments[2].comment);
+    $("#hm1 .count").text(HeatMap.comments[0].count);
+    $("#hm2 .count").text(HeatMap.comments[1].count);
+    $("#hm3 .count").text(HeatMap.comments[2].count);
   }
 
   function redraw_heatmaps() {
@@ -206,20 +230,14 @@
 
   function initialize() {
     $("#controls").tabs();
-    $("#info").tabs();
+    $("#menu").tabs();
     $("#regional").selectmenu({
       width: 160,
-      position: { collision: "flip" },
       change: function() {
         region = ZOOMS[$("#regional").val()];
         map.setCenter(region.center);
         map.setZoom(region.zoom);
       }
-    });
-    $("#hm1").tooltip();
-    $("#hm2").tooltip();
-    $("#hm3").tooltip();
-    $("#settings").button({
     });
     $("#welcome").dialog({
       width: 600,
@@ -233,7 +251,14 @@
         }
       ]
     });
-    $("#help").button({
+    $(".source").selectmenu({
+      width: 198
+    });
+    $(".property").selectmenu({
+      width: 198
+    });
+    $(".measure").selectmenu({
+      width: 198
     });
     map = new google.maps.Map($("#hack .map")[0], map_options);
     google.maps.event.addListener(map, 'idle', update_bounds);
@@ -272,9 +297,23 @@
       height: 100%;
       margin: 0px;
     }
-    div#info {
+    div#controls {
       position: fixed;
+      top: 50px;
       bottom: 30px;
+      left: 0px;
+      width: 200px;
+      z-index: 666;
+      opacity: 0.7;
+      overflow-y: scroll
+    }
+    div#controls input {
+      position: relative;
+      top: -20px;
+    }
+    div#menu {
+      position: fixed;
+      top: 0px;
       left: 0px;
       width: 100%;
       height: 42px;
@@ -283,40 +322,16 @@
     }
     div#twitter {
       position: fixed;
-      right: 10px;
-      bottom: 38px;
+      left: 40px;
+      top: 11px;
       width: 120px;
+      z-index: 999;
     }
-    div#counts {
+    div#dropdown {
       position: fixed;
-      left: 225px;
-      right: 190px;
-      bottom: 34px;
-      height: 43px;
-      font-size: 22px;
-      color: white;
-      font-weight: bold; 
-      text-align: center;
-      line-height: 0;
-    }
-    #counts #hm1 {
-      background-color: red;
-      float: left;
-      width: 33%;
-      height: 100%;
-    }
-    #counts #hm2 {
-      background-color: green;
-      width: 34%;
-      float: left;
-      height: 100%;
-    }
-    #counts #hm3 {
-      position: relative;
-      background-color: blue;
-      width: 33%;
-      float: left;
-      height: 100%;
+      top: 5px;
+      right: 10px;
+      z-index: 999;
     }
     span#blurb {
       width: 100%;
@@ -333,17 +348,38 @@
       width: 33%;
       background-color: #AAF;
     }
-    button#settings {
-      position: fixed;
-      bottom: 35px;
-      height: 41px;
-      left: 170px;
+    h3#title {
+      position: relative;
+      line-height: 0px;
+      text-align: center;
+      z-index: 666;
     }
-    button#help {
-      position: fixed;
-      bottom: 35px;
-      height: 41px;
-      right: 135px;
+    div#hm1 div.count {
+      width: 100%;
+      background-color: red;
+      text-align: center;
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: -10px;
+    }
+    div#hm2 div.count {
+      width: 100%;
+      background-color: green;
+      text-align: center;
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: -10px;
+    }
+    div#hm3 div.count {
+      width: 100%;
+      background-color: blue;
+      text-align: center;
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: -10px;
     }
   </style>
 <% end %>

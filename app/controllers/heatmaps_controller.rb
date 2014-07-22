@@ -84,7 +84,7 @@ class HeatmapsController < ApplicationController
       SQL
       total = ActiveRecord::Base::connection.execute(sql).first["total"]
       sql = <<-SQL
-        SELECT sources.description AS source,
+        SELECT sources.name AS source,
                topics.name AS subject,
                statistics.name AS measure
         FROM statistics
@@ -94,10 +94,8 @@ class HeatmapsController < ApplicationController
         ;
       SQL
       labels = ActiveRecord::Base::connection.execute(sql).first
-      title = [labels['source'], labels['subject']].compact.join(' ')
-      measure = labels['measure']
       {
-        comment: "#{title}, #{measure}",
+        comment: "#{labels['source']}: #{labels['subject']} #{labels['measure']}",
         count: total || 0
       }
     end
