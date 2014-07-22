@@ -19,7 +19,7 @@ class HeatmapsController < ApplicationController
   def _get_filters
     sql = <<-SQL
       SELECT sources.id AS source_id,
-             sources.description AS source_name,
+             sources.name AS source_name,
              parent.id AS parent_id,
              parent.name AS parent_name,
              statistics.id AS statistic_id,
@@ -29,22 +29,23 @@ class HeatmapsController < ApplicationController
         LEFT JOIN statistics AS parent ON statistics.parent_id=parent.id
       ;
     SQL
-    retval = {}
+    retval = { menu: {}, lookup: {} }
     ActiveRecord::Base::connection.execute(sql).each do |item|
-      retval[item['source_id'].to_i] ||=
+      retval[:menu][item['source_id'].to_i] ||=
         {
           name: item['source_name'],
-          topics: {}
+          menu: {}
         }
       if item['parent_id'].nil?
-        retval[item['source_id'].to_i][:topics][item['statistic_id'].to_i] =
+        retval[:menu][item['source_id'].to_i][:menu][item['statistic_id'].to_i] =
           {
             name: item['statistic_name'],
-            statistics: {}
+            menu: {}
           }
       else
-        retval[item['source_id'].to_i][:topics][item['parent_id'].to_i][:statistics][item['statistic_id'].to_i] = item['statistic_name']
+        retval[:menu][item['source_id'].to_i][:menu][item['parent_id'].to_i][:menu][item['statistic_id'].to_i] = { name: item['statistic_name'] }
       end
+      retval[:lookup][item['statistic_id'].to_i] = [item['source_id'].to_i, item['parent_id'].to_i]
     end
     retval
   end

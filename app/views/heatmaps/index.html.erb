@@ -41,16 +41,17 @@
     </div>
   </div>
   <div class="map">
+    <div id="widget"></div>
+    <div id="welcome" title="Australian Government Exposed!">
+      <p>Welcome to <a href="http://hackerspace.govhack.org/content/national-eyeball" target="_gh14">my entry</a> to GovHack 2014. You can</p>
+      <ul>
+        <li>create a heatmap to eyeball government data;</li>
+        <li>share your heatmap on Twitter; and</li>
+        <li>check out <a href="http://api.govdata.exposed/australia" target="_api">api.govdata.exposed/australia</a>.</li>
+      </ul>
+      <p>Sources: ABS, ATO, AIHW, WAEC, PTA, DoHA and DOE.</p>
+    </div>
   </div>
-</div>
-<div id="welcome" title="Australian Government Exposed!">
-  <p>Welcome to <a href="http://hackerspace.govhack.org/content/national-eyeball" target="_gh14">my entry</a> to GovHack 2014. You can</p>
-  <ul>
-    <li>create a heatmap to eyeball government data;</li>
-    <li>share your heatmap on Twitter; and</li>
-    <li>check out <a href="http://api.govdata.exposed/australia" target="_api">api.govdata.exposed/australia</a>.</li>
-  </ul>
-  <p>Sources: ABS, ATO, AIHW, WAEC, PTA, DoHA and DOE.</p>
 </div>
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
@@ -71,7 +72,7 @@
     HeatMap.state.bounds = [0, 0, 0, 0];
   }
   if (_.isUndefined(HeatMap.state.view)) {
-    HeatMap.state.view = "Perth";
+    HeatMap.state.view = "Sydney";
   }
   if (_.isUndefined(HeatMap.state.welcomed)) {
     HeatMap.state.welcomed = false;
@@ -98,35 +99,35 @@
 
   ZOOMS = {
     "Perth": {
-      center: new google.maps.LatLng(-32, 116),
+      center: new google.maps.LatLng(-31.993012032763385, 115.69512939453124),
       zoom: 10
     },
     "Adelaide": {
-      center: new google.maps.LatLng(-35, 139),
+      center: new google.maps.LatLng(-34.893061500939275, 138.48089599609372),
       zoom: 10
     },
     "Melbourne": {
-      center: new google.maps.LatLng(-38, 145),
+      center: new google.maps.LatLng(-37.80061090656644, 144.6484375),
       zoom: 9
     },
     "Hobart": {
-      center: new google.maps.LatLng(-42.9, 147.2),
+      center: new google.maps.LatLng(-42.88893306658847, 147.2892639160157),
       zoom: 11
     },
     "Canberra": {
-      center: new google.maps.LatLng(-35.3, 149),
+      center: new google.maps.LatLng(-35.29439583386006, 149.06317138671878),
       zoom: 11
     },
     "Sydney": {
-      center: new google.maps.LatLng(-34, 151),
+      center: new google.maps.LatLng(-33.83589649422616, 150.80224609375003),
       zoom: 9
     },
     "Brisbane": {
-      center: new google.maps.LatLng(-27, 153),
+      center: new google.maps.LatLng(-27.322568120576438, 152.84344482421875),
       zoom: 9
     },
     "Darwin": {
-      center: new google.maps.LatLng(-12.4, 130.8),
+      center: new google.maps.LatLng(-12.450962709515238, 130.81991271972655),
       zoom: 11
     }
   }
@@ -139,8 +140,6 @@
     streetViewControl: false,
     overviewMapControl: false,
     scrollwheel: false,
-    center: ZOOMS[HeatMap.state.view].center,
-    zoom: ZOOMS[HeatMap.state.view].zoom,
     zoomControlOptions: {
       style: google.maps.ZoomControlStyle.LARGE,
       position: google.maps.ControlPosition.RIGHT_CENTER
@@ -157,6 +156,8 @@
     HeatMap.state.bounds[1] = map.getBounds().getSouthWest().lng();
     HeatMap.state.bounds[2] = map.getBounds().getNorthEast().lat();
     HeatMap.state.bounds[3] = map.getBounds().getNorthEast().lng();
+    HeatMap.state.zoom = map.zoom;
+    HeatMap.state.center = [map.center.lat(), map.center.lng()];
     redraw_heatmaps();
   }
 
@@ -234,33 +235,86 @@
     $("#regional").selectmenu({
       width: 160,
       change: function() {
-        region = ZOOMS[$("#regional").val()];
+        HeatMap.state.view = $("#regional").val();
+        localStorage.heatmap = JSON.stringify(HeatMap.state);
+        region = ZOOMS[HeatMap.state.view];
         map.setCenter(region.center);
         map.setZoom(region.zoom);
       }
     });
-    $("#welcome").dialog({
-      width: 600,
-      height: 300,
-      buttons: [
-        {
-          text: "OK",
-          click: function() {
-            $(this).dialog("close");
+    if (!HeatMap.state.welcomed) {
+      $("#welcome").dialog({
+        width: 600,
+        height: 300,
+        buttons: [
+          {
+            text: "OK",
+            click: function() {
+              HeatMap.state.welcomed = true;
+              localStorage.heatmap = JSON.stringify(HeatMap.state);
+              $(this).dialog("close");
+            }
           }
-        }
-      ]
-    });
+        ]
+      });
+    }
     $(".source").selectmenu({
-      width: 198
+      width: 238,
+      position: { my: "left+10 top-20", at: "right center" }
     });
     $(".property").selectmenu({
-      width: 198
+      width: 238,
+      position: { my: "left+10 top-20", at: "right center" }
     });
     $(".measure").selectmenu({
-      width: 198
+      width: 238,
+      position: { my: "left+10 top-20", at: "right center" },
+      collision: 'fit'
     });
-    map = new google.maps.Map($("#hack .map")[0], map_options);
+    $.getJSON("heatmaps/filters", function(data){
+      HeatMap.controls = data;
+      restore_state();
+    });
+  }
+
+  function restore_menu(elem, menu, value) {
+    elem.empty();
+    _.each(menu, function(item, value){
+      elem.append($("<option />").val(value).text(item.name));
+    });
+    elem.val(value);
+    elem.selectmenu("refresh");
+    return menu[value].menu;
+  }
+
+  function restore_control(elem, filter) {
+    elem.children(".enabled").prop("checked", filter.visible);
+    menu = HeatMap.controls.menu;
+    context = HeatMap.controls.lookup[filter.id];
+    menu = restore_menu(elem.children(".source"), menu, context[0]);
+    menu = restore_menu(elem.children(".property"), menu, context[1]);
+    restore_menu(elem.children(".measure"), menu, filter.id);
+  }
+
+  function restore_state() {
+    $("#regional").val(HeatMap.state.view);
+    $("#regional").selectmenu("refresh");
+    if (_.isUndefined(HeatMap.state.zoom)) {
+      map_options.zoom = ZOOMS[HeatMap.state.view].zoom;
+    } else {
+      map_options.zoom = HeatMap.state.zoom;
+    }
+    if (_.isUndefined(HeatMap.state.center)) {
+      map_options.center = ZOOMS[HeatMap.state.view].center;
+    } else {
+      map_options.center = new google.maps.LatLng(HeatMap.state.center[0], HeatMap.state.center[1]);
+    }
+    map = new google.maps.Map($("#hack .map #widget")[0], map_options);
+    restore_control($("#hm1"), HeatMap.state.filters[0]);
+    restore_control($("#hm2"), HeatMap.state.filters[1]);
+    restore_control($("#hm3"), HeatMap.state.filters[2]);
+    $("#menu").show();
+    $("#controls").show();
     google.maps.event.addListener(map, 'idle', update_bounds);
     google.maps.event.addListener(map, "bounds_changed", function(){
       HeatMap.dirty = true;
@@ -293,6 +347,13 @@
       margin: 0px;
     }
     div.map {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+    }
+    div#widget {
       width: 100%;
       height: 100%;
       margin: 0px;
@@ -302,9 +363,10 @@
       top: 50px;
       bottom: 30px;
       left: 0px;
-      width: 200px;
+      width: 240px;
       z-index: 666;
       opacity: 0.7;
+      display: none;
       overflow-y: scroll
     }
     div#controls input {
@@ -319,10 +381,11 @@
       height: 42px;
       z-index: 999;
       opacity: 0.7;
+      display: none;
     }
     div#twitter {
       position: fixed;
-      left: 40px;
+      left: 60px;
       top: 11px;
       width: 120px;
       z-index: 999;
@@ -362,6 +425,7 @@
       font-size: 30px;
       font-weight: bold;
       margin-bottom: -10px;
+      text-shadow: 3px 2px #000000;
     }
     div#hm2 div.count {
       width: 100%;
@@ -371,6 +435,7 @@
       font-size: 30px;
       font-weight: bold;
       margin-bottom: -10px;
+      text-shadow: 3px 2px #000000;
     }
     div#hm3 div.count {
       width: 100%;
@@ -380,6 +445,10 @@
       font-size: 30px;
       font-weight: bold;
       margin-bottom: -10px;
+      text-shadow: 3px 2px #000000;
+    }
+    div#welcome {
+      display: none;
     }
   </style>
 <% end %>
