@@ -1,6 +1,6 @@
 <div id="hack">
   <div id="menu">
-    <div id="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-hashtags="govhack">Tweet</a></div>
+    <div id="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://australian.govdata.exposed/" data-hashtags="govhack">Tweet</a></div>
     <h3 id='title'>The National Eyeball: Australian GovData Exposed!</h3>
     <div id="dropdown">
       <select id="regional">
@@ -66,14 +66,7 @@
     localStorage.heatmap = "{}";
   }
 
-  params = $(location).attr('search').split("?heatmap=")[1];
-  if (_.isUndefined(params)) {
-    state = localStorage.heatmap;
-  } else {
-    state = decodeURIComponent(params);
-  }
-
-  HeatMap.state = JSON.parse(state);
+  HeatMap.state = JSON.parse(localStorage.heatmap);
 
   if (_.isUndefined(HeatMap.state.bounds)) {
     HeatMap.state.bounds = [0, 0, 0, 0];
@@ -103,6 +96,16 @@
       }
     ];
   };
+
+  params = $(location).attr('search').split("?q=")[1];
+  if (!_.isUndefined(params)) {
+    params = JSON.parse("["+decodeURIComponent(params)+"]");
+    HeatMap.state.center = [params[0], params[1]];
+    HeatMap.state.zoom = params[2];
+    HeatMap.state.filters[0].id = params[3];
+    HeatMap.state.filters[1].id = params[4];
+    HeatMap.state.filters[2].id = params[5];
+  }
 
   ZOOMS = {
     "Perth": {
@@ -155,7 +158,22 @@
   };
 
   function stateful_uri() {
-    return $(location).attr("origin")+"?heatmap="+encodeURIComponent(localStorage.heatmap);
+    state = [HeatMap.state.center, HeatMap.state.zoom, _.map(HeatMap.state.filters, function(f){ return f.id; })];
+    return "http://australian.govdata.exposed?q="+encodeURIComponent(state);
+  }
+
+  function re_tweet() {
+    var tweet = $('<a>')
+        .attr('href', "https://twitter.com/share")
+        .attr('class', "twitter-share-button")
+        .attr('data-size', "large")
+        .attr('data-hashtags', "govhack")
+        .text('Tweet');
+    $(".twitter-share-button").remove();
+    $("#twitter").prepend(tweet);
+    tweet.attr('data-text', _.map(HeatMap.comments, function(item){ return item.comment }).join(" | "));
+    tweet.attr('data-url', stateful_uri());
+    twttr.widgets.load();
   }
 
   function update_bounds() {
@@ -235,6 +253,7 @@
       });
       $.getJSON("heatmaps/comments", params, function(data){
         HeatMap.comments = data;
+        re_tweet();
         display_comments();
       });
     }
