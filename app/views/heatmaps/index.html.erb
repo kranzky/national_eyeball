@@ -66,7 +66,14 @@
     localStorage.heatmap = "{}";
   }
 
-  HeatMap.state = JSON.parse(localStorage.heatmap);
+  params = $(location).attr('search').split("?heatmap=")[1];
+  if (_.isUndefined(params)) {
+    state = localStorage.heatmap;
+  } else {
+    state = decodeURIComponent(params);
+  }
+
+  HeatMap.state = JSON.parse(state);
 
   if (_.isUndefined(HeatMap.state.bounds)) {
     HeatMap.state.bounds = [0, 0, 0, 0];
@@ -146,6 +153,10 @@
     },
     styles: MAP_STYLES
   };
+
+  function stateful_uri() {
+    return $(location).attr("origin")+"?heatmap="+encodeURIComponent(localStorage.heatmap);
+  }
 
   function update_bounds() {
     if (!HeatMap.dirty) {
