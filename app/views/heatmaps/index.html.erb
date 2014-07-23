@@ -212,6 +212,9 @@
     _.each($("#controls h3 .count"), function(elem, index){
       $(elem).text(HeatMap.comments[index].count);
     });
+    _.each($("#controls h3"), function(elem, index){
+      $(elem).attr('title', HeatMap.comments[index].comment);
+    });
   }
 
   function redraw_heatmaps() {
@@ -269,6 +272,7 @@
         ]
       });
     }
+    $("#controls h3").tooltip({ position: { my: "left+10 top-20", at: "right center" } });
     $(".source").selectmenu({
       width: 238,
       position: { my: "left+10 top-20", at: "right center" }
