@@ -1,33 +1,31 @@
-<div id="hack">
-  <div id="menu">
-    <div id="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://australian.govdata.exposed/" data-hashtags="govhack">Tweet</a></div>
-    <h3 id='title'>The National Eyeball: Australian GovData Exposed!</h3>
-    <div id="dropdown">
-      <select id="regional">
-        <option value="Perth">Perth</option>
-        <option value="Adelaide">Adelaide</option>
-        <option value="Melbourne">Melbourne</option>
-        <option value="Hobart">Hobart</option>
-        <option value="Canberra">Canberra</option>
-        <option value="Sydney">Sydney</option>
-        <option value="Brisbane">Brisbane</option>
-        <option value="Darwin">Darwin</option>
-      </select>
-    </div>
+<div id="menu">
+  <div id="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://australian.govdata.exposed/" data-hashtags="govhack">Tweet</a></div>
+  <h3 id='title'>The National Eyeball: Australian GovData Exposed!</h3>
+  <div id="dropdown">
+    <select id="regional">
+      <option value="Perth">Perth</option>
+      <option value="Adelaide">Adelaide</option>
+      <option value="Melbourne">Melbourne</option>
+      <option value="Hobart">Hobart</option>
+      <option value="Canberra">Canberra</option>
+      <option value="Sydney">Sydney</option>
+      <option value="Brisbane">Brisbane</option>
+      <option value="Darwin">Darwin</option>
+    </select>
   </div>
-  <div id="controls">
-  </div>
-  <div class="map">
-    <div id="widget"></div>
-    <div id="welcome" title="Australian Government Exposed!">
-      <p>Welcome to <a href="http://hackerspace.govhack.org/content/national-eyeball" target="_gh14">my entry</a> to GovHack 2014. You can</p>
-      <ul>
-        <li>create a heatmap to eyeball government data;</li>
-        <li>share your heatmap on Twitter; and</li>
-        <li>check out <a href="http://api.govdata.exposed/australia" target="_api">api.govdata.exposed/australia</a>.</li>
-      </ul>
-      <p>Sources: ABS, ATO, AIHW, WAEC, PTA, DoHA and DOE.</p>
-    </div>
+</div>
+<div id="controls">
+</div>
+<div class="map">
+  <div id="widget"></div>
+  <div id="welcome" title="Australian Government Exposed!">
+    <p>Welcome to <a href="http://hackerspace.govhack.org/content/national-eyeball" target="_gh14">my entry</a> to GovHack 2014. You can</p>
+    <ul>
+      <li>create a heatmap to eyeball government data;</li>
+      <li>share your heatmap on Twitter; and</li>
+      <li>check out <a href="http://api.govdata.exposed/australia" target="_api">api.govdata.exposed/australia</a>.</li>
+    </ul>
+    <p>Sources: ABS, ATO, AIHW, WAEC, PTA, DoHA and DOE.</p>
   </div>
 </div>
 
@@ -370,7 +368,7 @@
     } else {
       map_options.center = new google.maps.LatLng(HeatMap.state.center[0], HeatMap.state.center[1]);
     }
-    map = new google.maps.Map($("#hack .map #widget")[0], map_options);
+    map = new google.maps.Map($(".map #widget")[0], map_options);
     service = new google.maps.places.PlacesService(map);
     _.each($("#controls h3 .count"), function(elem, index){
       $(elem).css("color", HeatMap.state.filters[index].color);
@@ -396,27 +394,13 @@
   <%= javascript_include_tag "//underscorejs.org/underscore-min.js" %>
   <%= stylesheet_link_tag "//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css" %>
   <style>
-    html {
-      height: 100%;
-      margin: 0px;
-      padding: 0px;
-    }
-    body {
-      height: 100%;
-      margin: 0px;
-      padding: 0px;
-    }
-    div#hack {
-      width: 100%;
-      height: 100%;
-      margin: 0px;
-    }
     div.map {
       position: fixed;
       top: 0px;
       left: 0px;
       right: 0px;
       bottom: 0px;
+      z-index: 1;
     }
     div#widget {
       width: 100%;
@@ -429,10 +413,10 @@
       bottom: 30px;
       left: 0px;
       width: 244px;
-      z-index: 666;
+      z-index: 99999;
       opacity: 0.7;
       display: none;
-      overflow-y: scroll
+      overflow-y: scroll;
     }
     div#controls input {
       position: relative;
@@ -444,7 +428,7 @@
       left: 0px;
       width: 100%;
       height: 42px;
-      z-index: 999;
+      z-index: 99999;
       opacity: 0.7;
       display: none;
     }
@@ -453,13 +437,13 @@
       left: 62px;
       top: 11px;
       width: 120px;
-      z-index: 999;
+      z-index: 99999;
     }
     div#dropdown {
       position: fixed;
       top: 5px;
       right: 10px;
-      z-index: 999;
+      z-index: 99999;
     }
     span#blurb {
       width: 100%;
@@ -480,7 +464,7 @@
       position: relative;
       line-height: 0px;
       text-align: center;
-      z-index: 666;
+      z-index: 99999;
     }
     div#controls h3 {
       color: white;

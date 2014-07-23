@@ -95,14 +95,18 @@ class HeatmapsController < ApplicationController
   def _get_comments
     params[:filters].map do |filter_id|
       sql = <<-SQL
-        SELECT SUM(value) AS total FROM values
+        SELECT SUM(value) AS total,statistics.type AS type,count(*) AS count FROM values
           INNER JOIN statistics ON statistic_id=statistics.id
           INNER JOIN features ON feature_id=features.id
           WHERE statistic_id=#{filter_id}
           AND #{_get_spatial_constraint}
+          GROUP BY statistics.type
         ;
       SQL
-      total = ActiveRecord::Base::connection.execute(sql).first["total"]
+      result = ActiveRecord::Base::connection.execute(sql).first
+      total = result["total"].to_f
+      total /= result["count"].to_f if result["type"] == "average"
+      total ||= 0
       sql = <<-SQL
         SELECT sources.name AS source,
                topics.name AS subject,
@@ -121,7 +125,7 @@ class HeatmapsController < ApplicationController
       comment ||= "#{labels['source']}: #{labels['subject']} #{labels['measure']}"
       {
         comment: comment,
-        count: total || 0
+        count: total.round
       }
     end
   end
