@@ -16,29 +16,6 @@
     </div>
   </div>
   <div id="controls">
-    <div id="hm1">
-      <div class="count">0</div>
-      <input type="checkbox" class="enabled">
-      <select class="source"></select>
-      <select class="property"></select>
-      <select class="measure"></select>
-    </div>
-    <hr/>
-    <div id="hm2">
-      <div class="count">0</div>
-      <input type="checkbox" class="enabled">
-      <select class="source"></select>
-      <select class="property"></select>
-      <select class="measure"></select>
-    </div>
-    <hr/>
-    <div id="hm3">
-      <div class="count">0</div>
-      <input type="checkbox" class="enabled">
-      <select class="source"></select>
-      <select class="property"></select>
-      <select class="measure"></select>
-    </div>
   </div>
   <div class="map">
     <div id="widget"></div>
@@ -81,30 +58,27 @@
     HeatMap.state.filters = [
       {
         id: 295,
-        colour: [255, 0, 0],
-        visible: true
-      },
-      {
-        id: 304,
-        colour: [0, 255, 0],
-        visible: true
+        color: [255, 0, 0],
       },
       {
         id: 5,
-        colour: [0, 0, 255],
-        visible: true
+        color: [0, 0, 255],
       }
     ];
   };
 
-  params = $(location).attr('search').split("?q=")[1];
-  if (!_.isUndefined(params)) {
-    params = JSON.parse("["+decodeURIComponent(params)+"]");
-    HeatMap.state.center = [params[0], params[1]];
-    HeatMap.state.zoom = params[2];
-    HeatMap.state.filters[0].id = params[3];
-    HeatMap.state.filters[1].id = params[4];
-    HeatMap.state.filters[2].id = params[5];
+  query = $(location).attr('search').split("?q=")[1];
+  if (!_.isUndefined(query)) {
+    state = _.map(query.split("+"), function(elem){ return parseFloat(elem); });
+    HeatMap.state.center = state.splice(0, 2);
+    HeatMap.state.zoom = state.shift();
+    HeatMap.state.filters = [];
+    while (state.length > 0) {
+      HeatMap.state.filters.push({
+        id: state.shift(),
+        color: state.splice(0, 3)
+      });
+    }
   }
 
   ZOOMS = {
@@ -158,8 +132,8 @@
   };
 
   function stateful_uri() {
-    state = [HeatMap.state.center, HeatMap.state.zoom, _.map(HeatMap.state.filters, function(f){ return f.id; })];
-    return "http://australian.govdata.exposed?q="+encodeURIComponent(state);
+    state = _.flatten([HeatMap.state.center, HeatMap.state.zoom, _.map(HeatMap.state.filters, function(f){ return [f.id, f.color]; })]).join("+");
+    return "http://australian.govdata.exposed?q="+state;
   }
 
   function re_tweet() {
@@ -171,7 +145,7 @@
         .text('Tweet');
     $(".twitter-share-button").remove();
     $("#twitter").prepend(tweet);
-    tweet.attr('data-text', _.map(HeatMap.comments, function(item){ return item.comment }).join(" | "));
+    tweet.attr('data-text', _.map(HeatMap.comments, function(item){ return item.comment }).join(" vs. "));
     tweet.attr('data-url', stateful_uri());
     twttr.widgets.load();
   }
@@ -203,7 +177,7 @@
       }
       gradient = [];
       _.times(14, function(i){
-        c = HeatMap.state.filters[index].colour;
+        c = HeatMap.state.filters[index].color;
         a = i/13.0;
         gradient.push("rgba("+c[0]+","+c[1]+","+c[2]+","+a+")");
       });
@@ -235,9 +209,9 @@
   }
 
   function display_comments() {
-    $("#hm1 .count").text(HeatMap.comments[0].count);
-    $("#hm2 .count").text(HeatMap.comments[1].count);
-    $("#hm3 .count").text(HeatMap.comments[2].count);
+    _.each($("#controls h3 .count"), function(elem, index){
+      $(elem).text(HeatMap.comments[index].count);
+    });
   }
 
   function redraw_heatmaps() {
@@ -260,7 +234,14 @@
   }
 
   function initialize() {
-    $("#controls").tabs();
+    _.each(HeatMap.state.filters, function(){
+      $("#controls").append('<h3><span class="count">0</span></h3><div><select class="source"></select><select class="property"></select><select class="measure"></select></div>');
+    });
+    $("#controls").accordion({
+      active: false,
+      collapsible: true,
+      heightstyle: "content"
+    });
     $("#menu").tabs();
     $("#regional").selectmenu({
       width: 160,
@@ -318,7 +299,6 @@
   }
 
   function restore_control(elem, filter) {
-    elem.children(".enabled").prop("checked", filter.visible);
     menu = HeatMap.controls.menu;
     context = HeatMap.controls.lookup[filter.id];
     menu = restore_menu(elem.children(".source"), menu, context[0]);
@@ -340,9 +320,12 @@
       map_options.center = new google.maps.LatLng(HeatMap.state.center[0], HeatMap.state.center[1]);
     }
     map = new google.maps.Map($("#hack .map #widget")[0], map_options);
-    restore_control($("#hm1"), HeatMap.state.filters[0]);
-    restore_control($("#hm2"), HeatMap.state.filters[1]);
-    restore_control($("#hm3"), HeatMap.state.filters[2]);
+    _.each($("#controls h3 .count"), function(elem, index){
+      $(elem).css("color", HeatMap.state.filters[index].color);
+    });
+    _.each($("#controls div"), function(elem, index){
+      restore_control($(elem), HeatMap.state.filters[index]);
+    });
     $("#menu").show();
     $("#controls").show();
     google.maps.event.addListener(map, 'idle', update_bounds);
@@ -393,7 +376,7 @@
       top: 50px;
       bottom: 30px;
       left: 0px;
-      width: 240px;
+      width: 244px;
       z-index: 666;
       opacity: 0.7;
       display: none;
@@ -447,35 +430,15 @@
       text-align: center;
       z-index: 666;
     }
-    div#hm1 div.count {
-      width: 100%;
-      background-color: red;
-      text-align: center;
+    div#controls h3 {
       color: white;
-      font-size: 30px;
+      font-size: 20px;
       font-weight: bold;
-      margin-bottom: -10px;
-      text-shadow: 3px 2px #000000;
+      text-shadow: 1px 1px #000000;
     }
-    div#hm2 div.count {
-      width: 100%;
-      background-color: green;
-      text-align: center;
-      color: white;
-      font-size: 30px;
-      font-weight: bold;
-      margin-bottom: -10px;
-      text-shadow: 3px 2px #000000;
-    }
-    div#hm3 div.count {
-      width: 100%;
-      background-color: blue;
-      text-align: center;
-      color: white;
-      font-size: 30px;
-      font-weight: bold;
-      margin-bottom: -10px;
-      text-shadow: 3px 2px #000000;
+    div#controls div {
+      height: 130px;
+      padding: 8px 2px;
     }
     div#welcome {
       display: none;
