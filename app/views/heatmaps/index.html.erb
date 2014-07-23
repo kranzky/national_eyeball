@@ -238,8 +238,12 @@
   }
 
   function initialize() {
-    _.each(HeatMap.state.filters, function(){
-      $("#controls").append('<h3><span class="count">0</span></h3><div><select class="source"></select><select class="property"></select><select class="measure"></select></div>');
+    $.getJSON("heatmaps/filters", function(data){
+      HeatMap.controls = data;
+      restore_state();
+    });
+    _.each(HeatMap.state.filters, function(filter, index){
+      $("#controls").append('<h3><span class="count">0</span></h3><div data-index='+index+'><select class="source"></select><select class="property"></select><select class="measure"></select></div>');
     });
     $("#controls").accordion({
       active: false,
@@ -249,12 +253,47 @@
     $("#menu").tabs();
     $("#regional").selectmenu({
       width: 160,
-      change: function() {
-        HeatMap.state.view = $("#regional").val();
+      change: function(event, ui) {
+        HeatMap.state.view = ui.item.value;
         localStorage.heatmap = JSON.stringify(HeatMap.state);
         region = ZOOMS[HeatMap.state.view];
         map.setCenter(region.center);
         map.setZoom(region.zoom);
+      }
+    });
+    $("#controls h3").tooltip({ position: { my: "left+10 top-20", at: "right center" } });
+    $(".source").selectmenu({
+      width: 238,
+      position: { my: "left+10 top-20", at: "right center" },
+      change: function(event, ui) {
+        menu = HeatMap.controls.menu[ui.item.value].menu;
+        restore_menu($(event.target).siblings(".property"), menu, -1);
+        other = $(event.target).siblings(".property").val();
+        menu = HeatMap.controls.menu[ui.item.value].menu[other].menu;
+        restore_menu($(event.target).siblings(".measure"), menu, -1);
+        other = $(event.target).siblings(".measure").val();
+        HeatMap.state.filters[$(event.target).parent().data("index")].id = other;
+        redraw_heatmaps();
+      }
+    });
+    $(".property").selectmenu({
+      width: 238,
+      position: { my: "left+10 top-20", at: "right center" },
+      change: function(event, ui) {
+        other = $(event.target).siblings(".source").val();
+        menu = HeatMap.controls.menu[other].menu[ui.item.value].menu;
+        restore_menu($(event.target).siblings(".measure"), menu, -1);
+        other = $(event.target).siblings(".measure").val();
+        HeatMap.state.filters[$(event.target).parent().data("index")].id = other;
+        redraw_heatmaps();
+      }
+    });
+    $(".measure").selectmenu({
+      width: 238,
+      position: { my: "left+10 top-20", at: "right center" },
+      change: function(event, ui) {
+        HeatMap.state.filters[$(event.target).parent().data("index")].id = ui.item.value;
+        redraw_heatmaps();
       }
     });
     if (!HeatMap.state.welcomed) {
@@ -273,24 +312,6 @@
         ]
       });
     }
-    $("#controls h3").tooltip({ position: { my: "left+10 top-20", at: "right center" } });
-    $(".source").selectmenu({
-      width: 238,
-      position: { my: "left+10 top-20", at: "right center" }
-    });
-    $(".property").selectmenu({
-      width: 238,
-      position: { my: "left+10 top-20", at: "right center" }
-    });
-    $(".measure").selectmenu({
-      width: 238,
-      position: { my: "left+10 top-20", at: "right center" },
-      collision: 'fit'
-    });
-    $.getJSON("heatmaps/filters", function(data){
-      HeatMap.controls = data;
-      restore_state();
-    });
   }
 
   function restore_menu(elem, menu, value) {
@@ -298,6 +319,10 @@
     _.each(menu, function(item, value){
       elem.append($("<option />").val(value).text(item.name));
     });
+    if (value < 0) {
+      elem.selectmenu("refresh");
+      return;
+    }
     elem.val(value);
     elem.selectmenu("refresh");
     return menu[value].menu;
@@ -403,7 +428,7 @@
     }
     div#twitter {
       position: fixed;
-      left: 60px;
+      left: 62px;
       top: 11px;
       width: 120px;
       z-index: 999;
