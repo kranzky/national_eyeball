@@ -86,6 +86,10 @@ class HeatmapsController < ApplicationController
       "Number Of" => {
         "Children" => "Number of children in childcare"
       }
+    },
+    "Public Toilets" => {
+      "That Have" => "Public toilets with %s",
+      "Number Of" => "Public toilets"
     }
   }
   def _get_comments
