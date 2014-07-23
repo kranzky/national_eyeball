@@ -54,6 +54,9 @@
   if (_.isUndefined(HeatMap.state.welcomed)) {
     HeatMap.state.welcomed = false;
   }
+  if (_.isUndefined(HeatMap.state.locality)) {
+    HeatMap.state.locality = HeatMap.state.view;
+  }
   if (_.isUndefined(HeatMap.state.filters)) {
     HeatMap.state.filters = [
       {
@@ -146,7 +149,7 @@
         .text('Tweet');
     $(".twitter-share-button").remove();
     $("#twitter").prepend(tweet);
-    tweet.attr('data-text', _.map(HeatMap.comments, function(item){ return item.comment }).join(" vs. "));
+    tweet.attr('data-text', HeatMap.state.locality + ": " + _.map(HeatMap.comments, function(item){ return item.comment }).join(" vs. "));
     tweet.attr('data-url', stateful_uri());
     twttr.widgets.load();
   }
@@ -231,8 +234,26 @@
       });
       $.getJSON("heatmaps/comments", params, function(data){
         HeatMap.comments = data;
-        re_tweet();
         display_comments();
+        service.nearbySearch({ bounds: map.getBounds() }, function(results, status) {
+          counts = {}
+          max = 0;
+          HeatMap.state.locality = "Eyeball";
+          _.each(results, function(result){
+            if (!_.isUndefined(result.vicinity)) {
+              name = result.vicinity.split(', ').pop();
+              if (_.isUndefined(counts[name])) {
+                counts[name] = 0;
+              }
+              counts[name] += 1;
+              if (counts[name] > max) {
+                HeatMap.state.locality = name;
+                max = counts[name];
+              }
+            }
+          });
+          re_tweet();
+        })
       });
     }
   }
@@ -350,6 +371,7 @@
       map_options.center = new google.maps.LatLng(HeatMap.state.center[0], HeatMap.state.center[1]);
     }
     map = new google.maps.Map($("#hack .map #widget")[0], map_options);
+    service = new google.maps.places.PlacesService(map);
     _.each($("#controls h3 .count"), function(elem, index){
       $(elem).css("color", HeatMap.state.filters[index].color);
     });
@@ -370,7 +392,7 @@
 <% content_for :head do %>
   <%= javascript_include_tag '//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js' %>
   <%= javascript_include_tag '//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js' %>
-  <%= javascript_include_tag "//maps.googleapis.com/maps/api/js?libraries=geometry,drawing,visualization&sensor=false&key=AIzaSyCl65XtmFvV5XRc8Lw42NC0AFlbl9xjHS0" %>
+  <%= javascript_include_tag "//maps.googleapis.com/maps/api/js?libraries=places,geometry,drawing,visualization&sensor=false&key=AIzaSyCl65XtmFvV5XRc8Lw42NC0AFlbl9xjHS0" %>
   <%= javascript_include_tag "//underscorejs.org/underscore-min.js" %>
   <%= stylesheet_link_tag "//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css" %>
   <style>
