@@ -90,7 +90,8 @@ class HeatmapsController < ApplicationController
     "Public Toilets" => {
       "That Have" => "Public toilets with %s",
       "Number Of" => "Public toilets"
-    }
+    },
+    "Tax Return" => "Average %s"
   }
   def _get_comments
     params[:filters].map do |filter_id|
