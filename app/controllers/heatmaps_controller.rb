@@ -73,6 +73,21 @@ class HeatmapsController < ApplicationController
     end
   end
 
+  COMMENT_TEMPLATES = {
+    "Population" => {
+      "Age" => "People who are aged %s",
+      "Gender" => "People who are %s",
+      "Children" => "Adults with %s",
+      "Marital Status" => "Adults who are %s",
+      "Country of Birth" => "People who were born in %s",
+      "Language" => "People who speak %s",
+    },
+    "Childcare Centres" => {
+      "Number Of" => {
+        "Children" => "Number of children in childcare"
+      }
+    }
+  }
   def _get_comments
     params[:filters].map do |filter_id|
       sql = <<-SQL
@@ -95,8 +110,13 @@ class HeatmapsController < ApplicationController
         ;
       SQL
       labels = ActiveRecord::Base::connection.execute(sql).first
+      template = COMMENT_TEMPLATES[labels['source']]
+      template = template[labels['subject']] if template.is_a?(Hash)
+      template = template[labels['measure']] if template.is_a?(Hash)
+      comment = template % labels['measure'].downcase if template.is_a?(String)
+      comment ||= "#{labels['source']}: #{labels['subject']} #{labels['measure']}"
       {
-        comment: "#{labels['source']}: #{labels['subject']} #{labels['measure']}",
+        comment: comment,
         count: total || 0
       }
     end
