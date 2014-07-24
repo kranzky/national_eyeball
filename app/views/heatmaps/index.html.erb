@@ -34,6 +34,7 @@
   HeatMap = {};
   HeatMap.dirty = false;
   HeatMap.instances = [];
+  HeatMap.drawOrder = [];
 
   MAP_STYLES = [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}];
 
@@ -169,14 +170,12 @@
   }
 
   function display_heatmaps() {
-    opacity = 1.0 / HeatMap.state.filters.length;
     _.each(HeatMap.points, function(points, index){
       if (_.isUndefined(HeatMap.instances[index])) {
         HeatMap.instances[index] = new google.maps.visualization.HeatmapLayer({
           map: null,
           radius: 0.03,
           dissipating: false,
-          opacity: opacity,
           maxIntensity: 1.0
         });
       }
@@ -200,20 +199,27 @@
         }
       });
       HeatMap.instances[index].setData(points);
-      if (map.zoom > 12) {
-        HeatMap.instances[index].set('opacity', opacity * (21 - map.zoom) / 9.0);
-      }
-      else
-      {
-        HeatMap.instances[index].set('opacity', opacity);
-      }
       if (HeatMap.state.filters[index].visible) {
         if (_.isNull(HeatMap.instances[index].map)) {
           HeatMap.instances[index].setMap(map);
+          HeatMap.drawOrder.push(index);
         }
       } else {
-        HeatMap.instances[index].setMap(null);
+        if (!_.isNull(HeatMap.instances[index].map)) {
+          HeatMap.instances[index].setMap(null);
+          HeatMap.drawOrder = _.without(HeatMap.drawOrder, index);
+        }
       }
+    });
+    attenuation = 1.0;
+    if (map.zoom > 12) {
+      attenuation = (21 - map.zoom) / 9.0;
+    }
+    opacity = 0.9;
+    opacity *= attenuation;
+    _.each(HeatMap.drawOrder, function(order, index){
+      HeatMap.instances[order].set('opacity', opacity);
+      opacity *= 0.7;
     });
   }
 
