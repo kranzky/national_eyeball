@@ -1,4 +1,6 @@
 class HeatmapsController < ApplicationController
+  include ActionView::Helpers::NumberHelper
+
   def index
   end
 
@@ -75,23 +77,144 @@ class HeatmapsController < ApplicationController
 
   COMMENT_TEMPLATES = {
     "Population" => {
-      "Age" => "People who are aged %s",
-      "Gender" => "People who are %s",
-      "Children" => "Adults with %s",
+      "Gender" => "Number of %s",
+      "Age" => "People Aged %s",
+      "High School" => "People who %s",
+      "Further Education" => "People with a %s",
+      "Qualifications" => "People Qualified in %s",
+      "Industry" => "People Working in %s",
+      "Occupation" => "People Employed as a %s",
+      "Work Commute" => "People who Commute by %s",
+      "Children" => "Homes with %s",
       "Marital Status" => "Adults who are %s",
       "Country of Birth" => "People who were born in %s",
       "Language" => "People who speak %s",
+      "Religion" => "People that are %s",
+      "Internet" => {
+        "None" => "Homes without Internet",
+        "Broadband" => "Homes with Broadband Internet",
+        "Dial up" => "Homes with Dial Up Internet",
+        "Other" => "Homes with Other Internet Access",
+      }
+    },
+    "Public Hospitals" => {
+      "Number Of" => {
+        "Locations" => "Public Hospitals",
+        "Beds" => "Number of Hospital Beds"
+      },
+      "That Have" => "Hospitals with Emergency Services"
+    },
+    "Votes" => {
+      "2008 Election" => "Primary Votes in 2008 for %s",
+      "2013 Election" => "Primary Votes in 2013 for %s"
+    },
+    "Bus Stops" => {
+      "Number Of" => "Bus Stops",
+      "Tagged On" => "Bus Entries on %ss",
+      "Tagged Off" => "Bus Exits on %ss",
+      "Average Outbound Distance" => "Bus Outwards Journey on %ss",
+      "Average Inbound Distance" => "Bus Inwards Journey on %ss"
     },
     "Childcare Centres" => {
       "Number Of" => {
-        "Children" => "Number of children in childcare"
+        "Locations" => "Childcare Centres",
+        "Children" => "Number of Children in Childcare"
       }
     },
     "Public Toilets" => {
-      "That Have" => "Public toilets with %s",
-      "Number Of" => "Public toilets"
+      "Number Of" => "Public Toilets",
+      "That Have" => "Public Toilets with %s"
     },
     "Tax Return" => "Average %s"
+  }
+  COUNT_TEMPLATES = {
+    "Bus Stops" => {
+      "Average Outbound Distance" => "%s km",
+      "Average Inbound Distance" => "%s km"
+    },
+    "Tax Return" => "$%s"
+  }
+  MEASURE_MAP = {
+    "Shower" => "a Shower",
+    "Public Holiday" => "Holiday",
+    "(none)" => "No Party",
+    "Gross Interest" => "Interest on Savings",
+    "Donations" => "Donations to Charity",
+    "Child Support" => "Child Support Payment",
+    "Gross Rent" => "Rental Income",
+    "Male" => "Men",
+    "Female" => "Women",
+    "0 - 4 years" => "0 - 4",
+    "5 - 14 years" => "5 - 14",
+    "15 - 19 years" => "15 - 19",
+    "20 - 24 years" => "20 - 24",
+    "25 - 34 years" => "25 - 34",
+    "35 - 44 years" => "35 - 44",
+    "45 - 54 years" => "45 - 54",
+    "55 - 64 years" => "55 - 64",
+    "65 - 74 years" => "65 - 74",
+    "75 - 84 years" => "75 - 84",
+    "85 years and over" => "85 and Over",
+    "Year 12 or equivalent" => "Graduated High School",
+    "Year 11 or equivalent" => "Left School at Year 11",
+    "Year 10 or equivalent" => "Left School at Year 10",
+    "Year 9 or equivalent" => "Left School at Year 9",
+    "Year 8 or below" => "Left School Before Year 9",
+    "Did not go to school" => "Never Attended School",
+    "Graduate Diploma and Graduate Certificate" => "Graduate Diploma",
+    "Advanced Diploma and Diploma" => "Diploma",
+    "Other Certificate" => "Certificate",
+    "Natural and Physical Sciences" => "the Sciences",
+    "Information Technology" => "IT",
+    "Engineering and Related Technologies" => "Engineering",
+    "Architecture and Building" => "Architecture",
+    "Agriculture Environmental and Related Studies" => "Agriculture",
+    "Management and Commerce" => "Business",
+    "Food Hospitality and Personal Services" => "Hospitality",
+    "Mixed Field Programmes" => "Other Areas",
+    "Agriculture forestry and fishing" => "Agriculture",
+    "Electricity gas water and waste services" => "Utility Services",
+    "Wholesale trade" => "Wholesale Trade",
+    "Retail trade" => "Retail",
+    "Accommodation and food services" => "Hospitality",
+    "Transport postal and warehousing" => "Transport",
+    "Information media and telecommunications" => "Telecommunications",
+    "Financial and insurance services" => "Finance and Insurance",
+    "Rental hiring and real estate services" => "Real Estate",
+    "Professional scientific and technical services" => "Scientific Roles",
+    "Administrative and support services" => "Administration",
+    "Public administration and safety" => "the Public Service",
+    "Education and training" => "Education",
+    "Health care and social assistance" => "Health Care",
+    "Arts and recreation services" => "the Arts",
+    "Technician / Trade" => "Technician",
+    "Community / Personal Service" => "Service Worker",
+    "Clerical / Administrative" => "Clerical Worker",
+    "Sales" => "Sales Person",
+    "Machinery Operator / Driver" => "Machinery Operator",
+    "Car as driver" => "Car",
+    "Car as passenger" => "Getting a Lift",
+    "Motorbike scooter" => "Motorbike",
+    "Walked only" => "Walking",
+    "Train and Car as driver" => "Train and Car",
+    "Train and Car as passenger" => "Train and a Lift",
+    "Bus and Car as driver" => "Bus and Car",
+    "Bus and Car as passenger" => "Bus and a Lift",
+    "Worked at home" => "Not Moving",
+    "Did not go to work" => "Not Working",
+    "Never Married" => "Not Married",
+    "Buddhism" => "Buddhist",
+    "Churches of Christ" => "Church of Christ",
+    "Hinduism" => "Hindu",
+    "Islam" => "Islamic",
+    "Judaism" => "Jewish",
+    "No Religion" => "Not Religious",
+    "One child" => "One Child",
+    "Two children" => "Two Children",
+    "Three children" => "Three Children",
+    "Four children" => "Four Children",
+    "Five children" => "Five Children",
+    "Six or more children" => "Six Children or More",
   }
   def _get_comments
     params[:filters].map do |filter_id|
@@ -104,10 +227,11 @@ class HeatmapsController < ApplicationController
           GROUP BY statistics.type
         ;
       SQL
-      result = ActiveRecord::Base::connection.execute(sql).first
-      total = result["total"].to_f
-      total /= result["count"].to_f if result["type"] == "average"
-      total ||= 0
+      total = 0
+      if result = ActiveRecord::Base::connection.execute(sql).first
+        total = result["total"].to_f
+        total /= result["count"].to_f if result["type"] == "average"
+      end
       sql = <<-SQL
         SELECT sources.name AS source,
                topics.name AS subject,
@@ -122,11 +246,19 @@ class HeatmapsController < ApplicationController
       template = COMMENT_TEMPLATES[labels['source']]
       template = template[labels['subject']] if template.is_a?(Hash)
       template = template[labels['measure']] if template.is_a?(Hash)
-      comment = template % labels['measure'].downcase if template.is_a?(String)
+      measure = labels['measure']
+      measure = MEASURE_MAP[measure] || measure
+      comment = template % measure if template.is_a?(String)
       comment ||= "#{labels['source']}: #{labels['subject']} #{labels['measure']}"
+      precision = total < 1000 ? 2 : 0
+      count = number_with_precision(total, precision: precision, strip_insignificant_zeros: true, delimiter: ',')
+      template = COUNT_TEMPLATES[labels['source']]
+      template = template[labels['subject']] if template.is_a?(Hash)
+      template = template[labels['measure']] if template.is_a?(Hash)
+      count = template % count if template.is_a?(String)
       {
         comment: comment,
-        count: total.round
+        count: count
       }
     end
   end

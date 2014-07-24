@@ -167,14 +167,15 @@
   }
 
   function display_heatmaps() {
+    opacity = 1.0 / HeatMap.state.filters.length;
     _.each(HeatMap.points, function(points, index){
       if (_.isUndefined(HeatMap.instances[index])) {
         HeatMap.instances[index] = new google.maps.visualization.HeatmapLayer({
           map: null,
           radius: 0.03,
           dissipating: false,
-          opacity: 0.8,
-          maxIntensity: 1.0,
+          opacity: opacity,
+          maxIntensity: 1.0
         });
       }
       gradient = [];
@@ -197,12 +198,12 @@
         }
       });
       HeatMap.instances[index].setData(points);
-      if (map.zoom > 10) {
-        HeatMap.instances[index].set('opacity', 0.8 - (map.zoom - 10) / 10.0);
+      if (map.zoom > 12) {
+        HeatMap.instances[index].set('opacity', opacity * (21 - map.zoom) / 9.0);
       }
       else
       {
-        HeatMap.instances[index].set('opacity', 0.8);
+        HeatMap.instances[index].set('opacity', opacity);
       }
       if (_.isNull(HeatMap.instances[index].map)) {
         HeatMap.instances[index].setMap(map);
@@ -214,8 +215,8 @@
     _.each($("#controls h3 .count"), function(elem, index){
       $(elem).text(HeatMap.comments[index].count);
     });
-    _.each($("#controls h3"), function(elem, index){
-      $(elem).attr('title', HeatMap.comments[index].comment);
+    _.each($("#controls div.title"), function(elem, index){
+      $(elem).text(HeatMap.comments[index].comment);
     });
   }
 
@@ -262,10 +263,11 @@
       restore_state();
     });
     _.each(HeatMap.state.filters, function(filter, index){
-      $("#controls").append('<h3><span class="count">0</span></h3><div data-index='+index+'><select class="source"></select><select class="property"></select><select class="measure"></select></div>');
+      $("#controls").append('<div class="title">...</div><h3><span class="count">0</span></h3><div class="options" data-index='+index+'><select class="source"></select><select class="property"></select><select class="measure"></select></div>');
     });
     $("#controls").accordion({
       active: false,
+      header: 'h3',
       collapsible: true,
       heightstyle: "content"
     });
@@ -280,7 +282,6 @@
         map.setZoom(region.zoom);
       }
     });
-    $("#controls h3").tooltip({ position: { my: "left+10 top-20", at: "right center" } });
     $(".source").selectmenu({
       width: 238,
       position: { my: "left+10 top-20", at: "right center" },
@@ -373,7 +374,7 @@
     _.each($("#controls h3 .count"), function(elem, index){
       $(elem).css("color", HeatMap.state.filters[index].color);
     });
-    _.each($("#controls div"), function(elem, index){
+    _.each($("#controls div.options"), function(elem, index){
       restore_control($(elem), HeatMap.state.filters[index]);
     });
     $("#menu").show();
@@ -466,13 +467,24 @@
       text-align: center;
       z-index: 99999;
     }
-    div#controls h3 {
+    div#controls div.title {
+      margin: 15px 0 0 0;
+      padding: 7px 0 0 0;
+      text-align: center;
+      color: white;
+      background-color: black;
+      font-size: 10px;
+      font-weight: bold;
+      height: 20px;
+      width: 100%;
+    }
+    div#controls h3 .count {
       color: white;
       font-size: 20px;
       font-weight: bold;
       text-shadow: 1px 1px #000000;
     }
-    div#controls div {
+    div#controls div.options {
       height: 130px;
       padding: 8px 2px;
     }
