@@ -64,14 +64,22 @@ class HeatmapsController < ApplicationController
           LIMIT 250
         ;
       SQL
-      ActiveRecord::Base::connection.execute(sql).map do |item|
-        {
-          type: item['type'],
-          lat: item['lat'].to_f,
-          lng: item['lng'].to_f,
-          weight: item['density'].to_f
-        }
+      max = 0.0
+      retval =
+        ActiveRecord::Base::connection.execute(sql).map do |item|
+          weight = item['density'].to_f
+          max = weight if weight > max
+          {
+            type: item['type'],
+            lat: item['lat'].to_f,
+            lng: item['lng'].to_f,
+            weight: weight
+          }
+        end
+      retval.each do |item|
+        item[:weight] /= max if max > 0
       end
+      retval
     end
   end
 
