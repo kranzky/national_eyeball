@@ -1,5 +1,10 @@
+<div id="welcome" title="National Eyeball">
+  <p><i>Made by The Kranzky Brothers for GovHack 2014.</i></p>
+  <p>Please <b><a href="http://hackerspace.govhack.org/content/national-eyeball" target="_gh14">vote for us in the people's choice awards</a></b>. Thank!</p>
+</div>
 <div id="menu">
-  <div id="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://australian.govdata.exposed/" data-hashtags="govhack">Tweet</a></div>
+  <div id="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://australian.govdata.exposed" data-hashtags="govhack">Tweet</a></div>
+  <div id="vote"><img src="vote.png" alt="Vote Now!"></div>
   <div id="dropdown">
     <select id="regional">
       <option value="Perth">Perth</option>
@@ -17,15 +22,6 @@
 </div>
 <div class="map">
   <div id="widget"></div>
-  <div id="welcome" title="Australian Government Exposed!">
-    <p>Welcome to <a href="http://hackerspace.govhack.org/content/national-eyeball" target="_gh14">my entry</a> to GovHack 2014. You can</p>
-    <ul>
-      <li>create a heatmap to eyeball government data;</li>
-      <li>share your heatmap on Twitter; and</li>
-      <li>check out <a href="http://api.govdata.exposed/australia" target="_api">api.govdata.exposed/australia</a>.</li>
-    </ul>
-    <p>Sources: ABS, ATO, AIHW, WAEC, PTA, DoHA and DOE.</p>
-  </div>
 </div>
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
@@ -120,7 +116,7 @@
         .attr('class', "twitter-share-button")
         .attr('data-size', "large")
         .attr('data-hashtags', "govhack")
-        .attr('data-counturl', "http://australian.govdata.exposed/")
+        .attr('data-counturl', "http://australian.govdata.exposed")
         .text('Tweet');
     $(".twitter-share-button").remove();
     $("#twitter").prepend(tweet);
@@ -349,22 +345,37 @@
         redraw_heatmaps(true);
       }
     });
+    $("#welcome").dialog({
+      width: 600,
+      height: 245,
+      modal: true,
+      position: { my: "top+52", at: "top", of: window },
+      autoOpen: false,
+      show: true,
+      hide: true,
+      draggable: false,
+      resizable: false,
+      closeOnEscape: true,
+      open: function() {
+        $("#vote").fadeTo(50, 0.2);
+      },
+      close: function() {
+        HeatMap.state.welcomed = true;
+        localStorage.heatmap = JSON.stringify(HeatMap.state);
+        $("#vote").fadeTo(300, 1);
+      },
+      buttons: {
+        "OK, I Promise I Will Vote": function() {
+          $(this).dialog("close");
+        }
+      }
+    });
     if (!HeatMap.state.welcomed) {
-      $("#welcome").dialog({
-        width: 600,
-        height: 300,
-        buttons: [
-          {
-            text: "OK",
-            click: function() {
-              HeatMap.state.welcomed = true;
-              localStorage.heatmap = JSON.stringify(HeatMap.state);
-              $(this).dialog("close");
-            }
-          }
-        ]
-      });
+      $("#welcome").dialog("open");
     }
+    $("#vote").click(function(event) { 
+      $("#welcome").dialog("open");
+    });
   }
 
   function restore_menu(elem, menu, value) {
@@ -443,11 +454,10 @@
     }
     div#controls {
       position: fixed;
-      top: 50px;
-      bottom: 30px;
+      top: 37px;
       left: 0px;
       width: 244px;
-      z-index: 99999;
+      z-index: 666;
       opacity: 0.7;
       display: none;
       overflow-y: scroll;
@@ -462,22 +472,34 @@
       left: 0px;
       width: 100%;
       height: 42px;
-      z-index: 99999;
+      z-index: 666;
       opacity: 0.7;
       display: none;
     }
+    div#vote {
+      position: fixed;
+      left: 0px;
+      top: 4px;
+      width: 120px;
+      height: 42px;
+      z-index: 668;
+    }
+    div#vote img {
+      width: 120px;
+      height: 40px;
+    }
     div#twitter {
       position: fixed;
-      left: 62px;
+      left: 124px;
       top: 11px;
       width: 120px;
-      z-index: 99999;
+      z-index: 667;
     }
     div#dropdown {
       position: fixed;
       top: 5px;
       right: 10px;
-      z-index: 99999;
+      z-index: 665;
     }
     span#blurb {
       width: 100%;
@@ -498,7 +520,7 @@
       position: relative;
       line-height: 0px;
       text-align: center;
-      z-index: 99999;
+      z-index: 666;
     }
     div#controls div.title {
       margin: 15px 0 0 0;
@@ -514,7 +536,7 @@
     div#controls h3 .show {
       top: 2px;
       float: right;
-      z-index: 999999;
+      z-index: 666;
     }
     div#controls h3 .count {
       color: white;
@@ -528,6 +550,15 @@
     }
     div#welcome {
       display: none;
+    }
+    .ui-front {
+      z-index: 999;
+    }
+    .ui-dialog-titlebar-close {
+      display: none;
+    }
+    .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+      float: left;
     }
   </style>
 <% end %>
