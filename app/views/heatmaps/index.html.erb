@@ -60,10 +60,12 @@
       {
         id: 295,
         color: [255, 0, 0],
+        visible: true
       },
       {
         id: 5,
         color: [0, 0, 255],
+        visible: true
       }
     ];
   };
@@ -205,8 +207,12 @@
       {
         HeatMap.instances[index].set('opacity', opacity);
       }
-      if (_.isNull(HeatMap.instances[index].map)) {
-        HeatMap.instances[index].setMap(map);
+      if (HeatMap.state.filters[index].visible) {
+        if (_.isNull(HeatMap.instances[index].map)) {
+          HeatMap.instances[index].setMap(map);
+        }
+      } else {
+        HeatMap.instances[index].setMap(null);
       }
     });
   }
@@ -251,6 +257,7 @@
               }
             }
           });
+          $("#dropdown .ui-selectmenu-text").text(HeatMap.state.locality);
           re_tweet();
         })
       });
@@ -263,8 +270,22 @@
       restore_state();
     });
     _.each(HeatMap.state.filters, function(filter, index){
-      $("#controls").append('<div class="title">...</div><h3><span class="count">0</span></h3><div class="options" data-index='+index+'><select class="source"></select><select class="property"></select><select class="measure"></select></div>');
+      if (_.isUndefined(filter.visible)) {
+        filter.visible = true;
+      }
+      checked = '';
+      if (filter.visible) {
+        checked='checked ';
+      }
+      $("#controls").append('<div class="title">...</div><h3><span class="count">...</span><input class="show" data-index='+index+' type="checkbox" '+checked+'/></h3><div class="options" data-index='+index+'><select class="source"></select><select class="property"></select><select class="measure"></select></div>');
     });
+        
+    $("#controls input.show").click(function(event) {
+      HeatMap.state.filters[$(event.target).data("index")].visible = $(event.target).is(':checked');
+      event.stopPropagation();
+      localStorage.heatmap = JSON.stringify(HeatMap.state);
+      display_heatmaps();
+    }); 
     $("#controls").accordion({
       active: false,
       header: 'h3',
@@ -274,7 +295,7 @@
     $("#menu").tabs();
     $("#regional").selectmenu({
       width: 160,
-      change: function(event, ui) {
+      select: function(event, ui) {
         HeatMap.state.view = ui.item.value;
         localStorage.heatmap = JSON.stringify(HeatMap.state);
         region = ZOOMS[HeatMap.state.view];
@@ -477,6 +498,11 @@
       font-weight: bold;
       height: 20px;
       width: 100%;
+    }
+    div#controls h3 .show {
+      top: 2px;
+      float: right;
+      z-index: 999999;
     }
     div#controls h3 .count {
       color: white;
