@@ -55,31 +55,38 @@ class HeatmapsController < ApplicationController
   def _get_points
     params[:filters].map do |filter_id|
       sql = <<-SQL
-        SELECT lat,lng,density,statistics.type FROM densities
+        SELECT lat,lng,value,statistics.type FROM values
           INNER JOIN statistics ON statistic_id=statistics.id
           INNER JOIN features ON feature_id=features.id
           WHERE statistic_id=#{filter_id}
           AND #{_get_spatial_constraint}
-          ORDER BY density desc,RANDOM()
+          ORDER BY value desc,RANDOM()
           LIMIT 250
         ;
       SQL
       max = 0.0
-      retval =
+      type = nil
+      points =
         ActiveRecord::Base::connection.execute(sql).map do |item|
-          weight = item['density'].to_f
+          type ||= item['type']
+          weight = item['value'].to_f
           max = weight if weight > max
           {
-            type: item['type'],
             lat: item['lat'].to_f,
             lng: item['lng'].to_f,
             weight: weight
           }
         end
-      retval.each do |item|
-        item[:weight] /= max if max > 0
+      total = 0.0
+      points.each do |item|
+        total += item[:weight]
+        item[:weight] /= max if max > 0.0
       end
-      retval
+      {
+        type: type,
+        priority: total / 250.0,
+        points: points
+      }
     end
   end
 

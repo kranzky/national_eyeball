@@ -1,6 +1,5 @@
 <div id="menu">
   <div id="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://australian.govdata.exposed/" data-hashtags="govhack">Tweet</a></div>
-  <h3 id='title'>The National Eyeball: Australian GovData Exposed!</h3>
   <div id="dropdown">
     <select id="regional">
       <option value="Perth">Perth</option>
@@ -34,7 +33,6 @@
   HeatMap = {};
   HeatMap.dirty = false;
   HeatMap.instances = [];
-  HeatMap.drawOrder = [];
 
   MAP_STYLES = [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}];
 
@@ -86,38 +84,14 @@
   }
 
   ZOOMS = {
-    "Perth": {
-      center: new google.maps.LatLng(-31.993012032763385, 115.69512939453124),
-      zoom: 10
-    },
-    "Adelaide": {
-      center: new google.maps.LatLng(-34.893061500939275, 138.48089599609372),
-      zoom: 10
-    },
-    "Melbourne": {
-      center: new google.maps.LatLng(-37.80061090656644, 144.6484375),
-      zoom: 9
-    },
-    "Hobart": {
-      center: new google.maps.LatLng(-42.88893306658847, 147.2892639160157),
-      zoom: 11
-    },
-    "Canberra": {
-      center: new google.maps.LatLng(-35.29439583386006, 149.06317138671878),
-      zoom: 11
-    },
-    "Sydney": {
-      center: new google.maps.LatLng(-33.83589649422616, 150.80224609375003),
-      zoom: 9
-    },
-    "Brisbane": {
-      center: new google.maps.LatLng(-27.322568120576438, 152.84344482421875),
-      zoom: 9
-    },
-    "Darwin": {
-      center: new google.maps.LatLng(-12.450962709515238, 130.81991271972655),
-      zoom: 11
-    }
+    "Perth": new google.maps.LatLng(-31.95813703280552, 115.84910964965819),
+    "Adelaide": new google.maps.LatLng(-34.92684662040393, 138.58869934082028),
+    "Melbourne": new google.maps.LatLng(-37.816343235871784, 144.9589729309082),
+    "Hobart": new google.maps.LatLng(-42.88893306658847, 147.2892639160157),
+    "Canberra": new google.maps.LatLng(-35.28273091883469, 149.12591361999515),
+    "Sydney": new google.maps.LatLng(-33.86726011483213, 151.20101547241214),
+    "Brisbane": new google.maps.LatLng(-27.471356170884754, 153.02334594726562),
+    "Darwin": new google.maps.LatLng(-12.450962709515238, 130.81991271972655)
   }
 
   map_options = {
@@ -166,60 +140,94 @@
     HeatMap.state.bounds[3] = map.getBounds().getNorthEast().lng();
     HeatMap.state.zoom = map.zoom;
     HeatMap.state.center = [map.center.lat(), map.center.lng()];
-    redraw_heatmaps();
+    redraw_heatmaps(false);
   }
 
-  function display_heatmaps() {
-    _.each(HeatMap.points, function(points, index){
+  function display_heatmaps(reorder) {
+    ranking = {};
+    _.each(HeatMap.points, function(data, index){
+      filter = HeatMap.state.filters[index];
+      priority = data.priority;
+      if (data.type == 'bool') {
+        priority = -1;
+      }
+      ranking[priority] = index;
       if (_.isUndefined(HeatMap.instances[index])) {
         HeatMap.instances[index] = new google.maps.visualization.HeatmapLayer({
           map: null,
-          radius: 0.03,
           dissipating: false,
           maxIntensity: 1.0
         });
+        gradient = [];
+        _.times(14, function(i){
+          c = filter.color;
+          a = i/13.0;
+          gradient.push("rgba("+c[0]+","+c[1]+","+c[2]+","+a+")");
+        });
+        HeatMap.instances[index].set('gradient', gradient);
       }
-      gradient = [];
-      _.times(14, function(i){
-        c = HeatMap.state.filters[index].color;
-        a = i/13.0;
-        gradient.push("rgba("+c[0]+","+c[1]+","+c[2]+","+a+")");
-      });
-      HeatMap.instances[index].set('gradient', gradient);
-      points = _.map(HeatMap.points[index], function(point){
-        if (point.type == 'bool') {
-          HeatMap.instances[index].set('radius', 0.005);
-          return new google.maps.LatLng(point.lat,point.lng);
-        } else {
-          HeatMap.instances[index].set('radius', 0.03);
-          return {
-            location: new google.maps.LatLng(point.lat,point.lng),
-            weight: point.weight
+      heatmap = HeatMap.instances[index];
+      if (filter.visible) {
+        points = _.map(data.points, function(point){
+          if (data.type == 'bool') {
+            return new google.maps.LatLng(point.lat,point.lng);
+          } else {
+            return {
+              location: new google.maps.LatLng(point.lat,point.lng),
+              weight: point.weight
+            }
           }
-        }
-      });
-      HeatMap.instances[index].setData(points);
-      if (HeatMap.state.filters[index].visible) {
-        if (_.isNull(HeatMap.instances[index].map)) {
-          HeatMap.instances[index].setMap(map);
-          HeatMap.drawOrder.push(index);
+        });
+        heatmap.setData(points);
+        if (_.isNull(heatmap.map)) {
+          reorder = true;
         }
       } else {
-        if (!_.isNull(HeatMap.instances[index].map)) {
-          HeatMap.instances[index].setMap(null);
-          HeatMap.drawOrder = _.without(HeatMap.drawOrder, index);
+        if (!_.isNull(heatmap.map)) {
+          heatmap.setMap(null);
         }
       }
     });
+    order = _.sortBy(_.keys(ranking), function(priority) { return parseFloat(priority); });
+    order.reverse();
+    if (reorder) {
+      _.each(HeatMap.instances, function(heatmap, index){
+        heatmap.setMap(null);
+      });
+      _.each(order, function(priority){
+        index = ranking[priority];
+        heatmap = HeatMap.instances[index];
+        filter = HeatMap.state.filters[index];
+        if (filter.visible) {
+          heatmap.setMap(map);
+        }
+      });
+    }
+    radius = 0.005;
+    if (map.zoom > 10) {
+      radius -= (map.zoom-10)*0.001;
+      if (radius <= 0) {
+        radius = 0.0005;
+      }
+    }
     attenuation = 1.0;
     if (map.zoom > 12) {
       attenuation = (21 - map.zoom) / 9.0;
     }
     opacity = 0.9;
-    opacity *= attenuation;
-    _.each(HeatMap.drawOrder, function(order, index){
-      HeatMap.instances[order].set('opacity', opacity);
-      opacity *= 0.7;
+    _.each(order, function(priority){
+      index = ranking[priority];
+      heatmap = HeatMap.instances[index];
+      filter = HeatMap.state.filters[index];
+      data = HeatMap.points[index];
+      if (data.type == 'bool') {
+        heatmap.set('radius', radius * attenuation * 0.7);
+        heatmap.set('opacity', attenuation);
+      } else {
+        heatmap.set('radius', 0.03);
+        heatmap.set('opacity', opacity * attenuation);
+        opacity *= 0.5;
+      }
     });
   }
 
@@ -232,7 +240,7 @@
     });
   }
 
-  function redraw_heatmaps() {
+  function redraw_heatmaps(reorder) {
     localStorage.heatmap = JSON.stringify(HeatMap.state);
     if (HeatMap.state.filters.length > 0) {
       params = {
@@ -241,7 +249,7 @@
       };
       $.getJSON("heatmaps/points", params, function(data){
         HeatMap.points = data;
-        display_heatmaps();
+        display_heatmaps(reorder);
       });
       $.getJSON("heatmaps/comments", params, function(data){
         HeatMap.comments = data;
@@ -290,7 +298,7 @@
       HeatMap.state.filters[$(event.target).data("index")].visible = $(event.target).is(':checked');
       event.stopPropagation();
       localStorage.heatmap = JSON.stringify(HeatMap.state);
-      display_heatmaps();
+      display_heatmaps(false);
     }); 
     $("#controls").accordion({
       active: false,
@@ -298,15 +306,13 @@
       collapsible: true,
       heightstyle: "content"
     });
-    $("#menu").tabs();
     $("#regional").selectmenu({
       width: 160,
       select: function(event, ui) {
         HeatMap.state.view = ui.item.value;
         localStorage.heatmap = JSON.stringify(HeatMap.state);
-        region = ZOOMS[HeatMap.state.view];
-        map.setCenter(region.center);
-        map.setZoom(region.zoom);
+        map.setCenter(ZOOMS[HeatMap.state.view]);
+        map.setZoom(10);
       }
     });
     $(".source").selectmenu({
@@ -320,7 +326,7 @@
         restore_menu($(event.target).siblings(".measure"), menu, -1);
         other = $(event.target).siblings(".measure").val();
         HeatMap.state.filters[$(event.target).parent().data("index")].id = other;
-        redraw_heatmaps();
+        redraw_heatmaps(true);
       }
     });
     $(".property").selectmenu({
@@ -332,7 +338,7 @@
         restore_menu($(event.target).siblings(".measure"), menu, -1);
         other = $(event.target).siblings(".measure").val();
         HeatMap.state.filters[$(event.target).parent().data("index")].id = other;
-        redraw_heatmaps();
+        redraw_heatmaps(true);
       }
     });
     $(".measure").selectmenu({
@@ -340,7 +346,7 @@
       position: { my: "left+10 top-20", at: "right center" },
       change: function(event, ui) {
         HeatMap.state.filters[$(event.target).parent().data("index")].id = ui.item.value;
-        redraw_heatmaps();
+        redraw_heatmaps(true);
       }
     });
     if (!HeatMap.state.welcomed) {
@@ -387,12 +393,12 @@
     $("#regional").val(HeatMap.state.view);
     $("#regional").selectmenu("refresh");
     if (_.isUndefined(HeatMap.state.zoom)) {
-      map_options.zoom = ZOOMS[HeatMap.state.view].zoom;
+      map_options.zoom = 10;
     } else {
       map_options.zoom = HeatMap.state.zoom;
     }
     if (_.isUndefined(HeatMap.state.center)) {
-      map_options.center = ZOOMS[HeatMap.state.view].center;
+      map_options.center = ZOOMS[HeatMap.state.view];
     } else {
       map_options.center = new google.maps.LatLng(HeatMap.state.center[0], HeatMap.state.center[1]);
     }
